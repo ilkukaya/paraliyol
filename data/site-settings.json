@@ -1,0 +1,11 @@
+{
+  "siteName": "Paralıyol",
+  "siteDescription": "Türkiye otoyol, köprü, tünel ve feribot geçiş ücretlerini hesaplayın. A noktasından B noktasına tüm geçiş ücretlerini tek seferde görün.",
+  "lastPriceUpdate": "2026-01-15",
+  "announcement": "2026 yılı güncel otoyol ve köprü geçiş ücretleri yayında!",
+  "adsEnabled": false,
+  "googleAnalyticsId": "",
+  "seoDefaults": {
+    "titleSuffix": "| Paralıyol"
+  }
+}

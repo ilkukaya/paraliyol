@@ -1,0 +1,33 @@
+[
+  { "id": "o4-istanbul-tuzla", "name": "İstanbul (Tuzla) Gişesi", "otoyol": "O-4", "lat": 40.8234, "lng": 29.3456, "type": "gise", "km": 0 },
+  { "id": "o4-gebze", "name": "Gebze Gişesi", "otoyol": "O-4", "lat": 40.8027, "lng": 29.4307, "type": "gise", "km": 12 },
+  { "id": "o4-izmit-dogu", "name": "İzmit Doğu Gişesi", "otoyol": "O-4", "lat": 40.7460, "lng": 29.9900, "type": "gise", "km": 72 },
+  { "id": "o4-sakarya", "name": "Sakarya Gişesi", "otoyol": "O-4", "lat": 40.6940, "lng": 30.4358, "type": "gise", "km": 120 },
+  { "id": "o4-bolu", "name": "Bolu Gişesi", "otoyol": "O-4", "lat": 40.7360, "lng": 31.6066, "type": "gise", "km": 225 },
+  { "id": "o4-duzce", "name": "Düzce Gişesi", "otoyol": "O-4", "lat": 40.8438, "lng": 31.1565, "type": "gise", "km": 180 },
+  { "id": "o4-ankara-yakin", "name": "Ankara (Yakın) Gişesi", "otoyol": "O-4", "lat": 39.9700, "lng": 32.6200, "type": "gise", "km": 430 },
+  { "id": "o4-gerede", "name": "Gerede Gişesi", "otoyol": "O-4", "lat": 40.7950, "lng": 32.2000, "type": "gise", "km": 275 },
+
+  { "id": "o5-orhangazi", "name": "Orhangazi Gişesi", "otoyol": "O-5", "lat": 40.4911, "lng": 29.3072, "type": "gise", "km": 0 },
+  { "id": "o5-bursa", "name": "Bursa Gişesi", "otoyol": "O-5", "lat": 40.2300, "lng": 29.0100, "type": "gise", "km": 35 },
+  { "id": "o5-balikesir", "name": "Balıkesir Gişesi", "otoyol": "O-5", "lat": 39.6500, "lng": 27.9000, "type": "gise", "km": 145 },
+  { "id": "o5-manisa", "name": "Manisa Gişesi", "otoyol": "O-5", "lat": 38.6191, "lng": 27.4289, "type": "gise", "km": 210 },
+  { "id": "o5-izmir", "name": "İzmir Gişesi", "otoyol": "O-5", "lat": 38.4600, "lng": 27.2000, "type": "gise", "km": 260 },
+
+  { "id": "o3-edirne", "name": "Edirne Gişesi", "otoyol": "O-3", "lat": 41.6500, "lng": 26.6000, "type": "gise", "km": 0 },
+  { "id": "o3-lüleburgaz", "name": "Lüleburgaz Gişesi", "otoyol": "O-3", "lat": 41.4000, "lng": 27.3500, "type": "gise", "km": 70 },
+  { "id": "o3-corlu", "name": "Çorlu Gişesi", "otoyol": "O-3", "lat": 41.1600, "lng": 27.8000, "type": "gise", "km": 120 },
+  { "id": "o3-silivri", "name": "Silivri Gişesi", "otoyol": "O-3", "lat": 41.0700, "lng": 28.2500, "type": "gise", "km": 160 },
+
+  { "id": "o21-ankara-guney", "name": "Ankara Güney Gişesi", "otoyol": "O-21", "lat": 39.8500, "lng": 32.8500, "type": "gise", "km": 0 },
+  { "id": "o21-aksaray", "name": "Aksaray Gişesi", "otoyol": "O-21", "lat": 38.3700, "lng": 34.0300, "type": "gise", "km": 225 },
+  { "id": "o21-konya", "name": "Konya Gişesi", "otoyol": "O-21", "lat": 37.8746, "lng": 32.4932, "type": "gise", "km": 260 },
+
+  { "id": "o31-konya-guney", "name": "Konya Güney Gişesi", "otoyol": "O-31", "lat": 37.8000, "lng": 32.5000, "type": "gise", "km": 0 },
+  { "id": "o31-antalya", "name": "Antalya Gişesi", "otoyol": "O-31", "lat": 36.9200, "lng": 30.7200, "type": "gise", "km": 290 },
+
+  { "id": "o51-mersin", "name": "Mersin Gişesi", "otoyol": "O-51", "lat": 36.8121, "lng": 34.6415, "type": "gise", "km": 0 },
+  { "id": "o51-adana", "name": "Adana Gişesi", "otoyol": "O-51", "lat": 36.9914, "lng": 35.3308, "type": "gise", "km": 70 },
+  { "id": "o52-adana-dogu", "name": "Adana Doğu Gişesi", "otoyol": "O-52", "lat": 37.0000, "lng": 35.4000, "type": "gise", "km": 0 },
+  { "id": "o52-gaziantep", "name": "Gaziantep Gişesi", "otoyol": "O-52", "lat": 37.0662, "lng": 37.3833, "type": "gise", "km": 200 }
+]

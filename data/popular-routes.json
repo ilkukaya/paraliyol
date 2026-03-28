@@ -1,0 +1,115 @@
+[
+  {
+    "from": "istanbul-anadolu",
+    "to": "ankara",
+    "slug": "istanbul-ankara-otoyol-ucreti",
+    "totalDistanceKm": 450,
+    "tolls": [
+      { "id": "o4-istanbul-tuzla__o4-ankara-yakin", "name": "O-4 İstanbul-Ankara Otoyolu", "type": "gise", "prices": { "1": 480, "2": 720, "3": 1080, "4": 1440, "5": 1800, "moto": 120 }, "km": 430 }
+    ],
+    "totalPrices": { "1": 480, "2": 720, "3": 1080, "4": 1440, "5": 1800, "moto": 120 },
+    "waypoints": [[40.98, 29.09], [40.80, 29.43], [40.75, 29.99], [40.69, 30.44], [40.74, 31.61], [39.97, 32.62]]
+  },
+  {
+    "from": "istanbul-anadolu",
+    "to": "izmir",
+    "slug": "istanbul-izmir-otoyol-ucreti",
+    "totalDistanceKm": 480,
+    "tolls": [
+      { "id": "osmangazi-koprusu", "name": "Osmangazi Köprüsü", "type": "bridge", "prices": { "1": 995, "2": 1590, "3": 2390, "4": 3585, "5": 4782, "moto": 300 } },
+      { "id": "o5-orhangazi__o5-izmir", "name": "O-5 Gebze-İzmir Otoyolu", "type": "gise", "prices": { "1": 350, "2": 525, "3": 788, "4": 1050, "5": 1313, "moto": 88 }, "km": 260 }
+    ],
+    "totalPrices": { "1": 1345, "2": 2115, "3": 3178, "4": 4635, "5": 6095, "moto": 388 },
+    "waypoints": [[40.98, 29.09], [40.80, 29.43], [40.72, 29.51], [40.49, 29.31], [40.23, 29.01], [39.65, 27.90], [38.46, 27.20]]
+  },
+  {
+    "from": "istanbul-anadolu",
+    "to": "bursa",
+    "slug": "istanbul-bursa-otoyol-ucreti",
+    "totalDistanceKm": 155,
+    "tolls": [
+      { "id": "osmangazi-koprusu", "name": "Osmangazi Köprüsü", "type": "bridge", "prices": { "1": 995, "2": 1590, "3": 2390, "4": 3585, "5": 4782, "moto": 300 } },
+      { "id": "o5-orhangazi__o5-bursa", "name": "O-5 Orhangazi-Bursa", "type": "gise", "prices": { "1": 45, "2": 68, "3": 101, "4": 135, "5": 169, "moto": 11 }, "km": 35 }
+    ],
+    "totalPrices": { "1": 1040, "2": 1658, "3": 2491, "4": 3720, "5": 4951, "moto": 311 },
+    "waypoints": [[40.98, 29.09], [40.80, 29.43], [40.72, 29.51], [40.49, 29.31], [40.23, 29.01]]
+  },
+  {
+    "from": "ankara",
+    "to": "konya",
+    "slug": "ankara-konya-otoyol-ucreti",
+    "totalDistanceKm": 260,
+    "tolls": [
+      { "id": "o21-ankara-guney__o21-konya", "name": "O-21 Ankara-Konya Otoyolu", "type": "gise", "prices": { "1": 285, "2": 428, "3": 641, "4": 855, "5": 1069, "moto": 71 }, "km": 260 }
+    ],
+    "totalPrices": { "1": 285, "2": 428, "3": 641, "4": 855, "5": 1069, "moto": 71 },
+    "waypoints": [[39.85, 32.85], [38.37, 34.03], [37.87, 32.49]]
+  },
+  {
+    "from": "ankara",
+    "to": "antalya",
+    "slug": "ankara-antalya-otoyol-ucreti",
+    "totalDistanceKm": 550,
+    "tolls": [
+      { "id": "o21-ankara-guney__o21-konya", "name": "O-21 Ankara-Konya Otoyolu", "type": "gise", "prices": { "1": 285, "2": 428, "3": 641, "4": 855, "5": 1069, "moto": 71 }, "km": 260 },
+      { "id": "o31-konya-guney__o31-antalya", "name": "O-31 Konya-Antalya Otoyolu", "type": "gise", "prices": { "1": 310, "2": 465, "3": 698, "4": 930, "5": 1163, "moto": 78 }, "km": 290 }
+    ],
+    "totalPrices": { "1": 595, "2": 893, "3": 1339, "4": 1785, "5": 2232, "moto": 149 },
+    "waypoints": [[39.85, 32.85], [38.37, 34.03], [37.87, 32.49], [37.80, 32.50], [36.92, 30.72]]
+  },
+  {
+    "from": "istanbul-avrupa",
+    "to": "edirne",
+    "slug": "istanbul-edirne-otoyol-ucreti",
+    "totalDistanceKm": 235,
+    "tolls": [
+      { "id": "o3-silivri__o3-edirne", "name": "O-3 TEM Otoyolu (İstanbul-Edirne)", "type": "gise", "prices": { "1": 195, "2": 293, "3": 439, "4": 585, "5": 731, "moto": 49 }, "km": 160 }
+    ],
+    "totalPrices": { "1": 195, "2": 293, "3": 439, "4": 585, "5": 731, "moto": 49 },
+    "waypoints": [[41.07, 28.25], [41.16, 27.80], [41.40, 27.35], [41.65, 26.60]]
+  },
+  {
+    "from": "istanbul-avrupa",
+    "to": "canakkale",
+    "slug": "istanbul-canakkale-otoyol-ucreti",
+    "totalDistanceKm": 310,
+    "tolls": [
+      { "id": "1915-canakkale-koprusu", "name": "1915 Çanakkale Köprüsü", "type": "bridge", "prices": { "1": 795, "2": 1194, "3": 1790, "4": 2684, "5": 3580, "moto": 239 } }
+    ],
+    "totalPrices": { "1": 795, "2": 1194, "3": 1790, "4": 2684, "5": 3580, "moto": 239 },
+    "waypoints": [[41.01, 28.98], [41.07, 28.25], [40.38, 26.66], [40.16, 26.41]]
+  },
+  {
+    "from": "adana",
+    "to": "gaziantep",
+    "slug": "adana-gaziantep-otoyol-ucreti",
+    "totalDistanceKm": 200,
+    "tolls": [
+      { "id": "o52-adana-dogu__o52-gaziantep", "name": "O-52 Adana-Gaziantep Otoyolu", "type": "gise", "prices": { "1": 220, "2": 330, "3": 495, "4": 660, "5": 825, "moto": 55 }, "km": 200 }
+    ],
+    "totalPrices": { "1": 220, "2": 330, "3": 495, "4": 660, "5": 825, "moto": 55 },
+    "waypoints": [[36.99, 35.33], [37.00, 35.40], [37.07, 37.38]]
+  },
+  {
+    "from": "mersin",
+    "to": "adana",
+    "slug": "mersin-adana-otoyol-ucreti",
+    "totalDistanceKm": 70,
+    "tolls": [
+      { "id": "o51-mersin__o51-adana", "name": "O-51 Mersin-Adana Otoyolu", "type": "gise", "prices": { "1": 85, "2": 128, "3": 191, "4": 255, "5": 319, "moto": 21 }, "km": 70 }
+    ],
+    "totalPrices": { "1": 85, "2": 128, "3": 191, "4": 255, "5": 319, "moto": 21 },
+    "waypoints": [[36.81, 34.64], [36.99, 35.33]]
+  },
+  {
+    "from": "istanbul-anadolu",
+    "to": "bolu",
+    "slug": "istanbul-bolu-otoyol-ucreti",
+    "totalDistanceKm": 262,
+    "tolls": [
+      { "id": "o4-istanbul-tuzla__o4-bolu", "name": "O-4 İstanbul-Bolu Otoyolu", "type": "gise", "prices": { "1": 275, "2": 413, "3": 619, "4": 825, "5": 1031, "moto": 69 }, "km": 225 }
+    ],
+    "totalPrices": { "1": 275, "2": 413, "3": 619, "4": 825, "5": 1031, "moto": 69 },
+    "waypoints": [[40.98, 29.09], [40.80, 29.43], [40.75, 29.99], [40.69, 30.44], [40.74, 31.61]]
+  }
+]
