@@ -361,8 +361,8 @@ function extractSegments(
     const fromNode = path.nodes[i];
     const toNode = path.nodes[i + 1];
 
-    if (edge.type === "crossing" && edge.crossingId) {
-      // Flush current highway segment
+    if (edge.type === "crossing") {
+      // Flush current highway segment (always flush on crossing, even without toll)
       if (currentHighway && entryStation) {
         const exitCoords = graph.getNodeCoords(fromNode);
         segments.push({
@@ -376,7 +376,7 @@ function extractSegments(
         currentHighway = null;
         entryStation = null;
       }
-      crossingIds.push(edge.crossingId);
+      if (edge.crossingId) crossingIds.push(edge.crossingId);
     } else if (edge.type === "highway" && edge.highway) {
       if (currentHighway !== edge.highway) {
         // Flush previous segment

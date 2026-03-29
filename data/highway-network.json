@@ -1337,8 +1337,8 @@
     {
       "from": "o4-gebze",
       "to": "o5-osmangazi-koprusu-i-zmir-yonu-bursa-bati",
-      "fixedTollId": "osmangazi-koprusu",
-      "name": "Osmangazi Köprüsü"
+      "fixedTollId": "",
+      "name": "Osmangazi Köprüsü (ücret O-5 tarifesine dahil)"
     },
     {
       "from": "mco-kuzey-g-3-guney-g-4-koprusu-g-5",
