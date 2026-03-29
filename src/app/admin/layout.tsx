@@ -98,6 +98,12 @@ export default function AdminLayout({
         >
           Site Ayarları
         </Link>
+        <Link
+          href="/admin/kgm-senkronizasyon"
+          className="px-4 py-2 bg-white border border-green-300 rounded-lg text-sm hover:border-green-500 transition-colors font-medium text-green-700"
+        >
+          KGM Senkronizasyon
+        </Link>
       </nav>
       {children}
     </div>
