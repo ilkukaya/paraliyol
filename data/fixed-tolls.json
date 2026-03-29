@@ -5,10 +5,25 @@
     "type": "bridge",
     "operator": "Otoyol A.Ş.",
     "description": "Gebze-Orhangazi-İzmir Otoyolu (O-5) üzerinde, İzmit Körfezi'ni geçen köprü.",
-    "start": [40.7194, 29.5089],
-    "end": [40.5194, 29.0650],
-    "prices": { "1": 995, "2": 1590, "3": 2390, "4": 3585, "5": 4782, "moto": 300 },
-    "nightDiscount": { "enabled": false },
+    "start": [
+      40.7194,
+      29.5089
+    ],
+    "end": [
+      40.5194,
+      29.065
+    ],
+    "prices": {
+      "1": 995,
+      "2": 1590,
+      "3": 1890,
+      "4": 2505,
+      "5": 3165,
+      "moto": 695
+    },
+    "nightDiscount": {
+      "enabled": false
+    },
     "active": true
   },
   {
@@ -17,10 +32,25 @@
     "type": "bridge",
     "operator": "ICA İçtaş-Astaldi",
     "description": "İstanbul Boğazı'nın kuzeyinde, Kuzey Marmara Otoyolu (O-7) üzerindeki 3. köprü.",
-    "start": [41.2054, 29.1065],
-    "end": [41.2054, 29.0300],
-    "prices": { "1": 95, "2": 125, "3": 186, "4": 248, "5": 310, "moto": 65 },
-    "nightDiscount": { "enabled": false },
+    "start": [
+      41.2054,
+      29.1065
+    ],
+    "end": [
+      41.2054,
+      29.03
+    ],
+    "prices": {
+      "1": 95,
+      "2": 125,
+      "3": 235,
+      "4": 595,
+      "5": 740,
+      "moto": 65
+    },
+    "nightDiscount": {
+      "enabled": false
+    },
     "active": true
   },
   {
@@ -29,10 +59,25 @@
     "type": "bridge",
     "operator": "ÇOK A.Ş.",
     "description": "Çanakkale Boğazı'nı geçen, Gelibolu-Lapseki arasındaki köprü. Malkara-Çanakkale Otoyolu üzerinde.",
-    "start": [40.3808, 26.6589],
-    "end": [40.3100, 26.6000],
-    "prices": { "1": 795, "2": 1194, "3": 1790, "4": 2684, "5": 3580, "moto": 239 },
-    "nightDiscount": { "enabled": false },
+    "start": [
+      40.3808,
+      26.6589
+    ],
+    "end": [
+      40.31,
+      26.6
+    ],
+    "prices": {
+      "1": 995,
+      "2": 1245,
+      "3": 2240,
+      "4": 2490,
+      "5": 3755,
+      "moto": 250
+    },
+    "nightDiscount": {
+      "enabled": false
+    },
     "active": true
   },
   {
@@ -41,10 +86,28 @@
     "type": "tunnel",
     "operator": "ATAS",
     "description": "İstanbul Boğazı altından geçen karayolu tüneli. Kazlıçeşme-Göztepe arasında.",
-    "start": [41.0020, 28.9520],
-    "end": [40.9875, 29.0542],
-    "prices": { "1": 280, "2": 420, "3": 420, "4": 420, "5": 420, "moto": 218 },
-    "nightDiscount": { "enabled": true, "percentage": 50, "startHour": 0, "endHour": 6 },
+    "start": [
+      41.002,
+      28.952
+    ],
+    "end": [
+      40.9875,
+      29.0542
+    ],
+    "prices": {
+      "1": 280,
+      "2": 420,
+      "3": 420,
+      "4": 420,
+      "5": 420,
+      "moto": 218
+    },
+    "nightDiscount": {
+      "enabled": true,
+      "percentage": 50,
+      "startHour": 0,
+      "endHour": 6
+    },
     "active": true
   },
   {
@@ -53,10 +116,25 @@
     "type": "tunnel",
     "operator": "KGM",
     "description": "İstanbul-Ankara Otoyolu (O-4) üzerinde, Bolu Dağı geçişindeki tünel.",
-    "start": [40.7200, 31.5500],
-    "end": [40.7100, 31.6000],
-    "prices": { "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "moto": 0 },
-    "nightDiscount": { "enabled": false },
+    "start": [
+      40.72,
+      31.55
+    ],
+    "end": [
+      40.71,
+      31.6
+    ],
+    "prices": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "moto": 0
+    },
+    "nightDiscount": {
+      "enabled": false
+    },
     "active": true
   },
   {
@@ -65,10 +143,28 @@
     "type": "ferry",
     "operator": "İDO",
     "description": "İzmit Körfezi'ni geçen arabalı feribot. Kocaeli Eskihisar - Yalova Topçular arası.",
-    "start": [40.7694, 29.5133],
-    "end": [40.6900, 29.2900],
-    "prices": { "1": 730, "2": 730, "3": 1460, "4": 1460, "5": 2190, "moto": 365 },
-    "nightDiscount": { "enabled": true, "percentage": 14, "startHour": 22, "endHour": 10 },
+    "start": [
+      40.7694,
+      29.5133
+    ],
+    "end": [
+      40.69,
+      29.29
+    ],
+    "prices": {
+      "1": 730,
+      "2": 730,
+      "3": 1460,
+      "4": 1460,
+      "5": 2190,
+      "moto": 365
+    },
+    "nightDiscount": {
+      "enabled": true,
+      "percentage": 14,
+      "startHour": 22,
+      "endHour": 10
+    },
     "active": true
   },
   {
@@ -77,10 +173,25 @@
     "type": "ferry",
     "operator": "GESTAŞ",
     "description": "Çanakkale Boğazı'nı geçen arabalı feribot. Çanakkale-Eceabat arası.",
-    "start": [40.1553, 26.4142],
-    "end": [40.1847, 26.3578],
-    "prices": { "1": 225, "2": 225, "3": 450, "4": 450, "5": 675, "moto": 113 },
-    "nightDiscount": { "enabled": false },
+    "start": [
+      40.1553,
+      26.4142
+    ],
+    "end": [
+      40.1847,
+      26.3578
+    ],
+    "prices": {
+      "1": 225,
+      "2": 225,
+      "3": 450,
+      "4": 450,
+      "5": 675,
+      "moto": 113
+    },
+    "nightDiscount": {
+      "enabled": false
+    },
     "active": true
   },
   {
@@ -89,10 +200,25 @@
     "type": "ferry",
     "operator": "GESTAŞ",
     "description": "Çanakkale Boğazı'nı geçen arabalı feribot. Gelibolu-Lapseki arası.",
-    "start": [40.4108, 26.6716],
-    "end": [40.3450, 26.6830],
-    "prices": { "1": 225, "2": 225, "3": 450, "4": 450, "5": 675, "moto": 113 },
-    "nightDiscount": { "enabled": false },
+    "start": [
+      40.4108,
+      26.6716
+    ],
+    "end": [
+      40.345,
+      26.683
+    ],
+    "prices": {
+      "1": 225,
+      "2": 225,
+      "3": 450,
+      "4": 450,
+      "5": 675,
+      "moto": 113
+    },
+    "nightDiscount": {
+      "enabled": false
+    },
     "active": true
   }
 ]
