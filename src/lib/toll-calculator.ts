@@ -8,7 +8,10 @@ import type {
 import {
   getPopularRoutes,
   getLocationById,
+  getOtoyolPricing,
+  getActiveFixedTolls,
 } from "./data-loader";
+import { calculateGraphRoute } from "./highway-graph";
 
 export function findPopularRoute(
   fromId: string,
@@ -52,18 +55,28 @@ export function calculateRoute(
   fromId: string,
   toId: string
 ): RouteCalculationResult | null {
-  // First try to find a pre-computed popular route
-  const popularRoute = findPopularRoute(fromId, toId);
-  if (popularRoute) {
-    return calculateRouteFromPopular(popularRoute, "1");
-  }
-
-  // For non-popular routes, return null (will be handled by OSRM in v2)
   const fromLocation = getLocationById(fromId);
   const toLocation = getLocationById(toId);
 
   if (!fromLocation || !toLocation) return null;
 
+  // Try graph-based dynamic routing
+  const pricing = getOtoyolPricing();
+  const fixedTolls = getActiveFixedTolls();
+  const graphResult = calculateGraphRoute(fromLocation, toLocation, pricing, fixedTolls);
+
+  if (graphResult && graphResult.tolls.length > 0) {
+    return {
+      from: fromLocation,
+      to: toLocation,
+      totalDistanceKm: graphResult.totalDistanceKm,
+      tolls: graphResult.tolls,
+      totalPrices: graphResult.totalPrices,
+      waypoints: graphResult.waypoints,
+    };
+  }
+
+  // No toll highway route found
   return {
     from: fromLocation,
     to: toLocation,

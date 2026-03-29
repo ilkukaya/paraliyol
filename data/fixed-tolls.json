@@ -1,5 +1,32 @@
 [
   {
+    "id": "15-temmuz-fsm-koprusu",
+    "name": "15 Temmuz Şehitler Köprüsü / FSM Köprüsü",
+    "type": "bridge",
+    "operator": "KGM",
+    "description": "İstanbul Boğazı üzerindeki 1. ve 2. köprü. O-3 (Avrupa) ile O-4 (Anadolu) arasında.",
+    "start": [
+      41.045,
+      29.03
+    ],
+    "end": [
+      41.05,
+      29.05
+    ],
+    "prices": {
+      "1": 21,
+      "2": 32,
+      "3": 64,
+      "4": 85,
+      "5": 107,
+      "moto": 11
+    },
+    "nightDiscount": {
+      "enabled": false
+    },
+    "active": true
+  },
+  {
     "id": "osmangazi-koprusu",
     "name": "Osmangazi Köprüsü",
     "type": "bridge",

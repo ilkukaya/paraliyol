@@ -1,0 +1,1356 @@
+{
+  "highways": {
+    "O-4": {
+      "name": "İstanbul-Ankara Otoyolu (Anadolu Otoyolu)",
+      "stations": [
+        {
+          "id": "o4-anadolu-camlica",
+          "name": "Anadolu (Çamlıca)",
+          "lat": 40.98,
+          "lng": 29.09
+        },
+        {
+          "id": "o4-samandira",
+          "name": "Samandıra",
+          "lat": 40.9429,
+          "lng": 29.2013
+        },
+        {
+          "id": "o4-sultanbeyli",
+          "name": "Sultanbeyli",
+          "lat": 40.8931,
+          "lng": 29.3059
+        },
+        {
+          "id": "o4-meci-di-ye",
+          "name": "Mecidiye",
+          "lat": 40.8227,
+          "lng": 29.3998
+        },
+        {
+          "id": "o4-kurtkoy",
+          "name": "Kurtköy",
+          "lat": 40.7858,
+          "lng": 29.5082
+        },
+        {
+          "id": "o4-orhanli",
+          "name": "Orhanlı",
+          "lat": 40.7648,
+          "lng": 29.6236
+        },
+        {
+          "id": "o4-s-pinar",
+          "name": "Şerifpınar",
+          "lat": 40.76,
+          "lng": 29.7405
+        },
+        {
+          "id": "o4-gebze-org-san-bolgeleri",
+          "name": "Gebze OSB",
+          "lat": 40.76,
+          "lng": 29.8578
+        },
+        {
+          "id": "o4-gebze",
+          "name": "Gebze",
+          "lat": 40.7551,
+          "lng": 29.9748
+        },
+        {
+          "id": "o4-mualli-mkoy",
+          "name": "Muallimköy",
+          "lat": 40.7389,
+          "lng": 30.091
+        },
+        {
+          "id": "o4-li-man",
+          "name": "Liman",
+          "lat": 40.7226,
+          "lng": 30.2072
+        },
+        {
+          "id": "o4-di-l-i-skelesi",
+          "name": "Diliskelesi",
+          "lat": 40.7063,
+          "lng": 30.3233
+        },
+        {
+          "id": "o4-bati-hereke",
+          "name": "Batı Hereke",
+          "lat": 40.6901,
+          "lng": 30.4395
+        },
+        {
+          "id": "o4-korfez",
+          "name": "Körfez",
+          "lat": 40.7003,
+          "lng": 30.5564
+        },
+        {
+          "id": "o4-kandira",
+          "name": "Kandıra",
+          "lat": 40.7106,
+          "lng": 30.6732
+        },
+        {
+          "id": "o4-bati-i-zmi-t",
+          "name": "Batı İzmit",
+          "lat": 40.723,
+          "lng": 30.7897
+        },
+        {
+          "id": "o4-kartepe",
+          "name": "Kartepe",
+          "lat": 40.7584,
+          "lng": 30.9015
+        },
+        {
+          "id": "o4-dogu-i-zmi-t",
+          "name": "Doğu İzmit",
+          "lat": 40.7937,
+          "lng": 31.0134
+        },
+        {
+          "id": "o4-sapanca",
+          "name": "Sapanca",
+          "lat": 40.829,
+          "lng": 31.1253
+        },
+        {
+          "id": "o4-adapazari",
+          "name": "Adapazarı",
+          "lat": 40.8225,
+          "lng": 31.239
+        },
+        {
+          "id": "o4-beki-rpasa",
+          "name": "Bekirpaşa",
+          "lat": 40.797,
+          "lng": 31.3535
+        },
+        {
+          "id": "o4-akyazi",
+          "name": "Akyazı",
+          "lat": 40.7716,
+          "lng": 31.468
+        },
+        {
+          "id": "o4-topagac",
+          "name": "Topağaç",
+          "lat": 40.7461,
+          "lng": 31.5825
+        },
+        {
+          "id": "o4-hendek",
+          "name": "Hendek",
+          "lat": 40.749,
+          "lng": 31.6987
+        },
+        {
+          "id": "o4-duzce-golyaka",
+          "name": "Düzce/Gölyaka",
+          "lat": 40.7609,
+          "lng": 31.8154
+        },
+        {
+          "id": "o4-duzce-organi-ze-san",
+          "name": "Düzce OSB",
+          "lat": 40.7728,
+          "lng": 31.9321
+        },
+        {
+          "id": "o4-kaynasli",
+          "name": "Kaynaşlı",
+          "lat": 40.7846,
+          "lng": 32.0488
+        },
+        {
+          "id": "o4-abant",
+          "name": "Abant",
+          "lat": 40.7965,
+          "lng": 32.1655
+        },
+        {
+          "id": "o4-bolu-bati",
+          "name": "Bolu Batı",
+          "lat": 40.7261,
+          "lng": 32.237
+        },
+        {
+          "id": "o4-caydurt",
+          "name": "Çaydurt",
+          "lat": 40.6211,
+          "lng": 32.2894
+        },
+        {
+          "id": "o4-yeni-caga",
+          "name": "Yeniçağa",
+          "lat": 40.5162,
+          "lng": 32.3419
+        },
+        {
+          "id": "o4-dortdi-van",
+          "name": "Dörtdivan",
+          "lat": 40.4113,
+          "lng": 32.3944
+        },
+        {
+          "id": "o4-gerede",
+          "name": "Gerede",
+          "lat": 40.3064,
+          "lng": 32.4468
+        },
+        {
+          "id": "o4-peli-tci-k-camlidere",
+          "name": "Pelitçik/Çamlıdere",
+          "lat": 40.1945,
+          "lng": 32.482
+        },
+        {
+          "id": "o4-celti-kci-kizilcahamam",
+          "name": "Çeltikçi/Kızılcahamam",
+          "lat": 40.0823,
+          "lng": 32.516
+        },
+        {
+          "id": "o4-akinci",
+          "name": "Akıncı",
+          "lat": 39.97,
+          "lng": 32.55
+        }
+      ]
+    },
+    "O-3": {
+      "name": "İstanbul-Edirne Otoyolu (Avrupa Otoyolu)",
+      "stations": [
+        {
+          "id": "o3-mahmutbey",
+          "name": "Mahmutbey",
+          "lat": 41.06,
+          "lng": 28.83
+        },
+        {
+          "id": "o3-ispartakule",
+          "name": "İspartakule",
+          "lat": 41.088,
+          "lng": 28.69
+        },
+        {
+          "id": "o3-avcilar",
+          "name": "Avcılar",
+          "lat": 41.1187,
+          "lng": 28.5507
+        },
+        {
+          "id": "o3-esenyurt",
+          "name": "Esenyurt",
+          "lat": 41.1243,
+          "lng": 28.413
+        },
+        {
+          "id": "o3-hadimkoy",
+          "name": "Hadımköy",
+          "lat": 41.0792,
+          "lng": 28.2775
+        },
+        {
+          "id": "o3-catalca",
+          "name": "Çatalca",
+          "lat": 41.07,
+          "lng": 28.1363
+        },
+        {
+          "id": "o3-k-burgaz",
+          "name": "Küçükburgaz",
+          "lat": 41.1037,
+          "lng": 27.999
+        },
+        {
+          "id": "o3-seli-mpasa",
+          "name": "Selimpaşa",
+          "lat": 41.1435,
+          "lng": 27.862
+        },
+        {
+          "id": "o3-si-li-vri",
+          "name": "Silivri",
+          "lat": 41.1826,
+          "lng": 27.7248
+        },
+        {
+          "id": "o3-kinali",
+          "name": "Kınalı",
+          "lat": 41.2273,
+          "lng": 27.5899
+        },
+        {
+          "id": "o3-kucukilicli",
+          "name": "Küçükilicli",
+          "lat": 41.3107,
+          "lng": 27.4741
+        },
+        {
+          "id": "o3-cerkezkoy",
+          "name": "Çerkezköy",
+          "lat": 41.3941,
+          "lng": 27.3582
+        },
+        {
+          "id": "o3-corlu",
+          "name": "Çorlu",
+          "lat": 41.4227,
+          "lng": 27.2194
+        },
+        {
+          "id": "o3-saray",
+          "name": "Saray",
+          "lat": 41.4519,
+          "lng": 27.0798
+        },
+        {
+          "id": "o3-luleburgaz",
+          "name": "Lüleburgaz",
+          "lat": 41.4924,
+          "lng": 26.943
+        },
+        {
+          "id": "o3-babaeski",
+          "name": "Babaeski",
+          "lat": 41.5421,
+          "lng": 26.8099
+        },
+        {
+          "id": "o3-havsa",
+          "name": "Havsa",
+          "lat": 41.611,
+          "lng": 26.685
+        },
+        {
+          "id": "o3-edi-rne",
+          "name": "Edirne",
+          "lat": 41.68,
+          "lng": 26.56
+        }
+      ]
+    },
+    "O-5": {
+      "name": "Gebze-Orhangazi-İzmir Otoyolu",
+      "stations": [
+        {
+          "id": "o5-osmangazi-koprusu-i-zmir-yonu-bursa-bati",
+          "name": "Osmangazi Köprüsü (İzmir Yönü)",
+          "lat": 40.52,
+          "lng": 29.09
+        },
+        {
+          "id": "o5-altinova-teknosab",
+          "name": "Altınova/Teknosab",
+          "lat": 40.4263,
+          "lng": 28.9867
+        },
+        {
+          "id": "o5-kilic-karacabey-mustafakemalpasa-1",
+          "name": "Kılıç/Karacabey/MKP-1",
+          "lat": 40.2851,
+          "lng": 28.7905
+        },
+        {
+          "id": "o5-orhangazi-karacabey-mustafakemalpasa-2",
+          "name": "Orhangazi/Karacabey/MKP-2",
+          "lat": 40.1159,
+          "lng": 28.6159
+        },
+        {
+          "id": "o5-gemlik-susurluk",
+          "name": "Gemlik/Susurluk",
+          "lat": 39.944,
+          "lng": 28.444
+        },
+        {
+          "id": "o5-bursa-serbest-bolge-balikesir-kuzey",
+          "name": "Bursa SB / Balıkesir Kuzey",
+          "lat": 39.772,
+          "lng": 28.272
+        },
+        {
+          "id": "o5-bursa-kuzey-balikesir-bati",
+          "name": "Bursa Kuzey / Balıkesir Batı",
+          "lat": 39.6,
+          "lng": 28.1
+        },
+        {
+          "id": "o5-savastepe",
+          "name": "Savaştepe",
+          "lat": 39.4281,
+          "lng": 27.9281
+        },
+        {
+          "id": "o5-kirkagac",
+          "name": "Kırkağaç",
+          "lat": 39.2307,
+          "lng": 27.7871
+        },
+        {
+          "id": "o5-akhisar",
+          "name": "Akhisar",
+          "lat": 39.0283,
+          "lng": 27.6522
+        },
+        {
+          "id": "o5-saruhanli",
+          "name": "Saruhanlı",
+          "lat": 38.826,
+          "lng": 27.5173
+        },
+        {
+          "id": "o5-turgutlu",
+          "name": "Turgutlu",
+          "lat": 38.6304,
+          "lng": 27.3728
+        },
+        {
+          "id": "o5-i-zmir",
+          "name": "İzmir",
+          "lat": 38.46,
+          "lng": 27.2
+        }
+      ]
+    },
+    "O-21": {
+      "name": "Ankara-Konya Otoyolu",
+      "stations": [
+        {
+          "id": "o21-konya",
+          "name": "Konya",
+          "lat": 37.87,
+          "lng": 32.49
+        },
+        {
+          "id": "o21-aksaray",
+          "name": "Aksaray",
+          "lat": 38.477,
+          "lng": 33.9447
+        },
+        {
+          "id": "o21-ankara-guney",
+          "name": "Ankara Güney",
+          "lat": 39.85,
+          "lng": 32.85
+        }
+      ]
+    },
+    "O-31": {
+      "name": "Konya-Antalya Otoyolu",
+      "stations": [
+        {
+          "id": "o31-antalya",
+          "name": "Antalya",
+          "lat": 36.9,
+          "lng": 30.72
+        },
+        {
+          "id": "o31-konya-guney",
+          "name": "Konya Güney",
+          "lat": 37.8,
+          "lng": 32.5
+        }
+      ]
+    },
+    "O-51": {
+      "name": "Niğde-Mersin-Adana Otoyolu (Çukurova)",
+      "stations": [
+        {
+          "id": "o51-guney",
+          "name": "Güney",
+          "lat": 37.05,
+          "lng": 34.4
+        },
+        {
+          "id": "o51-kuzey",
+          "name": "Kuzey",
+          "lat": 36.9923,
+          "lng": 34.5055
+        },
+        {
+          "id": "o51-alin",
+          "name": "Alın",
+          "lat": 36.89,
+          "lng": 34.57
+        },
+        {
+          "id": "o51-golcuk-alin",
+          "name": "Gölcük Alın",
+          "lat": 36.8152,
+          "lng": 34.6478
+        },
+        {
+          "id": "o51-kemerhi-sar",
+          "name": "Kemerhisar",
+          "lat": 36.8706,
+          "lng": 34.7548
+        },
+        {
+          "id": "o51-mersi-n-alin",
+          "name": "Mersin Alın",
+          "lat": 36.908,
+          "lng": 34.87
+        },
+        {
+          "id": "o51-teki-r",
+          "name": "Tekir",
+          "lat": 36.956,
+          "lng": 34.9801
+        },
+        {
+          "id": "o51-emi-nli-k-alin",
+          "name": "Eminlik Alın",
+          "lat": 36.9798,
+          "lng": 35.099
+        },
+        {
+          "id": "o51-tarsus-osb",
+          "name": "Tarsus OSB",
+          "lat": 36.9956,
+          "lng": 35.1425
+        },
+        {
+          "id": "o51-pozanti-kuzey",
+          "name": "Pozantı Kuzey",
+          "lat": 36.9816,
+          "lng": 35.022
+        },
+        {
+          "id": "o51-camalan",
+          "name": "Çamalan",
+          "lat": 36.9676,
+          "lng": 34.9016
+        },
+        {
+          "id": "o51-adana-bati-alin",
+          "name": "Adana Batı Alın",
+          "lat": 36.9536,
+          "lng": 34.7811
+        },
+        {
+          "id": "o51-camtepe",
+          "name": "Çamtepe",
+          "lat": 36.9608,
+          "lng": 34.8392
+        },
+        {
+          "id": "o51-tarsus",
+          "name": "Tarsus",
+          "lat": 36.9754,
+          "lng": 34.9596
+        },
+        {
+          "id": "o51-yeni-ce",
+          "name": "Yenice",
+          "lat": 36.99,
+          "lng": 35.08
+        }
+      ]
+    },
+    "O-52": {
+      "name": "Adana-Gaziantep Otoyolu (Çukurova)",
+      "stations": [
+        {
+          "id": "o52-adana-dogu-alin",
+          "name": "Adana Doğu Alın",
+          "lat": 37.0,
+          "lng": 35.4
+        },
+        {
+          "id": "o52-ceyhan",
+          "name": "Ceyhan",
+          "lat": 36.964,
+          "lng": 35.6161
+        },
+        {
+          "id": "o52-toprakkale",
+          "name": "Toprakkale",
+          "lat": 36.9175,
+          "lng": 35.83
+        },
+        {
+          "id": "o52-sakizgedi-gi",
+          "name": "Sakızgediği",
+          "lat": 36.9026,
+          "lng": 36.0272
+        },
+        {
+          "id": "o52-osmani-ye",
+          "name": "Osmaniye",
+          "lat": 37.064,
+          "lng": 36.1734
+        },
+        {
+          "id": "o52-osmani-ye-org-san",
+          "name": "Osmaniye OSB",
+          "lat": 36.9382,
+          "lng": 36.2791
+        },
+        {
+          "id": "o52-erzi-n",
+          "name": "Erzin",
+          "lat": 36.8302,
+          "lng": 36.0886
+        },
+        {
+          "id": "o52-yumurtalik-serbest-b",
+          "name": "Yumurtalık SB",
+          "lat": 36.7364,
+          "lng": 36.1089
+        },
+        {
+          "id": "o52-dortyol",
+          "name": "Dörtyol",
+          "lat": 36.6431,
+          "lng": 36.3067
+        },
+        {
+          "id": "o52-payas",
+          "name": "Payas",
+          "lat": 36.5899,
+          "lng": 36.2843
+        },
+        {
+          "id": "o52-i-skenderun-osb",
+          "name": "İskenderun OSB",
+          "lat": 36.662,
+          "lng": 36.2345
+        },
+        {
+          "id": "o52-i-skenderun",
+          "name": "İskenderun",
+          "lat": 36.8343,
+          "lng": 36.3698
+        },
+        {
+          "id": "o52-duzi-ci",
+          "name": "Düziçi",
+          "lat": 37.0016,
+          "lng": 36.5082
+        },
+        {
+          "id": "o52-bahce",
+          "name": "Bahçe",
+          "lat": 37.0386,
+          "lng": 36.724
+        },
+        {
+          "id": "o52-komurler-nurdagi",
+          "name": "Kömürler/Nurdağı",
+          "lat": 37.0547,
+          "lng": 36.9421
+        },
+        {
+          "id": "o52-narli",
+          "name": "Narlı",
+          "lat": 37.0622,
+          "lng": 37.1611
+        },
+        {
+          "id": "o52-gazi-antep-bati-alin",
+          "name": "Gaziantep Batı Alın",
+          "lat": 37.07,
+          "lng": 37.38
+        }
+      ]
+    },
+    "KCY": {
+      "name": "YSS Kuzey Çevre Yolu",
+      "stations": [
+        {
+          "id": "kcy-kurnakoy",
+          "name": "Kurnakoy",
+          "lat": 41.1,
+          "lng": 29.18
+        },
+        {
+          "id": "kcy-huseyinli",
+          "name": "Hüseyinli",
+          "lat": 41.1359,
+          "lng": 29.1122
+        },
+        {
+          "id": "kcy-resadiye",
+          "name": "Reşadiye",
+          "lat": 41.1689,
+          "lng": 29.0444
+        },
+        {
+          "id": "kcy-agacli",
+          "name": "Ağaçlı",
+          "lat": 41.1072,
+          "lng": 29.0041
+        },
+        {
+          "id": "kcy-alemdag",
+          "name": "Alemdağ",
+          "lat": 41.1676,
+          "lng": 28.9887
+        },
+        {
+          "id": "kcy-odayeri",
+          "name": "Odayeri",
+          "lat": 41.1982,
+          "lng": 28.9707
+        },
+        {
+          "id": "kcy-pasakoy",
+          "name": "Paşaköy",
+          "lat": 41.1347,
+          "lng": 28.9309
+        },
+        {
+          "id": "kcy-mecidiye",
+          "name": "Mecidiye",
+          "lat": 41.1458,
+          "lng": 28.8898
+        },
+        {
+          "id": "kcy-uskumrukoy",
+          "name": "Üskümrüköy",
+          "lat": 41.1985,
+          "lng": 28.843
+        },
+        {
+          "id": "kcy-fenertepe",
+          "name": "Fenertepe",
+          "lat": 41.2121,
+          "lng": 28.9125
+        },
+        {
+          "id": "kcy-riva",
+          "name": "Riva",
+          "lat": 41.2247,
+          "lng": 28.9883
+        },
+        {
+          "id": "kcy-isiklar",
+          "name": "Işıklar",
+          "lat": 41.21,
+          "lng": 29.06
+        }
+      ]
+    },
+    "KMO-AV": {
+      "name": "Kuzey Marmara Otoyolu (Avrupa)",
+      "stations": [
+        {
+          "id": "kmoav-fati-h",
+          "name": "Fatih",
+          "lat": 41.15,
+          "lng": 28.92
+        },
+        {
+          "id": "kmoav-nakkas",
+          "name": "Nakkaş",
+          "lat": 41.1795,
+          "lng": 28.7834
+        },
+        {
+          "id": "kmoav-tayakadin",
+          "name": "Tayakadın",
+          "lat": 41.1832,
+          "lng": 28.6485
+        },
+        {
+          "id": "kmoav-yassioren",
+          "name": "Yassıören",
+          "lat": 41.1509,
+          "lng": 28.5121
+        },
+        {
+          "id": "kmoav-catalca",
+          "name": "Çatalca",
+          "lat": 41.1182,
+          "lng": 28.3759
+        },
+        {
+          "id": "kmoav-si-li-vri",
+          "name": "Silivri",
+          "lat": 41.0908,
+          "lng": 28.2386
+        },
+        {
+          "id": "kmoav-kinali",
+          "name": "Kınalı",
+          "lat": 41.07,
+          "lng": 28.1
+        }
+      ]
+    },
+    "KMO-AN": {
+      "name": "Kuzey Marmara Otoyolu (Anadolu)",
+      "stations": [
+        {
+          "id": "kmoan-mermerci-ler",
+          "name": "Mermerciler",
+          "lat": 41.1,
+          "lng": 29.25
+        },
+        {
+          "id": "kmoan-i-zmi-t-dogu",
+          "name": "İzmit Doğu",
+          "lat": 40.9178,
+          "lng": 29.6145
+        },
+        {
+          "id": "kmoan-tem-akyazi",
+          "name": "TEM/Akyazı",
+          "lat": 40.8946,
+          "lng": 29.4949
+        },
+        {
+          "id": "kmoan-i-li-mtepe",
+          "name": "İlimtepe",
+          "lat": 40.8745,
+          "lng": 29.6094
+        },
+        {
+          "id": "kmoan-sevi-ndi-kli",
+          "name": "Sevindikli",
+          "lat": 40.7958,
+          "lng": 30.012
+        },
+        {
+          "id": "kmoan-i-stanbulpark",
+          "name": "İstanbulPark",
+          "lat": 40.7051,
+          "lng": 30.4117
+        },
+        {
+          "id": "kmoan-i-zmi-t-kuzey",
+          "name": "İzmit Kuzey",
+          "lat": 40.7406,
+          "lng": 30.3879
+        },
+        {
+          "id": "kmoan-adapazari-1",
+          "name": "Adapazarı-1",
+          "lat": 40.8534,
+          "lng": 29.9933
+        },
+        {
+          "id": "kmoan-kmo-akyazi",
+          "name": "KMO/Akyazı",
+          "lat": 40.9661,
+          "lng": 29.5986
+        },
+        {
+          "id": "kmoan-kurnakoy-2",
+          "name": "Kurnakoy-2",
+          "lat": 41.0789,
+          "lng": 29.2039
+        },
+        {
+          "id": "kmoan-balcik",
+          "name": "Balçık",
+          "lat": 40.814,
+          "lng": 29.4856
+        },
+        {
+          "id": "kmoan-adapazari-2",
+          "name": "Adapazarı-2",
+          "lat": 40.7764,
+          "lng": 29.8944
+        },
+        {
+          "id": "kmoan-akmese",
+          "name": "Akmeşe",
+          "lat": 40.7389,
+          "lng": 30.3031
+        },
+        {
+          "id": "kmoan-karasu",
+          "name": "Karasu",
+          "lat": 40.76,
+          "lng": 30.7
+        }
+      ]
+    },
+    "MAC": {
+      "name": "Menemen-Aliağa-Çandarlı Otoyolu",
+      "stations": [
+        {
+          "id": "mac-ali-aga-osb",
+          "name": "Aliağa OSB",
+          "lat": 38.62,
+          "lng": 26.95
+        },
+        {
+          "id": "mac-menemen",
+          "name": "Menemen",
+          "lat": 38.6084,
+          "lng": 26.9715
+        },
+        {
+          "id": "mac-candarli",
+          "name": "Çandarlı",
+          "lat": 38.7229,
+          "lng": 26.9513
+        },
+        {
+          "id": "mac-ali-aga-petki-m",
+          "name": "Aliağa/Petkim",
+          "lat": 38.6675,
+          "lng": 27.0034
+        },
+        {
+          "id": "mac-eski-foca",
+          "name": "Eski Foça",
+          "lat": 38.6503,
+          "lng": 26.8885
+        },
+        {
+          "id": "mac-yeni-foca",
+          "name": "Yeni Foça",
+          "lat": 38.6251,
+          "lng": 26.8646
+        },
+        {
+          "id": "mac-yeni-sakran",
+          "name": "Yeni Şakran",
+          "lat": 38.68,
+          "lng": 26.8
+        }
+      ]
+    },
+    "ANO": {
+      "name": "Ankara-Niğde Otoyolu",
+      "stations": [
+        {
+          "id": "ano-ankara-alin",
+          "name": "Ankara Alın",
+          "lat": 39.85,
+          "lng": 32.75
+        },
+        {
+          "id": "ano-karagedik",
+          "name": "Karagedik",
+          "lat": 39.6788,
+          "lng": 32.8783
+        },
+        {
+          "id": "ano-ahiboz",
+          "name": "Ahiboz",
+          "lat": 39.5494,
+          "lng": 33.0508
+        },
+        {
+          "id": "ano-emirler",
+          "name": "Emirler",
+          "lat": 39.42,
+          "lng": 33.2233
+        },
+        {
+          "id": "ano-kulu-kirikkale",
+          "name": "Kulu/Kırıkkale",
+          "lat": 39.3062,
+          "lng": 33.4063
+        },
+        {
+          "id": "ano-acikuyu",
+          "name": "Açıkuyu",
+          "lat": 39.1862,
+          "lng": 33.5851
+        },
+        {
+          "id": "ano-evren-sariyahsi",
+          "name": "Evren/Sarıyahşi",
+          "lat": 39.0568,
+          "lng": 33.7576
+        },
+        {
+          "id": "ano-agacoren",
+          "name": "Ağaçören",
+          "lat": 38.9187,
+          "lng": 33.9209
+        },
+        {
+          "id": "ano-kirsehir",
+          "name": "Kırşehir",
+          "lat": 38.7393,
+          "lng": 34.0405
+        },
+        {
+          "id": "ano-ortakoy",
+          "name": "Ortaköy",
+          "lat": 38.5472,
+          "lng": 34.1343
+        },
+        {
+          "id": "ano-alayhan",
+          "name": "Alayhan",
+          "lat": 38.3427,
+          "lng": 34.2024
+        },
+        {
+          "id": "ano-derinkuyu",
+          "name": "Derinkuyu",
+          "lat": 38.1457,
+          "lng": 34.2862
+        },
+        {
+          "id": "ano-ciftlik",
+          "name": "Çiftlik",
+          "lat": 38.0182,
+          "lng": 34.4454
+        },
+        {
+          "id": "ano-nigde-alin",
+          "name": "Niğde Alın",
+          "lat": 37.95,
+          "lng": 34.65
+        }
+      ]
+    },
+    "MCO": {
+      "name": "Malkara-Çanakkale Otoyolu",
+      "stations": [
+        {
+          "id": "mco-kuzey-g-3-guney-g-4-koprusu-g-5",
+          "name": "Kuzey (Köprü tarafı)",
+          "lat": 40.35,
+          "lng": 26.65
+        },
+        {
+          "id": "mco-malkara-g-1",
+          "name": "Malkara",
+          "lat": 40.8081,
+          "lng": 26.986
+        },
+        {
+          "id": "mco-kavakkoy-g-2",
+          "name": "Kavakköy",
+          "lat": 41.05,
+          "lng": 27.0
+        }
+      ]
+    },
+    "ADO": {
+      "name": "Aydın-Denizli Otoyolu",
+      "stations": [
+        {
+          "id": "ado-buharkent",
+          "name": "Buharkent",
+          "lat": 37.85,
+          "lng": 29.0
+        },
+        {
+          "id": "ado-pamukkale",
+          "name": "Pamukkale",
+          "lat": 37.8254,
+          "lng": 29.0522
+        },
+        {
+          "id": "ado-kosk",
+          "name": "Köşk",
+          "lat": 37.8072,
+          "lng": 28.9431
+        },
+        {
+          "id": "ado-saraykoy",
+          "name": "Sarayköy",
+          "lat": 37.7727,
+          "lng": 28.9609
+        },
+        {
+          "id": "ado-kumkisik-a",
+          "name": "Kumkışık-A",
+          "lat": 37.7533,
+          "lng": 28.8926
+        },
+        {
+          "id": "ado-yeni-pazar",
+          "name": "Yenipazar",
+          "lat": 37.7724,
+          "lng": 28.9141
+        },
+        {
+          "id": "ado-kocabas",
+          "name": "Kocabaş",
+          "lat": 37.809,
+          "lng": 29.0185
+        },
+        {
+          "id": "ado-nazi-lli",
+          "name": "Nazilli",
+          "lat": 37.7982,
+          "lng": 28.9759
+        },
+        {
+          "id": "ado-kumkisik-b",
+          "name": "Kumkışık-B",
+          "lat": 37.7636,
+          "lng": 28.8886
+        },
+        {
+          "id": "ado-kuyucak",
+          "name": "Kuyucak",
+          "lat": 37.7274,
+          "lng": 28.9896
+        },
+        {
+          "id": "ado-aydin-alin",
+          "name": "Aydın Alın",
+          "lat": 37.72,
+          "lng": 29.1
+        }
+      ]
+    },
+    "IZC": {
+      "name": "İzmir-Çeşme Otoyolu",
+      "stations": [
+        {
+          "id": "izc-seferi-hi-sar",
+          "name": "Seferihisar",
+          "lat": 38.42,
+          "lng": 26.92
+        },
+        {
+          "id": "izc-urla",
+          "name": "Urla",
+          "lat": 38.4012,
+          "lng": 26.7885
+        },
+        {
+          "id": "izc-karaburun",
+          "name": "Karaburun",
+          "lat": 38.4446,
+          "lng": 26.6641
+        },
+        {
+          "id": "izc-zeyti-nler",
+          "name": "Zeytinler",
+          "lat": 38.4111,
+          "lng": 26.5389
+        },
+        {
+          "id": "izc-alacati",
+          "name": "Alaçatı",
+          "lat": 38.3575,
+          "lng": 26.4185
+        },
+        {
+          "id": "izc-cesme",
+          "name": "Çeşme",
+          "lat": 38.3,
+          "lng": 26.3
+        }
+      ]
+    },
+    "IZA": {
+      "name": "İzmir-Aydın Otoyolu",
+      "stations": [
+        {
+          "id": "iza-isikkent",
+          "name": "Işıkkent",
+          "lat": 38.45,
+          "lng": 27.1
+        },
+        {
+          "id": "iza-tahtalicay",
+          "name": "Tahtalıçay",
+          "lat": 38.3603,
+          "lng": 27.2846
+        },
+        {
+          "id": "iza-torbali",
+          "name": "Torbalı",
+          "lat": 38.2652,
+          "lng": 27.4696
+        },
+        {
+          "id": "iza-belevi",
+          "name": "Belevi",
+          "lat": 38.1721,
+          "lng": 27.6557
+        },
+        {
+          "id": "iza-germenci-k",
+          "name": "Germencik",
+          "lat": 38.0541,
+          "lng": 27.8092
+        },
+        {
+          "id": "iza-aydin-bati",
+          "name": "Aydın Batı",
+          "lat": 37.85,
+          "lng": 27.85
+        }
+      ]
+    },
+    "GSO": {
+      "name": "Gaziantep-Şanlıurfa Otoyolu",
+      "stations": [
+        {
+          "id": "gso-gazi-antep-dogu",
+          "name": "Gaziantep Doğu",
+          "lat": 37.07,
+          "lng": 37.38
+        },
+        {
+          "id": "gso-ni-zi-p",
+          "name": "Nizip",
+          "lat": 37.0939,
+          "lng": 37.7366
+        },
+        {
+          "id": "gso-bi-reci-k",
+          "name": "Birecik",
+          "lat": 37.065,
+          "lng": 38.0902
+        },
+        {
+          "id": "gso-suruc",
+          "name": "Suruç",
+          "lat": 37.124,
+          "lng": 38.4439
+        },
+        {
+          "id": "gso-sanliurfa",
+          "name": "Şanlıurfa",
+          "lat": 37.16,
+          "lng": 38.8
+        }
+      ]
+    }
+  },
+  "junctions": [
+    {
+      "stations": [
+        "o3-kinali",
+        "kmoav-kinali"
+      ],
+      "name": "Kınalı Kavşağı (O-3 / KMO-AV)"
+    },
+    {
+      "stations": [
+        "kmoan-kurnakoy-2",
+        "o4-kurtkoy"
+      ],
+      "name": "Kurtköy Kavşağı (KMO-AN / O-4)"
+    },
+    {
+      "stations": [
+        "kcy-kurnakoy",
+        "kmoan-kurnakoy-2"
+      ],
+      "name": "Kurnakoy Kavşağı (KCY / KMO-AN)"
+    },
+    {
+      "stations": [
+        "o4-akinci",
+        "o21-ankara-guney"
+      ],
+      "name": "Ankara Kavşağı (O-4 / O-21)"
+    },
+    {
+      "stations": [
+        "o4-akinci",
+        "ano-ankara-alin"
+      ],
+      "name": "Ankara Kavşağı (O-4 / ANO)"
+    },
+    {
+      "stations": [
+        "o21-ankara-guney",
+        "ano-ankara-alin"
+      ],
+      "name": "Ankara Güney (O-21 / ANO)"
+    },
+    {
+      "stations": [
+        "o21-konya",
+        "o31-konya-guney"
+      ],
+      "name": "Konya Kavşağı (O-21 / O-31)"
+    },
+    {
+      "stations": [
+        "ano-nigde-alin",
+        "o51-guney"
+      ],
+      "name": "Niğde Kavşağı (ANO / O-51)"
+    },
+    {
+      "stations": [
+        "o51-adana-bati-alin",
+        "o52-adana-dogu-alin"
+      ],
+      "name": "Adana Kavşağı (O-51 / O-52)"
+    },
+    {
+      "stations": [
+        "o52-gazi-antep-bati-alin",
+        "gso-gazi-antep-dogu"
+      ],
+      "name": "Gaziantep Kavşağı (O-52 / GSO)"
+    },
+    {
+      "stations": [
+        "o5-i-zmir",
+        "iza-isikkent"
+      ],
+      "name": "İzmir Kavşağı (O-5 / IZA)"
+    },
+    {
+      "stations": [
+        "o5-i-zmir",
+        "mac-menemen"
+      ],
+      "name": "İzmir-Menemen (O-5 / MAC)"
+    },
+    {
+      "stations": [
+        "iza-isikkent",
+        "izc-seferi-hi-sar"
+      ],
+      "name": "İzmir Kavşağı (IZA / IZC)"
+    },
+    {
+      "stations": [
+        "iza-aydin-bati",
+        "ado-aydin-alin"
+      ],
+      "name": "Aydın Kavşağı (IZA / ADO)"
+    },
+    {
+      "stations": [
+        "o3-kinali",
+        "mco-malkara-g-1"
+      ],
+      "name": "Kınalı-Malkara (O-3 / MCO)"
+    }
+  ],
+  "crossings": [
+    {
+      "from": "kmoav-yassioren",
+      "to": "kmoan-kurnakoy-2",
+      "fixedTollId": "yavuz-sultan-selim-koprusu",
+      "name": "Yavuz Sultan Selim Köprüsü"
+    },
+    {
+      "from": "o4-gebze",
+      "to": "o5-osmangazi-koprusu-i-zmir-yonu-bursa-bati",
+      "fixedTollId": "osmangazi-koprusu",
+      "name": "Osmangazi Köprüsü"
+    },
+    {
+      "from": "mco-kuzey-g-3-guney-g-4-koprusu-g-5",
+      "to": "o5-kirkagac",
+      "fixedTollId": "1915-canakkale-koprusu",
+      "name": "1915 Çanakkale Köprüsü"
+    },
+    {
+      "from": "o3-mahmutbey",
+      "to": "o4-anadolu-camlica",
+      "fixedTollId": "15-temmuz-fsm-koprusu",
+      "name": "15 Temmuz Şehitler Köprüsü (FSM)"
+    }
+  ]
+}

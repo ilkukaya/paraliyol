@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import type { VehicleClass } from "@/types";
 import { getLocations, getLocationById } from "@/lib/data-loader";
-import { findPopularRoute, getTotalPrice } from "@/lib/toll-calculator";
+import { calculateRoute, getTotalPrice } from "@/lib/toll-calculator";
 import { generatePageMetadata } from "@/lib/seo";
 import { formatCurrency } from "@/lib/format";
 import CostSummaryCard from "@/components/CostSummaryCard";
@@ -63,7 +63,7 @@ function ResultContent({
     );
   }
 
-  const route = findPopularRoute(fromId, toId);
+  const route = calculateRoute(fromId, toId);
   const tolls = route?.tolls || [];
   const totalPrice = route ? getTotalPrice(tolls, vehicleClass) : 0;
   const totalDistanceKm = route?.totalDistanceKm || 0;
@@ -75,12 +75,12 @@ function ResultContent({
   // All vehicle class prices for comparison
   const allClassPrices: { class: VehicleClass; label: string; price: number }[] =
     [
-      { class: "1", label: "Otomobil", price: route ? getTotalPrice(tolls, "1") : 0 },
-      { class: "2", label: "Minibüs", price: route ? getTotalPrice(tolls, "2") : 0 },
-      { class: "3", label: "Otobüs/Kamyon", price: route ? getTotalPrice(tolls, "3") : 0 },
-      { class: "4", label: "Ağır Kamyon", price: route ? getTotalPrice(tolls, "4") : 0 },
-      { class: "5", label: "Çok Ağır Kamyon", price: route ? getTotalPrice(tolls, "5") : 0 },
-      { class: "moto", label: "Motosiklet", price: route ? getTotalPrice(tolls, "moto") : 0 },
+      { class: "1", label: "Otomobil", price: getTotalPrice(tolls, "1") },
+      { class: "2", label: "Minibüs", price: getTotalPrice(tolls, "2") },
+      { class: "3", label: "Otobüs/Kamyon", price: getTotalPrice(tolls, "3") },
+      { class: "4", label: "Ağır Kamyon", price: getTotalPrice(tolls, "4") },
+      { class: "5", label: "Çok Ağır Kamyon", price: getTotalPrice(tolls, "5") },
+      { class: "moto", label: "Motosiklet", price: getTotalPrice(tolls, "moto") },
     ];
 
   return (
