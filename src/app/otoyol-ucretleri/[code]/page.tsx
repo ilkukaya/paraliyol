@@ -54,7 +54,8 @@ export default async function HighwayPage({ params }: Props) {
       <Breadcrumbs items={[{ name: "Otoyol ücretleri", href: "/otoyol-ucretleri" }, { name: hw.shortName ?? hw.name, href: `/otoyol-ucretleri/${code}` }]} />
       <header className="road-sign mb-6 px-6 py-7 sm:px-9">
         <p className="inline-flex rounded-md bg-white px-2 py-0.5 text-sm font-extrabold text-sign-700">{hw.code}</p>
-        <h1 className="font-display mt-3 text-3xl font-extrabold sm:text-4xl">{hw.name} ücretleri 2026</h1>
+        <h1 className="font-display mt-3 text-3xl font-extrabold sm:text-4xl">{hw.shortName ?? hw.name} ücretleri 2026</h1>
+        {hw.shortName && hw.shortName !== hw.name && <p className="mt-2 font-semibold text-sign-100">{hw.name}</p>}
         <p className="mt-2 text-sign-50">
           {hw.stations.length} gişe · {trDate(hw.validFrom)} tarihinden itibaren geçerli tarife{hw.operator ? ` · İşletmeci: ${hw.operator}` : ""}
         </p>

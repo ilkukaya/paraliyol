@@ -39,7 +39,7 @@ export default function RouteSearchForm({
   };
 
   return (
-    <form onSubmit={submit} className="card p-4 sm:p-6" aria-label="Geçiş ücreti hesapla">
+    <form onSubmit={submit} className="card p-4 text-[var(--fg)] sm:p-6" aria-label="Geçiş ücreti hesapla">
       <div className="relative grid gap-3 md:grid-cols-[1fr_auto_1fr] md:items-end">
         <LocationCombobox label="Nereden" placeholder="Şehir veya ilçe" locations={locations} value={from} onChange={setFrom} exclude={to} icon={<Pin />} />
         <button

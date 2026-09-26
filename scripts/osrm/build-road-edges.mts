@@ -6,7 +6,7 @@
  * - highway links, city access roads and junction links are measured as-is
  *
  * Runs in GitHub Actions (see .github/workflows/road-edges.yml).
- *   npx tsx scripts/osrm/build-road-edges.ts [--base https://router.project-osrm.org]
+ *   npx tsx scripts/osrm/build-road-edges.mts [--base https://router.project-osrm.org]
  */
 import { writeFileSync } from "node:fs";
 import { RoadNetwork } from "../../src/lib/engine/network";
@@ -44,6 +44,7 @@ const out: Record<string, [number, number]> = {};
 let done = 0;
 let failed = 0;
 console.log(`${jobs.size} edges in ${groups.size} requests`);
+if (process.argv.includes("--dry")) process.exit(0);
 
 for (const g of groups.values()) {
   for (let start = 0; start < g.dsts.length; start += 90) {

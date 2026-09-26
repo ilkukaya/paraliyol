@@ -10,7 +10,7 @@ Next.js 16 (App Router) + Tailwind CSS 4, Netlify'da yayınlanır.
 | Resmi tarifeler (otoyol matrisleri, köprüler) | `data/tolls/*.json` — KGM PDF'lerinden üretilir |
 | PDF ayrıştırıcıları ve senkronizasyon | `scripts/kgm/` (`npm run sync-tolls`, `npm run check-tolls`) |
 | İl / ilçe listesi | `scripts/data/locations.src.tsv` → `npm run build-locations` → `data/locations.json` |
-| Gerçek yol mesafeleri (OSM/OSRM) | `data/road-edges.json` — `scripts/osrm/build-road-edges.ts` |
+| Gerçek yol mesafeleri (OSM/OSRM) | `data/road-edges.json` — `scripts/osrm/build-road-edges.mts` |
 | Rota motoru (Dijkstra, köprü kısıtları, ücret hesabı) | `src/lib/engine/` |
 | Motor testleri | `tests/engine.test.ts` (`npm test`) |
 
