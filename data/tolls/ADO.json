@@ -1,1101 +1,1101 @@
 {
-  "code": "ADO",
-  "name": "Aydın-Denizli Otoyolu",
-  "shortName": "Aydın-Denizli Otoyolu",
-  "operator": "Fernas Otoyol İşletmesi A.Ş. (YİD)",
-  "source": "19-Aydin-Denizli.pdf",
-  "validFrom": "2026-01-01",
-  "rules": [
-    "Ücretlere KDV dahildir.",
-    "Giriş bilgisi bulunamaması halinde; en uzak mesafe ücreti uygulanır.",
-    "Ücretler 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
-    "Satırlar giriş gişeleri, sütunlar çıkış gişeleridir. Tablo renk açıklamaları: \"En Yüksek Ücret\", \"En Uzak Mesafe (Aynı GKM U Dönüşü)\", \"En Uzak Mesafe (Farklı GKM U Dönüşü)\".",
-    "Aynı gişede U dönüşü (köşegen) en uzak mesafe ücretidir; matrise dahil edilmemiştir.",
-    "Kumkısık-A ile Kumkısık-B arasındaki geçiş \"farklı GKM U dönüşü\" sayılır ve en uzak mesafe ücreti alınır (Sınıf 1: 400 TL). Batı yönündeki gişelerden Kumkısık-B'ye, Kumkısık-B'den batı gişelerine ve Kumkısık-A'dan doğu gişelerine (Pamukkale, Kocabaş) geçişlerde de U dönüşü/en uzak mesafe kuralı uygulanır."
+ "code": "ADO",
+ "name": "Aydın-Denizli Otoyolu",
+ "shortName": "Aydın-Denizli Otoyolu",
+ "operator": "Fernas Otoyol İşletmesi A.Ş. (YİD)",
+ "source": "19-Aydin-Denizli.pdf",
+ "validFrom": "2026-07-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "Giriş bilgisi bulunamaması halinde; en uzak mesafe ücreti uygulanır.",
+  "Ücretler 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Satırlar giriş gişeleri, sütunlar çıkış gişeleridir. Tablo renk açıklamaları: \"En Yüksek Ücret\", \"En Uzak Mesafe (Aynı GKM U Dönüşü)\", \"En Uzak Mesafe (Farklı GKM U Dönüşü)\".",
+  "Aynı gişede U dönüşü (köşegen) en uzak mesafe ücretidir; matrise dahil edilmemiştir.",
+  "Kumkısık-A ile Kumkısık-B arasındaki geçiş \"farklı GKM U dönüşü\" sayılır ve en uzak mesafe ücreti alınır (Sınıf 1: 400 TL). Batı yönündeki gişelerden Kumkısık-B'ye, Kumkısık-B'den batı gişelerine ve Kumkısık-A'dan doğu gişelerine (Pamukkale, Kocabaş) geçişlerde de U dönüşü/en uzak mesafe kuralı uygulanır."
+ ],
+ "stations": [
+  {
+   "id": "ado-aydin-alin",
+   "name": "Aydın (Alın)",
+   "pdfName": "AYDIN ALIN",
+   "lat": 37.86,
+   "lng": 27.895,
+   "coord": "low"
+  },
+  {
+   "id": "ado-kosk",
+   "name": "Köşk",
+   "pdfName": "KÖŞK",
+   "lat": 37.845,
+   "lng": 28.055,
+   "coord": "low"
+  },
+  {
+   "id": "ado-yenipazar",
+   "name": "Yenipazar",
+   "pdfName": "YENİ PAZAR",
+   "lat": 37.815,
+   "lng": 28.195,
+   "coord": "low"
+  },
+  {
+   "id": "ado-nazilli",
+   "name": "Nazilli",
+   "pdfName": "NAZİLLİ",
+   "lat": 37.885,
+   "lng": 28.33,
+   "coord": "low"
+  },
+  {
+   "id": "ado-kuyucak",
+   "name": "Kuyucak",
+   "pdfName": "KUYUCAK",
+   "lat": 37.898,
+   "lng": 28.46,
+   "coord": "low"
+  },
+  {
+   "id": "ado-buharkent",
+   "name": "Buharkent",
+   "pdfName": "BUHARKENT",
+   "lat": 37.95,
+   "lng": 28.74,
+   "coord": "low"
+  },
+  {
+   "id": "ado-saraykoy",
+   "name": "Sarayköy",
+   "pdfName": "SARAYKÖY",
+   "lat": 37.905,
+   "lng": 28.92,
+   "coord": "low"
+  },
+  {
+   "id": "ado-kumkisik-a",
+   "name": "Kumkısık-A",
+   "pdfName": "KUMKISIK-A",
+   "lat": 37.852,
+   "lng": 28.995,
+   "coord": "low"
+  },
+  {
+   "id": "ado-kumkisik-b",
+   "name": "Kumkısık-B",
+   "pdfName": "KUMKISIK-B",
+   "lat": 37.853,
+   "lng": 29,
+   "coord": "low"
+  },
+  {
+   "id": "ado-pamukkale",
+   "name": "Pamukkale",
+   "pdfName": "PAMUKKALE",
+   "lat": 37.85,
+   "lng": 29.13,
+   "coord": "low"
+  },
+  {
+   "id": "ado-kocabas",
+   "name": "Kocabaş",
+   "pdfName": "KOCABAŞ",
+   "lat": 37.825,
+   "lng": 29.355,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "ado-aydin-alin",
+   "ado-kosk"
   ],
-  "stations": [
-    {
-      "id": "ado-aydin-alin",
-      "name": "Aydın (Alın)",
-      "pdfName": "AYDIN ALIN",
-      "lat": 37.86,
-      "lng": 27.895,
-      "coord": "low"
-    },
-    {
-      "id": "ado-kosk",
-      "name": "Köşk",
-      "pdfName": "KÖŞK",
-      "lat": 37.845,
-      "lng": 28.055,
-      "coord": "low"
-    },
-    {
-      "id": "ado-yenipazar",
-      "name": "Yenipazar",
-      "pdfName": "YENİ PAZAR",
-      "lat": 37.815,
-      "lng": 28.195,
-      "coord": "low"
-    },
-    {
-      "id": "ado-nazilli",
-      "name": "Nazilli",
-      "pdfName": "NAZİLLİ",
-      "lat": 37.885,
-      "lng": 28.33,
-      "coord": "low"
-    },
-    {
-      "id": "ado-kuyucak",
-      "name": "Kuyucak",
-      "pdfName": "KUYUCAK",
-      "lat": 37.898,
-      "lng": 28.46,
-      "coord": "low"
-    },
-    {
-      "id": "ado-buharkent",
-      "name": "Buharkent",
-      "pdfName": "BUHARKENT",
-      "lat": 37.95,
-      "lng": 28.74,
-      "coord": "low"
-    },
-    {
-      "id": "ado-saraykoy",
-      "name": "Sarayköy",
-      "pdfName": "SARAYKÖY",
-      "lat": 37.905,
-      "lng": 28.92,
-      "coord": "low"
-    },
-    {
-      "id": "ado-kumkisik-a",
-      "name": "Kumkısık-A",
-      "pdfName": "KUMKISIK-A",
-      "lat": 37.852,
-      "lng": 28.995,
-      "coord": "low"
-    },
-    {
-      "id": "ado-kumkisik-b",
-      "name": "Kumkısık-B",
-      "pdfName": "KUMKISIK-B",
-      "lat": 37.853,
-      "lng": 29,
-      "coord": "low"
-    },
-    {
-      "id": "ado-pamukkale",
-      "name": "Pamukkale",
-      "pdfName": "PAMUKKALE",
-      "lat": 37.85,
-      "lng": 29.13,
-      "coord": "low"
-    },
-    {
-      "id": "ado-kocabas",
-      "name": "Kocabaş",
-      "pdfName": "KOCABAŞ",
-      "lat": 37.825,
-      "lng": 29.355,
-      "coord": "low"
-    }
+  [
+   "ado-kosk",
+   "ado-yenipazar"
   ],
-  "roads": [
-    [
-      "ado-aydin-alin",
-      "ado-kosk"
-    ],
-    [
-      "ado-kosk",
-      "ado-yenipazar"
-    ],
-    [
-      "ado-yenipazar",
-      "ado-nazilli"
-    ],
-    [
-      "ado-nazilli",
-      "ado-kuyucak"
-    ],
-    [
-      "ado-kuyucak",
-      "ado-buharkent"
-    ],
-    [
-      "ado-buharkent",
-      "ado-saraykoy"
-    ],
-    [
-      "ado-saraykoy",
-      "ado-kumkisik-a"
-    ],
-    [
-      "ado-kumkisik-a",
-      "ado-kumkisik-b"
-    ],
-    [
-      "ado-kumkisik-b",
-      "ado-pamukkale"
-    ],
-    [
-      "ado-pamukkale",
-      "ado-kocabas"
-    ]
+  [
+   "ado-yenipazar",
+   "ado-nazilli"
   ],
-  "sections": [
-    {
-      "id": "ado-main",
-      "name": "Aydın - Kocabaş (Denizli)",
-      "stations": [
-        "ado-aydin-alin",
-        "ado-kosk",
-        "ado-yenipazar",
-        "ado-nazilli",
-        "ado-kuyucak",
-        "ado-buharkent",
-        "ado-saraykoy",
-        "ado-kumkisik-a",
-        "ado-kumkisik-b",
-        "ado-pamukkale",
-        "ado-kocabas"
-      ],
-      "prices": {
-        "ado-aydin-alin": {
-          "ado-kosk": [
-            75,
-            95,
-            115,
-            130,
-            150,
-            15
-          ],
-          "ado-yenipazar": [
-            130,
-            170,
-            200,
-            240,
-            270,
-            25
-          ],
-          "ado-nazilli": [
-            165,
-            205,
-            245,
-            295,
-            325,
-            30
-          ],
-          "ado-kuyucak": [
-            225,
-            280,
-            340,
-            400,
-            450,
-            45
-          ],
-          "ado-buharkent": [
-            300,
-            375,
-            460,
-            545,
-            610,
-            65
-          ],
-          "ado-saraykoy": [
-            375,
-            470,
-            565,
-            680,
-            755,
-            75
-          ],
-          "ado-kumkisik-a": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            445,
-            560,
-            670,
-            805,
-            895,
-            90
-          ],
-          "ado-kocabas": [
-            500,
-            635,
-            760,
-            910,
-            1010,
-            100
-          ]
-        },
-        "ado-kosk": {
-          "ado-aydin-alin": [
-            75,
-            95,
-            115,
-            130,
-            150,
-            15
-          ],
-          "ado-yenipazar": [
-            80,
-            100,
-            120,
-            145,
-            155,
-            20
-          ],
-          "ado-nazilli": [
-            105,
-            140,
-            165,
-            195,
-            220,
-            20
-          ],
-          "ado-kuyucak": [
-            170,
-            215,
-            255,
-            305,
-            340,
-            30
-          ],
-          "ado-buharkent": [
-            250,
-            315,
-            370,
-            445,
-            495,
-            50
-          ],
-          "ado-saraykoy": [
-            320,
-            400,
-            485,
-            585,
-            645,
-            65
-          ],
-          "ado-kumkisik-a": [
-            345,
-            435,
-            520,
-            620,
-            690,
-            70
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            395,
-            490,
-            590,
-            710,
-            785,
-            80
-          ],
-          "ado-kocabas": [
-            450,
-            565,
-            680,
-            810,
-            895,
-            90
-          ]
-        },
-        "ado-yenipazar": {
-          "ado-aydin-alin": [
-            130,
-            170,
-            200,
-            240,
-            270,
-            25
-          ],
-          "ado-kosk": [
-            80,
-            100,
-            120,
-            145,
-            155,
-            20
-          ],
-          "ado-nazilli": [
-            65,
-            75,
-            90,
-            105,
-            120,
-            15
-          ],
-          "ado-kuyucak": [
-            120,
-            150,
-            180,
-            220,
-            245,
-            25
-          ],
-          "ado-buharkent": [
-            200,
-            250,
-            300,
-            360,
-            400,
-            40
-          ],
-          "ado-saraykoy": [
-            275,
-            345,
-            410,
-            495,
-            545,
-            55
-          ],
-          "ado-kumkisik-a": [
-            295,
-            370,
-            445,
-            535,
-            595,
-            55
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            345,
-            425,
-            515,
-            620,
-            690,
-            70
-          ],
-          "ado-kocabas": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ]
-        },
-        "ado-nazilli": {
-          "ado-aydin-alin": [
-            165,
-            205,
-            245,
-            295,
-            325,
-            30
-          ],
-          "ado-kosk": [
-            105,
-            140,
-            165,
-            195,
-            220,
-            20
-          ],
-          "ado-yenipazar": [
-            65,
-            75,
-            90,
-            105,
-            120,
-            15
-          ],
-          "ado-kuyucak": [
-            75,
-            95,
-            115,
-            140,
-            150,
-            15
-          ],
-          "ado-buharkent": [
-            155,
-            195,
-            230,
-            275,
-            305,
-            30
-          ],
-          "ado-saraykoy": [
-            225,
-            290,
-            345,
-            415,
-            460,
-            45
-          ],
-          "ado-kumkisik-a": [
-            250,
-            315,
-            375,
-            450,
-            500,
-            50
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            300,
-            375,
-            445,
-            540,
-            595,
-            65
-          ],
-          "ado-kocabas": [
-            360,
-            445,
-            535,
-            640,
-            715,
-            70
-          ]
-        },
-        "ado-kuyucak": {
-          "ado-aydin-alin": [
-            225,
-            280,
-            340,
-            400,
-            450,
-            45
-          ],
-          "ado-kosk": [
-            170,
-            215,
-            255,
-            305,
-            340,
-            30
-          ],
-          "ado-yenipazar": [
-            120,
-            150,
-            180,
-            220,
-            245,
-            25
-          ],
-          "ado-nazilli": [
-            75,
-            95,
-            115,
-            140,
-            150,
-            15
-          ],
-          "ado-buharkent": [
-            95,
-            120,
-            140,
-            170,
-            190,
-            20
-          ],
-          "ado-saraykoy": [
-            170,
-            205,
-            250,
-            300,
-            340,
-            30
-          ],
-          "ado-kumkisik-a": [
-            190,
-            240,
-            290,
-            345,
-            385,
-            40
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            240,
-            295,
-            360,
-            425,
-            475,
-            50
-          ],
-          "ado-kocabas": [
-            295,
-            370,
-            445,
-            535,
-            590,
-            55
-          ]
-        },
-        "ado-buharkent": {
-          "ado-aydin-alin": [
-            300,
-            375,
-            460,
-            545,
-            610,
-            65
-          ],
-          "ado-kosk": [
-            250,
-            315,
-            370,
-            445,
-            495,
-            50
-          ],
-          "ado-yenipazar": [
-            200,
-            250,
-            300,
-            360,
-            400,
-            40
-          ],
-          "ado-nazilli": [
-            155,
-            195,
-            230,
-            275,
-            305,
-            30
-          ],
-          "ado-kuyucak": [
-            95,
-            120,
-            140,
-            170,
-            190,
-            20
-          ],
-          "ado-saraykoy": [
-            90,
-            105,
-            130,
-            155,
-            175,
-            20
-          ],
-          "ado-kumkisik-a": [
-            115,
-            140,
-            165,
-            200,
-            220,
-            25
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            155,
-            195,
-            240,
-            280,
-            315,
-            30
-          ],
-          "ado-kocabas": [
-            215,
-            270,
-            320,
-            390,
-            425,
-            45
-          ]
-        },
-        "ado-saraykoy": {
-          "ado-aydin-alin": [
-            375,
-            470,
-            565,
-            680,
-            755,
-            75
-          ],
-          "ado-kosk": [
-            320,
-            400,
-            485,
-            585,
-            645,
-            65
-          ],
-          "ado-yenipazar": [
-            275,
-            345,
-            410,
-            495,
-            545,
-            55
-          ],
-          "ado-nazilli": [
-            225,
-            290,
-            345,
-            415,
-            460,
-            45
-          ],
-          "ado-kuyucak": [
-            170,
-            205,
-            250,
-            300,
-            340,
-            30
-          ],
-          "ado-buharkent": [
-            90,
-            105,
-            130,
-            155,
-            175,
-            20
-          ],
-          "ado-kumkisik-a": [
-            40,
-            45,
-            55,
-            65,
-            75,
-            5
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            80,
-            105,
-            125,
-            150,
-            170,
-            20
-          ],
-          "ado-kocabas": [
-            140,
-            175,
-            215,
-            250,
-            280,
-            25
-          ]
-        },
-        "ado-kumkisik-a": {
-          "ado-aydin-alin": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-kosk": [
-            345,
-            435,
-            520,
-            620,
-            690,
-            70
-          ],
-          "ado-yenipazar": [
-            295,
-            370,
-            445,
-            535,
-            595,
-            55
-          ],
-          "ado-nazilli": [
-            250,
-            315,
-            375,
-            450,
-            500,
-            50
-          ],
-          "ado-kuyucak": [
-            190,
-            240,
-            290,
-            345,
-            385,
-            40
-          ],
-          "ado-buharkent": [
-            115,
-            140,
-            165,
-            200,
-            220,
-            25
-          ],
-          "ado-saraykoy": [
-            40,
-            45,
-            55,
-            65,
-            75,
-            5
-          ],
-          "ado-kumkisik-b": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            445,
-            560,
-            670,
-            805,
-            895,
-            90
-          ],
-          "ado-kocabas": [
-            500,
-            635,
-            760,
-            910,
-            1010,
-            100
-          ]
-        },
-        "ado-kumkisik-b": {
-          "ado-aydin-alin": [
-            500,
-            635,
-            760,
-            910,
-            1010,
-            100
-          ],
-          "ado-kosk": [
-            450,
-            565,
-            680,
-            810,
-            895,
-            90
-          ],
-          "ado-yenipazar": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-nazilli": [
-            360,
-            445,
-            535,
-            640,
-            715,
-            70
-          ],
-          "ado-kuyucak": [
-            295,
-            370,
-            445,
-            535,
-            590,
-            55
-          ],
-          "ado-buharkent": [
-            300,
-            375,
-            460,
-            545,
-            610,
-            65
-          ],
-          "ado-saraykoy": [
-            375,
-            470,
-            565,
-            680,
-            755,
-            75
-          ],
-          "ado-kumkisik-a": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-pamukkale": [
-            65,
-            75,
-            90,
-            105,
-            120,
-            15
-          ],
-          "ado-kocabas": [
-            120,
-            145,
-            175,
-            215,
-            230,
-            25
-          ]
-        },
-        "ado-pamukkale": {
-          "ado-aydin-alin": [
-            445,
-            560,
-            670,
-            805,
-            895,
-            90
-          ],
-          "ado-kosk": [
-            395,
-            490,
-            590,
-            710,
-            785,
-            80
-          ],
-          "ado-yenipazar": [
-            345,
-            425,
-            515,
-            620,
-            690,
-            70
-          ],
-          "ado-nazilli": [
-            300,
-            375,
-            445,
-            540,
-            595,
-            65
-          ],
-          "ado-kuyucak": [
-            240,
-            295,
-            360,
-            425,
-            475,
-            50
-          ],
-          "ado-buharkent": [
-            155,
-            195,
-            240,
-            280,
-            315,
-            30
-          ],
-          "ado-saraykoy": [
-            80,
-            105,
-            125,
-            150,
-            170,
-            20
-          ],
-          "ado-kumkisik-a": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-kumkisik-b": [
-            65,
-            75,
-            90,
-            105,
-            120,
-            15
-          ],
-          "ado-kocabas": [
-            70,
-            90,
-            105,
-            130,
-            145,
-            15
-          ]
-        },
-        "ado-kocabas": {
-          "ado-aydin-alin": [
-            500,
-            635,
-            760,
-            910,
-            1010,
-            100
-          ],
-          "ado-kosk": [
-            450,
-            565,
-            680,
-            810,
-            895,
-            90
-          ],
-          "ado-yenipazar": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-nazilli": [
-            360,
-            445,
-            535,
-            640,
-            715,
-            70
-          ],
-          "ado-kuyucak": [
-            295,
-            370,
-            445,
-            535,
-            590,
-            55
-          ],
-          "ado-buharkent": [
-            215,
-            270,
-            320,
-            390,
-            425,
-            45
-          ],
-          "ado-saraykoy": [
-            140,
-            175,
-            215,
-            250,
-            280,
-            25
-          ],
-          "ado-kumkisik-a": [
-            400,
-            500,
-            600,
-            720,
-            805,
-            80
-          ],
-          "ado-kumkisik-b": [
-            120,
-            145,
-            175,
-            215,
-            230,
-            25
-          ],
-          "ado-pamukkale": [
-            70,
-            90,
-            105,
-            130,
-            145,
-            15
-          ]
-        }
-      }
-    }
+  [
+   "ado-nazilli",
+   "ado-kuyucak"
   ],
-  "connections": [
-    {
-      "station": "ado-aydin-alin",
-      "to": "Aydın Çevre Yolu → İzmir-Aydın Otoyolu (IZA, Aydın Batı)",
-      "note": "Otoyol Aydın Çevre Yolu Otoyol Ayrım Kavşağından başlar; IZA ile arasında ücretsiz Aydın Çevre Yolu vardır. İki ayrı kapalı sistem."
-    },
-    {
-      "station": "ado-kumkisik-a",
-      "to": "Denizli şehir bağlantısı / D320 (batıdan gelenler için)",
-      "note": "Kumkısık-A batı (Aydın) yönündeki gişelerle normal ücretli; Denizli merkeze iniş için kullanılır."
-    },
-    {
-      "station": "ado-kumkisik-b",
-      "to": "Denizli şehir bağlantısı / D320 (doğu kesimi için)",
-      "note": "Kumkısık-B yalnızca Pamukkale ve Kocabaş ile normal ücretli."
-    },
-    {
-      "station": "ado-kocabas",
-      "to": "D320 Denizli-Afyonkarahisar / Çardak yönü",
-      "note": "Otoyolun doğu ucu (Çeltikçi-Korucuk-Kocadere güzergâhı ile Denizli kuzeyinden dolaşır)."
-    }
+  [
+   "ado-kuyucak",
+   "ado-buharkent"
   ],
-  "verification": [
-    "11×11 tam matris (satır=giriş, sütun=çıkış), her satır 11 ₺ değeri içerdiği için sütun eşlemesi belirsiz değil; \"1.010,00\" binlik ayırıcı doğru çözüldü.",
-    "Yönlü asimetri: 16 / 110 çift. Asimetriler yalnızca Kumkısık-A/B ile ilgili (ör. Aydın→Kumkısık-B 400 TL, Kumkısık-B→Aydın 500 TL) — PDF'deki gibi korunmuştur.",
-    "Sınıf monotonluk (1≤2≤3≤4≤5) ihlali: 0.",
-    "Sıra kontrolü: Aydın Alın satırı çıkışlara doğru artan (75,130,165,225,300,375,400,[400],445,500); Kocabaş satırı ters yönde artan. Kumkısık-A batı gişeleriyle, Kumkısık-B doğu gişeleriyle normal ücret veriyor → Kumkısık aynı bölgede iki yarım gişe; \"roads\" içinde Sarayköy–Kumkısık-A–Kumkısık-B–Pamukkale zinciri olarak modellendi (A–B kenarı fiziksel olarak aynı kavşak bölgesi).",
-    "Aydın→Kocabaş (en uzak) sınıf 1 = 500 TL = köşegen Aydın U dönüşü ile tutarlı.",
-    "Koordinatlar yalnızca coğrafi bilgiye dayalı tahmindir (düşük güven); özellikle Aydın Alın, Kumkısık ve Pamukkale kavşakları harita ile doğrulanmalı."
+  [
+   "ado-buharkent",
+   "ado-saraykoy"
+  ],
+  [
+   "ado-saraykoy",
+   "ado-kumkisik-a"
+  ],
+  [
+   "ado-kumkisik-a",
+   "ado-kumkisik-b"
+  ],
+  [
+   "ado-kumkisik-b",
+   "ado-pamukkale"
+  ],
+  [
+   "ado-pamukkale",
+   "ado-kocabas"
   ]
+ ],
+ "sections": [
+  {
+   "id": "ado-main",
+   "name": "Aydın - Kocabaş (Denizli)",
+   "stations": [
+    "ado-aydin-alin",
+    "ado-kosk",
+    "ado-yenipazar",
+    "ado-nazilli",
+    "ado-kuyucak",
+    "ado-buharkent",
+    "ado-saraykoy",
+    "ado-kumkisik-a",
+    "ado-kumkisik-b",
+    "ado-pamukkale",
+    "ado-kocabas"
+   ],
+   "prices": {
+    "ado-aydin-alin": {
+     "ado-kosk": [
+      90,
+      110,
+      135,
+      155,
+      175,
+      20
+     ],
+     "ado-yenipazar": [
+      155,
+      200,
+      235,
+      280,
+      315,
+      30
+     ],
+     "ado-nazilli": [
+      195,
+      240,
+      290,
+      345,
+      380,
+      35
+     ],
+     "ado-kuyucak": [
+      265,
+      330,
+      400,
+      470,
+      530,
+      55
+     ],
+     "ado-buharkent": [
+      355,
+      440,
+      540,
+      640,
+      715,
+      75
+     ],
+     "ado-saraykoy": [
+      440,
+      550,
+      665,
+      800,
+      885,
+      90
+     ],
+     "ado-kumkisik-a": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      525,
+      660,
+      785,
+      945,
+      1050,
+      105
+     ],
+     "ado-kocabas": [
+      590,
+      745,
+      895,
+      1070,
+      1185,
+      120
+     ]
+    },
+    "ado-kosk": {
+     "ado-aydin-alin": [
+      90,
+      110,
+      135,
+      155,
+      175,
+      20
+     ],
+     "ado-yenipazar": [
+      95,
+      120,
+      140,
+      170,
+      180,
+      25
+     ],
+     "ado-nazilli": [
+      125,
+      165,
+      195,
+      230,
+      260,
+      25
+     ],
+     "ado-kuyucak": [
+      200,
+      255,
+      300,
+      360,
+      400,
+      35
+     ],
+     "ado-buharkent": [
+      295,
+      370,
+      435,
+      525,
+      580,
+      60
+     ],
+     "ado-saraykoy": [
+      375,
+      470,
+      570,
+      685,
+      760,
+      75
+     ],
+     "ado-kumkisik-a": [
+      405,
+      510,
+      610,
+      730,
+      810,
+      80
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      465,
+      575,
+      695,
+      835,
+      920,
+      95
+     ],
+     "ado-kocabas": [
+      530,
+      665,
+      800,
+      950,
+      1050,
+      105
+     ]
+    },
+    "ado-yenipazar": {
+     "ado-aydin-alin": [
+      155,
+      200,
+      235,
+      280,
+      315,
+      30
+     ],
+     "ado-kosk": [
+      95,
+      120,
+      140,
+      170,
+      180,
+      25
+     ],
+     "ado-nazilli": [
+      75,
+      90,
+      105,
+      125,
+      140,
+      20
+     ],
+     "ado-kuyucak": [
+      140,
+      175,
+      210,
+      260,
+      290,
+      30
+     ],
+     "ado-buharkent": [
+      235,
+      295,
+      355,
+      425,
+      470,
+      45
+     ],
+     "ado-saraykoy": [
+      325,
+      405,
+      480,
+      580,
+      640,
+      65
+     ],
+     "ado-kumkisik-a": [
+      345,
+      435,
+      525,
+      630,
+      700,
+      65
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      405,
+      500,
+      605,
+      730,
+      810,
+      80
+     ],
+     "ado-kocabas": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ]
+    },
+    "ado-nazilli": {
+     "ado-aydin-alin": [
+      195,
+      240,
+      290,
+      345,
+      380,
+      35
+     ],
+     "ado-kosk": [
+      125,
+      165,
+      195,
+      230,
+      260,
+      25
+     ],
+     "ado-yenipazar": [
+      75,
+      90,
+      105,
+      125,
+      140,
+      20
+     ],
+     "ado-kuyucak": [
+      90,
+      110,
+      135,
+      165,
+      175,
+      20
+     ],
+     "ado-buharkent": [
+      180,
+      230,
+      270,
+      325,
+      360,
+      35
+     ],
+     "ado-saraykoy": [
+      265,
+      340,
+      405,
+      490,
+      540,
+      55
+     ],
+     "ado-kumkisik-a": [
+      295,
+      370,
+      440,
+      530,
+      590,
+      60
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      355,
+      440,
+      525,
+      635,
+      700,
+      75
+     ],
+     "ado-kocabas": [
+      425,
+      525,
+      630,
+      750,
+      840,
+      80
+     ]
+    },
+    "ado-kuyucak": {
+     "ado-aydin-alin": [
+      265,
+      330,
+      400,
+      470,
+      530,
+      55
+     ],
+     "ado-kosk": [
+      200,
+      255,
+      300,
+      360,
+      400,
+      35
+     ],
+     "ado-yenipazar": [
+      140,
+      175,
+      210,
+      260,
+      290,
+      30
+     ],
+     "ado-nazilli": [
+      90,
+      110,
+      135,
+      165,
+      175,
+      20
+     ],
+     "ado-buharkent": [
+      110,
+      140,
+      165,
+      200,
+      225,
+      25
+     ],
+     "ado-saraykoy": [
+      200,
+      240,
+      295,
+      355,
+      400,
+      35
+     ],
+     "ado-kumkisik-a": [
+      225,
+      280,
+      340,
+      405,
+      450,
+      45
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      280,
+      345,
+      425,
+      500,
+      560,
+      60
+     ],
+     "ado-kocabas": [
+      345,
+      435,
+      525,
+      630,
+      695,
+      65
+     ]
+    },
+    "ado-buharkent": {
+     "ado-aydin-alin": [
+      355,
+      440,
+      540,
+      640,
+      715,
+      75
+     ],
+     "ado-kosk": [
+      295,
+      370,
+      435,
+      525,
+      580,
+      60
+     ],
+     "ado-yenipazar": [
+      235,
+      295,
+      355,
+      425,
+      470,
+      45
+     ],
+     "ado-nazilli": [
+      180,
+      230,
+      270,
+      325,
+      360,
+      35
+     ],
+     "ado-kuyucak": [
+      110,
+      140,
+      165,
+      200,
+      225,
+      25
+     ],
+     "ado-saraykoy": [
+      105,
+      125,
+      155,
+      180,
+      205,
+      25
+     ],
+     "ado-kumkisik-a": [
+      135,
+      165,
+      195,
+      235,
+      260,
+      30
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      180,
+      230,
+      280,
+      330,
+      370,
+      35
+     ],
+     "ado-kocabas": [
+      255,
+      315,
+      375,
+      460,
+      500,
+      55
+     ]
+    },
+    "ado-saraykoy": {
+     "ado-aydin-alin": [
+      440,
+      550,
+      665,
+      800,
+      885,
+      90
+     ],
+     "ado-kosk": [
+      375,
+      470,
+      570,
+      685,
+      760,
+      75
+     ],
+     "ado-yenipazar": [
+      325,
+      405,
+      480,
+      580,
+      640,
+      65
+     ],
+     "ado-nazilli": [
+      265,
+      340,
+      405,
+      490,
+      540,
+      55
+     ],
+     "ado-kuyucak": [
+      200,
+      240,
+      295,
+      355,
+      400,
+      35
+     ],
+     "ado-buharkent": [
+      105,
+      125,
+      155,
+      180,
+      205,
+      25
+     ],
+     "ado-kumkisik-a": [
+      45,
+      55,
+      65,
+      75,
+      90,
+      5
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      95,
+      125,
+      145,
+      175,
+      200,
+      25
+     ],
+     "ado-kocabas": [
+      165,
+      205,
+      255,
+      295,
+      330,
+      30
+     ]
+    },
+    "ado-kumkisik-a": {
+     "ado-aydin-alin": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-kosk": [
+      405,
+      510,
+      610,
+      730,
+      810,
+      80
+     ],
+     "ado-yenipazar": [
+      345,
+      435,
+      525,
+      630,
+      700,
+      65
+     ],
+     "ado-nazilli": [
+      295,
+      370,
+      440,
+      530,
+      590,
+      60
+     ],
+     "ado-kuyucak": [
+      225,
+      280,
+      340,
+      405,
+      450,
+      45
+     ],
+     "ado-buharkent": [
+      135,
+      165,
+      195,
+      235,
+      260,
+      30
+     ],
+     "ado-saraykoy": [
+      45,
+      55,
+      65,
+      75,
+      90,
+      5
+     ],
+     "ado-kumkisik-b": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      525,
+      660,
+      785,
+      945,
+      1050,
+      105
+     ],
+     "ado-kocabas": [
+      590,
+      745,
+      895,
+      1070,
+      1185,
+      120
+     ]
+    },
+    "ado-kumkisik-b": {
+     "ado-aydin-alin": [
+      590,
+      745,
+      895,
+      1070,
+      1185,
+      120
+     ],
+     "ado-kosk": [
+      530,
+      665,
+      800,
+      950,
+      1050,
+      105
+     ],
+     "ado-yenipazar": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-nazilli": [
+      425,
+      525,
+      630,
+      750,
+      840,
+      80
+     ],
+     "ado-kuyucak": [
+      345,
+      435,
+      525,
+      630,
+      695,
+      65
+     ],
+     "ado-buharkent": [
+      355,
+      440,
+      540,
+      640,
+      715,
+      75
+     ],
+     "ado-saraykoy": [
+      440,
+      550,
+      665,
+      800,
+      885,
+      90
+     ],
+     "ado-kumkisik-a": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-pamukkale": [
+      75,
+      90,
+      105,
+      125,
+      140,
+      20
+     ],
+     "ado-kocabas": [
+      140,
+      170,
+      205,
+      255,
+      270,
+      30
+     ]
+    },
+    "ado-pamukkale": {
+     "ado-aydin-alin": [
+      525,
+      660,
+      785,
+      945,
+      1050,
+      105
+     ],
+     "ado-kosk": [
+      465,
+      575,
+      695,
+      835,
+      920,
+      95
+     ],
+     "ado-yenipazar": [
+      405,
+      500,
+      605,
+      730,
+      810,
+      80
+     ],
+     "ado-nazilli": [
+      355,
+      440,
+      525,
+      635,
+      700,
+      75
+     ],
+     "ado-kuyucak": [
+      280,
+      345,
+      425,
+      500,
+      560,
+      60
+     ],
+     "ado-buharkent": [
+      180,
+      230,
+      280,
+      330,
+      370,
+      35
+     ],
+     "ado-saraykoy": [
+      95,
+      125,
+      145,
+      175,
+      200,
+      25
+     ],
+     "ado-kumkisik-a": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-kumkisik-b": [
+      75,
+      90,
+      105,
+      125,
+      140,
+      20
+     ],
+     "ado-kocabas": [
+      80,
+      105,
+      125,
+      155,
+      170,
+      20
+     ]
+    },
+    "ado-kocabas": {
+     "ado-aydin-alin": [
+      590,
+      745,
+      895,
+      1070,
+      1185,
+      120
+     ],
+     "ado-kosk": [
+      530,
+      665,
+      800,
+      950,
+      1050,
+      105
+     ],
+     "ado-yenipazar": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-nazilli": [
+      425,
+      525,
+      630,
+      750,
+      840,
+      80
+     ],
+     "ado-kuyucak": [
+      345,
+      435,
+      525,
+      630,
+      695,
+      65
+     ],
+     "ado-buharkent": [
+      255,
+      315,
+      375,
+      460,
+      500,
+      55
+     ],
+     "ado-saraykoy": [
+      165,
+      205,
+      255,
+      295,
+      330,
+      30
+     ],
+     "ado-kumkisik-a": [
+      470,
+      590,
+      705,
+      845,
+      945,
+      95
+     ],
+     "ado-kumkisik-b": [
+      140,
+      170,
+      205,
+      255,
+      270,
+      30
+     ],
+     "ado-pamukkale": [
+      80,
+      105,
+      125,
+      155,
+      170,
+      20
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "ado-aydin-alin",
+   "to": "Aydın Çevre Yolu → İzmir-Aydın Otoyolu (IZA, Aydın Batı)",
+   "note": "Otoyol Aydın Çevre Yolu Otoyol Ayrım Kavşağından başlar; IZA ile arasında ücretsiz Aydın Çevre Yolu vardır. İki ayrı kapalı sistem."
+  },
+  {
+   "station": "ado-kumkisik-a",
+   "to": "Denizli şehir bağlantısı / D320 (batıdan gelenler için)",
+   "note": "Kumkısık-A batı (Aydın) yönündeki gişelerle normal ücretli; Denizli merkeze iniş için kullanılır."
+  },
+  {
+   "station": "ado-kumkisik-b",
+   "to": "Denizli şehir bağlantısı / D320 (doğu kesimi için)",
+   "note": "Kumkısık-B yalnızca Pamukkale ve Kocabaş ile normal ücretli."
+  },
+  {
+   "station": "ado-kocabas",
+   "to": "D320 Denizli-Afyonkarahisar / Çardak yönü",
+   "note": "Otoyolun doğu ucu (Çeltikçi-Korucuk-Kocadere güzergâhı ile Denizli kuzeyinden dolaşır)."
+  }
+ ],
+ "verification": [
+  "11×11 tam matris (satır=giriş, sütun=çıkış), her satır 11 ₺ değeri içerdiği için sütun eşlemesi belirsiz değil; \"1.010,00\" binlik ayırıcı doğru çözüldü.",
+  "Yönlü asimetri: 16 / 110 çift. Asimetriler yalnızca Kumkısık-A/B ile ilgili (ör. Aydın→Kumkısık-B 400 TL, Kumkısık-B→Aydın 500 TL) — PDF'deki gibi korunmuştur.",
+  "Sınıf monotonluk (1≤2≤3≤4≤5) ihlali: 0.",
+  "Sıra kontrolü: Aydın Alın satırı çıkışlara doğru artan (75,130,165,225,300,375,400,[400],445,500); Kocabaş satırı ters yönde artan. Kumkısık-A batı gişeleriyle, Kumkısık-B doğu gişeleriyle normal ücret veriyor → Kumkısık aynı bölgede iki yarım gişe; \"roads\" içinde Sarayköy–Kumkısık-A–Kumkısık-B–Pamukkale zinciri olarak modellendi (A–B kenarı fiziksel olarak aynı kavşak bölgesi).",
+  "Aydın→Kocabaş (en uzak) sınıf 1 = 500 TL = köşegen Aydın U dönüşü ile tutarlı.",
+  "Koordinatlar yalnızca coğrafi bilgiye dayalı tahmindir (düşük güven); özellikle Aydın Alın, Kumkısık ve Pamukkale kavşakları harita ile doğrulanmalı."
+ ]
 }

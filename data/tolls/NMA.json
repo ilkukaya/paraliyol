@@ -1,1876 +1,1876 @@
 {
-  "code": "NMA",
-  "name": "Çukurova Otoyolları (Niğde – Mersin – Adana Batı Kesimi)",
-  "shortName": "Niğde–Pozantı–Tarsus–Mersin/Adana Otoyolu",
-  "operator": "KGM",
-  "source": "10-CukurovaOtoyoluNigde-Mersin-Adana.pdf",
-  "validFrom": "2026-01-01",
-  "rules": [
-    "Ücretlere KDV dahildir.",
-    "01/01/2026 Saat 00:00'dan itibaren geçerlidir.",
-    "Tarife tek bir üçgen tablo olarak yayımlanmıştır: iki istasyon arasındaki ücret her iki yönde aynıdır.",
-    "Tablodaki köşegen (aynı istasyondan giriş-çıkış, U-dönüşü) ücretleri bu dosyada yer almaz.",
-    "Tabloda POZANTI (GÜNEY) için satır yoktur: Pozantı Güney yalnızca güney yönündeki istasyonlarla (Tekir … Mersin/Adana Batı) ücretlendirilir; Pozantı Kuzey ve Niğde tarafı istasyonlarıyla ücreti yoktur (yarım bağlantı)."
+ "code": "NMA",
+ "name": "Çukurova Otoyolları (Niğde – Mersin – Adana Batı Kesimi)",
+ "shortName": "Niğde–Pozantı–Tarsus–Mersin/Adana Otoyolu",
+ "operator": "KGM",
+ "source": "10-CukurovaOtoyoluNigde-Mersin-Adana.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "01/01/2026 Saat 00:00'dan itibaren geçerlidir.",
+  "Tarife tek bir üçgen tablo olarak yayımlanmıştır: iki istasyon arasındaki ücret her iki yönde aynıdır.",
+  "Tablodaki köşegen (aynı istasyondan giriş-çıkış, U-dönüşü) ücretleri bu dosyada yer almaz.",
+  "Tabloda POZANTI (GÜNEY) için satır yoktur: Pozantı Güney yalnızca güney yönündeki istasyonlarla (Tekir … Mersin/Adana Batı) ücretlendirilir; Pozantı Kuzey ve Niğde tarafı istasyonlarıyla ücreti yoktur (yarım bağlantı)."
+ ],
+ "stations": [
+  {
+   "id": "nma-golcuk",
+   "name": "Gölcük (Niğde)",
+   "pdfName": "GÖLCÜK ALIN",
+   "lat": 38.065,
+   "lng": 34.695,
+   "coord": "low"
+  },
+  {
+   "id": "nma-nigde-kuzey",
+   "name": "Niğde Kuzey",
+   "pdfName": "NİĞDE KUZEY",
+   "lat": 37.995,
+   "lng": 34.71,
+   "coord": "low"
+  },
+  {
+   "id": "nma-nigde-guney",
+   "name": "Niğde Güney",
+   "pdfName": "NİĞDE GÜNEY",
+   "lat": 37.935,
+   "lng": 34.7,
+   "coord": "low"
+  },
+  {
+   "id": "nma-kemerhisar",
+   "name": "Kemerhisar",
+   "pdfName": "KEMERHİSAR",
+   "lat": 37.79,
+   "lng": 34.63,
+   "coord": "low"
+  },
+  {
+   "id": "nma-eminlik",
+   "name": "Eminlik (Ulukışla)",
+   "pdfName": "EMİNLİK ALIN",
+   "lat": 37.6582,
+   "lng": 34.633,
+   "coord": "medium"
+  },
+  {
+   "id": "nma-pozanti-kuzey",
+   "name": "Pozantı Kuzey",
+   "pdfName": "POZANTI (KUZEY)",
+   "lat": 37.46,
+   "lng": 34.875,
+   "coord": "low"
+  },
+  {
+   "id": "nma-pozanti-guney",
+   "name": "Pozantı Güney",
+   "pdfName": "POZANTI (GÜNEY)",
+   "lat": 37.405,
+   "lng": 34.87,
+   "coord": "low"
+  },
+  {
+   "id": "nma-tekir",
+   "name": "Tekir",
+   "pdfName": "TEKİR",
+   "lat": 37.31,
+   "lng": 34.795,
+   "coord": "low"
+  },
+  {
+   "id": "nma-camalan",
+   "name": "Çamalan",
+   "pdfName": "ÇAMALAN",
+   "lat": 37.185,
+   "lng": 34.83,
+   "coord": "low"
+  },
+  {
+   "id": "nma-camtepe",
+   "name": "Çamtepe",
+   "pdfName": "ÇAMTEPE",
+   "lat": 37.0011,
+   "lng": 34.9449,
+   "coord": "high"
+  },
+  {
+   "id": "nma-tarsus",
+   "name": "Tarsus",
+   "pdfName": "TARSUS",
+   "lat": 36.9389,
+   "lng": 34.8563,
+   "coord": "high"
+  },
+  {
+   "id": "nma-tarsus-osb",
+   "name": "Tarsus OSB",
+   "pdfName": "TARSUS OSB",
+   "lat": 36.915,
+   "lng": 34.775,
+   "coord": "low"
+  },
+  {
+   "id": "nma-mersin",
+   "name": "Mersin",
+   "pdfName": "MERSİN ALIN",
+   "lat": 36.8851,
+   "lng": 34.6341,
+   "coord": "medium"
+  },
+  {
+   "id": "nma-yenice",
+   "name": "Yenice (Tarsus Doğu)",
+   "pdfName": "YENİCE",
+   "lat": 36.999,
+   "lng": 35.05,
+   "coord": "low"
+  },
+  {
+   "id": "nma-adana-bati",
+   "name": "Adana Batı",
+   "pdfName": "ADANA BATI ALIN",
+   "lat": 37.0288,
+   "lng": 35.1139,
+   "coord": "high"
+  }
+ ],
+ "roads": [
+  [
+   "nma-golcuk",
+   "nma-nigde-kuzey"
   ],
-  "stations": [
-    {
-      "id": "nma-golcuk",
-      "name": "Gölcük (Niğde)",
-      "pdfName": "GÖLCÜK ALIN",
-      "lat": 38.065,
-      "lng": 34.695,
-      "coord": "low"
-    },
-    {
-      "id": "nma-nigde-kuzey",
-      "name": "Niğde Kuzey",
-      "pdfName": "NİĞDE KUZEY",
-      "lat": 37.995,
-      "lng": 34.71,
-      "coord": "low"
-    },
-    {
-      "id": "nma-nigde-guney",
-      "name": "Niğde Güney",
-      "pdfName": "NİĞDE GÜNEY",
-      "lat": 37.935,
-      "lng": 34.7,
-      "coord": "low"
-    },
-    {
-      "id": "nma-kemerhisar",
-      "name": "Kemerhisar",
-      "pdfName": "KEMERHİSAR",
-      "lat": 37.79,
-      "lng": 34.63,
-      "coord": "low"
-    },
-    {
-      "id": "nma-eminlik",
-      "name": "Eminlik (Ulukışla)",
-      "pdfName": "EMİNLİK ALIN",
-      "lat": 37.6582,
-      "lng": 34.633,
-      "coord": "medium"
-    },
-    {
-      "id": "nma-pozanti-kuzey",
-      "name": "Pozantı Kuzey",
-      "pdfName": "POZANTI (KUZEY)",
-      "lat": 37.46,
-      "lng": 34.875,
-      "coord": "low"
-    },
-    {
-      "id": "nma-pozanti-guney",
-      "name": "Pozantı Güney",
-      "pdfName": "POZANTI (GÜNEY)",
-      "lat": 37.405,
-      "lng": 34.87,
-      "coord": "low"
-    },
-    {
-      "id": "nma-tekir",
-      "name": "Tekir",
-      "pdfName": "TEKİR",
-      "lat": 37.31,
-      "lng": 34.795,
-      "coord": "low"
-    },
-    {
-      "id": "nma-camalan",
-      "name": "Çamalan",
-      "pdfName": "ÇAMALAN",
-      "lat": 37.185,
-      "lng": 34.83,
-      "coord": "low"
-    },
-    {
-      "id": "nma-camtepe",
-      "name": "Çamtepe",
-      "pdfName": "ÇAMTEPE",
-      "lat": 37.0011,
-      "lng": 34.9449,
-      "coord": "high"
-    },
-    {
-      "id": "nma-tarsus",
-      "name": "Tarsus",
-      "pdfName": "TARSUS",
-      "lat": 36.9389,
-      "lng": 34.8563,
-      "coord": "high"
-    },
-    {
-      "id": "nma-tarsus-osb",
-      "name": "Tarsus OSB",
-      "pdfName": "TARSUS OSB",
-      "lat": 36.915,
-      "lng": 34.775,
-      "coord": "low"
-    },
-    {
-      "id": "nma-mersin",
-      "name": "Mersin",
-      "pdfName": "MERSİN ALIN",
-      "lat": 36.8851,
-      "lng": 34.6341,
-      "coord": "medium"
-    },
-    {
-      "id": "nma-yenice",
-      "name": "Yenice (Tarsus Doğu)",
-      "pdfName": "YENİCE",
-      "lat": 36.999,
-      "lng": 35.05,
-      "coord": "low"
-    },
-    {
-      "id": "nma-adana-bati",
-      "name": "Adana Batı",
-      "pdfName": "ADANA BATI ALIN",
-      "lat": 37.0288,
-      "lng": 35.1139,
-      "coord": "high"
-    }
+  [
+   "nma-nigde-kuzey",
+   "nma-nigde-guney"
   ],
-  "roads": [
-    [
-      "nma-golcuk",
-      "nma-nigde-kuzey"
-    ],
-    [
-      "nma-nigde-kuzey",
-      "nma-nigde-guney"
-    ],
-    [
-      "nma-nigde-guney",
-      "nma-kemerhisar"
-    ],
-    [
-      "nma-kemerhisar",
-      "nma-eminlik"
-    ],
-    [
-      "nma-eminlik",
-      "nma-pozanti-kuzey"
-    ],
-    [
-      "nma-pozanti-kuzey",
-      "nma-pozanti-guney"
-    ],
-    [
-      "nma-pozanti-guney",
-      "nma-tekir"
-    ],
-    [
-      "nma-tekir",
-      "nma-camalan"
-    ],
-    [
-      "nma-camalan",
-      "nma-camtepe"
-    ],
-    [
-      "nma-camtepe",
-      "nma-tarsus"
-    ],
-    [
-      "nma-tarsus",
-      "nma-tarsus-osb"
-    ],
-    [
-      "nma-tarsus-osb",
-      "nma-mersin"
-    ],
-    [
-      "nma-camtepe",
-      "nma-yenice"
-    ],
-    [
-      "nma-yenice",
-      "nma-adana-bati"
-    ],
-    [
-      "nma-tarsus",
-      "nma-yenice"
-    ]
+  [
+   "nma-nigde-guney",
+   "nma-kemerhisar"
   ],
-  "sections": [
-    {
-      "id": "nma-nigde-mersin-adana",
-      "name": "Niğde – Pozantı – Tarsus – Mersin / Adana Batı",
-      "stations": [
-        "nma-nigde-guney",
-        "nma-nigde-kuzey",
-        "nma-golcuk",
-        "nma-kemerhisar",
-        "nma-eminlik",
-        "nma-pozanti-kuzey",
-        "nma-pozanti-guney",
-        "nma-tekir",
-        "nma-camalan",
-        "nma-yenice",
-        "nma-adana-bati",
-        "nma-camtepe",
-        "nma-tarsus",
-        "nma-tarsus-osb",
-        "nma-mersin"
-      ],
-      "prices": {
-        "nma-nigde-guney": {
-          "nma-nigde-kuzey": [
-            36,
-            40,
-            45,
-            56,
-            82,
-            15
-          ],
-          "nma-golcuk": [
-            40,
-            45,
-            56,
-            89,
-            94,
-            20
-          ],
-          "nma-kemerhisar": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-eminlik": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-pozanti-kuzey": [
-            128,
-            161,
-            222,
-            289,
-            350,
-            56
-          ],
-          "nma-tekir": [
-            156,
-            197,
-            256,
-            330,
-            398,
-            73
-          ],
-          "nma-camalan": [
-            156,
-            197,
-            256,
-            330,
-            398,
-            73
-          ],
-          "nma-yenice": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-adana-bati": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-camtepe": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-tarsus": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-tarsus-osb": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-mersin": [
-            184,
-            223,
-            289,
-            363,
-            427,
-            82
-          ]
-        },
-        "nma-nigde-kuzey": {
-          "nma-nigde-guney": [
-            36,
-            40,
-            45,
-            56,
-            82,
-            15
-          ],
-          "nma-golcuk": [
-            36,
-            40,
-            49,
-            73,
-            89,
-            15
-          ],
-          "nma-kemerhisar": [
-            53,
-            56,
-            89,
-            103,
-            108,
-            25
-          ],
-          "nma-eminlik": [
-            56,
-            65,
-            102,
-            103,
-            136,
-            28
-          ],
-          "nma-pozanti-kuzey": [
-            136,
-            164,
-            223,
-            289,
-            363,
-            65
-          ],
-          "nma-tekir": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-camalan": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-yenice": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-adana-bati": [
-            184,
-            223,
-            289,
-            363,
-            440,
-            82
-          ],
-          "nma-camtepe": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-tarsus": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-tarsus-osb": [
-            184,
-            223,
-            289,
-            363,
-            427,
-            82
-          ],
-          "nma-mersin": [
-            193,
-            237,
-            289,
-            370,
-            459,
-            89
-          ]
-        },
-        "nma-golcuk": {
-          "nma-nigde-guney": [
-            40,
-            45,
-            56,
-            89,
-            94,
-            20
-          ],
-          "nma-nigde-kuzey": [
-            36,
-            40,
-            49,
-            73,
-            89,
-            15
-          ],
-          "nma-kemerhisar": [
-            56,
-            65,
-            102,
-            103,
-            115,
-            28
-          ],
-          "nma-eminlik": [
-            65,
-            69,
-            103,
-            134,
-            156,
-            33
-          ],
-          "nma-pozanti-kuzey": [
-            136,
-            168,
-            237,
-            305,
-            363,
-            65
-          ],
-          "nma-tekir": [
-            168,
-            222,
-            282,
-            345,
-            407,
-            75
-          ],
-          "nma-camalan": [
-            177,
-            223,
-            285,
-            350,
-            414,
-            82
-          ],
-          "nma-yenice": [
-            184,
-            223,
-            289,
-            363,
-            433,
-            82
-          ],
-          "nma-adana-bati": [
-            193,
-            237,
-            289,
-            370,
-            452,
-            89
-          ],
-          "nma-camtepe": [
-            184,
-            223,
-            289,
-            363,
-            433,
-            82
-          ],
-          "nma-tarsus": [
-            184,
-            223,
-            289,
-            363,
-            440,
-            82
-          ],
-          "nma-tarsus-osb": [
-            184,
-            223,
-            289,
-            363,
-            427,
-            82
-          ],
-          "nma-mersin": [
-            197,
-            237,
-            305,
-            370,
-            459,
-            94
-          ]
-        },
-        "nma-kemerhisar": {
-          "nma-nigde-guney": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-nigde-kuzey": [
-            53,
-            56,
-            89,
-            103,
-            108,
-            25
-          ],
-          "nma-golcuk": [
-            56,
-            65,
-            102,
-            103,
-            115,
-            28
-          ],
-          "nma-eminlik": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-pozanti-kuzey": [
-            128,
-            161,
-            205,
-            256,
-            330,
-            56
-          ],
-          "nma-tekir": [
-            128,
-            161,
-            222,
-            289,
-            350,
-            56
-          ],
-          "nma-camalan": [
-            153,
-            184,
-            250,
-            311,
-            390,
-            73
-          ],
-          "nma-yenice": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-adana-bati": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-camtepe": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-tarsus": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-tarsus-osb": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-mersin": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ]
-        },
-        "nma-eminlik": {
-          "nma-nigde-guney": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-nigde-kuzey": [
-            56,
-            65,
-            102,
-            103,
-            136,
-            28
-          ],
-          "nma-golcuk": [
-            65,
-            69,
-            103,
-            134,
-            156,
-            33
-          ],
-          "nma-kemerhisar": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-pozanti-kuzey": [
-            128,
-            161,
-            222,
-            289,
-            350,
-            56
-          ],
-          "nma-tekir": [
-            153,
-            177,
-            262,
-            311,
-            370,
-            73
-          ],
-          "nma-camalan": [
-            156,
-            197,
-            256,
-            330,
-            398,
-            73
-          ],
-          "nma-yenice": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-adana-bati": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-camtepe": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-tarsus": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-tarsus-osb": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-mersin": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ]
-        },
-        "nma-pozanti-kuzey": {
-          "nma-nigde-guney": [
-            128,
-            161,
-            222,
-            289,
-            350,
-            56
-          ],
-          "nma-nigde-kuzey": [
-            136,
-            164,
-            223,
-            289,
-            363,
-            65
-          ],
-          "nma-golcuk": [
-            136,
-            168,
-            237,
-            305,
-            363,
-            65
-          ],
-          "nma-kemerhisar": [
-            128,
-            161,
-            205,
-            256,
-            330,
-            56
-          ],
-          "nma-eminlik": [
-            128,
-            161,
-            222,
-            289,
-            350,
-            56
-          ],
-          "nma-tekir": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            89,
-            103,
-            115,
-            20
-          ],
-          "nma-yenice": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-adana-bati": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-camtepe": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-tarsus": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-tarsus-osb": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-mersin": [
-            69,
-            89,
-            136,
-            168,
-            202,
-            33
-          ]
-        },
-        "nma-pozanti-guney": {
-          "nma-tekir": [
-            36,
-            40,
-            56,
-            89,
-            103,
-            15
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-yenice": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-adana-bati": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-camtepe": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-tarsus": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-tarsus-osb": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-mersin": [
-            65,
-            73,
-            134,
-            156,
-            193,
-            33
-          ]
-        },
-        "nma-tekir": {
-          "nma-nigde-guney": [
-            156,
-            197,
-            256,
-            330,
-            398,
-            73
-          ],
-          "nma-nigde-kuzey": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-golcuk": [
-            168,
-            222,
-            282,
-            345,
-            407,
-            75
-          ],
-          "nma-kemerhisar": [
-            128,
-            161,
-            222,
-            289,
-            350,
-            56
-          ],
-          "nma-eminlik": [
-            153,
-            177,
-            262,
-            311,
-            370,
-            73
-          ],
-          "nma-pozanti-kuzey": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-pozanti-guney": [
-            36,
-            40,
-            56,
-            89,
-            103,
-            15
-          ],
-          "nma-camalan": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-yenice": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-adana-bati": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-camtepe": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-tarsus": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-tarsus-osb": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-mersin": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ]
-        },
-        "nma-camalan": {
-          "nma-nigde-guney": [
-            156,
-            197,
-            256,
-            330,
-            398,
-            73
-          ],
-          "nma-nigde-kuzey": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-golcuk": [
-            177,
-            223,
-            285,
-            350,
-            414,
-            82
-          ],
-          "nma-kemerhisar": [
-            153,
-            184,
-            250,
-            311,
-            390,
-            73
-          ],
-          "nma-eminlik": [
-            156,
-            197,
-            256,
-            330,
-            398,
-            73
-          ],
-          "nma-pozanti-kuzey": [
-            45,
-            53,
-            89,
-            103,
-            115,
-            20
-          ],
-          "nma-pozanti-guney": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-tekir": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-yenice": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-adana-bati": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-camtepe": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-tarsus": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-tarsus-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-mersin": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ]
-        },
-        "nma-yenice": {
-          "nma-nigde-guney": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-nigde-kuzey": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-golcuk": [
-            184,
-            223,
-            289,
-            363,
-            433,
-            82
-          ],
-          "nma-kemerhisar": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-eminlik": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-pozanti-kuzey": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-pozanti-guney": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-tekir": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-adana-bati": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-camtepe": [
-            36,
-            40,
-            45,
-            73,
-            89,
-            15
-          ],
-          "nma-tarsus": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-tarsus-osb": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-mersin": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ]
-        },
-        "nma-adana-bati": {
-          "nma-nigde-guney": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-nigde-kuzey": [
-            184,
-            223,
-            289,
-            363,
-            440,
-            82
-          ],
-          "nma-golcuk": [
-            193,
-            237,
-            289,
-            370,
-            452,
-            89
-          ],
-          "nma-kemerhisar": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-eminlik": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-pozanti-kuzey": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-pozanti-guney": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-tekir": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-yenice": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-camtepe": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-tarsus": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-tarsus-osb": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-mersin": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ]
-        },
-        "nma-camtepe": {
-          "nma-nigde-guney": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-nigde-kuzey": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-golcuk": [
-            184,
-            223,
-            289,
-            363,
-            433,
-            82
-          ],
-          "nma-kemerhisar": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-eminlik": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-pozanti-kuzey": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-pozanti-guney": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-tekir": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-yenice": [
-            36,
-            40,
-            45,
-            73,
-            89,
-            15
-          ],
-          "nma-adana-bati": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-tarsus": [
-            36,
-            40,
-            45,
-            73,
-            89,
-            15
-          ],
-          "nma-tarsus-osb": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-mersin": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ]
-        },
-        "nma-tarsus": {
-          "nma-nigde-guney": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-nigde-kuzey": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-golcuk": [
-            184,
-            223,
-            289,
-            363,
-            440,
-            82
-          ],
-          "nma-kemerhisar": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-eminlik": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-pozanti-kuzey": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-pozanti-guney": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-tekir": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-yenice": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-adana-bati": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-camtepe": [
-            36,
-            40,
-            45,
-            73,
-            89,
-            15
-          ],
-          "nma-tarsus-osb": [
-            36,
-            40,
-            45,
-            56,
-            82,
-            15
-          ],
-          "nma-mersin": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ]
-        },
-        "nma-tarsus-osb": {
-          "nma-nigde-guney": [
-            181,
-            223,
-            285,
-            350,
-            427,
-            82
-          ],
-          "nma-nigde-kuzey": [
-            184,
-            223,
-            289,
-            363,
-            427,
-            82
-          ],
-          "nma-golcuk": [
-            184,
-            223,
-            289,
-            363,
-            427,
-            82
-          ],
-          "nma-kemerhisar": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-eminlik": [
-            164,
-            210,
-            272,
-            338,
-            407,
-            73
-          ],
-          "nma-pozanti-kuzey": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-pozanti-guney": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-tekir": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-yenice": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-adana-bati": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-camtepe": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ],
-          "nma-tarsus": [
-            36,
-            40,
-            45,
-            56,
-            82,
-            15
-          ],
-          "nma-mersin": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ]
-        },
-        "nma-mersin": {
-          "nma-nigde-guney": [
-            184,
-            223,
-            289,
-            363,
-            427,
-            82
-          ],
-          "nma-nigde-kuzey": [
-            193,
-            237,
-            289,
-            370,
-            459,
-            89
-          ],
-          "nma-golcuk": [
-            197,
-            237,
-            305,
-            370,
-            459,
-            94
-          ],
-          "nma-kemerhisar": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-eminlik": [
-            177,
-            222,
-            282,
-            345,
-            420,
-            82
-          ],
-          "nma-pozanti-kuzey": [
-            69,
-            89,
-            136,
-            168,
-            202,
-            33
-          ],
-          "nma-pozanti-guney": [
-            65,
-            73,
-            134,
-            156,
-            193,
-            33
-          ],
-          "nma-tekir": [
-            65,
-            73,
-            103,
-            156,
-            177,
-            33
-          ],
-          "nma-camalan": [
-            45,
-            53,
-            103,
-            134,
-            156,
-            20
-          ],
-          "nma-yenice": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-adana-bati": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "nma-camtepe": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-tarsus": [
-            45,
-            53,
-            89,
-            94,
-            103,
-            20
-          ],
-          "nma-tarsus-osb": [
-            36,
-            40,
-            56,
-            89,
-            94,
-            15
-          ]
-        }
-      }
-    }
+  [
+   "nma-kemerhisar",
+   "nma-eminlik"
   ],
-  "connections": [
-    {
-      "station": "nma-golcuk",
-      "to": "ANO Niğde Alın (ano-nigde) — Ankara–Niğde Otoyolu, Gölcük köprülü kavşağı",
-      "note": "Ankara yönünden gelen araç Niğde Alın'da ANO tarifesini öder, Gölcük Alın'da bu tarifeye girer."
-    },
-    {
-      "station": "nma-adana-bati",
-      "to": "TAG Adana Doğu (tag-adana-dogu) — ücretsiz Adana çevre yolu üzerinden",
-      "note": "Adana Batı Alın – Adana Doğu Alın arası iki tarifenin dışında (ücretsiz)."
-    },
-    {
-      "station": "nma-mersin",
-      "to": "Mersin şehir girişi / D-400 (Erdemli–Silifke yönü)",
-      "note": "O-51'in batı ucu."
-    },
-    {
-      "station": "nma-camtepe",
-      "to": "O-21 / O-51 ayrımı (Tarsus kavşağı)",
-      "note": "Niğde yönünden gelen trafik burada Mersin (batı) ve Adana (doğu) kollarına ayrılır."
-    }
+  [
+   "nma-eminlik",
+   "nma-pozanti-kuzey"
   ],
-  "verification": [
-    "Kaynak PDF 10-CukurovaOtoyoluNigde-Mersin-Adana.pdf scripts/kgm/parsers/NMA.mjs ile x/y konumlarına göre ayrıştırıldı (her sayı başlık sütununa x-merkeziyle, satıra y ile eşlendi; bilinmeyen etiket/hücre olursa hata). 15 istasyon, 198 yönlü hücre × 6 sınıf (= 15×14 − 2×6: Pozantı Güney'in kuzey tarafı ile ücreti yok).",
-    "PDF tek üçgen tablo; her hücre iki yöne kopyalandı. Her satırda sınıf 1–6 aynı sütun kümesini kapsıyor ve kendi sütununda köşegen (U-dönüşü) hücresi var (parser assert).",
-    "Ham döküm kontrolü nma-mersin → nma-adana-bati = [45, 53, 89, 103, 134, 20] (MERSİN ALIN satırı, ADANA BATI sütunu (x≈579, y=251..202)) ✓",
-    "Ham döküm kontrolü nma-golcuk → nma-adana-bati = [193, 237, 289, 370, 452, 89] (ADANA BATI ALIN satırı, GÖLCÜK sütunu (x≈228)) ✓",
-    "Ham döküm kontrolü nma-pozanti-kuzey → nma-adana-bati = [65, 73, 103, 156, 177, 33] (ADANA BATI ALIN satırı, POZANTI (KUZEY) sütunu (x≈359)) ✓",
-    "Ham döküm kontrolü nma-pozanti-guney → nma-adana-bati = [45, 53, 103, 134, 156, 20] (ADANA BATI ALIN satırı, POZANTI (GÜNEY) sütunu (x≈403)) ✓",
-    "Ham döküm kontrolü nma-tekir → nma-kemerhisar = [128, 161, 222, 289, 350, 56] (TEKİR satırı, KEMERHİSAR sütunu (x≈272)) ✓",
-    "Ham döküm kontrolü nma-mersin → nma-golcuk = [197, 237, 305, 370, 459, 94] (MERSİN ALIN satırı, GÖLCÜK sütunu) ✓",
-    "Sınıf sırası kontrolü (1≤2≤3≤4≤5, motosiklet≤1): 0 ihlal.",
-    "Mesafeyle artış kontrolü (güzergah zincirleri boyunca 420 üçlü A–B–C, fiyat(A→C) ≥ fiyat(A→B) ve ≥ fiyat(B→C)): 24 ihlal — PDF'deki değerler aynen korunmuştur; örnekler: nma-golcuk→nma-tarsus-osb (427) < nma-golcuk→nma-camtepe (433) sınıf 5; nma-golcuk→nma-tarsus-osb (427) < nma-golcuk→nma-tarsus (440) sınıf 5; nma-nigde-guney→nma-tekir (256) < nma-eminlik→nma-tekir (262) sınıf 3; nma-kemerhisar→nma-pozanti-kuzey (205) < nma-eminlik→nma-pozanti-kuzey (222) sınıf 3; nma-kemerhisar→nma-pozanti-kuzey (256) < nma-eminlik→nma-pozanti-kuzey (289) sınıf 4; nma-kemerhisar→nma-pozanti-kuzey (330) < nma-eminlik→nma-pozanti-kuzey (350) sınıf 5; nma-kemerhisar→nma-tekir (128) < nma-eminlik→nma-tekir (153) sınıf 1; nma-kemerhisar→nma-tekir (161) < nma-eminlik→nma-tekir (177) sınıf 2.",
-    "Topoloji PDF km'lerinden: Gölcük–Niğde Kuzey 10,87, –Niğde Güney 7,8, –Kemerhisar 27, –Eminlik 18,5, –Pozantı Kuzey 35, –Pozantı Güney 7, –Tekir 15, –Çamalan 16, –Çamtepe 32. Çamtepe–Tarsus 9 + Çamtepe–Adana Batı 16 = Tarsus–Adana Batı 25 ve Mersin–Tarsus 24 + 25 = Mersin–Adana Batı 49 → Çamtepe O-21/O-51 ayrımının hemen kuzeyinde; Mersin kolu (Tarsus, Tarsus OSB, Mersin) ile Adana kolu (Yenice, Adana Batı) ayrımda farklı yönlere gider.",
-    "Km tutarsızlığı: PDF'de Yenice–Adana Batı 19 km, Çamtepe–Adana Batı 16 km, Yenice–Çamtepe 8 km, Yenice–Tarsus 17 km verilmiş; ağaç-metriğe tam uymuyor. Yenice, Tarsus Doğu bağlantı yolu gişesi olarak (Yenice beldesi 36.974/35.057) Tarsus–Adana arasında O-51 doğu koluna yerleştirildi; fiyatlar (Yenice–Adana Batı 36, Tarsus–Adana Batı 45, Tarsus–Yenice 36 TL) bununla uyumlu.",
-    "Kemerhisar anomalisi: Kemerhisar (Eminlik'in 18,5 km kuzeyi) güney istasyonlarına Eminlik'ten DAHA UCUZ (ör. Tekir: 128 vs 153 TL, sınıf 1). Değerler x-konumuyla doğrulandı (Kemerhisar sütunu x≈272, Eminlik x≈315); PDF'deki gibi bırakıldı.",
-    "Koordinatlar: Çamtepe (37.0011, 34.9449), Tarsus (36.9389, 34.8563), Adana Batı (37.0288, 35.1139) gişeleri harita kaynaklarından; Mersin (36.8851, 34.6341) 'Otoban Gişeleri, Akdeniz' noktası; Eminlik köy konumu; diğerleri tahmini (low)."
+  [
+   "nma-pozanti-kuzey",
+   "nma-pozanti-guney"
+  ],
+  [
+   "nma-pozanti-guney",
+   "nma-tekir"
+  ],
+  [
+   "nma-tekir",
+   "nma-camalan"
+  ],
+  [
+   "nma-camalan",
+   "nma-camtepe"
+  ],
+  [
+   "nma-camtepe",
+   "nma-tarsus"
+  ],
+  [
+   "nma-tarsus",
+   "nma-tarsus-osb"
+  ],
+  [
+   "nma-tarsus-osb",
+   "nma-mersin"
+  ],
+  [
+   "nma-camtepe",
+   "nma-yenice"
+  ],
+  [
+   "nma-yenice",
+   "nma-adana-bati"
+  ],
+  [
+   "nma-tarsus",
+   "nma-yenice"
   ]
+ ],
+ "sections": [
+  {
+   "id": "nma-nigde-mersin-adana",
+   "name": "Niğde – Pozantı – Tarsus – Mersin / Adana Batı",
+   "stations": [
+    "nma-nigde-guney",
+    "nma-nigde-kuzey",
+    "nma-golcuk",
+    "nma-kemerhisar",
+    "nma-eminlik",
+    "nma-pozanti-kuzey",
+    "nma-pozanti-guney",
+    "nma-tekir",
+    "nma-camalan",
+    "nma-yenice",
+    "nma-adana-bati",
+    "nma-camtepe",
+    "nma-tarsus",
+    "nma-tarsus-osb",
+    "nma-mersin"
+   ],
+   "prices": {
+    "nma-nigde-guney": {
+     "nma-nigde-kuzey": [
+      36,
+      40,
+      45,
+      56,
+      82,
+      15
+     ],
+     "nma-golcuk": [
+      40,
+      45,
+      56,
+      89,
+      94,
+      20
+     ],
+     "nma-kemerhisar": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-eminlik": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-pozanti-kuzey": [
+      128,
+      161,
+      222,
+      289,
+      350,
+      56
+     ],
+     "nma-tekir": [
+      156,
+      197,
+      256,
+      330,
+      398,
+      73
+     ],
+     "nma-camalan": [
+      156,
+      197,
+      256,
+      330,
+      398,
+      73
+     ],
+     "nma-yenice": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-adana-bati": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-camtepe": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-tarsus": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-tarsus-osb": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-mersin": [
+      184,
+      223,
+      289,
+      363,
+      427,
+      82
+     ]
+    },
+    "nma-nigde-kuzey": {
+     "nma-nigde-guney": [
+      36,
+      40,
+      45,
+      56,
+      82,
+      15
+     ],
+     "nma-golcuk": [
+      36,
+      40,
+      49,
+      73,
+      89,
+      15
+     ],
+     "nma-kemerhisar": [
+      53,
+      56,
+      89,
+      103,
+      108,
+      25
+     ],
+     "nma-eminlik": [
+      56,
+      65,
+      102,
+      103,
+      136,
+      28
+     ],
+     "nma-pozanti-kuzey": [
+      136,
+      164,
+      223,
+      289,
+      363,
+      65
+     ],
+     "nma-tekir": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-camalan": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-yenice": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-adana-bati": [
+      184,
+      223,
+      289,
+      363,
+      440,
+      82
+     ],
+     "nma-camtepe": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-tarsus": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-tarsus-osb": [
+      184,
+      223,
+      289,
+      363,
+      427,
+      82
+     ],
+     "nma-mersin": [
+      193,
+      237,
+      289,
+      370,
+      459,
+      89
+     ]
+    },
+    "nma-golcuk": {
+     "nma-nigde-guney": [
+      40,
+      45,
+      56,
+      89,
+      94,
+      20
+     ],
+     "nma-nigde-kuzey": [
+      36,
+      40,
+      49,
+      73,
+      89,
+      15
+     ],
+     "nma-kemerhisar": [
+      56,
+      65,
+      102,
+      103,
+      115,
+      28
+     ],
+     "nma-eminlik": [
+      65,
+      69,
+      103,
+      134,
+      156,
+      33
+     ],
+     "nma-pozanti-kuzey": [
+      136,
+      168,
+      237,
+      305,
+      363,
+      65
+     ],
+     "nma-tekir": [
+      168,
+      222,
+      282,
+      345,
+      407,
+      75
+     ],
+     "nma-camalan": [
+      177,
+      223,
+      285,
+      350,
+      414,
+      82
+     ],
+     "nma-yenice": [
+      184,
+      223,
+      289,
+      363,
+      433,
+      82
+     ],
+     "nma-adana-bati": [
+      193,
+      237,
+      289,
+      370,
+      452,
+      89
+     ],
+     "nma-camtepe": [
+      184,
+      223,
+      289,
+      363,
+      433,
+      82
+     ],
+     "nma-tarsus": [
+      184,
+      223,
+      289,
+      363,
+      440,
+      82
+     ],
+     "nma-tarsus-osb": [
+      184,
+      223,
+      289,
+      363,
+      427,
+      82
+     ],
+     "nma-mersin": [
+      197,
+      237,
+      305,
+      370,
+      459,
+      94
+     ]
+    },
+    "nma-kemerhisar": {
+     "nma-nigde-guney": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-nigde-kuzey": [
+      53,
+      56,
+      89,
+      103,
+      108,
+      25
+     ],
+     "nma-golcuk": [
+      56,
+      65,
+      102,
+      103,
+      115,
+      28
+     ],
+     "nma-eminlik": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-pozanti-kuzey": [
+      128,
+      161,
+      205,
+      256,
+      330,
+      56
+     ],
+     "nma-tekir": [
+      128,
+      161,
+      222,
+      289,
+      350,
+      56
+     ],
+     "nma-camalan": [
+      153,
+      184,
+      250,
+      311,
+      390,
+      73
+     ],
+     "nma-yenice": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-adana-bati": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-camtepe": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-tarsus": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-tarsus-osb": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-mersin": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ]
+    },
+    "nma-eminlik": {
+     "nma-nigde-guney": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-nigde-kuzey": [
+      56,
+      65,
+      102,
+      103,
+      136,
+      28
+     ],
+     "nma-golcuk": [
+      65,
+      69,
+      103,
+      134,
+      156,
+      33
+     ],
+     "nma-kemerhisar": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-pozanti-kuzey": [
+      128,
+      161,
+      222,
+      289,
+      350,
+      56
+     ],
+     "nma-tekir": [
+      153,
+      177,
+      262,
+      311,
+      370,
+      73
+     ],
+     "nma-camalan": [
+      156,
+      197,
+      256,
+      330,
+      398,
+      73
+     ],
+     "nma-yenice": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-adana-bati": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-camtepe": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-tarsus": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-tarsus-osb": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-mersin": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ]
+    },
+    "nma-pozanti-kuzey": {
+     "nma-nigde-guney": [
+      128,
+      161,
+      222,
+      289,
+      350,
+      56
+     ],
+     "nma-nigde-kuzey": [
+      136,
+      164,
+      223,
+      289,
+      363,
+      65
+     ],
+     "nma-golcuk": [
+      136,
+      168,
+      237,
+      305,
+      363,
+      65
+     ],
+     "nma-kemerhisar": [
+      128,
+      161,
+      205,
+      256,
+      330,
+      56
+     ],
+     "nma-eminlik": [
+      128,
+      161,
+      222,
+      289,
+      350,
+      56
+     ],
+     "nma-tekir": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      89,
+      103,
+      115,
+      20
+     ],
+     "nma-yenice": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-adana-bati": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-camtepe": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-tarsus": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-tarsus-osb": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-mersin": [
+      69,
+      89,
+      136,
+      168,
+      202,
+      33
+     ]
+    },
+    "nma-pozanti-guney": {
+     "nma-tekir": [
+      36,
+      40,
+      56,
+      89,
+      103,
+      15
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-yenice": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-adana-bati": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-camtepe": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-tarsus": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-tarsus-osb": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-mersin": [
+      65,
+      73,
+      134,
+      156,
+      193,
+      33
+     ]
+    },
+    "nma-tekir": {
+     "nma-nigde-guney": [
+      156,
+      197,
+      256,
+      330,
+      398,
+      73
+     ],
+     "nma-nigde-kuzey": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-golcuk": [
+      168,
+      222,
+      282,
+      345,
+      407,
+      75
+     ],
+     "nma-kemerhisar": [
+      128,
+      161,
+      222,
+      289,
+      350,
+      56
+     ],
+     "nma-eminlik": [
+      153,
+      177,
+      262,
+      311,
+      370,
+      73
+     ],
+     "nma-pozanti-kuzey": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-pozanti-guney": [
+      36,
+      40,
+      56,
+      89,
+      103,
+      15
+     ],
+     "nma-camalan": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-yenice": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-adana-bati": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-camtepe": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-tarsus": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-tarsus-osb": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-mersin": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ]
+    },
+    "nma-camalan": {
+     "nma-nigde-guney": [
+      156,
+      197,
+      256,
+      330,
+      398,
+      73
+     ],
+     "nma-nigde-kuzey": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-golcuk": [
+      177,
+      223,
+      285,
+      350,
+      414,
+      82
+     ],
+     "nma-kemerhisar": [
+      153,
+      184,
+      250,
+      311,
+      390,
+      73
+     ],
+     "nma-eminlik": [
+      156,
+      197,
+      256,
+      330,
+      398,
+      73
+     ],
+     "nma-pozanti-kuzey": [
+      45,
+      53,
+      89,
+      103,
+      115,
+      20
+     ],
+     "nma-pozanti-guney": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-tekir": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-yenice": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-adana-bati": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-camtepe": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-tarsus": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-tarsus-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-mersin": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ]
+    },
+    "nma-yenice": {
+     "nma-nigde-guney": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-nigde-kuzey": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-golcuk": [
+      184,
+      223,
+      289,
+      363,
+      433,
+      82
+     ],
+     "nma-kemerhisar": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-eminlik": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-pozanti-kuzey": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-pozanti-guney": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-tekir": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-adana-bati": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-camtepe": [
+      36,
+      40,
+      45,
+      73,
+      89,
+      15
+     ],
+     "nma-tarsus": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-tarsus-osb": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-mersin": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ]
+    },
+    "nma-adana-bati": {
+     "nma-nigde-guney": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-nigde-kuzey": [
+      184,
+      223,
+      289,
+      363,
+      440,
+      82
+     ],
+     "nma-golcuk": [
+      193,
+      237,
+      289,
+      370,
+      452,
+      89
+     ],
+     "nma-kemerhisar": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-eminlik": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-pozanti-kuzey": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-pozanti-guney": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-tekir": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-yenice": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-camtepe": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-tarsus": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-tarsus-osb": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-mersin": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ]
+    },
+    "nma-camtepe": {
+     "nma-nigde-guney": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-nigde-kuzey": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-golcuk": [
+      184,
+      223,
+      289,
+      363,
+      433,
+      82
+     ],
+     "nma-kemerhisar": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-eminlik": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-pozanti-kuzey": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-pozanti-guney": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-tekir": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-yenice": [
+      36,
+      40,
+      45,
+      73,
+      89,
+      15
+     ],
+     "nma-adana-bati": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-tarsus": [
+      36,
+      40,
+      45,
+      73,
+      89,
+      15
+     ],
+     "nma-tarsus-osb": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-mersin": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ]
+    },
+    "nma-tarsus": {
+     "nma-nigde-guney": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-nigde-kuzey": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-golcuk": [
+      184,
+      223,
+      289,
+      363,
+      440,
+      82
+     ],
+     "nma-kemerhisar": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-eminlik": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-pozanti-kuzey": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-pozanti-guney": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-tekir": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-yenice": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-adana-bati": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-camtepe": [
+      36,
+      40,
+      45,
+      73,
+      89,
+      15
+     ],
+     "nma-tarsus-osb": [
+      36,
+      40,
+      45,
+      56,
+      82,
+      15
+     ],
+     "nma-mersin": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ]
+    },
+    "nma-tarsus-osb": {
+     "nma-nigde-guney": [
+      181,
+      223,
+      285,
+      350,
+      427,
+      82
+     ],
+     "nma-nigde-kuzey": [
+      184,
+      223,
+      289,
+      363,
+      427,
+      82
+     ],
+     "nma-golcuk": [
+      184,
+      223,
+      289,
+      363,
+      427,
+      82
+     ],
+     "nma-kemerhisar": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-eminlik": [
+      164,
+      210,
+      272,
+      338,
+      407,
+      73
+     ],
+     "nma-pozanti-kuzey": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-pozanti-guney": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-tekir": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-yenice": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-adana-bati": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-camtepe": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ],
+     "nma-tarsus": [
+      36,
+      40,
+      45,
+      56,
+      82,
+      15
+     ],
+     "nma-mersin": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ]
+    },
+    "nma-mersin": {
+     "nma-nigde-guney": [
+      184,
+      223,
+      289,
+      363,
+      427,
+      82
+     ],
+     "nma-nigde-kuzey": [
+      193,
+      237,
+      289,
+      370,
+      459,
+      89
+     ],
+     "nma-golcuk": [
+      197,
+      237,
+      305,
+      370,
+      459,
+      94
+     ],
+     "nma-kemerhisar": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-eminlik": [
+      177,
+      222,
+      282,
+      345,
+      420,
+      82
+     ],
+     "nma-pozanti-kuzey": [
+      69,
+      89,
+      136,
+      168,
+      202,
+      33
+     ],
+     "nma-pozanti-guney": [
+      65,
+      73,
+      134,
+      156,
+      193,
+      33
+     ],
+     "nma-tekir": [
+      65,
+      73,
+      103,
+      156,
+      177,
+      33
+     ],
+     "nma-camalan": [
+      45,
+      53,
+      103,
+      134,
+      156,
+      20
+     ],
+     "nma-yenice": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-adana-bati": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "nma-camtepe": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-tarsus": [
+      45,
+      53,
+      89,
+      94,
+      103,
+      20
+     ],
+     "nma-tarsus-osb": [
+      36,
+      40,
+      56,
+      89,
+      94,
+      15
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "nma-golcuk",
+   "to": "ANO Niğde Alın (ano-nigde) — Ankara–Niğde Otoyolu, Gölcük köprülü kavşağı",
+   "note": "Ankara yönünden gelen araç Niğde Alın'da ANO tarifesini öder, Gölcük Alın'da bu tarifeye girer."
+  },
+  {
+   "station": "nma-adana-bati",
+   "to": "TAG Adana Doğu (tag-adana-dogu) — ücretsiz Adana çevre yolu üzerinden",
+   "note": "Adana Batı Alın – Adana Doğu Alın arası iki tarifenin dışında (ücretsiz)."
+  },
+  {
+   "station": "nma-mersin",
+   "to": "Mersin şehir girişi / D-400 (Erdemli–Silifke yönü)",
+   "note": "O-51'in batı ucu."
+  },
+  {
+   "station": "nma-camtepe",
+   "to": "O-21 / O-51 ayrımı (Tarsus kavşağı)",
+   "note": "Niğde yönünden gelen trafik burada Mersin (batı) ve Adana (doğu) kollarına ayrılır."
+  }
+ ],
+ "verification": [
+  "Kaynak PDF 10-CukurovaOtoyoluNigde-Mersin-Adana.pdf scripts/kgm/parsers/NMA.mjs ile x/y konumlarına göre ayrıştırıldı (her sayı başlık sütununa x-merkeziyle, satıra y ile eşlendi; bilinmeyen etiket/hücre olursa hata). 15 istasyon, 198 yönlü hücre × 6 sınıf (= 15×14 − 2×6: Pozantı Güney'in kuzey tarafı ile ücreti yok).",
+  "PDF tek üçgen tablo; her hücre iki yöne kopyalandı. Her satırda sınıf 1–6 aynı sütun kümesini kapsıyor ve kendi sütununda köşegen (U-dönüşü) hücresi var (parser assert).",
+  "Ham döküm kontrolü nma-mersin → nma-adana-bati = [45, 53, 89, 103, 134, 20] (MERSİN ALIN satırı, ADANA BATI sütunu (x≈579, y=251..202)) ✓",
+  "Ham döküm kontrolü nma-golcuk → nma-adana-bati = [193, 237, 289, 370, 452, 89] (ADANA BATI ALIN satırı, GÖLCÜK sütunu (x≈228)) ✓",
+  "Ham döküm kontrolü nma-pozanti-kuzey → nma-adana-bati = [65, 73, 103, 156, 177, 33] (ADANA BATI ALIN satırı, POZANTI (KUZEY) sütunu (x≈359)) ✓",
+  "Ham döküm kontrolü nma-pozanti-guney → nma-adana-bati = [45, 53, 103, 134, 156, 20] (ADANA BATI ALIN satırı, POZANTI (GÜNEY) sütunu (x≈403)) ✓",
+  "Ham döküm kontrolü nma-tekir → nma-kemerhisar = [128, 161, 222, 289, 350, 56] (TEKİR satırı, KEMERHİSAR sütunu (x≈272)) ✓",
+  "Ham döküm kontrolü nma-mersin → nma-golcuk = [197, 237, 305, 370, 459, 94] (MERSİN ALIN satırı, GÖLCÜK sütunu) ✓",
+  "Sınıf sırası kontrolü (1≤2≤3≤4≤5, motosiklet≤1): 0 ihlal.",
+  "Mesafeyle artış kontrolü (güzergah zincirleri boyunca 420 üçlü A–B–C, fiyat(A→C) ≥ fiyat(A→B) ve ≥ fiyat(B→C)): 24 ihlal — PDF'deki değerler aynen korunmuştur; örnekler: nma-golcuk→nma-tarsus-osb (427) < nma-golcuk→nma-camtepe (433) sınıf 5; nma-golcuk→nma-tarsus-osb (427) < nma-golcuk→nma-tarsus (440) sınıf 5; nma-nigde-guney→nma-tekir (256) < nma-eminlik→nma-tekir (262) sınıf 3; nma-kemerhisar→nma-pozanti-kuzey (205) < nma-eminlik→nma-pozanti-kuzey (222) sınıf 3; nma-kemerhisar→nma-pozanti-kuzey (256) < nma-eminlik→nma-pozanti-kuzey (289) sınıf 4; nma-kemerhisar→nma-pozanti-kuzey (330) < nma-eminlik→nma-pozanti-kuzey (350) sınıf 5; nma-kemerhisar→nma-tekir (128) < nma-eminlik→nma-tekir (153) sınıf 1; nma-kemerhisar→nma-tekir (161) < nma-eminlik→nma-tekir (177) sınıf 2.",
+  "Topoloji PDF km'lerinden: Gölcük–Niğde Kuzey 10,87, –Niğde Güney 7,8, –Kemerhisar 27, –Eminlik 18,5, –Pozantı Kuzey 35, –Pozantı Güney 7, –Tekir 15, –Çamalan 16, –Çamtepe 32. Çamtepe–Tarsus 9 + Çamtepe–Adana Batı 16 = Tarsus–Adana Batı 25 ve Mersin–Tarsus 24 + 25 = Mersin–Adana Batı 49 → Çamtepe O-21/O-51 ayrımının hemen kuzeyinde; Mersin kolu (Tarsus, Tarsus OSB, Mersin) ile Adana kolu (Yenice, Adana Batı) ayrımda farklı yönlere gider.",
+  "Km tutarsızlığı: PDF'de Yenice–Adana Batı 19 km, Çamtepe–Adana Batı 16 km, Yenice–Çamtepe 8 km, Yenice–Tarsus 17 km verilmiş; ağaç-metriğe tam uymuyor. Yenice, Tarsus Doğu bağlantı yolu gişesi olarak (Yenice beldesi 36.974/35.057) Tarsus–Adana arasında O-51 doğu koluna yerleştirildi; fiyatlar (Yenice–Adana Batı 36, Tarsus–Adana Batı 45, Tarsus–Yenice 36 TL) bununla uyumlu.",
+  "Kemerhisar anomalisi: Kemerhisar (Eminlik'in 18,5 km kuzeyi) güney istasyonlarına Eminlik'ten DAHA UCUZ (ör. Tekir: 128 vs 153 TL, sınıf 1). Değerler x-konumuyla doğrulandı (Kemerhisar sütunu x≈272, Eminlik x≈315); PDF'deki gibi bırakıldı.",
+  "Koordinatlar: Çamtepe (37.0011, 34.9449), Tarsus (36.9389, 34.8563), Adana Batı (37.0288, 35.1139) gişeleri harita kaynaklarından; Mersin (36.8851, 34.6341) 'Otoban Gişeleri, Akdeniz' noktası; Eminlik köy konumu; diğerleri tahmini (low)."
+ ]
 }

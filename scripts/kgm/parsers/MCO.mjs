@@ -33,7 +33,9 @@ const BRIDGE_TO = "mco-1915-koprusu"; // plaza behind the bridge
 const LINE_TOL = 1.5;
 const HEADER_BAND = 4; // gap between the header block and the first class line
 const HEADER_MERGE_TOL = 8;
-const CELL_TOL = 12; // columns ~73pt apart
+// columns are ~73pt apart; numbers were centred in the January edition and right-aligned
+// (≈20pt right of the header centre) in July 2026, so accept anything within half a column.
+const CELL_TOL = 30;
 
 const norm = (s) => s.replace(/\s+/g, " ").trim();
 const cx = (i) => i.x + i.w / 2;

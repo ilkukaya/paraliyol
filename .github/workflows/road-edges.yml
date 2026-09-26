@@ -2,15 +2,13 @@ name: Yol ağı ölçümü (OSRM)
 
 # Rota motorundaki her yol bağlantısının gerçek karayolu mesafe ve süresini
 # OpenStreetMap verisiyle (OSRM) ölçer ve data/road-edges.json dosyasını günceller.
-# Konum veya gişe verisi değiştiğinde ya da elle tetiklendiğinde çalışır.
+# Konum listesi değiştiğinde çalışır; gişe koordinatları değişirse elle tetikleyin.
 on:
   workflow_dispatch:
   push:
     paths:
       - "scripts/osrm/**"
       - "scripts/data/locations.src.tsv"
-      - "data/tolls/*.json"
-      - "!data/tolls/bridges.json"
 
 permissions:
   contents: write

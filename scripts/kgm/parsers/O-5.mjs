@@ -111,7 +111,8 @@ const HEADER_MERGE_TOL = 4; // fragments of one header label share (almost) the 
 const EDGE_TOL = 5; // cell right edge must be this close to its column's right border
 const IGNORE = /^(GİRİŞ GİŞELERİ|ÇIKIŞ GİŞELERİ)$/;
 
-const norm = (s) => s.replace(/\s+/g, " ").trim();
+// Label spacing around hyphens varies between tariff editions ("Mustafakemal- paşa" vs "Mustafakemal-paşa").
+const norm = (s) => s.replace(/\s+/g, " ").replace(/\s*-\s*/g, " - ").trim();
 const cx = (i) => i.x + i.w / 2;
 
 function groupLines(items) {
@@ -154,7 +155,7 @@ function parseTable(all, t, ist, xMin, xMax, yBottom) {
   clusters.sort((a, b) => a.x - b.x);
   const labels = clusters.map((c) => norm(c.items.sort((a, b) => b.y - a.y).map((i) => i.str).join(" ")));
   assert(
-    labels.length === t.columns.length && labels.every((l, k) => l === t.columns[k][0]),
+    labels.length === t.columns.length && labels.every((l, k) => l === norm(t.columns[k][0])),
     `${TAG} ${t.key}: column headers changed:\n  got      ${JSON.stringify(labels)}\n  expected ${JSON.stringify(t.columns.map((c) => c[0]))}`,
   );
   const centres = clusters.map((c) => c.items.reduce((s, i) => s + cx(i), 0) / c.items.length);
@@ -189,7 +190,7 @@ function parseTable(all, t, ist, xMin, xMax, yBottom) {
     }
   }
   assert(
-    blocks.length === t.rows.length && blocks.every((b, k) => b.label === t.rows[k][0]),
+    blocks.length === t.rows.length && blocks.every((b, k) => b.label === norm(t.rows[k][0])),
     `${TAG} ${t.key}: row labels changed:\n  got      ${JSON.stringify(blocks.map((b) => b.label))}\n  expected ${JSON.stringify(t.rows.map((r) => r[0]))}`,
   );
 

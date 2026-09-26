@@ -95,14 +95,14 @@
   "operator": "ICA İçtaş Astaldi Üçüncü Boğaz Köprüsü ve Kuzey Çevre Otoyolu Yatırım ve İşletme A.Ş.",
   "source": "3-YSSKoprusu.pdf",
   "prices": [
-   95,
-   125,
-   235,
-   595,
-   740,
-   65
+   110,
+   145,
+   270,
+   690,
+   860,
+   75
   ],
-  "validFrom": "2026-01-01",
+  "validFrom": "2026-07-01",
   "bothDirections": true,
   "ends": [
    {
@@ -132,14 +132,14 @@
   "operator": "Otoyol Yatırım ve İşletme A.Ş.",
   "source": "2-Osmangazi.pdf",
   "prices": [
-   995,
-   1590,
-   1890,
-   2505,
-   3165,
-   695
+   1170,
+   1870,
+   2225,
+   2950,
+   3720,
+   820
   ],
-  "validFrom": "2026-01-01",
+  "validFrom": "2026-07-01",
   "bothDirections": true,
   "ends": [
    {
@@ -168,14 +168,14 @@
   "operator": "Çanakkale Otoyol ve Köprü İnşaatı Yatırım ve İşletme A.Ş.",
   "source": "4-1915Canakkale.pdf",
   "prices": [
-   995,
-   1245,
-   2240,
-   2490,
-   3755,
-   250
+   1170,
+   1465,
+   2635,
+   2925,
+   5560,
+   295
   ],
-  "validFrom": "2026-01-01",
+  "validFrom": "2026-07-01",
   "bothDirections": true,
   "ends": [
    {

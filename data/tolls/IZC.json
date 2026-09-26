@@ -1,375 +1,375 @@
 {
-  "code": "IZC",
-  "name": "İzmir-Çeşme Otoyolu",
-  "shortName": "İzmir-Çeşme Otoyolu",
-  "operator": "KGM",
-  "source": "6-Izmir-Cesme.pdf",
-  "validFrom": "2026-01-01",
-  "rules": [
-    "Ücretlere KDV dahildir.",
-    "Tarife 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
-    "Tablo alt üçgen (simetrik) olarak verilmiştir: aynı iki istasyon arasındaki ücret her iki yönde aynıdır.",
-    "Aynı istasyonda giriş-çıkış (U dönüşü) hücresi tablodaki en yüksek ücrettir (Sınıf 1: 53 TL); bu değer matrise dahil edilmemiştir.",
-    "PDF başlığındaki \"1,2549\" katsayısı tarife artış katsayısıdır; ücretler zaten bu katsayı uygulanmış hâliyle listelenmiştir.",
-    "Ücretli kesim Seferihisar (Güzelbahçe) gişelerinde başlar; İzmir Çevre Yolu - Güzelbahçe arası ücretsizdir."
+ "code": "IZC",
+ "name": "İzmir-Çeşme Otoyolu",
+ "shortName": "İzmir-Çeşme Otoyolu",
+ "operator": "KGM",
+ "source": "6-Izmir-Cesme.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "Tarife 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Tablo alt üçgen (simetrik) olarak verilmiştir: aynı iki istasyon arasındaki ücret her iki yönde aynıdır.",
+  "Aynı istasyonda giriş-çıkış (U dönüşü) hücresi tablodaki en yüksek ücrettir (Sınıf 1: 53 TL); bu değer matrise dahil edilmemiştir.",
+  "PDF başlığındaki \"1,2549\" katsayısı tarife artış katsayısıdır; ücretler zaten bu katsayı uygulanmış hâliyle listelenmiştir.",
+  "Ücretli kesim Seferihisar (Güzelbahçe) gişelerinde başlar; İzmir Çevre Yolu - Güzelbahçe arası ücretsizdir."
+ ],
+ "stations": [
+  {
+   "id": "izc-seferihisar",
+   "name": "Seferihisar (Güzelbahçe)",
+   "pdfName": "SEFERİHİSAR (GÜZELBAHÇE)",
+   "lat": 38.3496,
+   "lng": 26.8805,
+   "coord": "medium"
+  },
+  {
+   "id": "izc-urla",
+   "name": "Urla",
+   "pdfName": "URLA",
+   "lat": 38.305,
+   "lng": 26.778,
+   "coord": "medium"
+  },
+  {
+   "id": "izc-karaburun",
+   "name": "Karaburun",
+   "pdfName": "KARABURUN",
+   "lat": 38.313,
+   "lng": 26.678,
+   "coord": "low"
+  },
+  {
+   "id": "izc-zeytinler",
+   "name": "Zeytinler",
+   "pdfName": "ZEYTİNLER",
+   "lat": 38.29,
+   "lng": 26.545,
+   "coord": "low"
+  },
+  {
+   "id": "izc-alacati",
+   "name": "Alaçatı",
+   "pdfName": "ALAÇATI",
+   "lat": 38.283,
+   "lng": 26.39,
+   "coord": "medium"
+  },
+  {
+   "id": "izc-cesme",
+   "name": "Çeşme",
+   "pdfName": "ÇEŞME",
+   "lat": 38.302,
+   "lng": 26.323,
+   "coord": "medium"
+  }
+ ],
+ "roads": [
+  [
+   "izc-seferihisar",
+   "izc-urla"
   ],
-  "stations": [
-    {
-      "id": "izc-seferihisar",
-      "name": "Seferihisar (Güzelbahçe)",
-      "pdfName": "SEFERİHİSAR (GÜZELBAHÇE)",
-      "lat": 38.3496,
-      "lng": 26.8805,
-      "coord": "medium"
-    },
-    {
-      "id": "izc-urla",
-      "name": "Urla",
-      "pdfName": "URLA",
-      "lat": 38.305,
-      "lng": 26.778,
-      "coord": "medium"
-    },
-    {
-      "id": "izc-karaburun",
-      "name": "Karaburun",
-      "pdfName": "KARABURUN",
-      "lat": 38.313,
-      "lng": 26.678,
-      "coord": "low"
-    },
-    {
-      "id": "izc-zeytinler",
-      "name": "Zeytinler",
-      "pdfName": "ZEYTİNLER",
-      "lat": 38.29,
-      "lng": 26.545,
-      "coord": "low"
-    },
-    {
-      "id": "izc-alacati",
-      "name": "Alaçatı",
-      "pdfName": "ALAÇATI",
-      "lat": 38.283,
-      "lng": 26.39,
-      "coord": "medium"
-    },
-    {
-      "id": "izc-cesme",
-      "name": "Çeşme",
-      "pdfName": "ÇEŞME",
-      "lat": 38.302,
-      "lng": 26.323,
-      "coord": "medium"
-    }
+  [
+   "izc-urla",
+   "izc-karaburun"
   ],
-  "roads": [
-    [
-      "izc-seferihisar",
-      "izc-urla"
-    ],
-    [
-      "izc-urla",
-      "izc-karaburun"
-    ],
-    [
-      "izc-karaburun",
-      "izc-zeytinler"
-    ],
-    [
-      "izc-zeytinler",
-      "izc-alacati"
-    ],
-    [
-      "izc-alacati",
-      "izc-cesme"
-    ]
+  [
+   "izc-karaburun",
+   "izc-zeytinler"
   ],
-  "sections": [
-    {
-      "id": "izc-main",
-      "name": "Seferihisar (Güzelbahçe) - Çeşme",
-      "stations": [
-        "izc-seferihisar",
-        "izc-urla",
-        "izc-karaburun",
-        "izc-zeytinler",
-        "izc-alacati",
-        "izc-cesme"
-      ],
-      "prices": {
-        "izc-seferihisar": {
-          "izc-urla": [
-            49,
-            53,
-            56,
-            69,
-            115,
-            20
-          ],
-          "izc-karaburun": [
-            49,
-            56,
-            59,
-            73,
-            115,
-            20
-          ],
-          "izc-zeytinler": [
-            53,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-alacati": [
-            53,
-            56,
-            102,
-            115,
-            148,
-            20
-          ],
-          "izc-cesme": [
-            53,
-            56,
-            102,
-            115,
-            148,
-            20
-          ]
-        },
-        "izc-urla": {
-          "izc-seferihisar": [
-            49,
-            53,
-            56,
-            69,
-            115,
-            20
-          ],
-          "izc-karaburun": [
-            49,
-            53,
-            56,
-            69,
-            115,
-            20
-          ],
-          "izc-zeytinler": [
-            49,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-alacati": [
-            53,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-cesme": [
-            53,
-            56,
-            102,
-            115,
-            148,
-            20
-          ]
-        },
-        "izc-karaburun": {
-          "izc-seferihisar": [
-            49,
-            56,
-            59,
-            73,
-            115,
-            20
-          ],
-          "izc-urla": [
-            49,
-            53,
-            56,
-            69,
-            115,
-            20
-          ],
-          "izc-zeytinler": [
-            49,
-            53,
-            56,
-            73,
-            115,
-            20
-          ],
-          "izc-alacati": [
-            49,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-cesme": [
-            53,
-            56,
-            65,
-            102,
-            115,
-            20
-          ]
-        },
-        "izc-zeytinler": {
-          "izc-seferihisar": [
-            53,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-urla": [
-            49,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-karaburun": [
-            49,
-            53,
-            56,
-            73,
-            115,
-            20
-          ],
-          "izc-alacati": [
-            49,
-            53,
-            56,
-            73,
-            115,
-            20
-          ],
-          "izc-cesme": [
-            49,
-            56,
-            65,
-            102,
-            115,
-            20
-          ]
-        },
-        "izc-alacati": {
-          "izc-seferihisar": [
-            53,
-            56,
-            102,
-            115,
-            148,
-            20
-          ],
-          "izc-urla": [
-            53,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-karaburun": [
-            49,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-zeytinler": [
-            49,
-            53,
-            56,
-            73,
-            115,
-            20
-          ],
-          "izc-cesme": [
-            49,
-            53,
-            56,
-            69,
-            115,
-            20
-          ]
-        },
-        "izc-cesme": {
-          "izc-seferihisar": [
-            53,
-            56,
-            102,
-            115,
-            148,
-            20
-          ],
-          "izc-urla": [
-            53,
-            56,
-            102,
-            115,
-            148,
-            20
-          ],
-          "izc-karaburun": [
-            53,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-zeytinler": [
-            49,
-            56,
-            65,
-            102,
-            115,
-            20
-          ],
-          "izc-alacati": [
-            49,
-            53,
-            56,
-            69,
-            115,
-            20
-          ]
-        }
-      }
-    }
+  [
+   "izc-zeytinler",
+   "izc-alacati"
   ],
-  "connections": [
-    {
-      "station": "izc-seferihisar",
-      "to": "İzmir Çevre Yolu (O-30) batı ucu / Güzelbahçe",
-      "note": "İzmir Çevre Yolu Üçkuyular - Güzelbahçe arası ücretsiz devam eder; ücretli kesim Seferihisar (Güzelbahçe) gişelerinde başlar. Buradan Seferihisar yoluna (İzmir-Seferihisar) de bağlantı vardır."
-    },
-    {
-      "station": "izc-seferihisar",
-      "to": "O-5 İzmir ucu ve İzmir-Aydın Otoyolu (IZA) — İzmir Çevre Yolu üzerinden",
-      "note": "IZC, IZA (Işıkkent) ve O-5 (Kemalpaşa/Bornova ucu) İzmir Çevre Yolu (O-30, ücretsiz) ile birbirine bağlanır."
-    }
-  ],
-  "verification": [
-    "PDF tek sayfa, 6 istasyon, alt üçgen matris (her satırda giriş istasyonu + önceki istasyonlar, son hücre U dönüşü). pdfjs x-koordinatları ile sütun başlıklarına eşleme doğrulandı (ör. Seferihisar sütunu x≈193, Urla x≈261).",
-    "PDF'deki mesafeler (km) sıralamayı doğruluyor: Güzelbahçe→Urla 9,4; →Karaburun 18,2; →Zeytinler 30,6; →Alaçatı 47,5; →Çeşme 56,3; ardışık farklar toplanınca tutarlı (9,4+8,8+12,4+16,9+8,8=56,3).",
-    "Her çift için sınıf 1 ≤ 2 ≤ 3 ≤ 4 ≤ 5 kontrol edildi (ihlal: 0). Matris simetrik yazıldı (PDF yalnızca bir üçgen veriyor), 30 yönlü çift.",
-    "Mesafe kademesi tutarlılığı: Sınıf 1 ~30 km altı 49 TL, üstü 53 TL; Sınıf 4 <10 km 69, 10-20 km 73, 20-40 km 102, >40 km 115 — tüm hücreler bu kademelere uyuyor.",
-    "Koordinatlar coğrafi bilgiye dayalı yaklaşık kavşak konumlarıdır (internet haritası erişimi yok); Karaburun ve Zeytinler kavşakları düşük güven."
+  [
+   "izc-alacati",
+   "izc-cesme"
   ]
+ ],
+ "sections": [
+  {
+   "id": "izc-main",
+   "name": "Seferihisar (Güzelbahçe) - Çeşme",
+   "stations": [
+    "izc-seferihisar",
+    "izc-urla",
+    "izc-karaburun",
+    "izc-zeytinler",
+    "izc-alacati",
+    "izc-cesme"
+   ],
+   "prices": {
+    "izc-seferihisar": {
+     "izc-urla": [
+      49,
+      53,
+      56,
+      69,
+      115,
+      20
+     ],
+     "izc-karaburun": [
+      49,
+      56,
+      59,
+      73,
+      115,
+      20
+     ],
+     "izc-zeytinler": [
+      53,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-alacati": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "izc-cesme": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ]
+    },
+    "izc-urla": {
+     "izc-seferihisar": [
+      49,
+      53,
+      56,
+      69,
+      115,
+      20
+     ],
+     "izc-karaburun": [
+      49,
+      53,
+      56,
+      69,
+      115,
+      20
+     ],
+     "izc-zeytinler": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-alacati": [
+      53,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-cesme": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ]
+    },
+    "izc-karaburun": {
+     "izc-seferihisar": [
+      49,
+      56,
+      59,
+      73,
+      115,
+      20
+     ],
+     "izc-urla": [
+      49,
+      53,
+      56,
+      69,
+      115,
+      20
+     ],
+     "izc-zeytinler": [
+      49,
+      53,
+      56,
+      73,
+      115,
+      20
+     ],
+     "izc-alacati": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-cesme": [
+      53,
+      56,
+      65,
+      102,
+      115,
+      20
+     ]
+    },
+    "izc-zeytinler": {
+     "izc-seferihisar": [
+      53,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-urla": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-karaburun": [
+      49,
+      53,
+      56,
+      73,
+      115,
+      20
+     ],
+     "izc-alacati": [
+      49,
+      53,
+      56,
+      73,
+      115,
+      20
+     ],
+     "izc-cesme": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ]
+    },
+    "izc-alacati": {
+     "izc-seferihisar": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "izc-urla": [
+      53,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-karaburun": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-zeytinler": [
+      49,
+      53,
+      56,
+      73,
+      115,
+      20
+     ],
+     "izc-cesme": [
+      49,
+      53,
+      56,
+      69,
+      115,
+      20
+     ]
+    },
+    "izc-cesme": {
+     "izc-seferihisar": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "izc-urla": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "izc-karaburun": [
+      53,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-zeytinler": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "izc-alacati": [
+      49,
+      53,
+      56,
+      69,
+      115,
+      20
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "izc-seferihisar",
+   "to": "İzmir Çevre Yolu (O-30) batı ucu / Güzelbahçe",
+   "note": "İzmir Çevre Yolu Üçkuyular - Güzelbahçe arası ücretsiz devam eder; ücretli kesim Seferihisar (Güzelbahçe) gişelerinde başlar. Buradan Seferihisar yoluna (İzmir-Seferihisar) de bağlantı vardır."
+  },
+  {
+   "station": "izc-seferihisar",
+   "to": "O-5 İzmir ucu ve İzmir-Aydın Otoyolu (IZA) — İzmir Çevre Yolu üzerinden",
+   "note": "IZC, IZA (Işıkkent) ve O-5 (Kemalpaşa/Bornova ucu) İzmir Çevre Yolu (O-30, ücretsiz) ile birbirine bağlanır."
+  }
+ ],
+ "verification": [
+  "PDF tek sayfa, 6 istasyon, alt üçgen matris (her satırda giriş istasyonu + önceki istasyonlar, son hücre U dönüşü). pdfjs x-koordinatları ile sütun başlıklarına eşleme doğrulandı (ör. Seferihisar sütunu x≈193, Urla x≈261).",
+  "PDF'deki mesafeler (km) sıralamayı doğruluyor: Güzelbahçe→Urla 9,4; →Karaburun 18,2; →Zeytinler 30,6; →Alaçatı 47,5; →Çeşme 56,3; ardışık farklar toplanınca tutarlı (9,4+8,8+12,4+16,9+8,8=56,3).",
+  "Her çift için sınıf 1 ≤ 2 ≤ 3 ≤ 4 ≤ 5 kontrol edildi (ihlal: 0). Matris simetrik yazıldı (PDF yalnızca bir üçgen veriyor), 30 yönlü çift.",
+  "Mesafe kademesi tutarlılığı: Sınıf 1 ~30 km altı 49 TL, üstü 53 TL; Sınıf 4 <10 km 69, 10-20 km 73, 20-40 km 102, >40 km 115 — tüm hücreler bu kademelere uyuyor.",
+  "Koordinatlar coğrafi bilgiye dayalı yaklaşık kavşak konumlarıdır (internet haritası erişimi yok); Karaburun ve Zeytinler kavşakları düşük güven."
+ ]
 }

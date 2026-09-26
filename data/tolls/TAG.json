@@ -1,2499 +1,2499 @@
 {
-  "code": "TAG",
-  "name": "Çukurova Otoyolları (Adana Doğu – Gaziantep Batı Kesimi)",
-  "shortName": "Tarsus–Adana–Gaziantep Otoyolu (Adana–Gaziantep, İskenderun kolu)",
-  "operator": "KGM",
-  "source": "8-CukurovaOtoyoluAdana-Gaziantep.pdf",
-  "validFrom": "2026-01-01",
-  "rules": [
-    "Ücretlere KDV dahildir.",
-    "01/01/2026 Saat 00:00'dan itibaren geçerlidir.",
-    "Tarife tek bir üçgen tablo olarak yayımlanmıştır: iki istasyon arasındaki ücret her iki yönde aynıdır.",
-    "Tablodaki köşegen (aynı istasyondan giriş-çıkış, U-dönüşü) ücretleri bu dosyada yer almaz."
+ "code": "TAG",
+ "name": "Çukurova Otoyolları (Adana Doğu – Gaziantep Batı Kesimi)",
+ "shortName": "Tarsus–Adana–Gaziantep Otoyolu (Adana–Gaziantep, İskenderun kolu)",
+ "operator": "KGM",
+ "source": "8-CukurovaOtoyoluAdana-Gaziantep.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "01/01/2026 Saat 00:00'dan itibaren geçerlidir.",
+  "Tarife tek bir üçgen tablo olarak yayımlanmıştır: iki istasyon arasındaki ücret her iki yönde aynıdır.",
+  "Tablodaki köşegen (aynı istasyondan giriş-çıkış, U-dönüşü) ücretleri bu dosyada yer almaz."
+ ],
+ "stations": [
+  {
+   "id": "tag-adana-dogu",
+   "name": "Adana Doğu",
+   "pdfName": "ADANA DOĞU ALIN",
+   "lat": 36.9886,
+   "lng": 35.7503,
+   "coord": "high"
+  },
+  {
+   "id": "tag-ceyhan",
+   "name": "Ceyhan",
+   "pdfName": "CEYHAN",
+   "lat": 37.018,
+   "lng": 35.83,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-toprakkale",
+   "name": "Toprakkale",
+   "pdfName": "TOPRAKKALE",
+   "lat": 37.053,
+   "lng": 36.125,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-sakizgedigi",
+   "name": "Sakızgediği (Osmaniye Batı)",
+   "pdfName": "SAKIZGEDİĞİ",
+   "lat": 37.065,
+   "lng": 36.2,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-osmaniye",
+   "name": "Osmaniye",
+   "pdfName": "OSMANİYE",
+   "lat": 37.055,
+   "lng": 36.255,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-osmaniye-osb",
+   "name": "Osmaniye OSB",
+   "pdfName": "OSMANİYE ORG.SAN.",
+   "lat": 36.99,
+   "lng": 36.155,
+   "coord": "low"
+  },
+  {
+   "id": "tag-erzin",
+   "name": "Erzin",
+   "pdfName": "ERZİN",
+   "lat": 36.955,
+   "lng": 36.185,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-yumurtalik-sb",
+   "name": "Yumurtalık Serbest Bölge",
+   "pdfName": "YUMURTALIK SERBEST BÖLGE",
+   "lat": 36.9352,
+   "lng": 35.995,
+   "coord": "high"
+  },
+  {
+   "id": "tag-dortyol",
+   "name": "Dörtyol",
+   "pdfName": "DÖRTYOL",
+   "lat": 36.85,
+   "lng": 36.205,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-payas",
+   "name": "Payas",
+   "pdfName": "PAYAS",
+   "lat": 36.765,
+   "lng": 36.195,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-iskenderun-osb",
+   "name": "İskenderun OSB",
+   "pdfName": "İSKENDERUN OSB",
+   "lat": 36.725,
+   "lng": 36.19,
+   "coord": "low"
+  },
+  {
+   "id": "tag-iskenderun",
+   "name": "İskenderun",
+   "pdfName": "İSKENDERUN",
+   "lat": 36.625,
+   "lng": 36.2,
+   "coord": "low"
+  },
+  {
+   "id": "tag-duzici",
+   "name": "Düziçi",
+   "pdfName": "DÜZİÇİ",
+   "lat": 37.13,
+   "lng": 36.43,
+   "coord": "low"
+  },
+  {
+   "id": "tag-bahce",
+   "name": "Bahçe",
+   "pdfName": "BAHÇE",
+   "lat": 37.17,
+   "lng": 36.51,
+   "coord": "low"
+  },
+  {
+   "id": "tag-komurler",
+   "name": "Kömürler (Nurdağı)",
+   "pdfName": "KÖMÜRLER (NURDAĞI)",
+   "lat": 37.1976,
+   "lng": 36.7633,
+   "coord": "medium"
+  },
+  {
+   "id": "tag-narli",
+   "name": "Narlı",
+   "pdfName": "NARLI",
+   "lat": 37.26,
+   "lng": 37.1,
+   "coord": "low"
+  },
+  {
+   "id": "tag-gaziantep-bati",
+   "name": "Gaziantep Batı",
+   "pdfName": "GAZİANTEP BATI ALIN",
+   "lat": 37.2037,
+   "lng": 37.2669,
+   "coord": "medium"
+  }
+ ],
+ "roads": [
+  [
+   "tag-adana-dogu",
+   "tag-ceyhan"
   ],
-  "stations": [
-    {
-      "id": "tag-adana-dogu",
-      "name": "Adana Doğu",
-      "pdfName": "ADANA DOĞU ALIN",
-      "lat": 36.9886,
-      "lng": 35.7503,
-      "coord": "high"
-    },
-    {
-      "id": "tag-ceyhan",
-      "name": "Ceyhan",
-      "pdfName": "CEYHAN",
-      "lat": 37.018,
-      "lng": 35.83,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-toprakkale",
-      "name": "Toprakkale",
-      "pdfName": "TOPRAKKALE",
-      "lat": 37.053,
-      "lng": 36.125,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-sakizgedigi",
-      "name": "Sakızgediği (Osmaniye Batı)",
-      "pdfName": "SAKIZGEDİĞİ",
-      "lat": 37.065,
-      "lng": 36.2,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-osmaniye",
-      "name": "Osmaniye",
-      "pdfName": "OSMANİYE",
-      "lat": 37.055,
-      "lng": 36.255,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-osmaniye-osb",
-      "name": "Osmaniye OSB",
-      "pdfName": "OSMANİYE ORG.SAN.",
-      "lat": 36.99,
-      "lng": 36.155,
-      "coord": "low"
-    },
-    {
-      "id": "tag-erzin",
-      "name": "Erzin",
-      "pdfName": "ERZİN",
-      "lat": 36.955,
-      "lng": 36.185,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-yumurtalik-sb",
-      "name": "Yumurtalık Serbest Bölge",
-      "pdfName": "YUMURTALIK SERBEST BÖLGE",
-      "lat": 36.9352,
-      "lng": 35.995,
-      "coord": "high"
-    },
-    {
-      "id": "tag-dortyol",
-      "name": "Dörtyol",
-      "pdfName": "DÖRTYOL",
-      "lat": 36.85,
-      "lng": 36.205,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-payas",
-      "name": "Payas",
-      "pdfName": "PAYAS",
-      "lat": 36.765,
-      "lng": 36.195,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-iskenderun-osb",
-      "name": "İskenderun OSB",
-      "pdfName": "İSKENDERUN OSB",
-      "lat": 36.725,
-      "lng": 36.19,
-      "coord": "low"
-    },
-    {
-      "id": "tag-iskenderun",
-      "name": "İskenderun",
-      "pdfName": "İSKENDERUN",
-      "lat": 36.625,
-      "lng": 36.2,
-      "coord": "low"
-    },
-    {
-      "id": "tag-duzici",
-      "name": "Düziçi",
-      "pdfName": "DÜZİÇİ",
-      "lat": 37.13,
-      "lng": 36.43,
-      "coord": "low"
-    },
-    {
-      "id": "tag-bahce",
-      "name": "Bahçe",
-      "pdfName": "BAHÇE",
-      "lat": 37.17,
-      "lng": 36.51,
-      "coord": "low"
-    },
-    {
-      "id": "tag-komurler",
-      "name": "Kömürler (Nurdağı)",
-      "pdfName": "KÖMÜRLER (NURDAĞI)",
-      "lat": 37.1976,
-      "lng": 36.7633,
-      "coord": "medium"
-    },
-    {
-      "id": "tag-narli",
-      "name": "Narlı",
-      "pdfName": "NARLI",
-      "lat": 37.26,
-      "lng": 37.1,
-      "coord": "low"
-    },
-    {
-      "id": "tag-gaziantep-bati",
-      "name": "Gaziantep Batı",
-      "pdfName": "GAZİANTEP BATI ALIN",
-      "lat": 37.2037,
-      "lng": 37.2669,
-      "coord": "medium"
-    }
+  [
+   "tag-ceyhan",
+   "tag-toprakkale"
   ],
-  "roads": [
-    [
-      "tag-adana-dogu",
-      "tag-ceyhan"
-    ],
-    [
-      "tag-ceyhan",
-      "tag-toprakkale"
-    ],
-    [
-      "tag-toprakkale",
-      "tag-sakizgedigi"
-    ],
-    [
-      "tag-sakizgedigi",
-      "tag-osmaniye"
-    ],
-    [
-      "tag-osmaniye",
-      "tag-duzici"
-    ],
-    [
-      "tag-duzici",
-      "tag-bahce"
-    ],
-    [
-      "tag-bahce",
-      "tag-komurler"
-    ],
-    [
-      "tag-komurler",
-      "tag-narli"
-    ],
-    [
-      "tag-narli",
-      "tag-gaziantep-bati"
-    ],
-    [
-      "tag-ceyhan",
-      "tag-yumurtalik-sb"
-    ],
-    [
-      "tag-yumurtalik-sb",
-      "tag-erzin"
-    ],
-    [
-      "tag-toprakkale",
-      "tag-osmaniye-osb"
-    ],
-    [
-      "tag-osmaniye-osb",
-      "tag-erzin"
-    ],
-    [
-      "tag-erzin",
-      "tag-dortyol"
-    ],
-    [
-      "tag-dortyol",
-      "tag-payas"
-    ],
-    [
-      "tag-payas",
-      "tag-iskenderun-osb"
-    ],
-    [
-      "tag-iskenderun-osb",
-      "tag-iskenderun"
-    ]
+  [
+   "tag-toprakkale",
+   "tag-sakizgedigi"
   ],
-  "sections": [
-    {
-      "id": "tag-adana-gaziantep",
-      "name": "Adana Doğu – Gaziantep Batı / İskenderun",
-      "stations": [
-        "tag-adana-dogu",
-        "tag-ceyhan",
-        "tag-toprakkale",
-        "tag-sakizgedigi",
-        "tag-osmaniye",
-        "tag-osmaniye-osb",
-        "tag-erzin",
-        "tag-yumurtalik-sb",
-        "tag-dortyol",
-        "tag-payas",
-        "tag-iskenderun-osb",
-        "tag-iskenderun",
-        "tag-duzici",
-        "tag-bahce",
-        "tag-komurler",
-        "tag-narli",
-        "tag-gaziantep-bati"
-      ],
-      "prices": {
-        "tag-adana-dogu": {
-          "tag-ceyhan": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-osmaniye": [
-            65,
-            73,
-            89,
-            108,
-            134,
-            33
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-dortyol": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            25
-          ],
-          "tag-payas": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-iskenderun-osb": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-iskenderun": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-komurler": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            33
-          ],
-          "tag-narli": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            205,
-            256,
-            45
-          ]
-        },
-        "tag-ceyhan": {
-          "tag-adana-dogu": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-dortyol": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-payas": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-iskenderun-osb": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-iskenderun": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-komurler": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-narli": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            205,
-            256,
-            45
-          ]
-        },
-        "tag-toprakkale": {
-          "tag-adana-dogu": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-ceyhan": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-sakizgedigi": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-osmaniye": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-osmaniye-osb": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-erzin": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-dortyol": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-payas": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-iskenderun-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-iskenderun": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            25
-          ],
-          "tag-duzici": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-bahce": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-komurler": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-narli": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ]
-        },
-        "tag-sakizgedigi": {
-          "tag-adana-dogu": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-ceyhan": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-toprakkale": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-osmaniye": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-osmaniye-osb": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-dortyol": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-payas": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-iskenderun-osb": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            25
-          ],
-          "tag-iskenderun": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-duzici": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-bahce": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-komurler": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-narli": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-gaziantep-bati": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ]
-        },
-        "tag-osmaniye": {
-          "tag-adana-dogu": [
-            65,
-            73,
-            89,
-            108,
-            134,
-            33
-          ],
-          "tag-ceyhan": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-toprakkale": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-sakizgedigi": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-dortyol": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-payas": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-iskenderun-osb": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-iskenderun": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-duzici": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-bahce": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-komurler": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-narli": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-gaziantep-bati": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ]
-        },
-        "tag-osmaniye-osb": {
-          "tag-adana-dogu": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-ceyhan": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-toprakkale": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-sakizgedigi": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-erzin": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-yumurtalik-sb": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-dortyol": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-payas": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-iskenderun-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-iskenderun": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-duzici": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-bahce": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-komurler": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-narli": [
-            73,
-            103,
-            108,
-            134,
-            161,
-            36
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ]
-        },
-        "tag-erzin": {
-          "tag-adana-dogu": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-ceyhan": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-toprakkale": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye-osb": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-yumurtalik-sb": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-dortyol": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-payas": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-iskenderun-osb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-iskenderun": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-duzici": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-bahce": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-komurler": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-narli": [
-            73,
-            103,
-            108,
-            134,
-            161,
-            36
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ]
-        },
-        "tag-yumurtalik-sb": {
-          "tag-adana-dogu": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-ceyhan": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye-osb": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-erzin": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-dortyol": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-payas": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-iskenderun-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-iskenderun": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-komurler": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-narli": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ]
-        },
-        "tag-dortyol": {
-          "tag-adana-dogu": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            25
-          ],
-          "tag-ceyhan": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-erzin": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-payas": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-iskenderun-osb": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-iskenderun": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-komurler": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-narli": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ]
-        },
-        "tag-payas": {
-          "tag-adana-dogu": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-ceyhan": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-dortyol": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-iskenderun-osb": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-iskenderun": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-komurler": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            33
-          ],
-          "tag-narli": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ]
-        },
-        "tag-iskenderun-osb": {
-          "tag-adana-dogu": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-ceyhan": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-sakizgedigi": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            25
-          ],
-          "tag-osmaniye": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-dortyol": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ],
-          "tag-payas": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-iskenderun": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-komurler": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            33
-          ],
-          "tag-narli": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ]
-        },
-        "tag-iskenderun": {
-          "tag-adana-dogu": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-ceyhan": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-toprakkale": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            25
-          ],
-          "tag-sakizgedigi": [
-            65,
-            73,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-osmaniye": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-dortyol": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-payas": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-iskenderun-osb": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ],
-          "tag-komurler": [
-            102,
-            120,
-            156,
-            193,
-            243,
-            33
-          ],
-          "tag-narli": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ],
-          "tag-gaziantep-bati": [
-            102,
-            120,
-            156,
-            243,
-            256,
-            45
-          ]
-        },
-        "tag-duzici": {
-          "tag-adana-dogu": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-ceyhan": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-dortyol": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-payas": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-iskenderun-osb": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-iskenderun": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-komurler": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-narli": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-gaziantep-bati": [
-            65,
-            73,
-            103,
-            148,
-            156,
-            33
-          ]
-        },
-        "tag-bahce": {
-          "tag-adana-dogu": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-ceyhan": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-toprakkale": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-sakizgedigi": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-osmaniye-osb": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-erzin": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-yumurtalik-sb": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-dortyol": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-payas": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-iskenderun-osb": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-iskenderun": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ],
-          "tag-duzici": [
-            36,
-            40,
-            56,
-            89,
-            95,
-            15
-          ],
-          "tag-komurler": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-narli": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-gaziantep-bati": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ]
-        },
-        "tag-komurler": {
-          "tag-adana-dogu": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            33
-          ],
-          "tag-ceyhan": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-toprakkale": [
-            65,
-            73,
-            103,
-            136,
-            156,
-            33
-          ],
-          "tag-sakizgedigi": [
-            53,
-            69,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-osmaniye": [
-            45,
-            53,
-            89,
-            103,
-            134,
-            33
-          ],
-          "tag-osmaniye-osb": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-erzin": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-yumurtalik-sb": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-dortyol": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-payas": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            33
-          ],
-          "tag-iskenderun-osb": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            33
-          ],
-          "tag-iskenderun": [
-            102,
-            120,
-            156,
-            193,
-            243,
-            33
-          ],
-          "tag-duzici": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-bahce": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-narli": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-gaziantep-bati": [
-            45,
-            65,
-            89,
-            103,
-            134,
-            20
-          ]
-        },
-        "tag-narli": {
-          "tag-adana-dogu": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-ceyhan": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-toprakkale": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ],
-          "tag-sakizgedigi": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-osmaniye": [
-            65,
-            73,
-            103,
-            136,
-            161,
-            33
-          ],
-          "tag-osmaniye-osb": [
-            73,
-            103,
-            108,
-            134,
-            161,
-            36
-          ],
-          "tag-erzin": [
-            73,
-            103,
-            108,
-            134,
-            161,
-            36
-          ],
-          "tag-yumurtalik-sb": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-dortyol": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-payas": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-iskenderun-osb": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-iskenderun": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-komurler": [
-            45,
-            53,
-            89,
-            95,
-            103,
-            20
-          ],
-          "tag-gaziantep-bati": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ]
-        },
-        "tag-gaziantep-bati": {
-          "tag-adana-dogu": [
-            102,
-            120,
-            156,
-            205,
-            256,
-            45
-          ],
-          "tag-ceyhan": [
-            102,
-            120,
-            156,
-            205,
-            256,
-            45
-          ],
-          "tag-toprakkale": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-sakizgedigi": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ],
-          "tag-osmaniye": [
-            73,
-            115,
-            134,
-            156,
-            193,
-            36
-          ],
-          "tag-osmaniye-osb": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-erzin": [
-            102,
-            120,
-            156,
-            177,
-            237,
-            45
-          ],
-          "tag-yumurtalik-sb": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ],
-          "tag-dortyol": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ],
-          "tag-payas": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ],
-          "tag-iskenderun-osb": [
-            102,
-            120,
-            156,
-            237,
-            256,
-            45
-          ],
-          "tag-iskenderun": [
-            102,
-            120,
-            156,
-            243,
-            256,
-            45
-          ],
-          "tag-duzici": [
-            65,
-            73,
-            103,
-            148,
-            156,
-            33
-          ],
-          "tag-bahce": [
-            65,
-            73,
-            103,
-            134,
-            156,
-            33
-          ],
-          "tag-komurler": [
-            45,
-            65,
-            89,
-            103,
-            134,
-            20
-          ],
-          "tag-narli": [
-            36,
-            40,
-            56,
-            89,
-            102,
-            15
-          ]
-        }
-      }
-    }
+  [
+   "tag-sakizgedigi",
+   "tag-osmaniye"
   ],
-  "connections": [
-    {
-      "station": "tag-adana-dogu",
-      "to": "NMA Adana Batı (nma-adana-bati) — ücretsiz Adana çevre yolu (O-51/O-52 Adana kesimi) üzerinden",
-      "note": "Adana Batı Alın ile Adana Doğu Alın gişeleri arasındaki Adana geçişi bu iki tarifenin dışında (ücretsiz); Mersin/Niğde yönünden gelen araç Adana Batı'da NMA tarifesini öder, Adana Doğu'da TAG tarifesine girer."
-    },
-    {
-      "station": "tag-gaziantep-bati",
-      "to": "GSO Gaziantep Doğu (gso-gaziantep-dogu) — Gaziantep çevre yolu üzerinden",
-      "note": "Gaziantep Batı Alın – Gaziantep Doğu arası Gaziantep geçişi iki tarifenin dışında; Şanlıurfa yönü ayrı tarife (GSO)."
-    },
-    {
-      "station": "tag-iskenderun",
-      "to": "D-817 İskenderun – Antakya (Hatay)",
-      "note": "O-53'ün İskenderun ucu."
-    },
-    {
-      "station": "tag-toprakkale",
-      "to": "O-53 doğu kolu (İskenderun Kavşağı Doğu) / D-400",
-      "note": "Gaziantep yönünden İskenderun'a giden kol burada ayrılır."
-    },
-    {
-      "station": "tag-ceyhan",
-      "to": "O-53 batı kolu (İskenderun Kavşağı Batı)",
-      "note": "Adana yönünden İskenderun'a giden kol Ceyhan kavşağının hemen doğusunda ayrılır, Yumurtalık SB üzerinden Erzin yakınında doğu kolla birleşir."
-    }
+  [
+   "tag-osmaniye",
+   "tag-duzici"
   ],
-  "verification": [
-    "Kaynak PDF 8-CukurovaOtoyoluAdana-Gaziantep.pdf scripts/kgm/parsers/TAG.mjs ile x/y konumlarına göre ayrıştırıldı (her sayı başlık sütununa x-merkeziyle, satıra y ile eşlendi; bilinmeyen etiket/hücre olursa hata). 17 istasyon, 272 yönlü hücre × 6 sınıf (= 17×16, köşegen hariç).",
-    "PDF tek üçgen tablo; her hücre iki yöne kopyalandı. Her satırda sınıf 1–6 aynı sütun kümesini kapsıyor ve kendi sütununda köşegen (U-dönüşü) hücresi var (parser assert).",
-    "Ham döküm kontrolü tag-adana-dogu → tag-gaziantep-bati = [102, 120, 156, 205, 256, 45] (GAZİANTEP BATI ALIN satırı, ADANA DOĞU sütunu (y=117..74)) ✓",
-    "Ham döküm kontrolü tag-ceyhan → tag-adana-dogu = [36, 40, 56, 89, 95, 15] (CEYHAN satırı (y=1012..969)) ✓",
-    "Ham döküm kontrolü tag-iskenderun → tag-adana-dogu = [65, 73, 103, 136, 156, 33] (İSKENDERUN satırı ilk sütun (y=415..373)) ✓",
-    "Ham döküm kontrolü tag-narli → tag-bahce = [65, 73, 103, 134, 156, 33] (NARLI satırı, BAHÇE sütunu (x≈654)) ✓",
-    "Ham döküm kontrolü tag-komurler → tag-duzici = [45, 53, 89, 95, 103, 20] (KÖMÜRLER satırı, DÜZİÇİ sütunu (x≈615)) ✓",
-    "Sınıf sırası kontrolü (1≤2≤3≤4≤5, motosiklet≤1): 0 ihlal.",
-    "Mesafeyle artış kontrolü (güzergah zincirleri boyunca 540 üçlü A–B–C, fiyat(A→C) ≥ fiyat(A→B) ve ≥ fiyat(B→C)): 16 ihlal — PDF'deki değerler aynen korunmuştur; örnekler: tag-narli→tag-osmaniye-osb (134) < tag-komurler→tag-osmaniye-osb (136) sınıf 4; tag-narli→tag-erzin (134) < tag-komurler→tag-erzin (136) sınıf 4; tag-narli→tag-osmaniye-osb (134) < tag-narli→tag-osmaniye (136) sınıf 4; tag-narli→tag-erzin (134) < tag-narli→tag-osmaniye (136) sınıf 4; tag-narli→tag-osmaniye-osb (134) < tag-narli→tag-sakizgedigi (136) sınıf 4; tag-narli→tag-erzin (134) < tag-narli→tag-sakizgedigi (136) sınıf 4; tag-narli→tag-osmaniye-osb (103) < tag-narli→tag-toprakkale (115) sınıf 2; tag-narli→tag-osmaniye-osb (108) < tag-narli→tag-toprakkale (134) sınıf 3.",
-    "Topoloji PDF'deki km değerlerinden çıkarıldı: Adana Doğu–Ceyhan 8, Ceyhan–Toprakkale 30, Toprakkale–Sakızgediği 6,8, –Osmaniye 5,2, –Düziçi 21, –Bahçe 9, –Kömürler 25, –Narlı 35, –Gaziantep Batı 17 (toplam 157 km). Adana Doğu–Erzin 40 km < Adana Doğu–Toprakkale–Erzin 53 km → Ceyhan'dan Yumurtalık SB üzerinden ayrı batı kolu (O-53 'İskenderun Kavşağı Batı'); Toprakkale–Osmaniye OSB 8, OSB–Erzin 7 → doğu kolu. OSB–Yumurtalık 16 / Yumurtalık–Erzin 18 / OSB–Erzin 7 iki kolun Erzin'in ~4,5 km kuzeyinde birleştiğini gösterir; Erzin–Dörtyol 15, –Payas 13, –İskenderun OSB 5, –İskenderun 12.",
-    "Koordinatlar: Adana Doğu gişesi (36.9886, 35.7503) ve Yumurtalık Serbest Bölge bağlantısı (36.9352, 35.9950) harita kaynaklarından; Kömürler/Nurdağı gişesi (37.1976, 36.7633) ve Gaziantep Batı (37.2037, 37.2669; kaynakta 'Narlı çıkışı' olarak etiketli nokta) orta güven; diğerleri km aralıkları + ilçe konumlarından tahmin (low/medium)."
+  [
+   "tag-duzici",
+   "tag-bahce"
+  ],
+  [
+   "tag-bahce",
+   "tag-komurler"
+  ],
+  [
+   "tag-komurler",
+   "tag-narli"
+  ],
+  [
+   "tag-narli",
+   "tag-gaziantep-bati"
+  ],
+  [
+   "tag-ceyhan",
+   "tag-yumurtalik-sb"
+  ],
+  [
+   "tag-yumurtalik-sb",
+   "tag-erzin"
+  ],
+  [
+   "tag-toprakkale",
+   "tag-osmaniye-osb"
+  ],
+  [
+   "tag-osmaniye-osb",
+   "tag-erzin"
+  ],
+  [
+   "tag-erzin",
+   "tag-dortyol"
+  ],
+  [
+   "tag-dortyol",
+   "tag-payas"
+  ],
+  [
+   "tag-payas",
+   "tag-iskenderun-osb"
+  ],
+  [
+   "tag-iskenderun-osb",
+   "tag-iskenderun"
   ]
+ ],
+ "sections": [
+  {
+   "id": "tag-adana-gaziantep",
+   "name": "Adana Doğu – Gaziantep Batı / İskenderun",
+   "stations": [
+    "tag-adana-dogu",
+    "tag-ceyhan",
+    "tag-toprakkale",
+    "tag-sakizgedigi",
+    "tag-osmaniye",
+    "tag-osmaniye-osb",
+    "tag-erzin",
+    "tag-yumurtalik-sb",
+    "tag-dortyol",
+    "tag-payas",
+    "tag-iskenderun-osb",
+    "tag-iskenderun",
+    "tag-duzici",
+    "tag-bahce",
+    "tag-komurler",
+    "tag-narli",
+    "tag-gaziantep-bati"
+   ],
+   "prices": {
+    "tag-adana-dogu": {
+     "tag-ceyhan": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-osmaniye": [
+      65,
+      73,
+      89,
+      108,
+      134,
+      33
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-dortyol": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      25
+     ],
+     "tag-payas": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-iskenderun-osb": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-iskenderun": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-komurler": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      33
+     ],
+     "tag-narli": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      205,
+      256,
+      45
+     ]
+    },
+    "tag-ceyhan": {
+     "tag-adana-dogu": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-dortyol": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-payas": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-iskenderun-osb": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-iskenderun": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-komurler": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-narli": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      205,
+      256,
+      45
+     ]
+    },
+    "tag-toprakkale": {
+     "tag-adana-dogu": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-ceyhan": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-sakizgedigi": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-osmaniye": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-osmaniye-osb": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-erzin": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-dortyol": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-payas": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-iskenderun-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-iskenderun": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      25
+     ],
+     "tag-duzici": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-bahce": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-komurler": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-narli": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ]
+    },
+    "tag-sakizgedigi": {
+     "tag-adana-dogu": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-ceyhan": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-toprakkale": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-osmaniye": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-osmaniye-osb": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-dortyol": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-payas": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-iskenderun-osb": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      25
+     ],
+     "tag-iskenderun": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-duzici": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-bahce": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-komurler": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-narli": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-gaziantep-bati": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ]
+    },
+    "tag-osmaniye": {
+     "tag-adana-dogu": [
+      65,
+      73,
+      89,
+      108,
+      134,
+      33
+     ],
+     "tag-ceyhan": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-toprakkale": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-sakizgedigi": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-dortyol": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-payas": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-iskenderun-osb": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-iskenderun": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-duzici": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-bahce": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-komurler": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-narli": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-gaziantep-bati": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ]
+    },
+    "tag-osmaniye-osb": {
+     "tag-adana-dogu": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-ceyhan": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-toprakkale": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-sakizgedigi": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-erzin": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-yumurtalik-sb": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-dortyol": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-payas": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-iskenderun-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-iskenderun": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-duzici": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-bahce": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-komurler": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-narli": [
+      73,
+      103,
+      108,
+      134,
+      161,
+      36
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ]
+    },
+    "tag-erzin": {
+     "tag-adana-dogu": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-ceyhan": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-toprakkale": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye-osb": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-yumurtalik-sb": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-dortyol": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-payas": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-iskenderun-osb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-iskenderun": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-duzici": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-bahce": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-komurler": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-narli": [
+      73,
+      103,
+      108,
+      134,
+      161,
+      36
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ]
+    },
+    "tag-yumurtalik-sb": {
+     "tag-adana-dogu": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-ceyhan": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye-osb": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-erzin": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-dortyol": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-payas": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-iskenderun-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-iskenderun": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-komurler": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-narli": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ]
+    },
+    "tag-dortyol": {
+     "tag-adana-dogu": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      25
+     ],
+     "tag-ceyhan": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-erzin": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-payas": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-iskenderun-osb": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-iskenderun": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-komurler": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-narli": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ]
+    },
+    "tag-payas": {
+     "tag-adana-dogu": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-ceyhan": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-dortyol": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-iskenderun-osb": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-iskenderun": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-komurler": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      33
+     ],
+     "tag-narli": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ]
+    },
+    "tag-iskenderun-osb": {
+     "tag-adana-dogu": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-ceyhan": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-sakizgedigi": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      25
+     ],
+     "tag-osmaniye": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-dortyol": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ],
+     "tag-payas": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-iskenderun": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-komurler": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      33
+     ],
+     "tag-narli": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ]
+    },
+    "tag-iskenderun": {
+     "tag-adana-dogu": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-ceyhan": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-toprakkale": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      25
+     ],
+     "tag-sakizgedigi": [
+      65,
+      73,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-osmaniye": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-dortyol": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-payas": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-iskenderun-osb": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ],
+     "tag-komurler": [
+      102,
+      120,
+      156,
+      193,
+      243,
+      33
+     ],
+     "tag-narli": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ],
+     "tag-gaziantep-bati": [
+      102,
+      120,
+      156,
+      243,
+      256,
+      45
+     ]
+    },
+    "tag-duzici": {
+     "tag-adana-dogu": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-ceyhan": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-dortyol": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-payas": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-iskenderun-osb": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-iskenderun": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-komurler": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-narli": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-gaziantep-bati": [
+      65,
+      73,
+      103,
+      148,
+      156,
+      33
+     ]
+    },
+    "tag-bahce": {
+     "tag-adana-dogu": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-ceyhan": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-toprakkale": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-sakizgedigi": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-osmaniye-osb": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-erzin": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-yumurtalik-sb": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-dortyol": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-payas": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-iskenderun-osb": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-iskenderun": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ],
+     "tag-duzici": [
+      36,
+      40,
+      56,
+      89,
+      95,
+      15
+     ],
+     "tag-komurler": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-narli": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-gaziantep-bati": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ]
+    },
+    "tag-komurler": {
+     "tag-adana-dogu": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      33
+     ],
+     "tag-ceyhan": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-toprakkale": [
+      65,
+      73,
+      103,
+      136,
+      156,
+      33
+     ],
+     "tag-sakizgedigi": [
+      53,
+      69,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-osmaniye": [
+      45,
+      53,
+      89,
+      103,
+      134,
+      33
+     ],
+     "tag-osmaniye-osb": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-erzin": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-yumurtalik-sb": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-dortyol": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-payas": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      33
+     ],
+     "tag-iskenderun-osb": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      33
+     ],
+     "tag-iskenderun": [
+      102,
+      120,
+      156,
+      193,
+      243,
+      33
+     ],
+     "tag-duzici": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-bahce": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-narli": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-gaziantep-bati": [
+      45,
+      65,
+      89,
+      103,
+      134,
+      20
+     ]
+    },
+    "tag-narli": {
+     "tag-adana-dogu": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-ceyhan": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-toprakkale": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ],
+     "tag-sakizgedigi": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-osmaniye": [
+      65,
+      73,
+      103,
+      136,
+      161,
+      33
+     ],
+     "tag-osmaniye-osb": [
+      73,
+      103,
+      108,
+      134,
+      161,
+      36
+     ],
+     "tag-erzin": [
+      73,
+      103,
+      108,
+      134,
+      161,
+      36
+     ],
+     "tag-yumurtalik-sb": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-dortyol": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-payas": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-iskenderun-osb": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-iskenderun": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-komurler": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "tag-gaziantep-bati": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ]
+    },
+    "tag-gaziantep-bati": {
+     "tag-adana-dogu": [
+      102,
+      120,
+      156,
+      205,
+      256,
+      45
+     ],
+     "tag-ceyhan": [
+      102,
+      120,
+      156,
+      205,
+      256,
+      45
+     ],
+     "tag-toprakkale": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-sakizgedigi": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ],
+     "tag-osmaniye": [
+      73,
+      115,
+      134,
+      156,
+      193,
+      36
+     ],
+     "tag-osmaniye-osb": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-erzin": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "tag-yumurtalik-sb": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ],
+     "tag-dortyol": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ],
+     "tag-payas": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ],
+     "tag-iskenderun-osb": [
+      102,
+      120,
+      156,
+      237,
+      256,
+      45
+     ],
+     "tag-iskenderun": [
+      102,
+      120,
+      156,
+      243,
+      256,
+      45
+     ],
+     "tag-duzici": [
+      65,
+      73,
+      103,
+      148,
+      156,
+      33
+     ],
+     "tag-bahce": [
+      65,
+      73,
+      103,
+      134,
+      156,
+      33
+     ],
+     "tag-komurler": [
+      45,
+      65,
+      89,
+      103,
+      134,
+      20
+     ],
+     "tag-narli": [
+      36,
+      40,
+      56,
+      89,
+      102,
+      15
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "tag-adana-dogu",
+   "to": "NMA Adana Batı (nma-adana-bati) — ücretsiz Adana çevre yolu (O-51/O-52 Adana kesimi) üzerinden",
+   "note": "Adana Batı Alın ile Adana Doğu Alın gişeleri arasındaki Adana geçişi bu iki tarifenin dışında (ücretsiz); Mersin/Niğde yönünden gelen araç Adana Batı'da NMA tarifesini öder, Adana Doğu'da TAG tarifesine girer."
+  },
+  {
+   "station": "tag-gaziantep-bati",
+   "to": "GSO Gaziantep Doğu (gso-gaziantep-dogu) — Gaziantep çevre yolu üzerinden",
+   "note": "Gaziantep Batı Alın – Gaziantep Doğu arası Gaziantep geçişi iki tarifenin dışında; Şanlıurfa yönü ayrı tarife (GSO)."
+  },
+  {
+   "station": "tag-iskenderun",
+   "to": "D-817 İskenderun – Antakya (Hatay)",
+   "note": "O-53'ün İskenderun ucu."
+  },
+  {
+   "station": "tag-toprakkale",
+   "to": "O-53 doğu kolu (İskenderun Kavşağı Doğu) / D-400",
+   "note": "Gaziantep yönünden İskenderun'a giden kol burada ayrılır."
+  },
+  {
+   "station": "tag-ceyhan",
+   "to": "O-53 batı kolu (İskenderun Kavşağı Batı)",
+   "note": "Adana yönünden İskenderun'a giden kol Ceyhan kavşağının hemen doğusunda ayrılır, Yumurtalık SB üzerinden Erzin yakınında doğu kolla birleşir."
+  }
+ ],
+ "verification": [
+  "Kaynak PDF 8-CukurovaOtoyoluAdana-Gaziantep.pdf scripts/kgm/parsers/TAG.mjs ile x/y konumlarına göre ayrıştırıldı (her sayı başlık sütununa x-merkeziyle, satıra y ile eşlendi; bilinmeyen etiket/hücre olursa hata). 17 istasyon, 272 yönlü hücre × 6 sınıf (= 17×16, köşegen hariç).",
+  "PDF tek üçgen tablo; her hücre iki yöne kopyalandı. Her satırda sınıf 1–6 aynı sütun kümesini kapsıyor ve kendi sütununda köşegen (U-dönüşü) hücresi var (parser assert).",
+  "Ham döküm kontrolü tag-adana-dogu → tag-gaziantep-bati = [102, 120, 156, 205, 256, 45] (GAZİANTEP BATI ALIN satırı, ADANA DOĞU sütunu (y=117..74)) ✓",
+  "Ham döküm kontrolü tag-ceyhan → tag-adana-dogu = [36, 40, 56, 89, 95, 15] (CEYHAN satırı (y=1012..969)) ✓",
+  "Ham döküm kontrolü tag-iskenderun → tag-adana-dogu = [65, 73, 103, 136, 156, 33] (İSKENDERUN satırı ilk sütun (y=415..373)) ✓",
+  "Ham döküm kontrolü tag-narli → tag-bahce = [65, 73, 103, 134, 156, 33] (NARLI satırı, BAHÇE sütunu (x≈654)) ✓",
+  "Ham döküm kontrolü tag-komurler → tag-duzici = [45, 53, 89, 95, 103, 20] (KÖMÜRLER satırı, DÜZİÇİ sütunu (x≈615)) ✓",
+  "Sınıf sırası kontrolü (1≤2≤3≤4≤5, motosiklet≤1): 0 ihlal.",
+  "Mesafeyle artış kontrolü (güzergah zincirleri boyunca 540 üçlü A–B–C, fiyat(A→C) ≥ fiyat(A→B) ve ≥ fiyat(B→C)): 16 ihlal — PDF'deki değerler aynen korunmuştur; örnekler: tag-narli→tag-osmaniye-osb (134) < tag-komurler→tag-osmaniye-osb (136) sınıf 4; tag-narli→tag-erzin (134) < tag-komurler→tag-erzin (136) sınıf 4; tag-narli→tag-osmaniye-osb (134) < tag-narli→tag-osmaniye (136) sınıf 4; tag-narli→tag-erzin (134) < tag-narli→tag-osmaniye (136) sınıf 4; tag-narli→tag-osmaniye-osb (134) < tag-narli→tag-sakizgedigi (136) sınıf 4; tag-narli→tag-erzin (134) < tag-narli→tag-sakizgedigi (136) sınıf 4; tag-narli→tag-osmaniye-osb (103) < tag-narli→tag-toprakkale (115) sınıf 2; tag-narli→tag-osmaniye-osb (108) < tag-narli→tag-toprakkale (134) sınıf 3.",
+  "Topoloji PDF'deki km değerlerinden çıkarıldı: Adana Doğu–Ceyhan 8, Ceyhan–Toprakkale 30, Toprakkale–Sakızgediği 6,8, –Osmaniye 5,2, –Düziçi 21, –Bahçe 9, –Kömürler 25, –Narlı 35, –Gaziantep Batı 17 (toplam 157 km). Adana Doğu–Erzin 40 km < Adana Doğu–Toprakkale–Erzin 53 km → Ceyhan'dan Yumurtalık SB üzerinden ayrı batı kolu (O-53 'İskenderun Kavşağı Batı'); Toprakkale–Osmaniye OSB 8, OSB–Erzin 7 → doğu kolu. OSB–Yumurtalık 16 / Yumurtalık–Erzin 18 / OSB–Erzin 7 iki kolun Erzin'in ~4,5 km kuzeyinde birleştiğini gösterir; Erzin–Dörtyol 15, –Payas 13, –İskenderun OSB 5, –İskenderun 12.",
+  "Koordinatlar: Adana Doğu gişesi (36.9886, 35.7503) ve Yumurtalık Serbest Bölge bağlantısı (36.9352, 35.9950) harita kaynaklarından; Kömürler/Nurdağı gişesi (37.1976, 36.7633) ve Gaziantep Batı (37.2037, 37.2669; kaynakta 'Narlı çıkışı' olarak etiketli nokta) orta güven; diğerleri km aralıkları + ilçe konumlarından tahmin (low/medium)."
+ ]
 }
