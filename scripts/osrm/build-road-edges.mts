@@ -56,7 +56,7 @@ for (const g of groups.values()) {
     let json: { code: string; distances?: (number | null)[][]; durations?: (number | null)[][] } | null = null;
     for (let attempt = 0; attempt < 4 && !json; attempt++) {
       try {
-        const res = await fetch(url, { headers: { "User-Agent": "paraliyol-road-graph/1.0 (+https://paraliyol.netlify.app)" } });
+        const res = await fetch(url, { headers: { "User-Agent": "paraliyol-road-graph/1.0 (+https://paraliyol.netlify.app)" }, signal: AbortSignal.timeout(30000) });
         if (res.ok) json = await res.json();
         else await sleep(3000 * (attempt + 1));
       } catch {
@@ -79,7 +79,7 @@ for (const g of groups.values()) {
       done++;
     });
   }
-  if (done % 200 < 90) console.log(`measured ${done}/${jobs.size} (failed ${failed})`);
+  console.log(`measured ${done}/${jobs.size} (failed ${failed})`);
 }
 
 const sorted = Object.fromEntries(Object.entries(out).sort(([a], [b]) => (a < b ? -1 : 1)));
