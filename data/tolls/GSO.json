@@ -1,0 +1,282 @@
+{
+ "code": "GSO",
+ "name": "Çukurova Otoyolları (Gaziantep Doğu – Şanlıurfa Kesimi)",
+ "shortName": "Gaziantep–Şanlıurfa Otoyolu",
+ "operator": "KGM",
+ "source": "9-CukurovaOtoyoluGaziantep-Sanliurfa.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "01/01/2026 Saat 00:00'dan itibaren geçerlidir.",
+  "Tarife tek bir üçgen tablo olarak yayımlanmıştır: iki istasyon arasındaki ücret her iki yönde aynıdır.",
+  "Tablodaki köşegen (aynı istasyondan giriş-çıkış, U-dönüşü) ücretleri bu dosyada yer almaz."
+ ],
+ "stations": [
+  {
+   "id": "gso-gaziantep-dogu",
+   "name": "Gaziantep Doğu",
+   "pdfName": "GAZİANTEP DOĞU",
+   "lat": 37.0874,
+   "lng": 37.4596,
+   "coord": "high"
+  },
+  {
+   "id": "gso-nizip",
+   "name": "Nizip",
+   "pdfName": "NİZİP",
+   "lat": 37.05,
+   "lng": 37.78,
+   "coord": "low"
+  },
+  {
+   "id": "gso-birecik",
+   "name": "Birecik",
+   "pdfName": "BİRECİK",
+   "lat": 37.05,
+   "lng": 38,
+   "coord": "low"
+  },
+  {
+   "id": "gso-suruc",
+   "name": "Suruç",
+   "pdfName": "SURUÇ",
+   "lat": 37.02,
+   "lng": 38.4,
+   "coord": "low"
+  },
+  {
+   "id": "gso-sanliurfa",
+   "name": "Şanlıurfa",
+   "pdfName": "ŞANLIURFA",
+   "lat": 37.13,
+   "lng": 38.73,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "gso-gaziantep-dogu",
+   "gso-nizip"
+  ],
+  [
+   "gso-nizip",
+   "gso-birecik"
+  ],
+  [
+   "gso-birecik",
+   "gso-suruc"
+  ],
+  [
+   "gso-suruc",
+   "gso-sanliurfa"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "gso-gaziantep-sanliurfa",
+   "name": "Gaziantep Doğu – Şanlıurfa",
+   "stations": [
+    "gso-gaziantep-dogu",
+    "gso-nizip",
+    "gso-birecik",
+    "gso-suruc",
+    "gso-sanliurfa"
+   ],
+   "prices": {
+    "gso-gaziantep-dogu": {
+     "gso-nizip": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "gso-birecik": [
+      59,
+      75,
+      94,
+      114,
+      134,
+      33
+     ],
+     "gso-suruc": [
+      75,
+      95,
+      114,
+      136,
+      164,
+      40
+     ],
+     "gso-sanliurfa": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ]
+    },
+    "gso-nizip": {
+     "gso-gaziantep-dogu": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      20
+     ],
+     "gso-birecik": [
+      36,
+      40,
+      59,
+      89,
+      102,
+      15
+     ],
+     "gso-suruc": [
+      65,
+      82,
+      94,
+      114,
+      134,
+      33
+     ],
+     "gso-sanliurfa": [
+      75,
+      95,
+      114,
+      136,
+      164,
+      40
+     ]
+    },
+    "gso-birecik": {
+     "gso-gaziantep-dogu": [
+      59,
+      75,
+      94,
+      114,
+      134,
+      33
+     ],
+     "gso-nizip": [
+      36,
+      40,
+      59,
+      89,
+      102,
+      15
+     ],
+     "gso-suruc": [
+      49,
+      59,
+      89,
+      103,
+      134,
+      25
+     ],
+     "gso-sanliurfa": [
+      65,
+      75,
+      103,
+      134,
+      156,
+      33
+     ]
+    },
+    "gso-suruc": {
+     "gso-gaziantep-dogu": [
+      75,
+      95,
+      114,
+      136,
+      164,
+      40
+     ],
+     "gso-nizip": [
+      65,
+      82,
+      94,
+      114,
+      134,
+      33
+     ],
+     "gso-birecik": [
+      49,
+      59,
+      89,
+      103,
+      134,
+      25
+     ],
+     "gso-sanliurfa": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      25
+     ]
+    },
+    "gso-sanliurfa": {
+     "gso-gaziantep-dogu": [
+      102,
+      120,
+      156,
+      177,
+      237,
+      45
+     ],
+     "gso-nizip": [
+      75,
+      95,
+      114,
+      136,
+      164,
+      40
+     ],
+     "gso-birecik": [
+      65,
+      75,
+      103,
+      134,
+      156,
+      33
+     ],
+     "gso-suruc": [
+      45,
+      53,
+      89,
+      95,
+      103,
+      25
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "gso-gaziantep-dogu",
+   "to": "TAG Gaziantep Batı (tag-gaziantep-bati) — Gaziantep çevre yolu üzerinden",
+   "note": "Gaziantep Batı – Gaziantep Doğu arası iki tarifenin dışında; Adana yönü ayrı tarife (TAG)."
+  },
+  {
+   "station": "gso-sanliurfa",
+   "to": "D-400 / Şanlıurfa şehir girişi",
+   "note": "O-52'nin doğu ucu."
+  }
+ ],
+ "verification": [
+  "Kaynak PDF 9-CukurovaOtoyoluGaziantep-Sanliurfa.pdf scripts/kgm/parsers/GSO.mjs ile x/y konumlarına göre ayrıştırıldı (her sayı başlık sütununa x-merkeziyle, satıra y ile eşlendi; bilinmeyen etiket/hücre olursa hata). 5 istasyon, 20 yönlü hücre × 6 sınıf (= 5×4, köşegen hariç).",
+  "PDF tek üçgen tablo; her hücre iki yöne kopyalandı. Her satırda sınıf 1–6 aynı sütun kümesini kapsıyor ve kendi sütununda köşegen (U-dönüşü) hücresi var (parser assert).",
+  "Ham döküm kontrolü gso-gaziantep-dogu → gso-sanliurfa = [102, 120, 156, 177, 237, 45] (ŞANLIURFA satırı, GAZİANTEP DOĞU sütunu (y=307..234)) ✓",
+  "Ham döküm kontrolü gso-birecik → gso-suruc = [49, 59, 89, 103, 134, 25] (SURUÇ satırı, BİRECİK sütunu) ✓",
+  "Ham döküm kontrolü gso-nizip → gso-gaziantep-dogu = [45, 53, 89, 95, 103, 20] (NİZİP satırı (y=612..539)) ✓",
+  "Sınıf sırası kontrolü (1≤2≤3≤4≤5, motosiklet≤1): 0 ihlal.",
+  "Mesafeyle artış kontrolü (güzergah zincirleri boyunca 10 üçlü A–B–C, fiyat(A→C) ≥ fiyat(A→B) ve ≥ fiyat(B→C)): 0 ihlal.",
+  "PDF km: Gaziantep Doğu–Nizip 24, Nizip–Birecik 18 (GD–Birecik 43), Birecik–Suruç 41, Suruç–Şanlıurfa 36 (toplam 120 km); tek hat, sıralama tutarlı. Sayfa 2 boş (yalnızca '1,2549' metni).",
+  "Koordinatlar: Gaziantep Doğu gişesi (37.0874, 37.4596) harita kaynağından; Nizip/Birecik/Suruç/Şanlıurfa bağlantı gişeleri ilçe merkezlerine ve km aralıklarına göre tahmini (low)."
+ ]
+}

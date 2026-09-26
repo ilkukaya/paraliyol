@@ -7,16 +7,22 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sync-tolls": "node scripts/parse-kgm-pdfs.mjs"
+    "test": "tsx --test tests/*.test.ts",
+    "sync-tolls": "node scripts/kgm/sync.mjs",
+    "sync-tolls:download": "node scripts/kgm/sync.mjs --download",
+    "check-tolls": "node scripts/kgm/check.mjs",
+    "build-locations": "node scripts/build-locations.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
     "@netlify/plugin-nextjs": "^5.15.9",
     "leaflet": "^1.9.4",
     "next": "16.2.1",
     "pdfjs-dist": "^5.5.207",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "react-leaflet": "^5.0.0"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -27,6 +33,10 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }

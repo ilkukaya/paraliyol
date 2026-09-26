@@ -1,0 +1,9928 @@
+{
+ "code": "O-4",
+ "name": "Anadolu Otoyolu (Çamlıca-Akıncı Kesimi)",
+ "shortName": "Anadolu Otoyolu",
+ "operator": "KGM",
+ "source": "5-AnadoluOtoyoluCamlica-Akinci.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "Ücretler 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Tablo yorumu: PDF tek üçgen (alt üçgen) matris olarak verilmiştir; her istasyon çifti için ücret her iki yönde aynıdır.",
+  "Tablo yorumu: Tablonun köşegenindeki (aynı istasyon) değer, o istasyon için en uzak mesafe ücretidir (U dönüşü / giriş bilgisi bulunamaması halinde uygulanan ücret olarak kullanılır; PDF'te ayrıca yazılı değildir).",
+  "Tablo yorumu: Gebze OSB, Batı Hereke ve Batı İzmit yalnızca İstanbul (batı) yönündeki istasyonlarla, Doğu Hereke yalnızca doğu yönündeki istasyonlarla ücretlendirilir (yarım kavşaklar); Gebze OSB-Gebze, Batı Hereke-Doğu Hereke ve Batı İzmit-Kandıra arasında ücret yoktur.",
+  "Tablo yorumu: Muallimköy-Liman arası 0,000 km ve 0,00 TL olarak verilmiştir.",
+  "Tablo yorumu: Topağaç ile batısındaki (Çamlıca…Akyazı) istasyonlar arasındaki ücretler, ilgili istasyonun en uzak mesafe ücretine eşittir (PDF'te böyle yazılıdır)."
+ ],
+ "stations": [
+  {
+   "id": "o4-camlica",
+   "name": "Çamlıca (Anadolu)",
+   "pdfName": "ANADOLU (ÇAMLICA)",
+   "lat": 41.001,
+   "lng": 29.179,
+   "coord": "low"
+  },
+  {
+   "id": "o4-samandira",
+   "name": "Samandıra",
+   "pdfName": "SAMANDIRA",
+   "lat": 40.9905,
+   "lng": 29.211,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-sultanbeyli",
+   "name": "Sultanbeyli",
+   "pdfName": "SULTANBEYLİ",
+   "lat": 40.97,
+   "lng": 29.253,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-mecidiye",
+   "name": "Mecidiye",
+   "pdfName": "MECİDİYE",
+   "lat": 40.949,
+   "lng": 29.3,
+   "coord": "low"
+  },
+  {
+   "id": "o4-kurtkoy",
+   "name": "Kurtköy",
+   "pdfName": "KURTKÖY",
+   "lat": 40.938,
+   "lng": 29.318,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-orhanli",
+   "name": "Orhanlı",
+   "pdfName": "ORHANLI",
+   "lat": 40.93,
+   "lng": 29.334,
+   "coord": "low"
+  },
+  {
+   "id": "o4-sekerpinar",
+   "name": "Şekerpınar",
+   "pdfName": "Ş.PINAR",
+   "lat": 40.876,
+   "lng": 29.395,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-gebze-osb",
+   "name": "Gebze OSB",
+   "pdfName": "GEBZE ORG. SAN. BÖLGELERİ",
+   "lat": 40.866,
+   "lng": 29.423,
+   "coord": "low"
+  },
+  {
+   "id": "o4-gebze",
+   "name": "Gebze",
+   "pdfName": "GEBZE",
+   "lat": 40.833,
+   "lng": 29.464,
+   "coord": "low"
+  },
+  {
+   "id": "o4-muallimkoy",
+   "name": "Muallimköy",
+   "pdfName": "MUALLİMKÖY",
+   "lat": 40.815,
+   "lng": 29.493,
+   "coord": "low"
+  },
+  {
+   "id": "o4-liman",
+   "name": "Liman (Dilovası Limanlar)",
+   "pdfName": "LİMAN",
+   "lat": 40.813,
+   "lng": 29.497,
+   "coord": "low"
+  },
+  {
+   "id": "o4-dil-iskelesi",
+   "name": "Dil İskelesi",
+   "pdfName": "DİL İSKELESİ",
+   "lat": 40.8,
+   "lng": 29.523,
+   "coord": "low"
+  },
+  {
+   "id": "o4-bati-hereke",
+   "name": "Batı Hereke",
+   "pdfName": "BATI HEREKE",
+   "lat": 40.798,
+   "lng": 29.592,
+   "coord": "low"
+  },
+  {
+   "id": "o4-dogu-hereke",
+   "name": "Doğu Hereke",
+   "pdfName": "DOĞU HEREKE",
+   "lat": 40.796,
+   "lng": 29.627,
+   "coord": "low"
+  },
+  {
+   "id": "o4-korfez",
+   "name": "Körfez",
+   "pdfName": "KÖRFEZ",
+   "lat": 40.776,
+   "lng": 29.758,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-bati-izmit",
+   "name": "Batı İzmit",
+   "pdfName": "BATI İZMİT",
+   "lat": 40.78,
+   "lng": 29.84,
+   "coord": "low"
+  },
+  {
+   "id": "o4-kandira",
+   "name": "Kandıra",
+   "pdfName": "KANDIRA",
+   "lat": 40.783,
+   "lng": 29.96,
+   "coord": "low"
+  },
+  {
+   "id": "o4-kartepe",
+   "name": "Kartepe",
+   "pdfName": "KARTEPE",
+   "lat": 40.765,
+   "lng": 30.015,
+   "coord": "low"
+  },
+  {
+   "id": "o4-dogu-izmit",
+   "name": "Doğu İzmit",
+   "pdfName": "DOĞU İZMİT",
+   "lat": 40.756,
+   "lng": 30.037,
+   "coord": "low"
+  },
+  {
+   "id": "o4-sapanca",
+   "name": "Sapanca",
+   "pdfName": "SAPANCA",
+   "lat": 40.696,
+   "lng": 30.24,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-adapazari",
+   "name": "Adapazarı",
+   "pdfName": "ADAPAZARI",
+   "lat": 40.72,
+   "lng": 30.38,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-bekirpasa",
+   "name": "Bekirpaşa",
+   "pdfName": "BEKİRPAŞA",
+   "lat": 40.718,
+   "lng": 30.448,
+   "coord": "low"
+  },
+  {
+   "id": "o4-akyazi",
+   "name": "Akyazı",
+   "pdfName": "AKYAZI",
+   "lat": 40.715,
+   "lng": 30.555,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-topagac",
+   "name": "Topağaç",
+   "pdfName": "TOPAĞAÇ",
+   "lat": 40.744,
+   "lng": 30.627,
+   "coord": "low"
+  },
+  {
+   "id": "o4-hendek",
+   "name": "Hendek",
+   "pdfName": "HENDEK",
+   "lat": 40.772,
+   "lng": 30.69,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-duzce",
+   "name": "Düzce (Gölyaka)",
+   "pdfName": "DÜZCE (GÖLYAKA)",
+   "lat": 40.778,
+   "lng": 31.02,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-duzce-osb",
+   "name": "Düzce OSB",
+   "pdfName": "DÜZCE ORGANİZE SAN.",
+   "lat": 40.787,
+   "lng": 31.16,
+   "coord": "low"
+  },
+  {
+   "id": "o4-kaynasli",
+   "name": "Kaynaşlı",
+   "pdfName": "KAYNAŞLI",
+   "lat": 40.776,
+   "lng": 31.26,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-abant",
+   "name": "Abant",
+   "pdfName": "ABANT",
+   "lat": 40.738,
+   "lng": 31.47,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-bolu-bati",
+   "name": "Bolu Batı",
+   "pdfName": "BOLU BATI",
+   "lat": 40.733,
+   "lng": 31.56,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-caydurt",
+   "name": "Çaydurt",
+   "pdfName": "ÇAYDURT",
+   "lat": 40.77,
+   "lng": 31.78,
+   "coord": "low"
+  },
+  {
+   "id": "o4-yenicaga",
+   "name": "Yeniçağa",
+   "pdfName": "YENİÇAĞA",
+   "lat": 40.78,
+   "lng": 32.03,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-dortdivan",
+   "name": "Dörtdivan",
+   "pdfName": "DÖRTDİVAN",
+   "lat": 40.775,
+   "lng": 32.135,
+   "coord": "low"
+  },
+  {
+   "id": "o4-gerede",
+   "name": "Gerede",
+   "pdfName": "GEREDE",
+   "lat": 40.776,
+   "lng": 32.165,
+   "coord": "medium"
+  },
+  {
+   "id": "o4-pelitcik",
+   "name": "Pelitçik (Çamlıdere)",
+   "pdfName": "PELİTÇİK (ÇAMLIDERE)",
+   "lat": 40.5,
+   "lng": 32.46,
+   "coord": "low"
+  },
+  {
+   "id": "o4-celtikci",
+   "name": "Çeltikçi (Kızılcahamam)",
+   "pdfName": "ÇELTİKÇİ (KIZILCAHAMAM)",
+   "lat": 40.395,
+   "lng": 32.52,
+   "coord": "low"
+  },
+  {
+   "id": "o4-akinci",
+   "name": "Akıncı",
+   "pdfName": "AKINCI",
+   "lat": 40.115,
+   "lng": 32.595,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "o4-camlica",
+   "o4-samandira"
+  ],
+  [
+   "o4-samandira",
+   "o4-sultanbeyli"
+  ],
+  [
+   "o4-sultanbeyli",
+   "o4-mecidiye"
+  ],
+  [
+   "o4-mecidiye",
+   "o4-kurtkoy"
+  ],
+  [
+   "o4-kurtkoy",
+   "o4-orhanli"
+  ],
+  [
+   "o4-orhanli",
+   "o4-sekerpinar"
+  ],
+  [
+   "o4-sekerpinar",
+   "o4-gebze-osb"
+  ],
+  [
+   "o4-gebze-osb",
+   "o4-gebze"
+  ],
+  [
+   "o4-gebze",
+   "o4-muallimkoy"
+  ],
+  [
+   "o4-muallimkoy",
+   "o4-dil-iskelesi"
+  ],
+  [
+   "o4-dil-iskelesi",
+   "o4-bati-hereke"
+  ],
+  [
+   "o4-bati-hereke",
+   "o4-dogu-hereke"
+  ],
+  [
+   "o4-dogu-hereke",
+   "o4-korfez"
+  ],
+  [
+   "o4-korfez",
+   "o4-bati-izmit"
+  ],
+  [
+   "o4-bati-izmit",
+   "o4-kandira"
+  ],
+  [
+   "o4-kandira",
+   "o4-kartepe"
+  ],
+  [
+   "o4-kartepe",
+   "o4-dogu-izmit"
+  ],
+  [
+   "o4-dogu-izmit",
+   "o4-sapanca"
+  ],
+  [
+   "o4-sapanca",
+   "o4-adapazari"
+  ],
+  [
+   "o4-adapazari",
+   "o4-bekirpasa"
+  ],
+  [
+   "o4-bekirpasa",
+   "o4-akyazi"
+  ],
+  [
+   "o4-akyazi",
+   "o4-topagac"
+  ],
+  [
+   "o4-topagac",
+   "o4-hendek"
+  ],
+  [
+   "o4-hendek",
+   "o4-duzce"
+  ],
+  [
+   "o4-duzce",
+   "o4-duzce-osb"
+  ],
+  [
+   "o4-duzce-osb",
+   "o4-kaynasli"
+  ],
+  [
+   "o4-kaynasli",
+   "o4-abant"
+  ],
+  [
+   "o4-abant",
+   "o4-bolu-bati"
+  ],
+  [
+   "o4-bolu-bati",
+   "o4-caydurt"
+  ],
+  [
+   "o4-caydurt",
+   "o4-yenicaga"
+  ],
+  [
+   "o4-yenicaga",
+   "o4-dortdivan"
+  ],
+  [
+   "o4-dortdivan",
+   "o4-gerede"
+  ],
+  [
+   "o4-gerede",
+   "o4-pelitcik"
+  ],
+  [
+   "o4-pelitcik",
+   "o4-celtikci"
+  ],
+  [
+   "o4-celtikci",
+   "o4-akinci"
+  ],
+  [
+   "o4-muallimkoy",
+   "o4-liman"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "o4-camlica-akinci",
+   "name": "Çamlıca - Akıncı (kapalı sistem)",
+   "stations": [
+    "o4-camlica",
+    "o4-samandira",
+    "o4-sultanbeyli",
+    "o4-mecidiye",
+    "o4-kurtkoy",
+    "o4-orhanli",
+    "o4-sekerpinar",
+    "o4-gebze-osb",
+    "o4-gebze",
+    "o4-muallimkoy",
+    "o4-liman",
+    "o4-dil-iskelesi",
+    "o4-bati-hereke",
+    "o4-dogu-hereke",
+    "o4-korfez",
+    "o4-bati-izmit",
+    "o4-kandira",
+    "o4-kartepe",
+    "o4-dogu-izmit",
+    "o4-sapanca",
+    "o4-adapazari",
+    "o4-bekirpasa",
+    "o4-akyazi",
+    "o4-topagac",
+    "o4-hendek",
+    "o4-duzce",
+    "o4-duzce-osb",
+    "o4-kaynasli",
+    "o4-abant",
+    "o4-bolu-bati",
+    "o4-caydurt",
+    "o4-yenicaga",
+    "o4-dortdivan",
+    "o4-gerede",
+    "o4-pelitcik",
+    "o4-celtikci",
+    "o4-akinci"
+   ],
+   "prices": {
+    "o4-camlica": {
+     "o4-samandira": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-sultanbeyli": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-gebze-osb": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-korfez": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-bati-izmit": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kandira": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-sapanca": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-adapazari": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-bekirpasa": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-topagac": [
+      338,
+      390,
+      522,
+      675,
+      811,
+      136
+     ],
+     "o4-hendek": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o4-duzce": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kaynasli": [
+      168,
+      173,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o4-abant": [
+      285,
+      338,
+      407,
+      522,
+      640,
+      115
+     ],
+     "o4-bolu-bati": [
+      289,
+      345,
+      459,
+      587,
+      744,
+      115
+     ],
+     "o4-caydurt": [
+      305,
+      358,
+      472,
+      626,
+      744,
+      123
+     ],
+     "o4-yenicaga": [
+      325,
+      370,
+      472,
+      626,
+      752,
+      134
+     ],
+     "o4-dortdivan": [
+      325,
+      370,
+      518,
+      626,
+      752,
+      134
+     ],
+     "o4-gerede": [
+      325,
+      370,
+      518,
+      626,
+      752,
+      134
+     ],
+     "o4-pelitcik": [
+      325,
+      370,
+      518,
+      655,
+      789,
+      134
+     ],
+     "o4-celtikci": [
+      325,
+      370,
+      518,
+      655,
+      789,
+      134
+     ],
+     "o4-akinci": [
+      338,
+      390,
+      522,
+      675,
+      811,
+      136
+     ]
+    },
+    "o4-samandira": {
+     "o4-camlica": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-sultanbeyli": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-mecidiye": [
+      45,
+      49,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-gebze-osb": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-bati-izmit": [
+      73,
+      82,
+      148,
+      168,
+      173,
+      33
+     ],
+     "o4-kandira": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-sapanca": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-adapazari": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-bekirpasa": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ],
+     "o4-hendek": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-duzce": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-caydurt": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ]
+    },
+    "o4-sultanbeyli": {
+     "o4-camlica": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o4-samandira": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-mecidiye": [
+      45,
+      49,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-kurtkoy": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-orhanli": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "o4-gebze-osb": [
+      49,
+      56,
+      65,
+      115,
+      120,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-bati-izmit": [
+      73,
+      82,
+      148,
+      168,
+      173,
+      33
+     ],
+     "o4-kandira": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-sapanca": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-adapazari": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-bekirpasa": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ],
+     "o4-hendek": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-duzce": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-caydurt": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ]
+    },
+    "o4-mecidiye": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-samandira": [
+      45,
+      49,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-sultanbeyli": [
+      45,
+      49,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-kurtkoy": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-orhanli": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "o4-gebze-osb": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kandira": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-adapazari": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-bekirpasa": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-hendek": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-duzce": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-caydurt": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ]
+    },
+    "o4-kurtkoy": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-sultanbeyli": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-mecidiye": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-orhanli": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-sekerpinar": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-gebze-osb": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kandira": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-adapazari": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-bekirpasa": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-hendek": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-duzce": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      472,
+      601,
+      732,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      601,
+      744,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ]
+    },
+    "o4-orhanli": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-sultanbeyli": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o4-mecidiye": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-kurtkoy": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-sekerpinar": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-gebze-osb": [
+      40,
+      45,
+      56,
+      102,
+      115,
+      15
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kandira": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-adapazari": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-bekirpasa": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-hendek": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-duzce": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      472,
+      601,
+      732,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      601,
+      744,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ]
+    },
+    "o4-sekerpinar": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "o4-kurtkoy": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-orhanli": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-gebze-osb": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-gebze": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-bekirpasa": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-hendek": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-duzce": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      472,
+      601,
+      732,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      601,
+      744,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ]
+    },
+    "o4-gebze-osb": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      65,
+      115,
+      120,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "o4-orhanli": [
+      40,
+      45,
+      56,
+      102,
+      115,
+      15
+     ],
+     "o4-sekerpinar": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ]
+    },
+    "o4-gebze": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-sekerpinar": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "o4-muallimkoy": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-liman": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-dil-iskelesi": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-bati-hereke": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-hendek": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-duzce": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      518,
+      640,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ]
+    },
+    "o4-muallimkoy": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-gebze": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-liman": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "o4-dil-iskelesi": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-bati-hereke": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-hendek": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-duzce": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      472,
+      607,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ]
+    },
+    "o4-liman": {
+     "o4-camlica": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-gebze": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-muallimkoy": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "o4-dil-iskelesi": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-bati-hereke": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-akyazi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-hendek": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-duzce": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      472,
+      607,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ]
+    },
+    "o4-dil-iskelesi": {
+     "o4-camlica": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-gebze": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-muallimkoy": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-liman": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-bati-hereke": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-akyazi": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-hendek": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-duzce": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-duzce-osb": [
+      134,
+      156,
+      193,
+      269,
+      317,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      407,
+      472,
+      607,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ]
+    },
+    "o4-bati-hereke": {
+     "o4-camlica": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-muallimkoy": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-liman": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-dil-iskelesi": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ]
+    },
+    "o4-dogu-hereke": {
+     "o4-korfez": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-bati-izmit": [
+      49,
+      56,
+      73,
+      115,
+      120,
+      20
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      65,
+      102,
+      148,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-sapanca": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-akyazi": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ],
+     "o4-hendek": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-duzce": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-duzce-osb": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      193,
+      269,
+      317,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      343,
+      459,
+      607,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      371,
+      518,
+      663,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      385,
+      562,
+      663,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      385,
+      562,
+      681,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      432,
+      601,
+      744,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      432,
+      601,
+      744,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ]
+    },
+    "o4-korfez": {
+     "o4-camlica": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-samandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sultanbeyli": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-dogu-hereke": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-bati-izmit": [
+      40,
+      45,
+      49,
+      56,
+      115,
+      15
+     ],
+     "o4-kandira": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-kartepe": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-dogu-izmit": [
+      40,
+      45,
+      56,
+      115,
+      148,
+      15
+     ],
+     "o4-sapanca": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-adapazari": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-akyazi": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-topagac": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ],
+     "o4-hendek": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-duzce": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-duzce-osb": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-kaynasli": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-abant": [
+      242,
+      292,
+      343,
+      459,
+      575,
+      102
+     ],
+     "o4-bolu-bati": [
+      285,
+      338,
+      371,
+      518,
+      663,
+      115
+     ],
+     "o4-caydurt": [
+      285,
+      338,
+      385,
+      562,
+      663,
+      115
+     ],
+     "o4-yenicaga": [
+      289,
+      345,
+      385,
+      562,
+      681,
+      115
+     ],
+     "o4-dortdivan": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-gerede": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-pelitcik": [
+      289,
+      345,
+      432,
+      601,
+      720,
+      115
+     ],
+     "o4-celtikci": [
+      289,
+      345,
+      432,
+      601,
+      720,
+      115
+     ],
+     "o4-akinci": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ]
+    },
+    "o4-bati-izmit": {
+     "o4-camlica": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-samandira": [
+      73,
+      82,
+      148,
+      168,
+      173,
+      33
+     ],
+     "o4-sultanbeyli": [
+      73,
+      82,
+      148,
+      168,
+      173,
+      33
+     ],
+     "o4-mecidiye": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kurtkoy": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-orhanli": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-dogu-hereke": [
+      49,
+      56,
+      73,
+      115,
+      120,
+      20
+     ],
+     "o4-korfez": [
+      40,
+      45,
+      49,
+      56,
+      115,
+      15
+     ]
+    },
+    "o4-kandira": {
+     "o4-camlica": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-samandira": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sultanbeyli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-mecidiye": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kurtkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-orhanli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sekerpinar": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-hereke": [
+      49,
+      56,
+      65,
+      102,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-kartepe": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-dogu-izmit": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-sapanca": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-adapazari": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o4-bekirpasa": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-akyazi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-topagac": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-hendek": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-duzce": [
+      89,
+      120,
+      168,
+      193,
+      256,
+      36
+     ],
+     "o4-duzce-osb": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-kaynasli": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-abant": [
+      205,
+      237,
+      317,
+      378,
+      518,
+      82
+     ],
+     "o4-bolu-bati": [
+      242,
+      292,
+      370,
+      452,
+      601,
+      102
+     ],
+     "o4-caydurt": [
+      242,
+      292,
+      371,
+      486,
+      601,
+      102
+     ],
+     "o4-yenicaga": [
+      250,
+      311,
+      371,
+      486,
+      624,
+      102
+     ],
+     "o4-dortdivan": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-gerede": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-pelitcik": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-celtikci": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-akinci": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ]
+    },
+    "o4-kartepe": {
+     "o4-camlica": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-samandira": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-sultanbeyli": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-mecidiye": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kurtkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-orhanli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sekerpinar": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-hereke": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-kandira": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-dogu-izmit": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-sapanca": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-adapazari": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o4-bekirpasa": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-akyazi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-topagac": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-hendek": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-duzce": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-duzce-osb": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-kaynasli": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-abant": [
+      205,
+      237,
+      317,
+      378,
+      518,
+      82
+     ],
+     "o4-bolu-bati": [
+      242,
+      292,
+      370,
+      452,
+      601,
+      102
+     ],
+     "o4-caydurt": [
+      242,
+      292,
+      371,
+      486,
+      601,
+      102
+     ],
+     "o4-yenicaga": [
+      250,
+      311,
+      371,
+      486,
+      624,
+      102
+     ],
+     "o4-dortdivan": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-gerede": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-pelitcik": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-celtikci": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-akinci": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ]
+    },
+    "o4-dogu-izmit": {
+     "o4-camlica": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-samandira": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-sultanbeyli": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-mecidiye": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kurtkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-orhanli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sekerpinar": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-gebze": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-muallimkoy": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-liman": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dil-iskelesi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-hereke": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-korfez": [
+      40,
+      45,
+      56,
+      115,
+      148,
+      15
+     ],
+     "o4-kandira": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-kartepe": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-sapanca": [
+      40,
+      45,
+      65,
+      103,
+      115,
+      15
+     ],
+     "o4-adapazari": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-bekirpasa": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o4-akyazi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-topagac": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-hendek": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-duzce": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-duzce-osb": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-kaynasli": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-abant": [
+      205,
+      237,
+      317,
+      378,
+      518,
+      82
+     ],
+     "o4-bolu-bati": [
+      242,
+      292,
+      370,
+      452,
+      601,
+      102
+     ],
+     "o4-caydurt": [
+      242,
+      292,
+      371,
+      486,
+      601,
+      102
+     ],
+     "o4-yenicaga": [
+      250,
+      311,
+      371,
+      486,
+      624,
+      102
+     ],
+     "o4-dortdivan": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-gerede": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-pelitcik": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-celtikci": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-akinci": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ]
+    },
+    "o4-sapanca": {
+     "o4-camlica": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-samandira": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-sultanbeyli": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-mecidiye": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-kurtkoy": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-orhanli": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-sekerpinar": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-gebze": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-muallimkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-liman": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-dil-iskelesi": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-dogu-hereke": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kandira": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-kartepe": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-dogu-izmit": [
+      40,
+      45,
+      65,
+      103,
+      115,
+      15
+     ],
+     "o4-adapazari": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-bekirpasa": [
+      40,
+      45,
+      65,
+      103,
+      115,
+      15
+     ],
+     "o4-akyazi": [
+      40,
+      45,
+      69,
+      102,
+      148,
+      15
+     ],
+     "o4-topagac": [
+      250,
+      292,
+      407,
+      542,
+      659,
+      102
+     ],
+     "o4-hendek": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-duzce": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-duzce-osb": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-kaynasli": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-abant": [
+      184,
+      205,
+      301,
+      378,
+      518,
+      73
+     ],
+     "o4-bolu-bati": [
+      222,
+      250,
+      338,
+      452,
+      587,
+      89
+     ],
+     "o4-caydurt": [
+      222,
+      250,
+      350,
+      486,
+      587,
+      89
+     ],
+     "o4-yenicaga": [
+      237,
+      289,
+      370,
+      486,
+      600,
+      102
+     ],
+     "o4-dortdivan": [
+      237,
+      289,
+      398,
+      486,
+      600,
+      102
+     ],
+     "o4-gerede": [
+      237,
+      289,
+      398,
+      486,
+      600,
+      102
+     ],
+     "o4-pelitcik": [
+      237,
+      289,
+      398,
+      493,
+      630,
+      102
+     ],
+     "o4-celtikci": [
+      237,
+      289,
+      398,
+      493,
+      630,
+      102
+     ],
+     "o4-akinci": [
+      250,
+      292,
+      407,
+      542,
+      659,
+      102
+     ]
+    },
+    "o4-adapazari": {
+     "o4-camlica": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-samandira": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-sultanbeyli": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-mecidiye": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-kurtkoy": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-orhanli": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-sekerpinar": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-gebze": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-muallimkoy": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-liman": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dil-iskelesi": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dogu-hereke": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-korfez": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-sapanca": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-bekirpasa": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-akyazi": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-topagac": [
+      250,
+      292,
+      407,
+      542,
+      607,
+      102
+     ],
+     "o4-hendek": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-duzce": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-duzce-osb": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kaynasli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-abant": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-bolu-bati": [
+      222,
+      250,
+      338,
+      433,
+      522,
+      89
+     ],
+     "o4-caydurt": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-yenicaga": [
+      237,
+      289,
+      370,
+      459,
+      547,
+      102
+     ],
+     "o4-dortdivan": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-gerede": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-pelitcik": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-celtikci": [
+      237,
+      289,
+      398,
+      472,
+      595,
+      102
+     ],
+     "o4-akinci": [
+      250,
+      292,
+      407,
+      542,
+      607,
+      102
+     ]
+    },
+    "o4-bekirpasa": {
+     "o4-camlica": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-samandira": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-sultanbeyli": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-mecidiye": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-kurtkoy": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-orhanli": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-sekerpinar": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-gebze": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-muallimkoy": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-liman": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dil-iskelesi": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dogu-hereke": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-korfez": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o4-sapanca": [
+      40,
+      45,
+      65,
+      103,
+      115,
+      15
+     ],
+     "o4-adapazari": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-akyazi": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-topagac": [
+      250,
+      292,
+      407,
+      542,
+      595,
+      102
+     ],
+     "o4-hendek": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-duzce": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-duzce-osb": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kaynasli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-abant": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-bolu-bati": [
+      222,
+      250,
+      338,
+      433,
+      522,
+      89
+     ],
+     "o4-caydurt": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-yenicaga": [
+      237,
+      289,
+      370,
+      459,
+      547,
+      102
+     ],
+     "o4-dortdivan": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-gerede": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-pelitcik": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-celtikci": [
+      237,
+      289,
+      398,
+      472,
+      595,
+      102
+     ],
+     "o4-akinci": [
+      250,
+      292,
+      407,
+      542,
+      607,
+      102
+     ]
+    },
+    "o4-akyazi": {
+     "o4-camlica": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-samandira": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-sultanbeyli": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-mecidiye": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-kurtkoy": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-orhanli": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-sekerpinar": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-gebze": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-muallimkoy": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-liman": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-dil-iskelesi": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dogu-hereke": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-korfez": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kandira": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kartepe": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-dogu-izmit": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-sapanca": [
+      40,
+      45,
+      69,
+      102,
+      148,
+      15
+     ],
+     "o4-adapazari": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-bekirpasa": [
+      40,
+      45,
+      49,
+      69,
+      115,
+      15
+     ],
+     "o4-topagac": [
+      250,
+      292,
+      407,
+      542,
+      595,
+      102
+     ],
+     "o4-hendek": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-duzce": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-duzce-osb": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      20
+     ],
+     "o4-kaynasli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-abant": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-bolu-bati": [
+      222,
+      250,
+      338,
+      433,
+      522,
+      89
+     ],
+     "o4-caydurt": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-yenicaga": [
+      237,
+      289,
+      370,
+      459,
+      540,
+      102
+     ],
+     "o4-dortdivan": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-gerede": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-pelitcik": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-celtikci": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-akinci": [
+      250,
+      292,
+      407,
+      542,
+      595,
+      102
+     ]
+    },
+    "o4-topagac": {
+     "o4-camlica": [
+      338,
+      390,
+      522,
+      675,
+      811,
+      136
+     ],
+     "o4-samandira": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ],
+     "o4-sultanbeyli": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ],
+     "o4-mecidiye": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-kurtkoy": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-orhanli": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-sekerpinar": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-gebze": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-muallimkoy": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-liman": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-dil-iskelesi": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-dogu-hereke": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ],
+     "o4-korfez": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ],
+     "o4-kandira": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-kartepe": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-dogu-izmit": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-sapanca": [
+      250,
+      292,
+      407,
+      542,
+      659,
+      102
+     ],
+     "o4-adapazari": [
+      250,
+      292,
+      407,
+      542,
+      607,
+      102
+     ],
+     "o4-bekirpasa": [
+      250,
+      292,
+      407,
+      542,
+      595,
+      102
+     ],
+     "o4-akyazi": [
+      250,
+      292,
+      407,
+      542,
+      595,
+      102
+     ],
+     "o4-hendek": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-duzce": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-duzce-osb": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kaynasli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-abant": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-bolu-bati": [
+      205,
+      237,
+      317,
+      407,
+      518,
+      82
+     ],
+     "o4-caydurt": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-yenicaga": [
+      222,
+      250,
+      350,
+      433,
+      522,
+      89
+     ],
+     "o4-dortdivan": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-gerede": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-pelitcik": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-celtikci": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-akinci": [
+      237,
+      289,
+      370,
+      491,
+      581,
+      102
+     ]
+    },
+    "o4-hendek": {
+     "o4-camlica": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o4-samandira": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-sultanbeyli": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-mecidiye": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-kurtkoy": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-orhanli": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-sekerpinar": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-gebze": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-muallimkoy": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-liman": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-dil-iskelesi": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-dogu-hereke": [
+      89,
+      120,
+      168,
+      256,
+      269,
+      36
+     ],
+     "o4-korfez": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-kandira": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-sapanca": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-adapazari": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-bekirpasa": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o4-akyazi": [
+      40,
+      45,
+      65,
+      73,
+      115,
+      15
+     ],
+     "o4-topagac": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-duzce": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-duzce-osb": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-kaynasli": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-abant": [
+      168,
+      184,
+      262,
+      343,
+      427,
+      73
+     ],
+     "o4-bolu-bati": [
+      205,
+      237,
+      317,
+      407,
+      518,
+      82
+     ],
+     "o4-caydurt": [
+      205,
+      237,
+      317,
+      427,
+      518,
+      82
+     ],
+     "o4-yenicaga": [
+      222,
+      250,
+      350,
+      433,
+      522,
+      89
+     ],
+     "o4-dortdivan": [
+      222,
+      250,
+      370,
+      433,
+      522,
+      89
+     ],
+     "o4-gerede": [
+      222,
+      250,
+      370,
+      433,
+      522,
+      89
+     ],
+     "o4-pelitcik": [
+      222,
+      250,
+      370,
+      433,
+      562,
+      89
+     ],
+     "o4-celtikci": [
+      222,
+      250,
+      370,
+      433,
+      562,
+      89
+     ],
+     "o4-akinci": [
+      237,
+      289,
+      370,
+      491,
+      581,
+      102
+     ]
+    },
+    "o4-duzce": {
+     "o4-camlica": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-samandira": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-sultanbeyli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-mecidiye": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kurtkoy": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-orhanli": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-sekerpinar": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-gebze": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-muallimkoy": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-liman": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-dil-iskelesi": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-dogu-hereke": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-korfez": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-kandira": [
+      89,
+      120,
+      168,
+      193,
+      256,
+      36
+     ],
+     "o4-kartepe": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-dogu-izmit": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-bekirpasa": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-akyazi": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-topagac": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-hendek": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o4-duzce-osb": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      20
+     ],
+     "o4-kaynasli": [
+      40,
+      45,
+      49,
+      73,
+      102,
+      15
+     ],
+     "o4-abant": [
+      148,
+      161,
+      222,
+      262,
+      311,
+      56
+     ],
+     "o4-bolu-bati": [
+      193,
+      205,
+      256,
+      370,
+      407,
+      75
+     ],
+     "o4-caydurt": [
+      193,
+      205,
+      256,
+      370,
+      407,
+      75
+     ],
+     "o4-yenicaga": [
+      205,
+      237,
+      256,
+      370,
+      427,
+      82
+     ],
+     "o4-dortdivan": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-gerede": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-pelitcik": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      82
+     ],
+     "o4-celtikci": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      82
+     ],
+     "o4-akinci": [
+      222,
+      250,
+      317,
+      491,
+      518,
+      89
+     ]
+    },
+    "o4-duzce-osb": {
+     "o4-camlica": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-samandira": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-sultanbeyli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-mecidiye": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kurtkoy": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-orhanli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-sekerpinar": [
+      134,
+      156,
+      256,
+      269,
+      338,
+      53
+     ],
+     "o4-gebze": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-muallimkoy": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-liman": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-dil-iskelesi": [
+      134,
+      156,
+      193,
+      269,
+      317,
+      53
+     ],
+     "o4-dogu-hereke": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-korfez": [
+      89,
+      120,
+      193,
+      256,
+      317,
+      36
+     ],
+     "o4-kandira": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-kartepe": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-dogu-izmit": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-akyazi": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      20
+     ],
+     "o4-topagac": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-hendek": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-duzce": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      20
+     ],
+     "o4-kaynasli": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-abant": [
+      148,
+      161,
+      197,
+      262,
+      311,
+      56
+     ],
+     "o4-bolu-bati": [
+      148,
+      161,
+      197,
+      262,
+      350,
+      56
+     ],
+     "o4-caydurt": [
+      193,
+      205,
+      256,
+      370,
+      407,
+      75
+     ],
+     "o4-yenicaga": [
+      205,
+      237,
+      256,
+      370,
+      427,
+      82
+     ],
+     "o4-dortdivan": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-gerede": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-pelitcik": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-celtikci": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      82
+     ],
+     "o4-akinci": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      89
+     ]
+    },
+    "o4-kaynasli": {
+     "o4-camlica": [
+      168,
+      173,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o4-samandira": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-sultanbeyli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-mecidiye": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-kurtkoy": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-orhanli": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-sekerpinar": [
+      134,
+      156,
+      256,
+      317,
+      378,
+      53
+     ],
+     "o4-gebze": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-muallimkoy": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-liman": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-dil-iskelesi": [
+      134,
+      156,
+      256,
+      269,
+      317,
+      53
+     ],
+     "o4-dogu-hereke": [
+      134,
+      156,
+      193,
+      269,
+      317,
+      53
+     ],
+     "o4-korfez": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o4-kandira": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-kartepe": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-dogu-izmit": [
+      89,
+      120,
+      168,
+      193,
+      269,
+      36
+     ],
+     "o4-sapanca": [
+      73,
+      82,
+      148,
+      193,
+      256,
+      33
+     ],
+     "o4-adapazari": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-bekirpasa": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-akyazi": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-topagac": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o4-hendek": [
+      49,
+      56,
+      102,
+      148,
+      168,
+      20
+     ],
+     "o4-duzce": [
+      40,
+      45,
+      49,
+      73,
+      102,
+      15
+     ],
+     "o4-duzce-osb": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-abant": [
+      115,
+      134,
+      156,
+      210,
+      256,
+      45
+     ],
+     "o4-bolu-bati": [
+      148,
+      161,
+      197,
+      262,
+      350,
+      56
+     ],
+     "o4-caydurt": [
+      148,
+      161,
+      217,
+      305,
+      350,
+      56
+     ],
+     "o4-yenicaga": [
+      168,
+      184,
+      217,
+      305,
+      370,
+      73
+     ],
+     "o4-dortdivan": [
+      168,
+      184,
+      262,
+      305,
+      370,
+      73
+     ],
+     "o4-gerede": [
+      168,
+      184,
+      262,
+      305,
+      370,
+      73
+     ],
+     "o4-pelitcik": [
+      168,
+      184,
+      262,
+      311,
+      398,
+      73
+     ],
+     "o4-celtikci": [
+      168,
+      184,
+      262,
+      311,
+      398,
+      73
+     ],
+     "o4-akinci": [
+      184,
+      193,
+      262,
+      370,
+      427,
+      73
+     ]
+    },
+    "o4-abant": {
+     "o4-camlica": [
+      285,
+      338,
+      407,
+      522,
+      640,
+      115
+     ],
+     "o4-samandira": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-sultanbeyli": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-mecidiye": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-kurtkoy": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-orhanli": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-sekerpinar": [
+      242,
+      292,
+      407,
+      522,
+      640,
+      102
+     ],
+     "o4-gebze": [
+      242,
+      292,
+      407,
+      518,
+      640,
+      102
+     ],
+     "o4-muallimkoy": [
+      242,
+      292,
+      407,
+      472,
+      607,
+      102
+     ],
+     "o4-liman": [
+      242,
+      292,
+      407,
+      472,
+      607,
+      102
+     ],
+     "o4-dil-iskelesi": [
+      242,
+      292,
+      407,
+      472,
+      607,
+      102
+     ],
+     "o4-dogu-hereke": [
+      242,
+      292,
+      343,
+      459,
+      607,
+      102
+     ],
+     "o4-korfez": [
+      242,
+      292,
+      343,
+      459,
+      575,
+      102
+     ],
+     "o4-kandira": [
+      205,
+      237,
+      317,
+      378,
+      518,
+      82
+     ],
+     "o4-kartepe": [
+      205,
+      237,
+      317,
+      378,
+      518,
+      82
+     ],
+     "o4-dogu-izmit": [
+      205,
+      237,
+      317,
+      378,
+      518,
+      82
+     ],
+     "o4-sapanca": [
+      184,
+      205,
+      301,
+      378,
+      518,
+      73
+     ],
+     "o4-adapazari": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-bekirpasa": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-akyazi": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-topagac": [
+      184,
+      205,
+      301,
+      370,
+      452,
+      73
+     ],
+     "o4-hendek": [
+      168,
+      184,
+      262,
+      343,
+      427,
+      73
+     ],
+     "o4-duzce": [
+      148,
+      161,
+      222,
+      262,
+      311,
+      56
+     ],
+     "o4-duzce-osb": [
+      148,
+      161,
+      197,
+      262,
+      311,
+      56
+     ],
+     "o4-kaynasli": [
+      115,
+      134,
+      156,
+      210,
+      256,
+      45
+     ],
+     "o4-bolu-bati": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-caydurt": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-yenicaga": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-dortdivan": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-gerede": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-pelitcik": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-celtikci": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-akinci": [
+      73,
+      82,
+      115,
+      128,
+      168,
+      33
+     ]
+    },
+    "o4-bolu-bati": {
+     "o4-camlica": [
+      289,
+      345,
+      459,
+      587,
+      744,
+      115
+     ],
+     "o4-samandira": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-sultanbeyli": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-mecidiye": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-kurtkoy": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-orhanli": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-sekerpinar": [
+      285,
+      338,
+      459,
+      581,
+      732,
+      115
+     ],
+     "o4-gebze": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-muallimkoy": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-liman": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-dil-iskelesi": [
+      285,
+      338,
+      459,
+      518,
+      663,
+      115
+     ],
+     "o4-dogu-hereke": [
+      285,
+      338,
+      371,
+      518,
+      663,
+      115
+     ],
+     "o4-korfez": [
+      285,
+      338,
+      371,
+      518,
+      663,
+      115
+     ],
+     "o4-kandira": [
+      242,
+      292,
+      370,
+      452,
+      601,
+      102
+     ],
+     "o4-kartepe": [
+      242,
+      292,
+      370,
+      452,
+      601,
+      102
+     ],
+     "o4-dogu-izmit": [
+      242,
+      292,
+      370,
+      452,
+      601,
+      102
+     ],
+     "o4-sapanca": [
+      222,
+      250,
+      338,
+      452,
+      587,
+      89
+     ],
+     "o4-adapazari": [
+      222,
+      250,
+      338,
+      433,
+      522,
+      89
+     ],
+     "o4-bekirpasa": [
+      222,
+      250,
+      338,
+      433,
+      522,
+      89
+     ],
+     "o4-akyazi": [
+      222,
+      250,
+      338,
+      433,
+      522,
+      89
+     ],
+     "o4-topagac": [
+      205,
+      237,
+      317,
+      407,
+      518,
+      82
+     ],
+     "o4-hendek": [
+      205,
+      237,
+      317,
+      407,
+      518,
+      82
+     ],
+     "o4-duzce": [
+      193,
+      205,
+      256,
+      370,
+      407,
+      75
+     ],
+     "o4-duzce-osb": [
+      148,
+      161,
+      197,
+      262,
+      350,
+      56
+     ],
+     "o4-kaynasli": [
+      148,
+      161,
+      197,
+      262,
+      350,
+      56
+     ],
+     "o4-abant": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-caydurt": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-yenicaga": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-dortdivan": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-gerede": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-pelitcik": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-celtikci": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-akinci": [
+      73,
+      82,
+      115,
+      120,
+      168,
+      33
+     ]
+    },
+    "o4-caydurt": {
+     "o4-camlica": [
+      305,
+      358,
+      472,
+      626,
+      744,
+      123
+     ],
+     "o4-samandira": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-sultanbeyli": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-mecidiye": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-kurtkoy": [
+      285,
+      338,
+      472,
+      601,
+      732,
+      115
+     ],
+     "o4-orhanli": [
+      285,
+      338,
+      472,
+      601,
+      732,
+      115
+     ],
+     "o4-sekerpinar": [
+      285,
+      338,
+      472,
+      601,
+      732,
+      115
+     ],
+     "o4-gebze": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-muallimkoy": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-liman": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-dil-iskelesi": [
+      285,
+      338,
+      472,
+      562,
+      663,
+      115
+     ],
+     "o4-dogu-hereke": [
+      285,
+      338,
+      385,
+      562,
+      663,
+      115
+     ],
+     "o4-korfez": [
+      285,
+      338,
+      385,
+      562,
+      663,
+      115
+     ],
+     "o4-kandira": [
+      242,
+      292,
+      371,
+      486,
+      601,
+      102
+     ],
+     "o4-kartepe": [
+      242,
+      292,
+      371,
+      486,
+      601,
+      102
+     ],
+     "o4-dogu-izmit": [
+      242,
+      292,
+      371,
+      486,
+      601,
+      102
+     ],
+     "o4-sapanca": [
+      222,
+      250,
+      350,
+      486,
+      587,
+      89
+     ],
+     "o4-adapazari": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-bekirpasa": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-akyazi": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-topagac": [
+      222,
+      250,
+      350,
+      459,
+      522,
+      89
+     ],
+     "o4-hendek": [
+      205,
+      237,
+      317,
+      427,
+      518,
+      82
+     ],
+     "o4-duzce": [
+      193,
+      205,
+      256,
+      370,
+      407,
+      75
+     ],
+     "o4-duzce-osb": [
+      193,
+      205,
+      256,
+      370,
+      407,
+      75
+     ],
+     "o4-kaynasli": [
+      148,
+      161,
+      217,
+      305,
+      350,
+      56
+     ],
+     "o4-abant": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-bolu-bati": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-yenicaga": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-dortdivan": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-gerede": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-pelitcik": [
+      49,
+      56,
+      102,
+      108,
+      115,
+      20
+     ],
+     "o4-celtikci": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-akinci": [
+      73,
+      82,
+      115,
+      120,
+      168,
+      33
+     ]
+    },
+    "o4-yenicaga": {
+     "o4-camlica": [
+      325,
+      370,
+      472,
+      626,
+      752,
+      134
+     ],
+     "o4-samandira": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-sultanbeyli": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-mecidiye": [
+      289,
+      345,
+      472,
+      624,
+      744,
+      115
+     ],
+     "o4-kurtkoy": [
+      289,
+      345,
+      472,
+      601,
+      744,
+      115
+     ],
+     "o4-orhanli": [
+      289,
+      345,
+      472,
+      601,
+      744,
+      115
+     ],
+     "o4-sekerpinar": [
+      289,
+      345,
+      472,
+      601,
+      744,
+      115
+     ],
+     "o4-gebze": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-muallimkoy": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-liman": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-dil-iskelesi": [
+      289,
+      345,
+      472,
+      562,
+      681,
+      115
+     ],
+     "o4-dogu-hereke": [
+      289,
+      345,
+      385,
+      562,
+      681,
+      115
+     ],
+     "o4-korfez": [
+      289,
+      345,
+      385,
+      562,
+      681,
+      115
+     ],
+     "o4-kandira": [
+      250,
+      311,
+      371,
+      486,
+      624,
+      102
+     ],
+     "o4-kartepe": [
+      250,
+      311,
+      371,
+      486,
+      624,
+      102
+     ],
+     "o4-dogu-izmit": [
+      250,
+      311,
+      371,
+      486,
+      624,
+      102
+     ],
+     "o4-sapanca": [
+      237,
+      289,
+      370,
+      486,
+      600,
+      102
+     ],
+     "o4-adapazari": [
+      237,
+      289,
+      370,
+      459,
+      547,
+      102
+     ],
+     "o4-bekirpasa": [
+      237,
+      289,
+      370,
+      459,
+      547,
+      102
+     ],
+     "o4-akyazi": [
+      237,
+      289,
+      370,
+      459,
+      540,
+      102
+     ],
+     "o4-topagac": [
+      222,
+      250,
+      350,
+      433,
+      522,
+      89
+     ],
+     "o4-hendek": [
+      222,
+      250,
+      350,
+      433,
+      522,
+      89
+     ],
+     "o4-duzce": [
+      205,
+      237,
+      256,
+      370,
+      427,
+      82
+     ],
+     "o4-duzce-osb": [
+      205,
+      237,
+      256,
+      370,
+      427,
+      82
+     ],
+     "o4-kaynasli": [
+      168,
+      184,
+      217,
+      305,
+      370,
+      73
+     ],
+     "o4-abant": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-bolu-bati": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-caydurt": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-dortdivan": [
+      40,
+      45,
+      53,
+      102,
+      115,
+      15
+     ],
+     "o4-gerede": [
+      40,
+      45,
+      53,
+      102,
+      115,
+      15
+     ],
+     "o4-pelitcik": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-celtikci": [
+      49,
+      56,
+      102,
+      108,
+      115,
+      20
+     ],
+     "o4-akinci": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ]
+    },
+    "o4-dortdivan": {
+     "o4-camlica": [
+      325,
+      370,
+      518,
+      626,
+      752,
+      134
+     ],
+     "o4-samandira": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-sultanbeyli": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-mecidiye": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-kurtkoy": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-orhanli": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-sekerpinar": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-gebze": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-muallimkoy": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-liman": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-dil-iskelesi": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-dogu-hereke": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-korfez": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-kandira": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-kartepe": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-dogu-izmit": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-sapanca": [
+      237,
+      289,
+      398,
+      486,
+      600,
+      102
+     ],
+     "o4-adapazari": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-bekirpasa": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-akyazi": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-topagac": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-hendek": [
+      222,
+      250,
+      370,
+      433,
+      522,
+      89
+     ],
+     "o4-duzce": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-duzce-osb": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-kaynasli": [
+      168,
+      184,
+      262,
+      305,
+      370,
+      73
+     ],
+     "o4-abant": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-bolu-bati": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-caydurt": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-yenicaga": [
+      40,
+      45,
+      53,
+      102,
+      115,
+      15
+     ],
+     "o4-gerede": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-pelitcik": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-celtikci": [
+      49,
+      56,
+      89,
+      102,
+      115,
+      20
+     ],
+     "o4-akinci": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ]
+    },
+    "o4-gerede": {
+     "o4-camlica": [
+      325,
+      370,
+      518,
+      626,
+      752,
+      134
+     ],
+     "o4-samandira": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-sultanbeyli": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-mecidiye": [
+      289,
+      345,
+      518,
+      624,
+      744,
+      115
+     ],
+     "o4-kurtkoy": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-orhanli": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-sekerpinar": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-gebze": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-muallimkoy": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-liman": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-dil-iskelesi": [
+      289,
+      345,
+      493,
+      562,
+      681,
+      115
+     ],
+     "o4-dogu-hereke": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-korfez": [
+      289,
+      345,
+      432,
+      562,
+      681,
+      115
+     ],
+     "o4-kandira": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-kartepe": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-dogu-izmit": [
+      250,
+      311,
+      419,
+      486,
+      624,
+      102
+     ],
+     "o4-sapanca": [
+      237,
+      289,
+      398,
+      486,
+      600,
+      102
+     ],
+     "o4-adapazari": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-bekirpasa": [
+      237,
+      289,
+      398,
+      459,
+      547,
+      102
+     ],
+     "o4-akyazi": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-topagac": [
+      237,
+      289,
+      398,
+      459,
+      540,
+      102
+     ],
+     "o4-hendek": [
+      222,
+      250,
+      370,
+      433,
+      522,
+      89
+     ],
+     "o4-duzce": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-duzce-osb": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-kaynasli": [
+      168,
+      184,
+      262,
+      305,
+      370,
+      73
+     ],
+     "o4-abant": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-bolu-bati": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-caydurt": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-yenicaga": [
+      40,
+      45,
+      53,
+      102,
+      115,
+      15
+     ],
+     "o4-dortdivan": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-pelitcik": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-celtikci": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-akinci": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ]
+    },
+    "o4-pelitcik": {
+     "o4-camlica": [
+      325,
+      370,
+      518,
+      655,
+      789,
+      134
+     ],
+     "o4-samandira": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-sultanbeyli": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-mecidiye": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-kurtkoy": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-orhanli": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-sekerpinar": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-gebze": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-muallimkoy": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-liman": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-dil-iskelesi": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-dogu-hereke": [
+      289,
+      345,
+      432,
+      601,
+      744,
+      115
+     ],
+     "o4-korfez": [
+      289,
+      345,
+      432,
+      601,
+      720,
+      115
+     ],
+     "o4-kandira": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-kartepe": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-dogu-izmit": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-sapanca": [
+      237,
+      289,
+      398,
+      493,
+      630,
+      102
+     ],
+     "o4-adapazari": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-bekirpasa": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-akyazi": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-topagac": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-hendek": [
+      222,
+      250,
+      370,
+      433,
+      562,
+      89
+     ],
+     "o4-duzce": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      82
+     ],
+     "o4-duzce-osb": [
+      205,
+      237,
+      301,
+      370,
+      427,
+      82
+     ],
+     "o4-kaynasli": [
+      168,
+      184,
+      262,
+      311,
+      398,
+      73
+     ],
+     "o4-abant": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-bolu-bati": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-caydurt": [
+      49,
+      56,
+      102,
+      108,
+      115,
+      20
+     ],
+     "o4-yenicaga": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-dortdivan": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-gerede": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-celtikci": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-akinci": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ]
+    },
+    "o4-celtikci": {
+     "o4-camlica": [
+      325,
+      370,
+      518,
+      655,
+      789,
+      134
+     ],
+     "o4-samandira": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-sultanbeyli": [
+      289,
+      345,
+      518,
+      655,
+      777,
+      115
+     ],
+     "o4-mecidiye": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-kurtkoy": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-orhanli": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-sekerpinar": [
+      289,
+      345,
+      518,
+      624,
+      777,
+      115
+     ],
+     "o4-gebze": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-muallimkoy": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-liman": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-dil-iskelesi": [
+      289,
+      345,
+      518,
+      601,
+      744,
+      115
+     ],
+     "o4-dogu-hereke": [
+      289,
+      345,
+      432,
+      601,
+      744,
+      115
+     ],
+     "o4-korfez": [
+      289,
+      345,
+      432,
+      601,
+      720,
+      115
+     ],
+     "o4-kandira": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-kartepe": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-dogu-izmit": [
+      250,
+      311,
+      419,
+      493,
+      655,
+      102
+     ],
+     "o4-sapanca": [
+      237,
+      289,
+      398,
+      493,
+      630,
+      102
+     ],
+     "o4-adapazari": [
+      237,
+      289,
+      398,
+      472,
+      595,
+      102
+     ],
+     "o4-bekirpasa": [
+      237,
+      289,
+      398,
+      472,
+      595,
+      102
+     ],
+     "o4-akyazi": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-topagac": [
+      237,
+      289,
+      398,
+      472,
+      568,
+      102
+     ],
+     "o4-hendek": [
+      222,
+      250,
+      370,
+      433,
+      562,
+      89
+     ],
+     "o4-duzce": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      82
+     ],
+     "o4-duzce-osb": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      82
+     ],
+     "o4-kaynasli": [
+      168,
+      184,
+      262,
+      311,
+      398,
+      73
+     ],
+     "o4-abant": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-bolu-bati": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-caydurt": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-yenicaga": [
+      49,
+      56,
+      102,
+      108,
+      115,
+      20
+     ],
+     "o4-dortdivan": [
+      49,
+      56,
+      89,
+      102,
+      115,
+      20
+     ],
+     "o4-gerede": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "o4-pelitcik": [
+      40,
+      45,
+      49,
+      65,
+      102,
+      15
+     ],
+     "o4-akinci": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ]
+    },
+    "o4-akinci": {
+     "o4-camlica": [
+      338,
+      390,
+      522,
+      675,
+      811,
+      136
+     ],
+     "o4-samandira": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ],
+     "o4-sultanbeyli": [
+      305,
+      358,
+      522,
+      663,
+      798,
+      123
+     ],
+     "o4-mecidiye": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-kurtkoy": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-orhanli": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-sekerpinar": [
+      305,
+      358,
+      522,
+      655,
+      798,
+      123
+     ],
+     "o4-gebze": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-muallimkoy": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-liman": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-dil-iskelesi": [
+      305,
+      358,
+      522,
+      624,
+      777,
+      123
+     ],
+     "o4-dogu-hereke": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ],
+     "o4-korfez": [
+      305,
+      358,
+      440,
+      624,
+      777,
+      123
+     ],
+     "o4-kandira": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-kartepe": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-dogu-izmit": [
+      289,
+      345,
+      432,
+      568,
+      708,
+      115
+     ],
+     "o4-sapanca": [
+      250,
+      292,
+      407,
+      542,
+      659,
+      102
+     ],
+     "o4-adapazari": [
+      250,
+      292,
+      407,
+      542,
+      607,
+      102
+     ],
+     "o4-bekirpasa": [
+      250,
+      292,
+      407,
+      542,
+      607,
+      102
+     ],
+     "o4-akyazi": [
+      250,
+      292,
+      407,
+      542,
+      595,
+      102
+     ],
+     "o4-topagac": [
+      237,
+      289,
+      370,
+      491,
+      581,
+      102
+     ],
+     "o4-hendek": [
+      237,
+      289,
+      370,
+      491,
+      581,
+      102
+     ],
+     "o4-duzce": [
+      222,
+      250,
+      317,
+      491,
+      518,
+      89
+     ],
+     "o4-duzce-osb": [
+      205,
+      237,
+      301,
+      370,
+      453,
+      89
+     ],
+     "o4-kaynasli": [
+      184,
+      193,
+      262,
+      370,
+      427,
+      73
+     ],
+     "o4-abant": [
+      73,
+      82,
+      115,
+      128,
+      168,
+      33
+     ],
+     "o4-bolu-bati": [
+      73,
+      82,
+      115,
+      120,
+      168,
+      33
+     ],
+     "o4-caydurt": [
+      73,
+      82,
+      115,
+      120,
+      168,
+      33
+     ],
+     "o4-yenicaga": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-dortdivan": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-gerede": [
+      49,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "o4-pelitcik": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o4-celtikci": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "o4-camlica",
+   "to": "O-4 batı devamı (ücretsiz) → Ümraniye / Kavacık → Fatih Sultan Mehmet Köprüsü; Ümraniye-Kozyatağı bağlantıları ile O-1 / 15 Temmuz Şehitler Köprüsü",
+   "note": "Çamlıca gişeleri kapalı sistemin batı ucudur; köprü ücretleri bridges.json'da ayrı."
+  },
+  {
+   "station": "o4-mecidiye",
+   "to": "Kuzey Marmara Otoyolu (O-7) / YSS Köprüsü ve Kuzey Çevre Otoyolu – Mecidiye istasyonu",
+   "note": "YSS tarifesinde 'Mecidiye' istasyonu olarak geçer."
+  },
+  {
+   "station": "o4-kurtkoy",
+   "to": "Kuzey Marmara Anadolu Otoyolu (Kurtköy-Akyazı) – Kurnaköy; Sabiha Gökçen Havalimanı",
+   "note": "KMO Anadolu kesimine bağlantı Kurtköy/Mecidiye bölgesinden; kesin rampa eşlemesi doğrulanmadı."
+  },
+  {
+   "station": "o4-dil-iskelesi",
+   "to": "O-5 Gebze-Orhangazi-İzmir Otoyolu / Osmangazi Köprüsü kuzey ucu (Dilovası)",
+   "note": "O-5 bağlantısının Dil İskelesi/Muallimköy kavşak grubunda olduğu varsayıldı (orta güven)."
+  },
+  {
+   "station": "o4-akyazi",
+   "to": "Kuzey Marmara Anadolu Otoyolu – 'TEM Akyazı' / 'KMO Akyazı' bağlantısı",
+   "note": "KMO doğu ucu Akyazı bölgesinde O-4'e bağlanır."
+  },
+  {
+   "station": "o4-topagac",
+   "to": "Kuzey Marmara Anadolu Otoyolu (Akyazı bağlantısı) – olası",
+   "note": "Topağaç'ın batı yönü ücretlerinin en uzak mesafe ücreti olması KMO-TEM bağlantısı olduğunu düşündürüyor; doğrulanmadı."
+  },
+  {
+   "station": "o4-akinci",
+   "to": "Ankara Çevre Otoyolu (O-20); oradan O-21 Ankara-Niğde Otoyolu (Ankara Alın)",
+   "note": "Akıncı gişeleri kapalı sistemin doğu ucudur."
+  }
+ ],
+ "verification": [
+  "PDF metni pdfjs ile x/y konumlarıyla çıkarıldı; her hücre x-merkezine göre 34 sütun başlığından en yakınına eşlendi (tolerans 8pt, çakışma yok). 36 satır istasyonu, 34 sütun istasyonu; toplam 37 benzersiz istasyon (satırda: GEBZE ORG. SAN. BÖLGELERİ, BATI HEREKE, BATI İZMİT; sütunda: DOĞU HEREKE).",
+  "Satır-sütun eşlemesi km değerleriyle doğrulandı: Gebze OSB satırının köşegeni Gebze sütununda (Şekerpınar-Gebze OSB 2,74 km, Şekerpınar-Gebze 10 km); Batı Hereke satırının köşegeni Doğu Hereke sütununda (Dil İsk.-Batı Hereke 6,1 km, Dil İsk.-Doğu Hereke 9,1 km); Batı İzmit satırının köşegeni Kandıra sütununda (Körfez-Batı İzmit 7 km, Körfez-Kandıra 19 km).",
+  "Hücre sayısı: beklenen = köşegen sütun indekslerinin toplamı = 561 + 7 (Gebze OSB) + 13 (Batı İzmit) = 581 istasyon çifti; bulunan 581 çift × 2 yön = 1162 yönlü kayıt, her biri 6 sınıflı, eksik hücre yok.",
+  "Simetri: PDF tek üçgen verdiği için fiyatlar iki yöne aynen kopyalandı (tanım gereği simetrik).",
+  "Sınıf sıralaması kontrolü: tüm hücrelerde 1≤2≤3≤4≤5 ve 6 (motosiklet) ≤ 1 sağlandı. Km değerleri her satırda uzaklaştıkça artıyor.",
+  "Mesafe-fiyat monotonluğu: Topağaç satırı hariç yalnızca küçük PDF kaynaklı istisnalar: Kurtköy→Sultanbeyli sınıf1/2 40/45 < Mecidiye→Sultanbeyli 45/49; Sultanbeyli→Çamlıca sınıf3/4 56/73 < Samandıra→Çamlıca 65/102; Kandıra→Doğu Hereke sınıf3/4 65/102 < Batı İzmit→Doğu Hereke 73/115; Doğu İzmit→Körfez sınıf3 56 < Kartepe→Körfez 65; Akyazı→Sapanca sınıf4 102 < Bekirpaşa→Sapanca 103; Kaynaşlı→Düzce (Gölyaka) sınıf6 15 < Düzce OSB→Düzce (Gölyaka) 20; Akıncı→Topağaç sınıf3 370 < Çeltikçi→Topağaç 398; Yeniçağa→Topağaç sınıf4 433 < Çaydurt→Topağaç 459. PDF'te böyle yazılı olduğu için değiştirilmedi.",
+  "Topağaç satırı: batıdaki tüm istasyonlara ücret, o istasyonun köşegen (en uzak mesafe) ücretine eşit (ör. Topağaç-Akyazı 7,3 km için sınıf1 250 TL = Akyazı köşegeni). Ham dökümden birebir doğrulandı; gerçek bir PDF kuralı gibi görünüyor ama gerekçesi PDF'te yazılı değil.",
+  "Elle kontrol (ham döküm): Akıncı→Çamlıca = 338/390/522/675/811/136; Gebze→Çamlıca = 49/56/65/115/148/20; Bolu Batı satırı 8. hücre (Gebze) = 285/338/459/518/663/115; Batı Hereke→Dil İskelesi = 40/45/49/69/115/15; Batı İzmit→Körfez = 40/45/49/56/115/15; Pelitçik→Samandıra = 289/345/518/655/777/115.",
+  "Köşegen değerleri (en uzak mesafe/U dönüşü) şemaya göre fiyatlara eklenmedi. Köşegen = satırın en büyük değeri koşulu tüm satırlarda sağlandı.",
+  "PDF başlığında '1,2549' yazan küçük bir sayı var (muhtemelen tarife katsayısı); veri olarak kullanılmadı.",
+  "Koordinatlar: ağ erişimi (OSM/Wikipedia) engelli olduğu için coğrafi bilgi ve PDF km zincirlemesi ile tahmin edildi; 'low' işaretli olanlar haritadan doğrulanmalı. Liman, Muallimköy ile 0 km olduğundan Muallimköy'den kısa bir kol (spur) olarak modellendi."
+ ]
+}

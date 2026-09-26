@@ -1,0 +1,310 @@
+{
+ "code": "MCO",
+ "name": "Malkara-Çanakkale (1915 Çanakkale Köprüsü Dahil) Otoyolu",
+ "shortName": "Malkara-Çanakkale Otoyolu",
+ "operator": "Çanakkale Otoyol ve Köprü İnşaatı Yatırım ve İşletme A.Ş. (1915 Çanakkale)",
+ "source": "18-Malkara-Canakkale.pdf",
+ "validFrom": "2026-07-01",
+ "rules": [
+  "Not 1: Ücretlere KDV dahildir.",
+  "Not 2: Giriş bilgisi bulunamaması halinde; çıkış istasyonuna göre en uzak mesafe ücreti uygulanır.",
+  "Not 3: U dönüşü yapılması halinde en uzak mesafe ücreti alınacaktır.",
+  "Not 4: Ücretler 01/01/2026 saat 00:00 'dan itibaren geçerlidir.",
+  "1915 Çanakkale Köprüsü bu otoyolun kapalı ücret sisteminin İÇİNDEDİR: 'G-5 1915 Çanakkale Köprüsü' gişesi matrisin bir istasyonudur ve Gelibolu Güney G-4 ↔ G-5 ücreti (995/1.245/2.240/2.490/3.755/250) 4-1915Canakkale.pdf'deki köprü tarifesiyle birebir aynıdır.",
+  "Şema gereği köprü ücreti (bridges.json '1915-canakkale-koprusu') bu dosyadaki fiyatlardan ÇIKARILMIŞTIR: G-5 içeren her hücre = PDF değeri − köprü ücreti. Böylece G-4↔G-5 = 0 TL; köprü eklendiğinde PDF toplamı birebir elde edilir.",
+  "Dikkat: PDF'de köprü dahil ücretler 'köprü + otoyol' toplamından 0-25 TL düşüktür (örn. Malkara→G-5 1.260 TL, oysa 995 + Malkara→G-4 270 = 1.265 TL). Bu nedenle köprü hariç net değerler (Malkara↔G-5 265 TL) Malkara↔G-4 (270 TL) değerinden küçüktür; bu PDF'nin kendisinden kaynaklanır, hata değildir.",
+  "U-dönüşü (köşegen) ücretleri 1. sınıf (PDF, köprü dahil): Malkara 1260, Kavakköy 1125, Gelibolu Kuzey 1065, Gelibolu Güney 995, 1915 Çanakkale Köprüsü (Lapseki gişesi) 1260 TL."
+ ],
+ "stations": [
+  {
+   "id": "mco-malkara",
+   "name": "Malkara",
+   "pdfName": "MALKARA G-1",
+   "lat": 40.865,
+   "lng": 26.925,
+   "coord": "low"
+  },
+  {
+   "id": "mco-kavakkoy",
+   "name": "Kavakköy",
+   "pdfName": "KAVAKKÖY G-2",
+   "lat": 40.605,
+   "lng": 26.885,
+   "coord": "low"
+  },
+  {
+   "id": "mco-gelibolu-kuzey",
+   "name": "Gelibolu Kuzey",
+   "pdfName": "GELİBOLU KUZEY G-3",
+   "lat": 40.475,
+   "lng": 26.735,
+   "coord": "low"
+  },
+  {
+   "id": "mco-gelibolu-guney",
+   "name": "Gelibolu Güney",
+   "pdfName": "GELİBOLU GÜNEY G-4",
+   "lat": 40.375,
+   "lng": 26.645,
+   "coord": "low"
+  },
+  {
+   "id": "mco-1915-koprusu",
+   "name": "1915 Çanakkale Köprüsü (Lapseki gişesi)",
+   "pdfName": "1915 ÇANAKKALE KÖPRÜSÜ G-5",
+   "lat": 40.33,
+   "lng": 26.68,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "mco-malkara",
+   "mco-kavakkoy"
+  ],
+  [
+   "mco-kavakkoy",
+   "mco-gelibolu-kuzey"
+  ],
+  [
+   "mco-gelibolu-kuzey",
+   "mco-gelibolu-guney"
+  ],
+  [
+   "mco-gelibolu-guney",
+   "mco-1915-koprusu"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "mco-malkara-canakkale",
+   "name": "Malkara - 1915 Çanakkale Köprüsü",
+   "stations": [
+    "mco-malkara",
+    "mco-kavakkoy",
+    "mco-gelibolu-kuzey",
+    "mco-gelibolu-guney",
+    "mco-1915-koprusu"
+   ],
+   "prices": {
+    "mco-malkara": {
+     "mco-kavakkoy": [
+      175,
+      280,
+      330,
+      435,
+      440,
+      45
+     ],
+     "mco-gelibolu-kuzey": [
+      260,
+      405,
+      490,
+      640,
+      645,
+      65
+     ],
+     "mco-gelibolu-guney": [
+      315,
+      510,
+      605,
+      805,
+      810,
+      80
+     ],
+     "mco-1915-koprusu": [
+      310,
+      495,
+      590,
+      780,
+      780,
+      75
+     ]
+    },
+    "mco-kavakkoy": {
+     "mco-malkara": [
+      175,
+      280,
+      330,
+      435,
+      440,
+      45
+     ],
+     "mco-gelibolu-kuzey": [
+      105,
+      165,
+      195,
+      260,
+      260,
+      25
+     ],
+     "mco-gelibolu-guney": [
+      165,
+      265,
+      315,
+      425,
+      425,
+      45
+     ],
+     "mco-1915-koprusu": [
+      155,
+      255,
+      295,
+      395,
+      395,
+      35
+     ]
+    },
+    "mco-gelibolu-kuzey": {
+     "mco-malkara": [
+      260,
+      405,
+      490,
+      640,
+      645,
+      65
+     ],
+     "mco-kavakkoy": [
+      105,
+      165,
+      195,
+      260,
+      260,
+      25
+     ],
+     "mco-gelibolu-guney": [
+      90,
+      140,
+      170,
+      225,
+      225,
+      25
+     ],
+     "mco-1915-koprusu": [
+      80,
+      125,
+      145,
+      200,
+      200,
+      25
+     ]
+    },
+    "mco-gelibolu-guney": {
+     "mco-malkara": [
+      315,
+      510,
+      605,
+      805,
+      810,
+      80
+     ],
+     "mco-kavakkoy": [
+      165,
+      265,
+      315,
+      425,
+      425,
+      45
+     ],
+     "mco-gelibolu-kuzey": [
+      90,
+      140,
+      170,
+      225,
+      225,
+      25
+     ],
+     "mco-1915-koprusu": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "mco-1915-koprusu": {
+     "mco-malkara": [
+      310,
+      495,
+      590,
+      780,
+      780,
+      75
+     ],
+     "mco-kavakkoy": [
+      155,
+      255,
+      295,
+      395,
+      395,
+      35
+     ],
+     "mco-gelibolu-kuzey": [
+      80,
+      125,
+      145,
+      200,
+      200,
+      25
+     ],
+     "mco-gelibolu-guney": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "mco-malkara",
+   "to": "D-110 (E-84) Malkara → Tekirdağ → Kınalı: O-3 Avrupa Otoyolu Kınalı gişeleri ve KMO Avrupa (Kınalı-Odayeri)",
+   "note": "MCO'nun kuzey ucu Malkara'da D-110'a bağlanır. O-3 ile doğrudan otoyol bağlantısı bu PDF'lerle doğrulanamadı (Kınalı-Tekirdağ-Malkara otoyolu 2026 durumu belirsiz); bağlantı D-110 devlet yolu üzerinden kabul edilmelidir."
+  },
+  {
+   "station": "mco-malkara",
+   "to": "D-110 Keşan / İpsala sınır kapısı yönü",
+   "note": ""
+  },
+  {
+   "station": "mco-gelibolu-guney",
+   "to": "1915 Çanakkale Köprüsü (bridges.json '1915-canakkale-koprusu'), Avrupa yakası ucu (Sütlüce)",
+   "note": "roads içindeki gelibolu-guney ↔ 1915-koprusu kenarı köprü geçişidir; bu kenarı kullanan her yolculuğa köprü ücreti eklenmelidir."
+  },
+  {
+   "station": "mco-1915-koprusu",
+   "to": "Anadolu yakası: Lapseki (Şekerkaya) → D-200 / D-550 Çanakkale şehir merkezi (ücretsiz)",
+   "note": "Otoyolun ücretli kesimi köprünün Lapseki tarafındaki G-5 gişesinde biter; Çanakkale merkezine D-200/D-550 ile devam edilir."
+  },
+  {
+   "station": "mco-gelibolu-guney",
+   "to": "Gelibolu / Eceabat (D-550) - Kilitbahir feribotu",
+   "note": ""
+  }
+ ],
+ "verification": [
+  "prices, depoya eklenen scripts/kgm/parsers/MCO.mjs çıktısından üretildi; bağımsız Python ayrıştırması (dump metni) ile birebir aynı.",
+  "Tam kare matris: 5 istasyon x 5 sütun x 6 sınıf = 150 değer ayrıştırıldı (30 satır, her biri 5 değer). prices: 5x4 = 20 yönlü çift, köşegen hariç.",
+  "Ham matris simetrik (20/20 çift, 6 sınıf). Köşegen değerleri (gri) = en uzak mesafe ücreti (her istasyon için satır maksimumu, G-5 ve Malkara için 1.260/1.665/2.740/3.155/4.420/315).",
+  "Köprü ilişkisi: G-4→G-5 = G-5→G-4 = 995/1.245/2.240/2.490/3.755/250 = 4-1915Canakkale.pdf köprü tarifesi (birebir).",
+  "Köprü dahil ham (PDF) değerler 1. sınıf: Malkara↔G-5 1.260, Kavakköy↔G-5 1.125, Gelibolu Kuzey↔G-5 1.065, Gelibolu Güney↔G-5 995. Köprü hariç saklanan: 265 / 130 / 70 / 0.",
+  "PDF köprü dahil ücreti − (köprü + aynı istasyondan G-4'e otoyol ücreti), sınıf 1..6 (TL): MALKARA G-1: [-5, -15, -15, -20, -25, -5]; KAVAKKÖY G-2: [-10, -10, -20, -25, -25, -10]; GELİBOLU KUZEY G-3: [-5, -15, -20, -20, -20, 0]. Toplam ücret = köprü + saklanan net değer, PDF'i birebir verir.",
+  "Ham dump nokta kontrolleri: MALKARA G-1 satırı 1. sınıf '1260,00 | 150,00 | 220,00 | 270,00 | 1260,00'; GELİBOLU GÜNEY G-4 satırı 6. sınıf '70,00 | 40,00 | 20,00 | 250,00 | 250,00'.",
+  "Render kontrolü: PDF PNG'ye çizilip matris gözle karşılaştırıldı.",
+  "Koordinatlar bilgiye dayalı yaklaşık değerlerdir ('low'); harita üzerinde doğrulanmalı. G-5 gişesi köprünün Lapseki (Anadolu) tarafına konuldu çünkü G-4→G-5 ücreti tam köprü ücretidir.",
+  "UYARI: 01.07.2026 itibarıyla yeni tarife yürürlükte (basın: 1915 Çanakkale Köprüsü otomobil 995 → 1.170 TL). Bu dosya 01.01.2026 PDF'ini yansıtır."
+ ],
+ "bridgeEdges": [
+  {
+   "a": "mco-gelibolu-guney",
+   "b": "mco-1915-koprusu",
+   "bridge": "1915-canakkale-koprusu",
+   "included": false
+  }
+ ]
+}

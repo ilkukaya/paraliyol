@@ -1,0 +1,1665 @@
+{
+ "code": "KCY",
+ "name": "Yavuz Sultan Selim Köprüsü ve Kuzey Çevre Otoyolu",
+ "shortName": "Kuzey Çevre Yolu (YSS Köprüsü dahil)",
+ "operator": "ICA İçtaş-Astaldi (YİD) – KGM tarifesi",
+ "source": "13-YSSKuzeyCevreYolu.pdf",
+ "validFrom": "2026-07-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "Ücretler 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Tablo Köprü Geçiş Ücreti İçermektedir: Avrupa yakası (Fenertepe, Işıklar, Ağaçlı, Odayeri, Uskumruköy) ile Anadolu yakası (Riva, Hüseyinli, Reşadiye, Alemdağ, Paşaköy, Mecidiye, Kurnaköy) arasındaki her ücrete Yavuz Sultan Selim Köprüsü geçiş ücreti dahildir. Bu istasyonlar arası yolculukta bridges.json'daki YSS Köprüsü ücreti AYRICA EKLENMEZ.",
+  "01.01.2022 tarihinden itibaren YSS Köprüsünden iki yönlü ücret alınmaktadır (tablo her iki yön için ayrı ayrı köprü ücretini içerir).",
+  "YSS Köprüsü tek başına tarifesi (3-YSSKoprusu.pdf, bridges.json'da): 1. sınıf 95 TL, 2. sınıf 125 TL, 3. sınıf 235 TL, 4. sınıf 595 TL, 5. sınıf 740 TL, 6. sınıf 65 TL. Bu tutar yalnızca KCY matrisi dışında kalan (ör. matrisle ücretlendirilmeyen) köprü geçişleri için kullanılmalıdır.",
+  "Aynı istasyondan giriş-çıkış (U-dönüşü): PDF tablosunun köşegeninde o istasyondan en uzak mesafe ücreti yazılıdır (bkz. sections[].uTurn); prices matrisine dahil edilmemiştir.",
+  "Serbest Geçiş Sistemi (SGS) alanları (Mahmutbey–Fenertepe bağlantısı: İstoç, İkitelli, Başakşehir Güney, Başakşehir, Fenertepe; Hüseyinli–Kömürlük bağlantısı: Çekmeköy, Çamlık, Sarıgazi, Kömürlük) ayrı, yöne bağlı nokta ücretleriyle ücretlendirilir (bkz. freeFlow).",
+  "İkitelli Kavşağı'nda (Kuzey - Güney) yönünde çıkış bulunmadığı için, bu kısma ait ücretlendirme, Başakşehir Güney (Kuzey - Güney) istasyonunda yapılmaktadır."
+ ],
+ "stations": [
+  {
+   "id": "kcy-fenertepe",
+   "name": "Fenertepe",
+   "pdfName": "Fenertepe",
+   "lat": 41.135,
+   "lng": 28.775,
+   "coord": "low",
+   "note": "Mahmutbey–Fenertepe bağlantı yolunun kuzey ucu (Başakşehir)."
+  },
+  {
+   "id": "kcy-isiklar",
+   "name": "Işıklar",
+   "pdfName": "Işıklar",
+   "lat": 41.205,
+   "lng": 28.82,
+   "coord": "low",
+   "note": "Eyüpsultan Işıklar; Kemerburgaz/Göktürk yönü."
+  },
+  {
+   "id": "kcy-agacli",
+   "name": "Ağaçlı",
+   "pdfName": "Ağaçlı",
+   "lat": 41.225,
+   "lng": 28.87,
+   "coord": "low",
+   "note": "Eyüpsultan Ağaçlı; Odayeri düğümüne en yakın ana hat gişesi."
+  },
+  {
+   "id": "kcy-odayeri",
+   "name": "Odayeri",
+   "pdfName": "Odayeri",
+   "lat": 41.22,
+   "lng": 28.835,
+   "coord": "low",
+   "note": "KMO Avrupa (Kınalı–Odayeri) ve İstanbul Havalimanı yönüne geçiş."
+  },
+  {
+   "id": "kcy-uskumrukoy",
+   "name": "Uskumruköy",
+   "pdfName": "Uskumruköy",
+   "lat": 41.215,
+   "lng": 29.025,
+   "coord": "low",
+   "note": "Sarıyer; YSS Köprüsü Avrupa yakası öncesi son gişe."
+  },
+  {
+   "id": "kcy-riva",
+   "name": "Riva",
+   "pdfName": "Riva",
+   "lat": 41.185,
+   "lng": 29.185,
+   "coord": "low",
+   "note": "Beykoz; YSS Köprüsü Anadolu yakası sonrası ilk gişe."
+  },
+  {
+   "id": "kcy-huseyinli",
+   "name": "Hüseyinli",
+   "pdfName": "Hüseyinli",
+   "lat": 41.12,
+   "lng": 29.28,
+   "coord": "low",
+   "note": "Çekmeköy; Hüseyinli–Kömürlük (SGS) bağlantı yolu buradan ayrılır."
+  },
+  {
+   "id": "kcy-resadiye",
+   "name": "Reşadiye",
+   "pdfName": "Reşadiye",
+   "lat": 41.08,
+   "lng": 29.28,
+   "coord": "low",
+   "note": "Çekmeköy."
+  },
+  {
+   "id": "kcy-alemdag",
+   "name": "Alemdağ",
+   "pdfName": "Alemdağ",
+   "lat": 41.045,
+   "lng": 29.295,
+   "coord": "low",
+   "note": "Çekmeköy."
+  },
+  {
+   "id": "kcy-pasakoy",
+   "name": "Paşaköy",
+   "pdfName": "Paşaköy",
+   "lat": 41.01,
+   "lng": 29.295,
+   "coord": "low",
+   "note": "Sancaktepe."
+  },
+  {
+   "id": "kcy-mecidiye",
+   "name": "Mecidiye",
+   "pdfName": "Mecidiye",
+   "lat": 40.97,
+   "lng": 29.3,
+   "coord": "low",
+   "note": "Sultanbeyli."
+  },
+  {
+   "id": "kcy-kurnakoy",
+   "name": "Kurnaköy",
+   "pdfName": "Kurnaköy",
+   "lat": 40.944,
+   "lng": 29.335,
+   "coord": "low",
+   "note": "Pendik/Kurtköy; KMO Anadolu 'Kurnaköy 2' ile aynı düğüm."
+  }
+ ],
+ "roads": [
+  [
+   "kcy-fenertepe",
+   "kcy-isiklar"
+  ],
+  [
+   "kcy-isiklar",
+   "kcy-agacli"
+  ],
+  [
+   "kcy-odayeri",
+   "kcy-agacli"
+  ],
+  [
+   "kcy-agacli",
+   "kcy-uskumrukoy"
+  ],
+  [
+   "kcy-uskumrukoy",
+   "kcy-riva"
+  ],
+  [
+   "kcy-riva",
+   "kcy-huseyinli"
+  ],
+  [
+   "kcy-huseyinli",
+   "kcy-resadiye"
+  ],
+  [
+   "kcy-resadiye",
+   "kcy-alemdag"
+  ],
+  [
+   "kcy-alemdag",
+   "kcy-pasakoy"
+  ],
+  [
+   "kcy-pasakoy",
+   "kcy-mecidiye"
+  ],
+  [
+   "kcy-mecidiye",
+   "kcy-kurnakoy"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "kcy-main",
+   "name": "Yavuz Sultan Selim Köprüsü ve Kuzey Çevre Otoyolu (kapalı sistem, köprü dahil)",
+   "stations": [
+    "kcy-fenertepe",
+    "kcy-isiklar",
+    "kcy-agacli",
+    "kcy-odayeri",
+    "kcy-uskumrukoy",
+    "kcy-riva",
+    "kcy-huseyinli",
+    "kcy-resadiye",
+    "kcy-alemdag",
+    "kcy-pasakoy",
+    "kcy-mecidiye",
+    "kcy-kurnakoy"
+   ],
+   "includesBridgeFee": {
+    "bridge": "yavuz-sultan-selim-koprusu",
+    "between": [
+     "kcy-uskumrukoy",
+     "kcy-riva"
+    ],
+    "note": "Avrupa yakası istasyonu ile Anadolu yakası istasyonu arasındaki tüm ücretler YSS köprü ücretini içerir (PDF: 'Köprü Geçiş Ücreti İçermektedir'). Köprü ücretini ayrıca ekleme.",
+    "crossingPairsCount": 70
+   },
+   "prices": {
+    "kcy-fenertepe": {
+     "kcy-isiklar": [
+      105,
+      165,
+      195,
+      225,
+      295,
+      65
+     ],
+     "kcy-agacli": [
+      105,
+      165,
+      195,
+      260,
+      295,
+      65
+     ],
+     "kcy-odayeri": [
+      120,
+      165,
+      195,
+      260,
+      310,
+      105
+     ],
+     "kcy-uskumrukoy": [
+      225,
+      310,
+      370,
+      490,
+      630,
+      165
+     ],
+     "kcy-riva": [
+      405,
+      575,
+      800,
+      1365,
+      1730,
+      270
+     ],
+     "kcy-huseyinli": [
+      480,
+      705,
+      945,
+      1590,
+      1970,
+      335
+     ],
+     "kcy-resadiye": [
+      540,
+      870,
+      1115,
+      1800,
+      2270,
+      385
+     ],
+     "kcy-alemdag": [
+      540,
+      820,
+      1070,
+      1735,
+      2210,
+      370
+     ],
+     "kcy-pasakoy": [
+      540,
+      820,
+      1070,
+      1785,
+      2215,
+      385
+     ],
+     "kcy-mecidiye": [
+      600,
+      930,
+      1205,
+      1930,
+      2410,
+      420
+     ],
+     "kcy-kurnakoy": [
+      600,
+      930,
+      1170,
+      1900,
+      2390,
+      420
+     ]
+    },
+    "kcy-isiklar": {
+     "kcy-fenertepe": [
+      105,
+      165,
+      195,
+      225,
+      295,
+      65
+     ],
+     "kcy-agacli": [
+      65,
+      105,
+      105,
+      120,
+      165,
+      45
+     ],
+     "kcy-odayeri": [
+      65,
+      105,
+      120,
+      165,
+      195,
+      65
+     ],
+     "kcy-uskumrukoy": [
+      165,
+      260,
+      310,
+      410,
+      490,
+      120
+     ],
+     "kcy-riva": [
+      370,
+      515,
+      700,
+      1290,
+      1605,
+      240
+     ],
+     "kcy-huseyinli": [
+      420,
+      635,
+      870,
+      1475,
+      1845,
+      300
+     ],
+     "kcy-resadiye": [
+      520,
+      815,
+      1015,
+      1675,
+      2135,
+      370
+     ],
+     "kcy-alemdag": [
+      480,
+      745,
+      995,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-pasakoy": [
+      520,
+      775,
+      1015,
+      1675,
+      2100,
+      370
+     ],
+     "kcy-mecidiye": [
+      540,
+      870,
+      1115,
+      1800,
+      2280,
+      385
+     ],
+     "kcy-kurnakoy": [
+      540,
+      870,
+      1115,
+      1800,
+      2270,
+      385
+     ]
+    },
+    "kcy-agacli": {
+     "kcy-fenertepe": [
+      105,
+      165,
+      195,
+      260,
+      295,
+      65
+     ],
+     "kcy-isiklar": [
+      65,
+      105,
+      105,
+      120,
+      165,
+      45
+     ],
+     "kcy-odayeri": [
+      45,
+      65,
+      65,
+      65,
+      105,
+      45
+     ],
+     "kcy-uskumrukoy": [
+      120,
+      225,
+      260,
+      310,
+      410,
+      105
+     ],
+     "kcy-riva": [
+      335,
+      490,
+      640,
+      1220,
+      1530,
+      240
+     ],
+     "kcy-huseyinli": [
+      405,
+      625,
+      800,
+      1415,
+      1760,
+      270
+     ],
+     "kcy-resadiye": [
+      480,
+      745,
+      995,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-alemdag": [
+      455,
+      705,
+      940,
+      1560,
+      1955,
+      335
+     ],
+     "kcy-pasakoy": [
+      480,
+      745,
+      945,
+      1590,
+      2015,
+      335
+     ],
+     "kcy-mecidiye": [
+      540,
+      820,
+      1070,
+      1735,
+      2210,
+      370
+     ],
+     "kcy-kurnakoy": [
+      520,
+      815,
+      1055,
+      1730,
+      2165,
+      370
+     ]
+    },
+    "kcy-odayeri": {
+     "kcy-fenertepe": [
+      120,
+      165,
+      195,
+      260,
+      310,
+      105
+     ],
+     "kcy-isiklar": [
+      65,
+      105,
+      120,
+      165,
+      195,
+      65
+     ],
+     "kcy-agacli": [
+      45,
+      65,
+      65,
+      65,
+      105,
+      45
+     ],
+     "kcy-uskumrukoy": [
+      165,
+      225,
+      260,
+      345,
+      430,
+      105
+     ],
+     "kcy-riva": [
+      335,
+      490,
+      680,
+      1220,
+      1530,
+      240
+     ],
+     "kcy-huseyinli": [
+      405,
+      625,
+      830,
+      1415,
+      1760,
+      270
+     ],
+     "kcy-resadiye": [
+      480,
+      745,
+      995,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-alemdag": [
+      455,
+      705,
+      940,
+      1560,
+      1970,
+      335
+     ],
+     "kcy-pasakoy": [
+      480,
+      745,
+      945,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-mecidiye": [
+      540,
+      820,
+      1070,
+      1735,
+      2210,
+      385
+     ],
+     "kcy-kurnakoy": [
+      520,
+      815,
+      1055,
+      1735,
+      2210,
+      370
+     ]
+    },
+    "kcy-uskumrukoy": {
+     "kcy-fenertepe": [
+      225,
+      310,
+      370,
+      490,
+      630,
+      165
+     ],
+     "kcy-isiklar": [
+      165,
+      260,
+      310,
+      410,
+      490,
+      120
+     ],
+     "kcy-agacli": [
+      120,
+      225,
+      260,
+      310,
+      410,
+      105
+     ],
+     "kcy-odayeri": [
+      165,
+      225,
+      260,
+      345,
+      430,
+      105
+     ],
+     "kcy-riva": [
+      230,
+      340,
+      495,
+      985,
+      1230,
+      180
+     ],
+     "kcy-huseyinli": [
+      305,
+      455,
+      640,
+      1180,
+      1490,
+      195
+     ],
+     "kcy-resadiye": [
+      405,
+      625,
+      800,
+      1415,
+      1730,
+      270
+     ],
+     "kcy-alemdag": [
+      370,
+      555,
+      760,
+      1360,
+      1660,
+      270
+     ],
+     "kcy-pasakoy": [
+      405,
+      575,
+      800,
+      1365,
+      1730,
+      270
+     ],
+     "kcy-mecidiye": [
+      455,
+      675,
+      900,
+      1535,
+      1905,
+      300
+     ],
+     "kcy-kurnakoy": [
+      420,
+      675,
+      900,
+      1490,
+      1900,
+      300
+     ]
+    },
+    "kcy-riva": {
+     "kcy-fenertepe": [
+      405,
+      575,
+      800,
+      1365,
+      1730,
+      270
+     ],
+     "kcy-isiklar": [
+      370,
+      515,
+      700,
+      1290,
+      1605,
+      240
+     ],
+     "kcy-agacli": [
+      335,
+      490,
+      640,
+      1220,
+      1530,
+      240
+     ],
+     "kcy-odayeri": [
+      335,
+      490,
+      680,
+      1220,
+      1530,
+      240
+     ],
+     "kcy-uskumrukoy": [
+      230,
+      340,
+      495,
+      985,
+      1230,
+      180
+     ],
+     "kcy-huseyinli": [
+      120,
+      165,
+      195,
+      260,
+      310,
+      105
+     ],
+     "kcy-resadiye": [
+      195,
+      310,
+      370,
+      480,
+      600,
+      165
+     ],
+     "kcy-alemdag": [
+      195,
+      295,
+      310,
+      410,
+      530,
+      120
+     ],
+     "kcy-pasakoy": [
+      195,
+      295,
+      345,
+      430,
+      560,
+      120
+     ],
+     "kcy-mecidiye": [
+      260,
+      370,
+      480,
+      600,
+      745,
+      195
+     ],
+     "kcy-kurnakoy": [
+      260,
+      370,
+      430,
+      560,
+      725,
+      165
+     ]
+    },
+    "kcy-huseyinli": {
+     "kcy-fenertepe": [
+      480,
+      705,
+      945,
+      1590,
+      1970,
+      335
+     ],
+     "kcy-isiklar": [
+      420,
+      635,
+      870,
+      1475,
+      1845,
+      300
+     ],
+     "kcy-agacli": [
+      405,
+      625,
+      800,
+      1415,
+      1760,
+      270
+     ],
+     "kcy-odayeri": [
+      405,
+      625,
+      830,
+      1415,
+      1760,
+      270
+     ],
+     "kcy-uskumrukoy": [
+      305,
+      455,
+      640,
+      1180,
+      1490,
+      195
+     ],
+     "kcy-riva": [
+      120,
+      165,
+      195,
+      260,
+      310,
+      105
+     ],
+     "kcy-resadiye": [
+      120,
+      195,
+      225,
+      295,
+      345,
+      105
+     ],
+     "kcy-alemdag": [
+      105,
+      165,
+      195,
+      225,
+      295,
+      65
+     ],
+     "kcy-pasakoy": [
+      120,
+      165,
+      195,
+      260,
+      310,
+      105
+     ],
+     "kcy-mecidiye": [
+      165,
+      260,
+      310,
+      410,
+      490,
+      120
+     ],
+     "kcy-kurnakoy": [
+      165,
+      260,
+      295,
+      370,
+      480,
+      120
+     ]
+    },
+    "kcy-resadiye": {
+     "kcy-fenertepe": [
+      540,
+      870,
+      1115,
+      1800,
+      2270,
+      385
+     ],
+     "kcy-isiklar": [
+      520,
+      815,
+      1015,
+      1675,
+      2135,
+      370
+     ],
+     "kcy-agacli": [
+      480,
+      745,
+      995,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-odayeri": [
+      480,
+      745,
+      995,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-uskumrukoy": [
+      405,
+      625,
+      800,
+      1415,
+      1730,
+      270
+     ],
+     "kcy-riva": [
+      195,
+      310,
+      370,
+      480,
+      600,
+      165
+     ],
+     "kcy-huseyinli": [
+      120,
+      195,
+      225,
+      295,
+      345,
+      105
+     ],
+     "kcy-alemdag": [
+      105,
+      120,
+      165,
+      195,
+      260,
+      65
+     ],
+     "kcy-pasakoy": [
+      105,
+      165,
+      195,
+      225,
+      295,
+      65
+     ],
+     "kcy-mecidiye": [
+      165,
+      260,
+      295,
+      370,
+      480,
+      120
+     ],
+     "kcy-kurnakoy": [
+      165,
+      225,
+      295,
+      345,
+      430,
+      105
+     ]
+    },
+    "kcy-alemdag": {
+     "kcy-fenertepe": [
+      540,
+      820,
+      1070,
+      1735,
+      2210,
+      370
+     ],
+     "kcy-isiklar": [
+      480,
+      745,
+      995,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-agacli": [
+      455,
+      705,
+      940,
+      1560,
+      1955,
+      335
+     ],
+     "kcy-odayeri": [
+      455,
+      705,
+      940,
+      1560,
+      1970,
+      335
+     ],
+     "kcy-uskumrukoy": [
+      370,
+      555,
+      760,
+      1360,
+      1660,
+      270
+     ],
+     "kcy-riva": [
+      195,
+      295,
+      310,
+      410,
+      530,
+      120
+     ],
+     "kcy-huseyinli": [
+      105,
+      165,
+      195,
+      225,
+      295,
+      65
+     ],
+     "kcy-resadiye": [
+      105,
+      120,
+      165,
+      195,
+      260,
+      65
+     ],
+     "kcy-pasakoy": [
+      45,
+      65,
+      65,
+      105,
+      120,
+      45
+     ],
+     "kcy-mecidiye": [
+      105,
+      165,
+      195,
+      260,
+      310,
+      65
+     ],
+     "kcy-kurnakoy": [
+      105,
+      165,
+      165,
+      225,
+      295,
+      65
+     ]
+    },
+    "kcy-pasakoy": {
+     "kcy-fenertepe": [
+      540,
+      820,
+      1070,
+      1785,
+      2215,
+      385
+     ],
+     "kcy-isiklar": [
+      520,
+      775,
+      1015,
+      1675,
+      2100,
+      370
+     ],
+     "kcy-agacli": [
+      480,
+      745,
+      945,
+      1590,
+      2015,
+      335
+     ],
+     "kcy-odayeri": [
+      480,
+      745,
+      945,
+      1625,
+      2045,
+      335
+     ],
+     "kcy-uskumrukoy": [
+      405,
+      575,
+      800,
+      1365,
+      1730,
+      270
+     ],
+     "kcy-riva": [
+      195,
+      295,
+      345,
+      430,
+      560,
+      120
+     ],
+     "kcy-huseyinli": [
+      120,
+      165,
+      195,
+      260,
+      310,
+      105
+     ],
+     "kcy-resadiye": [
+      105,
+      165,
+      195,
+      225,
+      295,
+      65
+     ],
+     "kcy-alemdag": [
+      45,
+      65,
+      65,
+      105,
+      120,
+      45
+     ],
+     "kcy-mecidiye": [
+      105,
+      120,
+      165,
+      225,
+      260,
+      65
+     ],
+     "kcy-kurnakoy": [
+      105,
+      120,
+      165,
+      195,
+      225,
+      65
+     ]
+    },
+    "kcy-mecidiye": {
+     "kcy-fenertepe": [
+      600,
+      930,
+      1205,
+      1930,
+      2410,
+      420
+     ],
+     "kcy-isiklar": [
+      540,
+      870,
+      1115,
+      1800,
+      2280,
+      385
+     ],
+     "kcy-agacli": [
+      540,
+      820,
+      1070,
+      1735,
+      2210,
+      370
+     ],
+     "kcy-odayeri": [
+      540,
+      820,
+      1070,
+      1735,
+      2210,
+      385
+     ],
+     "kcy-uskumrukoy": [
+      455,
+      675,
+      900,
+      1535,
+      1905,
+      300
+     ],
+     "kcy-riva": [
+      260,
+      370,
+      480,
+      600,
+      745,
+      195
+     ],
+     "kcy-huseyinli": [
+      165,
+      260,
+      310,
+      410,
+      490,
+      120
+     ],
+     "kcy-resadiye": [
+      165,
+      260,
+      295,
+      370,
+      480,
+      120
+     ],
+     "kcy-alemdag": [
+      105,
+      165,
+      195,
+      260,
+      310,
+      65
+     ],
+     "kcy-pasakoy": [
+      105,
+      120,
+      165,
+      225,
+      260,
+      65
+     ],
+     "kcy-kurnakoy": [
+      45,
+      65,
+      65,
+      105,
+      105,
+      45
+     ]
+    },
+    "kcy-kurnakoy": {
+     "kcy-fenertepe": [
+      600,
+      930,
+      1170,
+      1900,
+      2390,
+      420
+     ],
+     "kcy-isiklar": [
+      540,
+      870,
+      1115,
+      1800,
+      2270,
+      385
+     ],
+     "kcy-agacli": [
+      520,
+      815,
+      1055,
+      1730,
+      2165,
+      370
+     ],
+     "kcy-odayeri": [
+      520,
+      815,
+      1055,
+      1735,
+      2210,
+      370
+     ],
+     "kcy-uskumrukoy": [
+      420,
+      675,
+      900,
+      1490,
+      1900,
+      300
+     ],
+     "kcy-riva": [
+      260,
+      370,
+      430,
+      560,
+      725,
+      165
+     ],
+     "kcy-huseyinli": [
+      165,
+      260,
+      295,
+      370,
+      480,
+      120
+     ],
+     "kcy-resadiye": [
+      165,
+      225,
+      295,
+      345,
+      430,
+      105
+     ],
+     "kcy-alemdag": [
+      105,
+      165,
+      165,
+      225,
+      295,
+      65
+     ],
+     "kcy-pasakoy": [
+      105,
+      120,
+      165,
+      195,
+      225,
+      65
+     ],
+     "kcy-mecidiye": [
+      45,
+      65,
+      65,
+      105,
+      105,
+      45
+     ]
+    }
+   },
+   "uTurn": {
+    "kcy-fenertepe": [
+     600,
+     930,
+     1205,
+     1930,
+     2410,
+     420
+    ],
+    "kcy-isiklar": [
+     540,
+     870,
+     1115,
+     1800,
+     2280,
+     385
+    ],
+    "kcy-agacli": [
+     540,
+     820,
+     1070,
+     1735,
+     2210,
+     370
+    ],
+    "kcy-odayeri": [
+     540,
+     820,
+     1070,
+     1735,
+     2210,
+     385
+    ],
+    "kcy-uskumrukoy": [
+     455,
+     675,
+     900,
+     1535,
+     1905,
+     300
+    ],
+    "kcy-riva": [
+     405,
+     575,
+     800,
+     1365,
+     1730,
+     270
+    ],
+    "kcy-huseyinli": [
+     480,
+     705,
+     945,
+     1590,
+     1970,
+     335
+    ],
+    "kcy-resadiye": [
+     540,
+     870,
+     1115,
+     1800,
+     2270,
+     385
+    ],
+    "kcy-alemdag": [
+     540,
+     820,
+     1070,
+     1735,
+     2210,
+     370
+    ],
+    "kcy-pasakoy": [
+     540,
+     820,
+     1070,
+     1785,
+     2215,
+     385
+    ],
+    "kcy-mecidiye": [
+     600,
+     930,
+     1205,
+     1930,
+     2410,
+     420
+    ],
+    "kcy-kurnakoy": [
+     600,
+     930,
+     1170,
+     1900,
+     2390,
+     420
+    ]
+   }
+  }
+ ],
+ "freeFlow": [
+  {
+   "name": "İstoç",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    16.5,
+    26,
+    29.5,
+    41,
+    49,
+    12
+   ]
+  },
+  {
+   "name": "İkitelli",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    16.5,
+    29.5,
+    31,
+    43,
+    56,
+    12
+   ]
+  },
+  {
+   "name": "Başakşehir Güney",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    19.5,
+    31,
+    41,
+    49,
+    63,
+    16.5
+   ]
+  },
+  {
+   "name": "Başakşehir",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    26,
+    41,
+    48,
+    63,
+    78.5,
+    19.5
+   ]
+  },
+  {
+   "name": "Fenertepe",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    41,
+    60,
+    72.5,
+    97.5,
+    121,
+    29.5
+   ]
+  },
+  {
+   "name": "Çekmeköy",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    19.5,
+    31,
+    34.5,
+    48,
+    60,
+    12
+   ]
+  },
+  {
+   "name": "Çamlık",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    49,
+    80,
+    97.5,
+    127.5,
+    161.5,
+    34.5
+   ]
+  },
+  {
+   "name": "Sarıgazi",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    16.5,
+    29.5,
+    31,
+    41,
+    49,
+    12
+   ]
+  },
+  {
+   "name": "Kömürlük",
+   "direction": "Güney - Kuzey",
+   "prices": [
+    72.5,
+    115.5,
+    141,
+    183.5,
+    229,
+    49
+   ]
+  },
+  {
+   "name": "İstoç",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    16.5,
+    26,
+    29.5,
+    41,
+    49,
+    12
+   ]
+  },
+  {
+   "name": "İkitelli",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "Başakşehir Güney",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    36,
+    60.5,
+    72,
+    92,
+    119,
+    28.5
+   ]
+  },
+  {
+   "name": "Başakşehir",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    26,
+    41,
+    48,
+    63,
+    78.5,
+    19.5
+   ]
+  },
+  {
+   "name": "Fenertepe",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    41,
+    60,
+    72.5,
+    97.5,
+    121,
+    29.5
+   ]
+  },
+  {
+   "name": "Çekmeköy",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    19.5,
+    31,
+    34.5,
+    48,
+    60,
+    12
+   ]
+  },
+  {
+   "name": "Çamlık",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    49,
+    80,
+    97.5,
+    127.5,
+    161.5,
+    34.5
+   ]
+  },
+  {
+   "name": "Sarıgazi",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    16.5,
+    29.5,
+    31,
+    41,
+    49,
+    12
+   ]
+  },
+  {
+   "name": "Kömürlük",
+   "direction": "Kuzey - Güney",
+   "prices": [
+    72.5,
+    115.5,
+    141,
+    183.5,
+    229,
+    49
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "station": "kcy-fenertepe",
+   "to": "O-3 / TEM Mahmutbey (Mahmutbey–Fenertepe SGS bağlantı yolu: İstoç, İkitelli, Başakşehir)",
+   "note": "Bağlantı yolu serbest geçiş (SGS) noktalarından ayrıca ücretlendirilir (freeFlow)."
+  },
+  {
+   "station": "kcy-isiklar",
+   "to": "Kemerburgaz / Göktürk – TEM Kemerburgaz bağlantısı",
+   "note": "Konum ve bağlantı genel kaynaklara dayanır; doğrulanmalı."
+  },
+  {
+   "station": "kcy-odayeri",
+   "to": "KMO-AV Fatih (G23) / Kuzey Marmara Avrupa Otoyolu (Kınalı–Odayeri) ve İstanbul Havalimanı bağlantısı",
+   "note": "Kınalı yönünden gelen araç önce KMO-AV sisteminde (Fatih gişesinde) öder, ardından KCY sistemine Odayeri'den girer. İki ayrı kapalı sistem: ücretler toplanır."
+  },
+  {
+   "station": "kcy-uskumrukoy",
+   "to": "Yavuz Sultan Selim Köprüsü Avrupa ucu (Garipçe)",
+   "note": "Köprü ücreti KCY matrisine dahildir."
+  },
+  {
+   "station": "kcy-riva",
+   "to": "Yavuz Sultan Selim Köprüsü Anadolu ucu (Poyrazköy)",
+   "note": "Köprü ücreti KCY matrisine dahildir."
+  },
+  {
+   "station": "kcy-huseyinli",
+   "to": "Hüseyinli–Kömürlük bağlantı yolu (SGS: Çekmeköy, Çamlık, Sarıgazi, Kömürlük)",
+   "note": "SGS noktaları ayrı ücretlendirilir (freeFlow)."
+  },
+  {
+   "station": "kcy-kurnakoy",
+   "to": "KMO-AN Kurnaköy 2 (Kuzey Marmara Anadolu Otoyolu Kurtköy–Akyazı)",
+   "note": "Fiziksel olarak aynı düğüm; Akyazı yönüne devam eden araç KMO-AN sisteminde ayrıca öder."
+  },
+  {
+   "station": "kcy-kurnakoy",
+   "to": "O-4 Anadolu Otoyolu (TEM) Kurtköy / Sabiha Gökçen Havalimanı bölgesi",
+   "note": "Bağlantının tam kavşak geometrisi doğrulanmalı."
+  }
+ ],
+ "verification": [
+  "PDF pdfjs-dist ile x/y konumlu okundu; her sayı en yakın sütun başlığı (x merkezine) ve en yakın sınıf satırına (y) atandı. Tüm sayılar sütun merkezine <12pt, satıra <3.5pt mesafede; çakışan/boş hücre yok.",
+  "12 istasyon x 12 sütun x 6 sınıf = 864 hücre okundu; köşegen (12x6) uTurn'a ayrıldı, prices içinde 132 yönlü çift x 6 sınıf = 792 değer.",
+  "Matris 6 sınıfın tamamında tam simetrik (giriş→çıkış = çıkış→giriş, asimetri 0).",
+  "Her satırda köşegen (U-dönüşü) değeri = satırdaki en yüksek ücret (6 sınıfta istisnasız).",
+  "Her hücrede sınıf sırası 1<=2<=3<=4<=5 ve 6<=1 (motosiklet) sağlanıyor (ihlal 0).",
+  "Mesafe ile artış: Fenertepe satırı 90→510 (1. sınıf) artıyor. Sütun sırası tam doğrusal değil: Reşadiye→Alemdağ ve Mecidiye→Kurnaköy geçişlerinde hafif düşüşler var (ör. Fenertepe→Reşadiye 460, →Alemdağ 460/1.sınıf; 2.sınıf 740→700). Bu PDF'in kendisinde; okuma hatası değil (simetri bunu doğruluyor).",
+  "Topoloji ücretlerden çıkarıldı: Uskumruköy→Ağaçlı 100 < Uskumruköy→Odayeri/Işıklar 140; Fenertepe→Ağaçlı 90 < Fenertepe→Odayeri 100 → Ağaçlı ana hatta düğüme en yakın, Odayeri (KMO-AV yönü) ve Işıklar–Fenertepe (Mahmutbey yönü) ayrı kollar olarak modellendi.",
+  "YSS köprü ücretinin dahil olduğu kontrolü: Uskumruköy↔Riva (köprüyü içeren en kısa geçiş) 1.sınıf 195 TL >= köprü 95 TL; 5.sınıf 1055 >= 740; 4.sınıf 845 >= 595. PDF notu 'Köprü Geçiş Ücreti İçermektedir'.",
+  "Elle kontrol (ham döküm): Fenertepe→Kurnaköy 1.sınıf 510 (satır y=706 son hücre); Kurnaköy→Fenertepe 3.sınıf 1000 (y=311 ilk hücre); Uskumruköy→Riva 1.sınıf 195 (y=567 5. hücre); Mecidiye→Kurnaköy 1.sınıf 40 (y=358 son hücre).",
+  "Koordinatlar: dış harita servisleri (OSM/Overpass/Nominatim) bu oturumda erişilemedi; koordinatlar coğrafi bilgi ve mahalle konumlarına dayalı tahmindir ('low'), gişe noktasına ±2-5 km sapma olabilir. Haritada kullanılmadan önce doğrulanmalı.",
+  "SGS (freeFlow) tabloları ham döküm satırlarından elle aktarıldı (değer satırı ile iki satırlı etiket y farkı 1pt).",
+  "sections/validFrom/freeFlow üretimi: scripts/kgm/parsers/KCY.mjs (x/y konum tabanlı, beklenmeyen her durumda assert). Bağımsız ilk çıkarım (scratch parser + elle aktarılan SGS) ile deep-equal: birebir aynı."
+ ],
+ "bridgeEdges": [
+  {
+   "a": "kcy-uskumrukoy",
+   "b": "kcy-riva",
+   "bridge": "yavuz-sultan-selim-koprusu",
+   "included": true
+  }
+ ]
+}

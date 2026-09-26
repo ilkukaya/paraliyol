@@ -1,0 +1,2784 @@
+{
+ "code": "O-3",
+ "name": "Avrupa Otoyolu (Mahmutbey-Edirne Kesimi)",
+ "shortName": "Avrupa Otoyolu (Mahmutbey-Edirne)",
+ "operator": "KGM",
+ "source": "11-AvrupaOtoyoluMahmutbey-Edirne.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "01/01/2026 Saat 00:00'dan itibaren geçerlidir.",
+  "Motosikletler KGM işletimindeki otoyollar ve köprülerde 6. sınıf araç ücreti öder (kaynak: 1-15Temmuz-FSM.pdf notu).",
+  "Tablo tek üçgen (alt üçgen) olarak yayımlanmıştır: aynı iki istasyon arasındaki ücret her iki yönde aynıdır; matris bu nedenle simetrik olarak açılmıştır.",
+  "Köşegendeki (gri) değerler U-dönüşü / aynı istasyondan giriş-çıkış ücretidir ve her istasyon için o istasyondan en uzak mesafe ücretine eşittir; prices içinde yer almaz (değerler aşağıdaki U-dönüşü notunda).",
+  "KINALI ile KÜÇÜKKILIÇLI arasındaki mesafe PDF'de 0,000 km ve ücret tüm sınıflar için 0,00 TL'dir (aynı gişe bölgesi).",
+  "U-dönüşü (köşegen) ücretleri 1. sınıf: Mahmutbey 168, Ispartakule 168, Avcılar 168, Esenyurt 168, Hadımköy 168, Çatalca 168, Kumburgaz 168, Selimpaşa 134, Silivri 134, Kınalı 134, Küçükkılıçlı 134, Çerkezköy 134, Çorlu 115, Saray 73, Lüleburgaz 134, Babaeski 134, Havsa 168, Edirne 168 TL."
+ ],
+ "stations": [
+  {
+   "id": "o3-mahmutbey",
+   "name": "Mahmutbey",
+   "pdfName": "MAHMUTBEY",
+   "lat": 41.0625,
+   "lng": 28.8095,
+   "coord": "medium"
+  },
+  {
+   "id": "o3-ispartakule",
+   "name": "Ispartakule",
+   "pdfName": "ISPARTAKULE",
+   "lat": 41.061,
+   "lng": 28.724,
+   "coord": "low"
+  },
+  {
+   "id": "o3-avcilar",
+   "name": "Avcılar",
+   "pdfName": "AVCILAR",
+   "lat": 41.056,
+   "lng": 28.686,
+   "coord": "low"
+  },
+  {
+   "id": "o3-esenyurt",
+   "name": "Esenyurt",
+   "pdfName": "ESENYURT",
+   "lat": 41.054,
+   "lng": 28.664,
+   "coord": "low"
+  },
+  {
+   "id": "o3-hadimkoy",
+   "name": "Hadımköy",
+   "pdfName": "HADIMKÖY",
+   "lat": 41.066,
+   "lng": 28.623,
+   "coord": "low"
+  },
+  {
+   "id": "o3-catalca",
+   "name": "Çatalca",
+   "pdfName": "ÇATALCA",
+   "lat": 41.098,
+   "lng": 28.493,
+   "coord": "low"
+  },
+  {
+   "id": "o3-kumburgaz",
+   "name": "Kumburgaz",
+   "pdfName": "K.BURGAZ",
+   "lat": 41.088,
+   "lng": 28.433,
+   "coord": "low"
+  },
+  {
+   "id": "o3-selimpasa",
+   "name": "Selimpaşa",
+   "pdfName": "SELİMPAŞA",
+   "lat": 41.093,
+   "lng": 28.353,
+   "coord": "low"
+  },
+  {
+   "id": "o3-silivri",
+   "name": "Silivri",
+   "pdfName": "SİLİVRİ",
+   "lat": 41.104,
+   "lng": 28.235,
+   "coord": "low"
+  },
+  {
+   "id": "o3-kinali",
+   "name": "Kınalı",
+   "pdfName": "KINALI",
+   "lat": 41.111,
+   "lng": 28.158,
+   "coord": "medium"
+  },
+  {
+   "id": "o3-kucukkilicli",
+   "name": "Küçükkılıçlı",
+   "pdfName": "KÜÇÜKILIÇLI",
+   "lat": 41.115,
+   "lng": 28.152,
+   "coord": "low"
+  },
+  {
+   "id": "o3-cerkezkoy",
+   "name": "Çerkezköy",
+   "pdfName": "ÇERKEZKÖY",
+   "lat": 41.17,
+   "lng": 28.045,
+   "coord": "low"
+  },
+  {
+   "id": "o3-corlu",
+   "name": "Çorlu",
+   "pdfName": "ÇORLU",
+   "lat": 41.215,
+   "lng": 27.825,
+   "coord": "low"
+  },
+  {
+   "id": "o3-saray",
+   "name": "Saray",
+   "pdfName": "SARAY",
+   "lat": 41.28,
+   "lng": 27.615,
+   "coord": "low"
+  },
+  {
+   "id": "o3-luleburgaz",
+   "name": "Lüleburgaz",
+   "pdfName": "LÜLEBURGAZ",
+   "lat": 41.43,
+   "lng": 27.35,
+   "coord": "low"
+  },
+  {
+   "id": "o3-babaeski",
+   "name": "Babaeski",
+   "pdfName": "BABAESKİ",
+   "lat": 41.458,
+   "lng": 27.095,
+   "coord": "low"
+  },
+  {
+   "id": "o3-havsa",
+   "name": "Havsa",
+   "pdfName": "HAVSA",
+   "lat": 41.558,
+   "lng": 26.835,
+   "coord": "low"
+  },
+  {
+   "id": "o3-edirne",
+   "name": "Edirne",
+   "pdfName": "EDİRNE",
+   "lat": 41.642,
+   "lng": 26.637,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "o3-mahmutbey",
+   "o3-ispartakule"
+  ],
+  [
+   "o3-ispartakule",
+   "o3-avcilar"
+  ],
+  [
+   "o3-avcilar",
+   "o3-esenyurt"
+  ],
+  [
+   "o3-esenyurt",
+   "o3-hadimkoy"
+  ],
+  [
+   "o3-hadimkoy",
+   "o3-catalca"
+  ],
+  [
+   "o3-catalca",
+   "o3-kumburgaz"
+  ],
+  [
+   "o3-kumburgaz",
+   "o3-selimpasa"
+  ],
+  [
+   "o3-selimpasa",
+   "o3-silivri"
+  ],
+  [
+   "o3-silivri",
+   "o3-kinali"
+  ],
+  [
+   "o3-kinali",
+   "o3-kucukkilicli"
+  ],
+  [
+   "o3-kinali",
+   "o3-cerkezkoy"
+  ],
+  [
+   "o3-cerkezkoy",
+   "o3-corlu"
+  ],
+  [
+   "o3-corlu",
+   "o3-saray"
+  ],
+  [
+   "o3-saray",
+   "o3-luleburgaz"
+  ],
+  [
+   "o3-luleburgaz",
+   "o3-babaeski"
+  ],
+  [
+   "o3-babaeski",
+   "o3-havsa"
+  ],
+  [
+   "o3-havsa",
+   "o3-edirne"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "o3-mahmutbey-edirne",
+   "name": "Mahmutbey - Edirne",
+   "stations": [
+    "o3-mahmutbey",
+    "o3-ispartakule",
+    "o3-avcilar",
+    "o3-esenyurt",
+    "o3-hadimkoy",
+    "o3-catalca",
+    "o3-kumburgaz",
+    "o3-selimpasa",
+    "o3-silivri",
+    "o3-kinali",
+    "o3-kucukkilicli",
+    "o3-cerkezkoy",
+    "o3-corlu",
+    "o3-saray",
+    "o3-luleburgaz",
+    "o3-babaeski",
+    "o3-havsa",
+    "o3-edirne"
+   ],
+   "prices": {
+    "o3-mahmutbey": {
+     "o3-ispartakule": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o3-avcilar": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-esenyurt": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-hadimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-catalca": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-selimpasa": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-silivri": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kinali": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-kucukkilicli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      168,
+      193,
+      269,
+      33
+     ],
+     "o3-luleburgaz": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-babaeski": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-havsa": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-edirne": [
+      168,
+      193,
+      256,
+      338,
+      378,
+      69
+     ]
+    },
+    "o3-ispartakule": {
+     "o3-mahmutbey": [
+      49,
+      56,
+      69,
+      115,
+      148,
+      20
+     ],
+     "o3-avcilar": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-esenyurt": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-hadimkoy": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-catalca": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-selimpasa": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-silivri": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kinali": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kucukkilicli": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-luleburgaz": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-babaeski": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-havsa": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-edirne": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ]
+    },
+    "o3-avcilar": {
+     "o3-mahmutbey": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-ispartakule": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-esenyurt": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-hadimkoy": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-catalca": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-selimpasa": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-silivri": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kinali": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kucukkilicli": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-luleburgaz": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-babaeski": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-havsa": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-edirne": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ]
+    },
+    "o3-esenyurt": {
+     "o3-mahmutbey": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-ispartakule": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-avcilar": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-hadimkoy": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-catalca": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-selimpasa": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-silivri": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kinali": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kucukkilicli": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-luleburgaz": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-babaeski": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-havsa": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-edirne": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ]
+    },
+    "o3-hadimkoy": {
+     "o3-mahmutbey": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-ispartakule": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-avcilar": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-esenyurt": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-catalca": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-selimpasa": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-silivri": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-kinali": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kucukkilicli": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-luleburgaz": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-babaeski": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-havsa": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-edirne": [
+      168,
+      193,
+      256,
+      317,
+      338,
+      69
+     ]
+    },
+    "o3-catalca": {
+     "o3-mahmutbey": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-ispartakule": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-avcilar": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-esenyurt": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-hadimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-selimpasa": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-silivri": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kinali": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-kucukkilicli": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-luleburgaz": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-babaeski": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-havsa": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-edirne": [
+      168,
+      193,
+      256,
+      317,
+      338,
+      69
+     ]
+    },
+    "o3-kumburgaz": {
+     "o3-mahmutbey": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-ispartakule": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-avcilar": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-esenyurt": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-hadimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-catalca": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-selimpasa": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-silivri": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-kinali": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kucukkilicli": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-cerkezkoy": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-corlu": [
+      59,
+      73,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-saray": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-luleburgaz": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-babaeski": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-havsa": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-edirne": [
+      168,
+      193,
+      256,
+      317,
+      338,
+      69
+     ]
+    },
+    "o3-selimpasa": {
+     "o3-mahmutbey": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-ispartakule": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-avcilar": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-esenyurt": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-hadimkoy": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-catalca": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-kumburgaz": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-silivri": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-kinali": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-kucukkilicli": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-cerkezkoy": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-corlu": [
+      59,
+      73,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-saray": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-luleburgaz": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-babaeski": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-havsa": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-edirne": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ]
+    },
+    "o3-silivri": {
+     "o3-mahmutbey": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-ispartakule": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-avcilar": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-esenyurt": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-hadimkoy": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-catalca": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-selimpasa": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-kinali": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-kucukkilicli": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-cerkezkoy": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-corlu": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-luleburgaz": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-babaeski": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-havsa": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-edirne": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ]
+    },
+    "o3-kinali": {
+     "o3-mahmutbey": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-ispartakule": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-avcilar": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-esenyurt": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-hadimkoy": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-catalca": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-selimpasa": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-silivri": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-kucukkilicli": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "o3-cerkezkoy": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-corlu": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-luleburgaz": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-babaeski": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-havsa": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-edirne": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ]
+    },
+    "o3-kucukkilicli": {
+     "o3-mahmutbey": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-ispartakule": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-avcilar": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-esenyurt": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-hadimkoy": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-catalca": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      20
+     ],
+     "o3-kumburgaz": [
+      49,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "o3-selimpasa": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-silivri": [
+      40,
+      45,
+      56,
+      73,
+      115,
+      15
+     ],
+     "o3-kinali": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "o3-cerkezkoy": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-corlu": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-luleburgaz": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-babaeski": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-havsa": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-edirne": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ]
+    },
+    "o3-cerkezkoy": {
+     "o3-mahmutbey": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-ispartakule": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-avcilar": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-esenyurt": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-hadimkoy": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-catalca": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kumburgaz": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-selimpasa": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-silivri": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-kinali": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-kucukkilicli": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-corlu": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-saray": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-luleburgaz": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-babaeski": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-havsa": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-edirne": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ]
+    },
+    "o3-corlu": {
+     "o3-mahmutbey": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-ispartakule": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-avcilar": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-esenyurt": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-hadimkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-catalca": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-kumburgaz": [
+      59,
+      73,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-selimpasa": [
+      59,
+      73,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-silivri": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-kinali": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-kucukkilicli": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-cerkezkoy": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-saray": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-luleburgaz": [
+      59,
+      69,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-babaeski": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-havsa": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-edirne": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ]
+    },
+    "o3-saray": {
+     "o3-mahmutbey": [
+      73,
+      82,
+      168,
+      193,
+      269,
+      33
+     ],
+     "o3-ispartakule": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-avcilar": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-esenyurt": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-hadimkoy": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-catalca": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-kumburgaz": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-selimpasa": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-silivri": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kinali": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-kucukkilicli": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "o3-cerkezkoy": [
+      59,
+      69,
+      82,
+      115,
+      148,
+      33
+     ],
+     "o3-corlu": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ],
+     "o3-luleburgaz": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o3-babaeski": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-havsa": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-edirne": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ]
+    },
+    "o3-luleburgaz": {
+     "o3-mahmutbey": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-ispartakule": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-avcilar": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-esenyurt": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-hadimkoy": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-catalca": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-kumburgaz": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-selimpasa": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-silivri": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-kinali": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-kucukkilicli": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-corlu": [
+      59,
+      69,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-saray": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o3-babaeski": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o3-havsa": [
+      59,
+      69,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-edirne": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ]
+    },
+    "o3-babaeski": {
+     "o3-mahmutbey": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-ispartakule": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-avcilar": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-esenyurt": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-hadimkoy": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-catalca": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-kumburgaz": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-selimpasa": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-silivri": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-kinali": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-kucukkilicli": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-cerkezkoy": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-luleburgaz": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o3-havsa": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o3-edirne": [
+      59,
+      69,
+      115,
+      148,
+      168,
+      20
+     ]
+    },
+    "o3-havsa": {
+     "o3-mahmutbey": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-ispartakule": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-avcilar": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-esenyurt": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-hadimkoy": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-catalca": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-kumburgaz": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-selimpasa": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-silivri": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-kinali": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-kucukkilicli": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-cerkezkoy": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-corlu": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-saray": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-luleburgaz": [
+      59,
+      69,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-babaeski": [
+      40,
+      45,
+      65,
+      115,
+      148,
+      15
+     ],
+     "o3-edirne": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ]
+    },
+    "o3-edirne": {
+     "o3-mahmutbey": [
+      168,
+      193,
+      256,
+      338,
+      378,
+      69
+     ],
+     "o3-ispartakule": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-avcilar": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-esenyurt": [
+      168,
+      193,
+      256,
+      317,
+      378,
+      69
+     ],
+     "o3-hadimkoy": [
+      168,
+      193,
+      256,
+      317,
+      338,
+      69
+     ],
+     "o3-catalca": [
+      168,
+      193,
+      256,
+      317,
+      338,
+      69
+     ],
+     "o3-kumburgaz": [
+      168,
+      193,
+      256,
+      317,
+      338,
+      69
+     ],
+     "o3-selimpasa": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-silivri": [
+      134,
+      156,
+      193,
+      269,
+      338,
+      53
+     ],
+     "o3-kinali": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-kucukkilicli": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-cerkezkoy": [
+      134,
+      156,
+      193,
+      256,
+      317,
+      53
+     ],
+     "o3-corlu": [
+      115,
+      128,
+      168,
+      193,
+      269,
+      45
+     ],
+     "o3-saray": [
+      73,
+      82,
+      168,
+      193,
+      256,
+      33
+     ],
+     "o3-luleburgaz": [
+      73,
+      82,
+      148,
+      168,
+      193,
+      33
+     ],
+     "o3-babaeski": [
+      59,
+      69,
+      115,
+      148,
+      168,
+      20
+     ],
+     "o3-havsa": [
+      40,
+      45,
+      65,
+      102,
+      115,
+      15
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "o3-mahmutbey",
+   "to": "O-3 / TEM doğusu (ücretsiz): Mahmutbey kavşağı → O-2 üzerinden Fatih Sultan Mehmet Köprüsü, O-1/D-100 bağlantılarıyla 15 Temmuz Şehitler Köprüsü",
+   "note": "Ücretli sistem Mahmutbey gişelerinde başlar; Mahmutbey'in doğusundaki şehir içi otoyol kesimi ve köprülere bağlantı yolları ücretsizdir, köprü ücreti bridges.json'dan eklenir."
+  },
+  {
+   "station": "o3-mahmutbey",
+   "to": "Kuzey Marmara Otoyolu / YSS bağlantısı (Mahmutbey-Başakşehir-Hasdal bağlantı yolları)",
+   "note": "Kuzey Marmara Otoyolu (13/14 no'lu PDF'ler) ayrı ücret sistemidir."
+  },
+  {
+   "station": "o3-kinali",
+   "to": "KMO Avrupa (Kınalı-Odayeri, 14-KMOAvrupaKinali-Odayeri.pdf) - Kınalı/Küçükkılıçlı bağlantısı",
+   "note": "KMO'nun batı ucu Kınalı'dadır; PDF'deki KINALI ve KÜÇÜKKILIÇLI arasında 0 km/0 TL görünmesi bu kavşak bölgesini yansıtır. Hangi rampanın KMO'ya bağlandığı PDF'den doğrulanamadı."
+  },
+  {
+   "station": "o3-kinali",
+   "to": "D-110 Kınalı-Tekirdağ-Malkara yolu → MCO (Malkara-Çanakkale) Malkara G-1",
+   "note": "O-3 Malkara'ya ulaşmaz. Kınalı'dan Tekirdağ üzerinden Malkara'ya bağlantı D-110 devlet yolu ile (~110 km) yapılır; Kınalı-Tekirdağ-Malkara otoyol kesiminin 2026 durumu bu PDF'lerle doğrulanmadı."
+  },
+  {
+   "station": "o3-edirne",
+   "to": "D-100 / Kapıkule sınır kapısı (Bulgaristan)",
+   "note": "Otoyolun ücretli kesimi Edirne gişelerinde biter."
+  }
+ ],
+ "verification": [
+  "prices, depoya eklenen yeniden çalıştırılabilir ayrıştırıcı scripts/kgm/parsers/O-3.mjs çıktısından üretildi (x/y konum tabanlı hücre eşleme); bağımsız bir Python ayrıştırıcısı (satır/hücre sayımı) ile birebir aynı olduğu doğrulandı.",
+  "PDF tek sayfa, alt üçgen matris: 18 istasyon, 171 hücre (köşegen dahil) x 6 sınıf = 1026 değer ayrıştırıldı; her satırın değer sayısı satır indisi+1 ile doğrulandı (dump.mjs çıktısı, y-koordinat bazlı satırlar).",
+  "prices: 18x17 = 306 yönlü çift (köşegen hariç), her biri 6 sınıf. Üçgen tablo simetrik açıldı (A→B = B→A).",
+  "Köşegen (U-dönüşü) değerleri her istasyon için diğer tüm istasyonlara olan en yüksek ücrete eşit — 18/18 istasyonda ve 6/6 sınıfta doğrulandı.",
+  "Render kontrolü: PDF @napi-rs/canvas ile PNG'ye çizilip tablo gözle karşılaştırıldı; sayfa başındaki '1,2549' metni görünmeyen yardımcı hücredir (tabloya dahil değil).",
+  "Ham dump ile nokta kontrolleri: o3-mahmutbey→o3-edirne = [168, 193, 256, 338, 378, 69]; o3-ispartakule→o3-mahmutbey = [49, 56, 69, 115, 148, 20]; o3-silivri→o3-selimpasa = [40, 45, 65, 102, 115, 15]; o3-corlu→o3-saray = [40, 45, 65, 102, 115, 15]; o3-edirne→o3-havsa = [40, 45, 65, 102, 115, 15]; o3-luleburgaz→o3-mahmutbey = [134, 156, 193, 256, 317, 53] (EDİRNE satırı 1. sınıf ilk hücre 168,00; ISPARTAKULE satırı 49,00; SİLİVRİ satırı SELİMPAŞA sütunu 40,00; SARAY satırı ÇORLU sütunu 40,00; EDİRNE satırı HAVSA sütunu 40,00; LÜLEBURGAZ satırı 134,00).",
+  "PDF hatası (yalnız mesafe): ÇERKEZKÖY→ESENYURT mesafesi 69,100 km yazılmış (komşu değerlere göre ~60,6 km olmalı); ücretleri etkilemez.",
+  "Düzensizlik (PDF'deki gibi bırakıldı): bazı 6. sınıf ücretleri mesafe ile monoton değil (örn. ÇORLU→K.BURGAZ 20 TL, ÇORLU→SİLİVRİ 33 TL).",
+  "Koordinatlar KGM PDF'inde yok; kavşak konumları bilgiye dayalı yaklaşık değerlerdir (çevrimiçi harita servislerine erişim yoktu) — 'low' olanlar mutlaka harita üzerinde doğrulanmalı.",
+  "UYARI: KGM 01.07.2026 itibarıyla yeni tarife yayımladı (basın: köprü/otoyol zammı; KGM işletmesindeki 15 Temmuz/FSM'ye zam yapılmadığı bildirildi). Bu dosya 01.01.2026 PDF'ini yansıtır; Avrupa Otoyolu'nun Temmuz 2026 tarifesi kontrol edilmeli."
+ ]
+}

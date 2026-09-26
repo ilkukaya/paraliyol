@@ -1,0 +1,379 @@
+{
+ "code": "IZA",
+ "name": "İzmir-Aydın Otoyolu",
+ "shortName": "İzmir-Aydın Otoyolu",
+ "operator": "KGM",
+ "source": "7-Izmir-Aydin.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "Tarife 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Tablo alt üçgen (simetrik) olarak verilmiştir: aynı iki istasyon arasındaki ücret her iki yönde aynıdır.",
+  "Aynı istasyonda giriş-çıkış (U dönüşü) hücresi tablodaki en yüksek ücrettir (Sınıf 1: 73 TL); bu değer matrise dahil edilmemiştir.",
+  "PDF başlığındaki \"1,2549\" katsayısı tarife artış katsayısıdır; ücretler katsayı uygulanmış hâliyle listelenmiştir.",
+  "Aydın Batı (Şevketiye) gişelerinden sonra Aydın Çevre Yolu ücretsizdir."
+ ],
+ "stations": [
+  {
+   "id": "iza-isikkent",
+   "name": "Işıkkent",
+   "pdfName": "IŞIKKENT",
+   "lat": 38.39,
+   "lng": 27.233,
+   "coord": "medium"
+  },
+  {
+   "id": "iza-tahtalicay",
+   "name": "Tahtalıçay (Havalimanı)",
+   "pdfName": "TAHTALIÇAY (HAVALİMANI)",
+   "lat": 38.313,
+   "lng": 27.223,
+   "coord": "low"
+  },
+  {
+   "id": "iza-torbali",
+   "name": "Torbalı",
+   "pdfName": "TORBALI",
+   "lat": 38.18,
+   "lng": 27.325,
+   "coord": "medium"
+  },
+  {
+   "id": "iza-belevi",
+   "name": "Belevi",
+   "pdfName": "BELEVİ",
+   "lat": 37.993,
+   "lng": 27.46,
+   "coord": "medium"
+  },
+  {
+   "id": "iza-germencik",
+   "name": "Germencik",
+   "pdfName": "GERMENCİK",
+   "lat": 37.875,
+   "lng": 27.595,
+   "coord": "medium"
+  },
+  {
+   "id": "iza-aydin-bati",
+   "name": "Aydın Batı",
+   "pdfName": "AYDIN BATI",
+   "lat": 37.856,
+   "lng": 27.775,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "iza-isikkent",
+   "iza-tahtalicay"
+  ],
+  [
+   "iza-tahtalicay",
+   "iza-torbali"
+  ],
+  [
+   "iza-torbali",
+   "iza-belevi"
+  ],
+  [
+   "iza-belevi",
+   "iza-germencik"
+  ],
+  [
+   "iza-germencik",
+   "iza-aydin-bati"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "iza-main",
+   "name": "Işıkkent - Aydın Batı",
+   "stations": [
+    "iza-isikkent",
+    "iza-tahtalicay",
+    "iza-torbali",
+    "iza-belevi",
+    "iza-germencik",
+    "iza-aydin-bati"
+   ],
+   "prices": {
+    "iza-isikkent": {
+     "iza-tahtalicay": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "iza-torbali": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "iza-belevi": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "iza-germencik": [
+      73,
+      82,
+      102,
+      115,
+      148,
+      33
+     ],
+     "iza-aydin-bati": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ]
+    },
+    "iza-tahtalicay": {
+     "iza-isikkent": [
+      40,
+      45,
+      56,
+      69,
+      115,
+      15
+     ],
+     "iza-torbali": [
+      49,
+      56,
+      59,
+      73,
+      115,
+      20
+     ],
+     "iza-belevi": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "iza-germencik": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "iza-aydin-bati": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ]
+    },
+    "iza-torbali": {
+     "iza-isikkent": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "iza-tahtalicay": [
+      49,
+      56,
+      59,
+      73,
+      115,
+      20
+     ],
+     "iza-belevi": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "iza-germencik": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "iza-aydin-bati": [
+      73,
+      82,
+      102,
+      115,
+      148,
+      33
+     ]
+    },
+    "iza-belevi": {
+     "iza-isikkent": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "iza-tahtalicay": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "iza-torbali": [
+      49,
+      56,
+      59,
+      102,
+      115,
+      20
+     ],
+     "iza-germencik": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "iza-aydin-bati": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ]
+    },
+    "iza-germencik": {
+     "iza-isikkent": [
+      73,
+      82,
+      102,
+      115,
+      148,
+      33
+     ],
+     "iza-tahtalicay": [
+      53,
+      56,
+      102,
+      115,
+      148,
+      20
+     ],
+     "iza-torbali": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "iza-belevi": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ],
+     "iza-aydin-bati": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ]
+    },
+    "iza-aydin-bati": {
+     "iza-isikkent": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "iza-tahtalicay": [
+      73,
+      82,
+      115,
+      148,
+      168,
+      33
+     ],
+     "iza-torbali": [
+      73,
+      82,
+      102,
+      115,
+      148,
+      33
+     ],
+     "iza-belevi": [
+      53,
+      56,
+      65,
+      115,
+      148,
+      20
+     ],
+     "iza-germencik": [
+      49,
+      56,
+      65,
+      102,
+      115,
+      20
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "iza-isikkent",
+   "to": "İzmir Çevre Yolu (O-30) — Işıkkent kavşağı",
+   "note": "Ücretsiz İzmir Çevre Yolu üzerinden O-5 (İstanbul-İzmir) İzmir ucu ve İzmir-Çeşme Otoyolu (IZC, Güzelbahçe) ile bağlantı."
+  },
+  {
+   "station": "iza-aydin-bati",
+   "to": "Aydın Çevre Yolu → Aydın-Denizli Otoyolu (ADO, Aydın Alın)",
+   "note": "Aydın Batı gişelerinden sonra ücretsiz Aydın Çevre Yolu (Aydın Kuzey/Güney kavşakları) ile Aydın-Denizli Otoyolu başlangıcındaki Aydın Alın gişelerine bağlanır; iki ayrı kapalı sistem, ücretler toplanır."
+  },
+  {
+   "station": "iza-tahtalicay",
+   "to": "Adnan Menderes Havalimanı bağlantısı",
+   "note": "Havalimanı çıkışı."
+  }
+ ],
+ "verification": [
+  "PDF tek sayfa, 6 istasyon, alt üçgen matris; Tahtalıçay (Havalimanı) sütunu başlıkta iki satıra bölünmüş, x≈253 ile Işıkkent (x≈187) ve Torbalı (x≈321) arasında olduğu pdfjs x-koordinatlarıyla doğrulandı.",
+  "Mesafeler sırayı doğruluyor: Işıkkent→Tahtalıçay 9,15; →Torbalı 23,15; →Belevi 44,4; →Germencik 67,7; →Aydın Batı 99,6 km. Belevi ve Germencik satırlarındaki mesafeler kendi içinde tutarlı; Aydın Batı satırında ise PDF iç tutarsızlığı var (Işıkkent 99,6 / Tahtalıçay 90,45 ile Torbalı 65,45 / Belevi 45,2 / Germencik 21,9 arasında ~10 km fark). Ücretleri etkilemez; sıralama her iki yorumda da aynı.",
+  "Sınıf 1 mesafe kademesi: <10 km 40, 10-25 km 49, 25-60 km 53, >60 km 73 — tüm hücreler uyumlu. Sınıf monotonluk ihlali: 0. 30 yönlü çift, simetrik.",
+  "Koordinatlar yaklaşık; Tahtalıçay ve Aydın Batı (Şevketiye gişeleri) düşük güven."
+ ]
+}

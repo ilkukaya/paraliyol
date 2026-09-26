@@ -1,0 +1,203 @@
+[
+ {
+  "id": "15-temmuz-sehitler-koprusu",
+  "name": "15 Temmuz Şehitler Köprüsü",
+  "type": "bridge",
+  "operator": "KGM",
+  "source": "1-15Temmuz-FSM.pdf",
+  "prices": [
+   59,
+   75,
+   168,
+   333,
+   440,
+   25
+  ],
+  "validFrom": "2026-01-01",
+  "allowedClasses": [
+   "1",
+   "6"
+  ],
+  "bothDirections": true,
+  "ends": [
+   {
+    "lat": 41.048,
+    "lng": 29.0262,
+    "label": "Ortaköy (Avrupa yakası)"
+   },
+   {
+    "lat": 41.0427,
+    "lng": 29.0418,
+    "label": "Beylerbeyi (Anadolu yakası)"
+   }
+  ],
+  "rules": [
+   "NOT : Ücretlere KDV Dahildir.",
+   "01.01.2022 tarihinden itibaren FSM ve 15 Temmuz Şehitler Köprülerinden iki yönlü ücret alınmaktadır.",
+   "FSM ve 15 Temmuz Şehitler Köprülerinden Ukome Kararında izin verilen araçlar geçebilmektedir. Geçiş iznine sahip olmayan araçlar geçiş ücretinin yanında cezalı geçiş ücretlerini de ödeyecektir.",
+   "Motosikletler KGM işletimindeki otoyollar ve köprülerde 6. sınıf araç ücreti ödeyecektir.",
+   "Köprüleri kullanımına izin verilen araçların dışındaki 2. 3. 4. ve 5. sınıf araçlar ile Kimyasal ve Tehlikeli Madde Taşıyan araçların zorunlu olarak Yavuz Sultan Selim Köprüsünü kullanması gerekmektedir.",
+   "PDF'de ekranda görünmeyen gizli bir 'Mevcut Tarife (₺)' sütunu (8,75 / 11,25 / 24,5 / 49 / 65,25 / 3,5) ve '1,25' çarpan hücresi metin katmanında vardır; render edilmiş sayfada yalnızca 'KÖPRÜ GEÇİŞ ÜCRETİ (₺)' sütunu (59 / 75 / 168 / 333 / 440 / 25) görünür. 2026 geçerli ücret bu görünen sütundur; gizli sütun eski tablodan kalma yardımcı veridir.",
+   "15 Temmuz Şehitler Köprüsünü; 1. sınıf araçlar, Tüm servis araçları, (Turizm, Personel, Okul vb.) Toplu Taşıma Araçları, (IETT ve Halk Otobüsü, Otobüs A.Ş. vb. Taksi dolmuş) ve N1 Sınıfı acil yardım ambulansı ve Acil Sağlık Araçları kullanabileceklerdir.",
+   "allowedClasses = [\"1\"]: UKOME listesinde sınıf olarak yalnız 1. sınıf sayılır (servis/toplu taşıma/ambulans istisnaları sınıf bazlı değildir). 2-5. sınıf araçlar YSS Köprüsüne yönlendirilmelidir. Not: tarifede 6. sınıf (motosiklet) ücreti (25 TL) yer alır ancak UKOME izin listesinde motosiklet açıkça sayılmaz — motosikletin izinli olup olmadığı doğrulanmalıdır."
+  ],
+  "verified": true
+ },
+ {
+  "id": "fatih-sultan-mehmet-koprusu",
+  "name": "Fatih Sultan Mehmet Köprüsü",
+  "type": "bridge",
+  "operator": "KGM",
+  "source": "1-15Temmuz-FSM.pdf",
+  "prices": [
+   59,
+   75,
+   168,
+   333,
+   440,
+   25
+  ],
+  "validFrom": "2026-01-01",
+  "allowedClasses": [
+   "1",
+   "2",
+   "6"
+  ],
+  "bothDirections": true,
+  "ends": [
+   {
+    "lat": 41.0937,
+    "lng": 29.0535,
+    "label": "Hisarüstü / Rumelihisarı (Avrupa yakası)"
+   },
+   {
+    "lat": 41.088,
+    "lng": 29.0692,
+    "label": "Kavacık (Anadolu yakası)"
+   }
+  ],
+  "rules": [
+   "NOT : Ücretlere KDV Dahildir.",
+   "01.01.2022 tarihinden itibaren FSM ve 15 Temmuz Şehitler Köprülerinden iki yönlü ücret alınmaktadır.",
+   "FSM ve 15 Temmuz Şehitler Köprülerinden Ukome Kararında izin verilen araçlar geçebilmektedir. Geçiş iznine sahip olmayan araçlar geçiş ücretinin yanında cezalı geçiş ücretlerini de ödeyecektir.",
+   "Motosikletler KGM işletimindeki otoyollar ve köprülerde 6. sınıf araç ücreti ödeyecektir.",
+   "Köprüleri kullanımına izin verilen araçların dışındaki 2. 3. 4. ve 5. sınıf araçlar ile Kimyasal ve Tehlikeli Madde Taşıyan araçların zorunlu olarak Yavuz Sultan Selim Köprüsünü kullanması gerekmektedir.",
+   "PDF'de ekranda görünmeyen gizli bir 'Mevcut Tarife (₺)' sütunu (8,75 / 11,25 / 24,5 / 49 / 65,25 / 3,5) ve '1,25' çarpan hücresi metin katmanında vardır; render edilmiş sayfada yalnızca 'KÖPRÜ GEÇİŞ ÜCRETİ (₺)' sütunu (59 / 75 / 168 / 333 / 440 / 25) görünür. 2026 geçerli ücret bu görünen sütundur; gizli sütun eski tablodan kalma yardımcı veridir.",
+   "Fatih Sultan Mehmet Köprüsünü; 1. sınıf araçlar, 2. sınıf araçlar (Kamyon ve Otobüsler hariç), Tüm servis araçları (Turizm, Personel, Okul vb.), Karavanlar, Toplu Taşıma Araçları (IETT ve Halk Otobüsü, Otobüs A.Ş. vb. Taksi dolmuş) ve KGM'den izinli kamu kurum ve kuruluşlarının resmi plakalı hizmet araçları kullanabileceklerdir.",
+   "allowedClasses = [\"1\", \"2\"]: 1. sınıf ve 2. sınıf (kamyon ve otobüsler hariç — örn. panelvan, minibüs, karavan). 3-5. sınıf araçlar ile 2. sınıf kamyon/otobüsler YSS Köprüsüne yönlendirilmelidir. Tarifede 6. sınıf (motosiklet) ücreti (25 TL) yer alır ancak UKOME listesinde açıkça sayılmaz — doğrulanmalıdır."
+  ],
+  "verified": true
+ },
+ {
+  "id": "yavuz-sultan-selim-koprusu",
+  "name": "Yavuz Sultan Selim Köprüsü",
+  "type": "bridge",
+  "operator": "ICA İçtaş Astaldi Üçüncü Boğaz Köprüsü ve Kuzey Çevre Otoyolu Yatırım ve İşletme A.Ş.",
+  "source": "3-YSSKoprusu.pdf",
+  "prices": [
+   110,
+   145,
+   270,
+   690,
+   860,
+   75
+  ],
+  "validFrom": "2026-07-01",
+  "bothDirections": true,
+  "ends": [
+   {
+    "lat": 41.2066,
+    "lng": 29.103,
+    "label": "Garipçe (Avrupa yakası)"
+   },
+   {
+    "lat": 41.1988,
+    "lng": 29.121,
+    "label": "Poyrazköy (Anadolu yakası)"
+   }
+  ],
+  "rules": [
+   "Ücretlere KDV dahildir.",
+   "01.01.2022 tarihinden itibaren YSS Köprüsünden iki yönlü ücret alınacaktır.",
+   "Yavuz Sultan Selim Köprüsünü ise bütün araç sınıfları kullanabilecektir. Ancak Özel Yük Taşıyan Araçlar ile Kimyasal ve Tehlikeli Madde Taşıyan araçlar için bazı kriterler doğrultusunda izinler verilmektedir. (kaynak: 1-15Temmuz-FSM.pdf)",
+   "Köprü, Kuzey Marmara Otoyolu ücret sisteminin (13-YSSKuzeyCevreYolu.pdf) üzerindedir; o matrisin köprü ücretini içerip içermediği ayrıca kontrol edilmelidir (bu dosyanın kapsamı dışında)."
+  ],
+  "routable": false,
+  "verified": true
+ },
+ {
+  "id": "osmangazi-koprusu",
+  "name": "Osmangazi Köprüsü",
+  "type": "bridge",
+  "operator": "Otoyol Yatırım ve İşletme A.Ş.",
+  "source": "2-Osmangazi.pdf",
+  "prices": [
+   1170,
+   1870,
+   2225,
+   2950,
+   3720,
+   820
+  ],
+  "validFrom": "2026-07-01",
+  "bothDirections": true,
+  "ends": [
+   {
+    "lat": 40.767,
+    "lng": 29.517,
+    "label": "Dilovası / Dil Burnu (kuzey)"
+   },
+   {
+    "lat": 40.7435,
+    "lng": 29.5145,
+    "label": "Altınova / Hersek Burnu (güney)"
+   }
+  ],
+  "rules": [
+   "Ücretlere KDV dahildir.",
+   "01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+   "Ücret her iki yönde köprü gişesinde alınır (12-Gebze-Orhangazi-Izmir.pdf: İstanbul→İzmir yönünde köprü gişesinde sadece köprü ücreti; İzmir→İstanbul yönünde köprü gişesinde köprü ücreti + giriş noktasına göre otoyol ücreti birlikte).",
+   "O-5.json fiyatları bu köprü ücretini içermez; O-5'in 'o5-osmangazi' istasyonunu köprü üzerinden geçen her yolculuğa bu ücret eklenmelidir."
+  ],
+  "verified": true
+ },
+ {
+  "id": "1915-canakkale-koprusu",
+  "name": "1915 Çanakkale Köprüsü",
+  "type": "bridge",
+  "operator": "Çanakkale Otoyol ve Köprü İnşaatı Yatırım ve İşletme A.Ş.",
+  "source": "4-1915Canakkale.pdf",
+  "prices": [
+   1170,
+   1465,
+   2635,
+   2925,
+   5560,
+   295
+  ],
+  "validFrom": "2026-07-01",
+  "bothDirections": true,
+  "ends": [
+   {
+    "lat": 40.345,
+    "lng": 26.6095,
+    "label": "Sütlüce / Gelibolu (Avrupa yakası)"
+   },
+   {
+    "lat": 40.3345,
+    "lng": 26.6625,
+    "label": "Şekerkaya / Lapseki (Anadolu yakası)"
+   }
+  ],
+  "rules": [
+   "Not 1: Ücretlere KDV dahildir.",
+   "Not 2: Giriş bilgisi bulunamaması halinde: çıkış istasyonuna göre en uzak mesafe ücreti uygulanır.",
+   "Not 3: U dönüşü yapılması halinde en uzak mesafe ücreti alınacaktır.",
+   "01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+   "Köprü, Malkara-Çanakkale Otoyolu (MCO) kapalı sisteminin parçasıdır: MCO matrisinde Gelibolu Güney G-4 ↔ 1915 Çanakkale Köprüsü G-5 ücreti bu tarife ile birebir aynıdır. MCO.json fiyatları bu köprü ücreti çıkarılarak saklanmıştır; G-4↔G-5 kenarını (köprüyü) kullanan her yolculuğa bu ücret eklenmelidir.",
+   "Matris her iki yönde aynı ücreti verir (G-4→G-5 = G-5→G-4), yani ücret iki yönde de alınır."
+  ],
+  "routable": false,
+  "verified": true
+ }
+]

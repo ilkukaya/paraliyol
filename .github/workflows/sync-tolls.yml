@@ -1,0 +1,66 @@
+name: KGM ücret senkronizasyonu
+
+# KGM tarifeleri genelde 1 Ocak ve 1 Temmuz'da değişir. İş akışı her gün
+# resmi PDF'leri indirir, değişiklik varsa verileri günceller, siteyi derleyerek
+# doğrular ve varsayılan dala commit eder (Netlify otomatik yayınlar).
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/kgm/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-tolls
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Resmi PDF'leri indir
+        run: node scripts/kgm/sync.mjs --download-only
+      - name: Yeni PDF'leri kaydet
+        # Ayrıştırma başarısız olsa bile güncel PDF'ler repoda kalsın (ayrıştırıcıyı düzeltmek için).
+        run: |
+          if git diff --quiet -- data/kgm-pdfs/; then exit 0; fi
+          git config user.name "paraliyol-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/kgm-pdfs/
+          git commit -m "data: KGM tarife PDF'leri indirildi ($(date -u +%Y-%m-%d))"
+          git pull --rebase
+          git push
+      - name: Ayrıştır
+        run: |
+          node scripts/kgm/sync.mjs
+          git status --short data/
+      - name: Değişiklik var mı?
+        id: diff
+        run: |
+          if git diff --quiet -- data/; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Motor testleri ve derleme
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          npm test
+          npm run build
+      - name: Commit
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          node scripts/update-settings-date.mjs
+          git config user.name "paraliyol-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git commit -m "data: KGM tarifeleri güncellendi ($(date -u +%Y-%m-%d))"
+          git pull --rebase
+          git push

@@ -1,0 +1,485 @@
+{
+ "code": "MAC",
+ "name": "Menemen-Aliağa-Çandarlı Otoyolu",
+ "shortName": "Menemen-Çandarlı Otoyolu",
+ "operator": "İKA İzmir Otoyol Yatırım ve İşletme A.Ş.",
+ "source": "16-Menemen-Aliaga-Candarli.pdf",
+ "validFrom": "2026-07-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "Giriş bilgisi bulunamaması halinde; en uzak mesafe ücreti uygulanır.",
+  "Ücretler 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Satırlar giriş gişeleri, sütunlar çıkış gişeleridir. Aynı gişeden giriş-çıkış (U dönüşü) o gişe için en uzak mesafe ücretidir; matrise dahil edilmemiştir."
+ ],
+ "stations": [
+  {
+   "id": "mac-menemen",
+   "name": "Menemen",
+   "pdfName": "MENEMEN",
+   "lat": 38.635,
+   "lng": 27.085,
+   "coord": "low"
+  },
+  {
+   "id": "mac-eskifoca",
+   "name": "Eskifoça",
+   "pdfName": "ESKİFOÇA",
+   "lat": 38.685,
+   "lng": 26.89,
+   "coord": "low"
+  },
+  {
+   "id": "mac-yenifoca",
+   "name": "Yenifoça",
+   "pdfName": "YENİFOÇA",
+   "lat": 38.73,
+   "lng": 26.895,
+   "coord": "low"
+  },
+  {
+   "id": "mac-aliaga-petkim",
+   "name": "Aliağa Petkim",
+   "pdfName": "ALİAĞA PETKİM",
+   "lat": 38.775,
+   "lng": 26.95,
+   "coord": "low"
+  },
+  {
+   "id": "mac-aliaga-osb",
+   "name": "Aliağa OSB",
+   "pdfName": "ALİAĞA OSB",
+   "lat": 38.845,
+   "lng": 27,
+   "coord": "low"
+  },
+  {
+   "id": "mac-yenisakran",
+   "name": "Yenişakran",
+   "pdfName": "YENİŞAKRAN",
+   "lat": 38.93,
+   "lng": 27.035,
+   "coord": "low"
+  },
+  {
+   "id": "mac-candarli",
+   "name": "Çandarlı",
+   "pdfName": "ÇANDARLI",
+   "lat": 38.945,
+   "lng": 26.985,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "mac-menemen",
+   "mac-eskifoca"
+  ],
+  [
+   "mac-eskifoca",
+   "mac-yenifoca"
+  ],
+  [
+   "mac-yenifoca",
+   "mac-aliaga-petkim"
+  ],
+  [
+   "mac-aliaga-petkim",
+   "mac-aliaga-osb"
+  ],
+  [
+   "mac-aliaga-osb",
+   "mac-yenisakran"
+  ],
+  [
+   "mac-yenisakran",
+   "mac-candarli"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "mac-main",
+   "name": "Menemen - Çandarlı",
+   "stations": [
+    "mac-menemen",
+    "mac-eskifoca",
+    "mac-yenifoca",
+    "mac-aliaga-petkim",
+    "mac-aliaga-osb",
+    "mac-yenisakran",
+    "mac-candarli"
+   ],
+   "prices": {
+    "mac-menemen": {
+     "mac-eskifoca": [
+      95,
+      155,
+      175,
+      235,
+      235,
+      25
+     ],
+     "mac-yenifoca": [
+      120,
+      195,
+      230,
+      300,
+      300,
+      30
+     ],
+     "mac-aliaga-petkim": [
+      140,
+      225,
+      260,
+      345,
+      345,
+      35
+     ],
+     "mac-aliaga-osb": [
+      165,
+      260,
+      310,
+      410,
+      410,
+      45
+     ],
+     "mac-yenisakran": [
+      205,
+      330,
+      395,
+      515,
+      515,
+      55
+     ],
+     "mac-candarli": [
+      240,
+      400,
+      470,
+      615,
+      615,
+      60
+     ]
+    },
+    "mac-eskifoca": {
+     "mac-menemen": [
+      95,
+      155,
+      175,
+      235,
+      235,
+      25
+     ],
+     "mac-yenifoca": [
+      60,
+      95,
+      120,
+      155,
+      155,
+      20
+     ],
+     "mac-aliaga-petkim": [
+      80,
+      125,
+      145,
+      200,
+      200,
+      25
+     ],
+     "mac-aliaga-osb": [
+      105,
+      170,
+      200,
+      265,
+      265,
+      30
+     ],
+     "mac-yenisakran": [
+      145,
+      235,
+      280,
+      370,
+      370,
+      35
+     ],
+     "mac-candarli": [
+      195,
+      300,
+      360,
+      480,
+      480,
+      45
+     ]
+    },
+    "mac-yenifoca": {
+     "mac-menemen": [
+      120,
+      195,
+      230,
+      300,
+      300,
+      30
+     ],
+     "mac-eskifoca": [
+      60,
+      95,
+      120,
+      155,
+      155,
+      20
+     ],
+     "mac-aliaga-petkim": [
+      60,
+      105,
+      120,
+      155,
+      155,
+      20
+     ],
+     "mac-aliaga-osb": [
+      90,
+      140,
+      170,
+      225,
+      225,
+      25
+     ],
+     "mac-yenisakran": [
+      135,
+      205,
+      255,
+      330,
+      330,
+      30
+     ],
+     "mac-candarli": [
+      170,
+      270,
+      325,
+      435,
+      435,
+      45
+     ]
+    },
+    "mac-aliaga-petkim": {
+     "mac-menemen": [
+      140,
+      225,
+      260,
+      345,
+      345,
+      35
+     ],
+     "mac-eskifoca": [
+      80,
+      125,
+      145,
+      200,
+      200,
+      25
+     ],
+     "mac-yenifoca": [
+      60,
+      105,
+      120,
+      155,
+      155,
+      20
+     ],
+     "mac-aliaga-osb": [
+      60,
+      95,
+      110,
+      145,
+      145,
+      20
+     ],
+     "mac-yenisakran": [
+      105,
+      165,
+      195,
+      255,
+      255,
+      25
+     ],
+     "mac-candarli": [
+      140,
+      230,
+      270,
+      355,
+      355,
+      35
+     ]
+    },
+    "mac-aliaga-osb": {
+     "mac-menemen": [
+      165,
+      260,
+      310,
+      410,
+      410,
+      45
+     ],
+     "mac-eskifoca": [
+      105,
+      170,
+      200,
+      265,
+      265,
+      30
+     ],
+     "mac-yenifoca": [
+      90,
+      140,
+      170,
+      225,
+      225,
+      25
+     ],
+     "mac-aliaga-petkim": [
+      60,
+      95,
+      110,
+      145,
+      145,
+      20
+     ],
+     "mac-yenisakran": [
+      90,
+      145,
+      170,
+      230,
+      230,
+      25
+     ],
+     "mac-candarli": [
+      135,
+      210,
+      255,
+      330,
+      330,
+      30
+     ]
+    },
+    "mac-yenisakran": {
+     "mac-menemen": [
+      205,
+      330,
+      395,
+      515,
+      515,
+      55
+     ],
+     "mac-eskifoca": [
+      145,
+      235,
+      280,
+      370,
+      370,
+      35
+     ],
+     "mac-yenifoca": [
+      135,
+      205,
+      255,
+      330,
+      330,
+      30
+     ],
+     "mac-aliaga-petkim": [
+      105,
+      165,
+      195,
+      255,
+      255,
+      25
+     ],
+     "mac-aliaga-osb": [
+      90,
+      145,
+      170,
+      230,
+      230,
+      25
+     ],
+     "mac-candarli": [
+      60,
+      95,
+      120,
+      155,
+      155,
+      20
+     ]
+    },
+    "mac-candarli": {
+     "mac-menemen": [
+      240,
+      400,
+      470,
+      615,
+      615,
+      60
+     ],
+     "mac-eskifoca": [
+      195,
+      300,
+      360,
+      480,
+      480,
+      45
+     ],
+     "mac-yenifoca": [
+      170,
+      270,
+      325,
+      435,
+      435,
+      45
+     ],
+     "mac-aliaga-petkim": [
+      140,
+      230,
+      270,
+      355,
+      355,
+      35
+     ],
+     "mac-aliaga-osb": [
+      135,
+      210,
+      255,
+      330,
+      330,
+      30
+     ],
+     "mac-yenisakran": [
+      60,
+      95,
+      120,
+      155,
+      155,
+      20
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "mac-menemen",
+   "to": "İzmir-Çanakkale Devlet Yolu (D550) — Menemen / Emiralem-Manisa ayrımı",
+   "note": "İzmir yönünden Menemen Koyundere kavşağından D550 ile gelinir; İzmir Çevre Yolu (O-30) kuzey ucu Çiğli üzerinden D550 ile bağlanır. O-5 (İstanbul-İzmir) ile doğrudan otoyol bağlantısı yoktur; O-5 Kemalpaşa ucu - İzmir Çevre Yolu - Çiğli - Menemen üzerinden ücretsiz yollarla ulaşılır."
+  },
+  {
+   "station": "mac-candarli",
+   "to": "Çandarlı Limanı / D550 Dikili-Bergama yönü",
+   "note": "Otoyolun kuzey ucu."
+  }
+ ],
+ "verification": [
+  "7×7 tam matris (satır=giriş, sütun=çıkış); her satır 7 değer içerdiği için sütun eşlemesi belirsiz değil. Class sırası 1..6 her blokta kontrol edildi.",
+  "Yönlü asimetri sayısı: 0 / 42 (matris fiilen simetrik). Sınıf monotonluk ihlali (1≤2≤3≤4≤5): 0. Sınıf 4 ve 5 ücretleri eşit.",
+  "Menemen satırı çıkışlara doğru artan (80,100,120,140,175,205) → istasyon sırası PDF sırasıyla aynı doğrusal zincir. Tarifede kol/ayrım yok; Foça ve Petkim bağlantı yolları ayrı ücretlendirilmiyor.",
+  "Köşegen (U dönüşü) değerleri o gişeden en uzak çıkış ücretine eşit (ör. Menemen 205 = Menemen→Çandarlı).",
+  "UYARI: basında 1 Temmuz 2026 itibarıyla Menemen-Çandarlı için 240 TL (sınıf 1) şeklinde yeni bir tarifeden söz ediliyor; bu dosya 01/01/2026 PDF'ini yansıtır.",
+  "Koordinatlar yalnızca coğrafi bilgiye dayalı kaba tahmin (düşük güven) — harita ile doğrulanmalı."
+ ]
+}

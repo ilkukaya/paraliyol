@@ -1,0 +1,41 @@
+name: Yol ağı ölçümü (OSRM)
+
+# Rota motorundaki her yol bağlantısının gerçek karayolu mesafe ve süresini
+# OpenStreetMap verisiyle (OSRM) ölçer ve data/road-edges.json dosyasını günceller.
+# Konum listesi değiştiğinde çalışır; gişe koordinatları değişirse elle tetikleyin.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/osrm/**"
+      - "scripts/data/locations.src.tsv"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: road-edges-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/osrm/build-road-edges.mts
+      - name: Commit
+        run: |
+          if git diff --quiet -- data/road-edges.json; then exit 0; fi
+          npm test
+          git config user.name "paraliyol-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/road-edges.json
+          git commit -m "data: yol ağı mesafeleri OSRM ile güncellendi"
+          git pull --rebase
+          git push

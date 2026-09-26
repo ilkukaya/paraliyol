@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="utf-8" /><title>Netlify form şeması</title><meta name="robots" content="noindex" /></head>
+  <body>
+    <!-- Netlify Forms bu dosyayı derleme sırasında okuyarak "iletisim" formunu kaydeder. -->
+    <form name="iletisim" data-netlify="true" netlify-honeypot="website" hidden>
+      <input type="hidden" name="form-name" value="iletisim" />
+      <input name="website" />
+      <input name="ad" />
+      <input name="eposta" type="email" />
+      <select name="konu"><option>Genel</option></select>
+      <textarea name="mesaj"></textarea>
+    </form>
+  </body>
+</html>
