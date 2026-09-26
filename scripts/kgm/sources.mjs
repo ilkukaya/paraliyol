@@ -1,4 +1,4 @@
-// Official KGM tariff PDFs. `file` is the file name KGM uses on its site.
+// Official KGM tariff PDFs (downloaded daily by .github/workflows/sync-tolls.yml).
 export const KGM_PAGE = "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Otoyollar/UcretlerYeni.aspx";
 export const KGM_DOC_BASE =
   "https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Otoyollar/OtoyolKopruUcret";
