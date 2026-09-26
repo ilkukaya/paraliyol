@@ -1,0 +1,1963 @@
+{
+ "code": "KMO-AN",
+ "name": "Kuzey Marmara Anadolu Otoyolu (Kurtköy - Akyazı)",
+ "shortName": "Kuzey Marmara Otoyolu Anadolu",
+ "operator": "YİD işletmeci – KGM tarifesi",
+ "source": "15-KMOAnadoluKurtkoy-Akyazi.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Ücretlere KDV dahildir.",
+  "Giriş bilgisi bulunamaması halinde; en uzak mesafe ücreti uygulanır.",
+  "SGS: Serbest Geçiş Sistemi. Mermerciler, Demirciler, D100 ve İzmit OSB SGS noktaları yöne bağlı nokta ücretleriyle ayrıca ücretlendirilir (bkz. freeFlow).",
+  "Ücretler 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Sevindikli ile İlimtepe arasındaki geçiş tabloda her iki yönde ve tüm sınıflarda 0,00 TL'dir.",
+  "Aynı istasyondan giriş-çıkış (U-dönüşü): PDF tablosunun köşegeninde yaklaşık en uzak mesafe ücreti yazılıdır (bkz. sections[].uTurn); prices matrisine dahil edilmemiştir.",
+  "Kurnaköy'den batıya (YSS Köprüsü yönüne) devam eden araç KCY (Kuzey Çevre Yolu) sisteminde ayrıca ücretlendirilir."
+ ],
+ "stations": [
+  {
+   "id": "kmo-an-kurnakoy-2",
+   "name": "Kurnaköy 2",
+   "pdfName": "KURNAKÖY 2",
+   "lat": 40.944,
+   "lng": 29.34,
+   "coord": "low",
+   "note": "Pendik; KCY Kurnaköy ile aynı düğüm."
+  },
+  {
+   "id": "kmo-an-istanbulpark",
+   "name": "İstanbul Park",
+   "pdfName": "İSTANBULPARK",
+   "lat": 40.96,
+   "lng": 29.41,
+   "coord": "low",
+   "note": "Tuzla Akfırat, İstanbul Park pisti yakını."
+  },
+  {
+   "id": "kmo-an-balcik",
+   "name": "Balçık",
+   "pdfName": "BALÇIK",
+   "lat": 40.905,
+   "lng": 29.49,
+   "coord": "low",
+   "note": "Gebze Balçık; Şekerpınar/Çayırova yönü."
+  },
+  {
+   "id": "kmo-an-mermerciler",
+   "name": "Mermerciler",
+   "pdfName": "MERMERCİLER",
+   "lat": 40.855,
+   "lng": 29.56,
+   "coord": "low",
+   "note": "Osmangazi Köprüsü, Gebze, Dilovası bağlantısı."
+  },
+  {
+   "id": "kmo-an-sevindikli",
+   "name": "Sevindikli",
+   "pdfName": "SEVİNDİKLİ",
+   "lat": 40.82,
+   "lng": 29.7,
+   "coord": "low",
+   "note": "Körfez kuzeyi; Liman/Çayırova yolu bağlantısı."
+  },
+  {
+   "id": "kmo-an-ilimtepe",
+   "name": "İlimtepe",
+   "pdfName": "İLİMTEPE",
+   "lat": 40.8,
+   "lng": 29.75,
+   "coord": "low",
+   "note": "Körfez ilçesi bağlantısı."
+  },
+  {
+   "id": "kmo-an-izmit-kuzey",
+   "name": "İzmit Kuzey",
+   "pdfName": "İZMİT KUZEY",
+   "lat": 40.8,
+   "lng": 29.93,
+   "coord": "low"
+  },
+  {
+   "id": "kmo-an-izmit-dogu",
+   "name": "İzmit Doğu",
+   "pdfName": "İZMİT DOĞU",
+   "lat": 40.79,
+   "lng": 30.03,
+   "coord": "low"
+  },
+  {
+   "id": "kmo-an-akmese",
+   "name": "Akmeşe",
+   "pdfName": "AKMEŞE",
+   "lat": 40.8,
+   "lng": 30.14,
+   "coord": "low",
+   "note": "Kartepe/İzmit Akmeşe."
+  },
+  {
+   "id": "kmo-an-adapazari-1",
+   "name": "Adapazarı-1",
+   "pdfName": "ADAPAZARI-1",
+   "lat": 40.79,
+   "lng": 30.32,
+   "coord": "low"
+  },
+  {
+   "id": "kmo-an-adapazari-2",
+   "name": "Adapazarı-2",
+   "pdfName": "ADAPAZARI-2",
+   "lat": 40.795,
+   "lng": 30.37,
+   "coord": "low"
+  },
+  {
+   "id": "kmo-an-karasu",
+   "name": "Karasu",
+   "pdfName": "KARASU",
+   "lat": 40.79,
+   "lng": 30.46,
+   "coord": "low",
+   "note": "Adapazarı–Karasu yolu bağlantısı."
+  },
+  {
+   "id": "kmo-an-kmo-akyazi",
+   "name": "KMO Akyazı",
+   "pdfName": "KMO AKYAZI",
+   "lat": 40.72,
+   "lng": 30.59,
+   "coord": "low"
+  },
+  {
+   "id": "kmo-an-tem-akyazi",
+   "name": "TEM Akyazı",
+   "pdfName": "TEM AKYAZI",
+   "lat": 40.695,
+   "lng": 30.63,
+   "coord": "low",
+   "note": "O-4 Anadolu Otoyolu (TEM) Akyazı kavşağı."
+  }
+ ],
+ "roads": [
+  [
+   "kmo-an-kurnakoy-2",
+   "kmo-an-istanbulpark"
+  ],
+  [
+   "kmo-an-istanbulpark",
+   "kmo-an-balcik"
+  ],
+  [
+   "kmo-an-balcik",
+   "kmo-an-mermerciler"
+  ],
+  [
+   "kmo-an-mermerciler",
+   "kmo-an-sevindikli"
+  ],
+  [
+   "kmo-an-sevindikli",
+   "kmo-an-ilimtepe"
+  ],
+  [
+   "kmo-an-ilimtepe",
+   "kmo-an-izmit-kuzey"
+  ],
+  [
+   "kmo-an-izmit-kuzey",
+   "kmo-an-izmit-dogu"
+  ],
+  [
+   "kmo-an-izmit-dogu",
+   "kmo-an-akmese"
+  ],
+  [
+   "kmo-an-akmese",
+   "kmo-an-adapazari-1"
+  ],
+  [
+   "kmo-an-adapazari-1",
+   "kmo-an-adapazari-2"
+  ],
+  [
+   "kmo-an-adapazari-2",
+   "kmo-an-karasu"
+  ],
+  [
+   "kmo-an-karasu",
+   "kmo-an-kmo-akyazi"
+  ],
+  [
+   "kmo-an-kmo-akyazi",
+   "kmo-an-tem-akyazi"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "kmo-an-main",
+   "name": "Kurnaköy 2 - TEM Akyazı kapalı sistem",
+   "stations": [
+    "kmo-an-kurnakoy-2",
+    "kmo-an-istanbulpark",
+    "kmo-an-balcik",
+    "kmo-an-mermerciler",
+    "kmo-an-sevindikli",
+    "kmo-an-ilimtepe",
+    "kmo-an-izmit-kuzey",
+    "kmo-an-izmit-dogu",
+    "kmo-an-akmese",
+    "kmo-an-adapazari-1",
+    "kmo-an-adapazari-2",
+    "kmo-an-karasu",
+    "kmo-an-kmo-akyazi",
+    "kmo-an-tem-akyazi"
+   ],
+   "prices": {
+    "kmo-an-kurnakoy-2": {
+     "kmo-an-istanbulpark": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      55
+     ],
+     "kmo-an-balcik": [
+      90,
+      100,
+      140,
+      190,
+      220,
+      55
+     ],
+     "kmo-an-mermerciler": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-sevindikli": [
+      190,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-an-ilimtepe": [
+      190,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-an-izmit-kuzey": [
+      265,
+      415,
+      510,
+      670,
+      840,
+      190
+     ],
+     "kmo-an-izmit-dogu": [
+      265,
+      415,
+      510,
+      670,
+      840,
+      190
+     ],
+     "kmo-an-akmese": [
+      350,
+      535,
+      635,
+      840,
+      1055,
+      250
+     ],
+     "kmo-an-adapazari-1": [
+      410,
+      615,
+      720,
+      945,
+      1200,
+      265
+     ],
+     "kmo-an-adapazari-2": [
+      410,
+      635,
+      740,
+      985,
+      1210,
+      295
+     ],
+     "kmo-an-karasu": [
+      415,
+      670,
+      795,
+      1055,
+      1320,
+      295
+     ],
+     "kmo-an-kmo-akyazi": [
+      475,
+      740,
+      885,
+      1150,
+      1425,
+      315
+     ],
+     "kmo-an-tem-akyazi": [
+      510,
+      795,
+      930,
+      1210,
+      1525,
+      350
+     ]
+    },
+    "kmo-an-istanbulpark": {
+     "kmo-an-kurnakoy-2": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      55
+     ],
+     "kmo-an-balcik": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ],
+     "kmo-an-mermerciler": [
+      90,
+      140,
+      165,
+      190,
+      250,
+      55
+     ],
+     "kmo-an-sevindikli": [
+      165,
+      250,
+      265,
+      365,
+      450,
+      100
+     ],
+     "kmo-an-ilimtepe": [
+      165,
+      250,
+      265,
+      365,
+      450,
+      100
+     ],
+     "kmo-an-izmit-kuzey": [
+      250,
+      410,
+      475,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-izmit-dogu": [
+      250,
+      410,
+      475,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-akmese": [
+      315,
+      510,
+      615,
+      795,
+      1010,
+      250
+     ],
+     "kmo-an-adapazari-1": [
+      365,
+      575,
+      680,
+      890,
+      1150,
+      265
+     ],
+     "kmo-an-adapazari-2": [
+      365,
+      575,
+      680,
+      930,
+      1155,
+      265
+     ],
+     "kmo-an-karasu": [
+      410,
+      635,
+      740,
+      1010,
+      1250,
+      295
+     ],
+     "kmo-an-kmo-akyazi": [
+      450,
+      680,
+      830,
+      1085,
+      1375,
+      315
+     ],
+     "kmo-an-tem-akyazi": [
+      475,
+      740,
+      885,
+      1155,
+      1475,
+      350
+     ]
+    },
+    "kmo-an-balcik": {
+     "kmo-an-kurnakoy-2": [
+      90,
+      140,
+      140,
+      190,
+      250,
+      55
+     ],
+     "kmo-an-istanbulpark": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ],
+     "kmo-an-mermerciler": [
+      90,
+      100,
+      140,
+      165,
+      220,
+      55
+     ],
+     "kmo-an-sevindikli": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-an-ilimtepe": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-an-izmit-kuzey": [
+      250,
+      365,
+      450,
+      575,
+      740,
+      190
+     ],
+     "kmo-an-izmit-dogu": [
+      250,
+      365,
+      450,
+      575,
+      740,
+      190
+     ],
+     "kmo-an-akmese": [
+      315,
+      510,
+      575,
+      765,
+      945,
+      220
+     ],
+     "kmo-an-adapazari-1": [
+      365,
+      570,
+      670,
+      885,
+      1110,
+      250
+     ],
+     "kmo-an-adapazari-2": [
+      365,
+      575,
+      680,
+      890,
+      1150,
+      265
+     ],
+     "kmo-an-karasu": [
+      410,
+      615,
+      740,
+      945,
+      1210,
+      265
+     ],
+     "kmo-an-kmo-akyazi": [
+      415,
+      680,
+      795,
+      1055,
+      1345,
+      295
+     ],
+     "kmo-an-tem-akyazi": [
+      475,
+      740,
+      885,
+      1150,
+      1460,
+      315
+     ]
+    },
+    "kmo-an-mermerciler": {
+     "kmo-an-kurnakoy-2": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-istanbulpark": [
+      90,
+      140,
+      165,
+      190,
+      250,
+      55
+     ],
+     "kmo-an-balcik": [
+      90,
+      100,
+      140,
+      165,
+      220,
+      55
+     ],
+     "kmo-an-sevindikli": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-ilimtepe": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-izmit-kuzey": [
+      220,
+      315,
+      365,
+      510,
+      615,
+      165
+     ],
+     "kmo-an-izmit-dogu": [
+      220,
+      315,
+      365,
+      510,
+      615,
+      165
+     ],
+     "kmo-an-akmese": [
+      265,
+      415,
+      510,
+      670,
+      840,
+      190
+     ],
+     "kmo-an-adapazari-1": [
+      315,
+      510,
+      575,
+      765,
+      985,
+      220
+     ],
+     "kmo-an-adapazari-2": [
+      315,
+      510,
+      615,
+      795,
+      1010,
+      250
+     ],
+     "kmo-an-karasu": [
+      350,
+      570,
+      670,
+      885,
+      1085,
+      250
+     ],
+     "kmo-an-kmo-akyazi": [
+      410,
+      615,
+      740,
+      945,
+      1210,
+      265
+     ],
+     "kmo-an-tem-akyazi": [
+      415,
+      670,
+      795,
+      1055,
+      1320,
+      295
+     ]
+    },
+    "kmo-an-sevindikli": {
+     "kmo-an-kurnakoy-2": [
+      165,
+      265,
+      315,
+      410,
+      510,
+      140
+     ],
+     "kmo-an-istanbulpark": [
+      165,
+      250,
+      265,
+      350,
+      450,
+      100
+     ],
+     "kmo-an-balcik": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-mermerciler": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-ilimtepe": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "kmo-an-izmit-kuzey": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-izmit-dogu": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-akmese": [
+      220,
+      315,
+      365,
+      510,
+      615,
+      165
+     ],
+     "kmo-an-adapazari-1": [
+      250,
+      410,
+      450,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-adapazari-2": [
+      265,
+      410,
+      475,
+      615,
+      795,
+      190
+     ],
+     "kmo-an-karasu": [
+      295,
+      450,
+      535,
+      680,
+      885,
+      220
+     ],
+     "kmo-an-kmo-akyazi": [
+      315,
+      510,
+      615,
+      795,
+      1010,
+      250
+     ],
+     "kmo-an-tem-akyazi": [
+      365,
+      570,
+      670,
+      885,
+      1110,
+      250
+     ]
+    },
+    "kmo-an-ilimtepe": {
+     "kmo-an-kurnakoy-2": [
+      190,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-an-istanbulpark": [
+      165,
+      250,
+      295,
+      365,
+      475,
+      100
+     ],
+     "kmo-an-balcik": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-an-mermerciler": [
+      100,
+      165,
+      190,
+      250,
+      315,
+      90
+     ],
+     "kmo-an-sevindikli": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "kmo-an-izmit-kuzey": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-izmit-dogu": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-akmese": [
+      220,
+      315,
+      365,
+      475,
+      615,
+      140
+     ],
+     "kmo-an-adapazari-1": [
+      250,
+      410,
+      450,
+      615,
+      740,
+      190
+     ],
+     "kmo-an-adapazari-2": [
+      250,
+      410,
+      475,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-karasu": [
+      295,
+      450,
+      535,
+      680,
+      885,
+      220
+     ],
+     "kmo-an-kmo-akyazi": [
+      315,
+      510,
+      615,
+      795,
+      1010,
+      250
+     ],
+     "kmo-an-tem-akyazi": [
+      350,
+      570,
+      670,
+      885,
+      1085,
+      250
+     ]
+    },
+    "kmo-an-izmit-kuzey": {
+     "kmo-an-kurnakoy-2": [
+      265,
+      415,
+      510,
+      670,
+      840,
+      190
+     ],
+     "kmo-an-istanbulpark": [
+      250,
+      410,
+      475,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-balcik": [
+      250,
+      365,
+      450,
+      575,
+      740,
+      190
+     ],
+     "kmo-an-mermerciler": [
+      220,
+      315,
+      365,
+      510,
+      635,
+      165
+     ],
+     "kmo-an-sevindikli": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-ilimtepe": [
+      140,
+      220,
+      250,
+      315,
+      415,
+      100
+     ],
+     "kmo-an-izmit-dogu": [
+      55,
+      55,
+      90,
+      90,
+      100,
+      40
+     ],
+     "kmo-an-akmese": [
+      100,
+      165,
+      220,
+      265,
+      315,
+      90
+     ],
+     "kmo-an-adapazari-1": [
+      165,
+      250,
+      295,
+      365,
+      475,
+      100
+     ],
+     "kmo-an-adapazari-2": [
+      165,
+      250,
+      295,
+      410,
+      510,
+      100
+     ],
+     "kmo-an-karasu": [
+      190,
+      295,
+      350,
+      450,
+      575,
+      140
+     ],
+     "kmo-an-kmo-akyazi": [
+      250,
+      365,
+      415,
+      570,
+      720,
+      165
+     ],
+     "kmo-an-tem-akyazi": [
+      265,
+      415,
+      475,
+      635,
+      795,
+      190
+     ]
+    },
+    "kmo-an-izmit-dogu": {
+     "kmo-an-kurnakoy-2": [
+      265,
+      415,
+      510,
+      670,
+      840,
+      190
+     ],
+     "kmo-an-istanbulpark": [
+      250,
+      410,
+      475,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-balcik": [
+      250,
+      365,
+      450,
+      575,
+      740,
+      190
+     ],
+     "kmo-an-mermerciler": [
+      220,
+      315,
+      365,
+      510,
+      635,
+      165
+     ],
+     "kmo-an-sevindikli": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-ilimtepe": [
+      140,
+      220,
+      265,
+      315,
+      415,
+      100
+     ],
+     "kmo-an-izmit-kuzey": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      40
+     ],
+     "kmo-an-akmese": [
+      100,
+      165,
+      165,
+      220,
+      265,
+      90
+     ],
+     "kmo-an-adapazari-1": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-an-adapazari-2": [
+      165,
+      250,
+      265,
+      365,
+      450,
+      100
+     ],
+     "kmo-an-karasu": [
+      190,
+      295,
+      315,
+      415,
+      570,
+      140
+     ],
+     "kmo-an-kmo-akyazi": [
+      220,
+      350,
+      410,
+      535,
+      670,
+      165
+     ],
+     "kmo-an-tem-akyazi": [
+      250,
+      410,
+      475,
+      615,
+      765,
+      190
+     ]
+    },
+    "kmo-an-akmese": {
+     "kmo-an-kurnakoy-2": [
+      350,
+      535,
+      635,
+      840,
+      1055,
+      250
+     ],
+     "kmo-an-istanbulpark": [
+      315,
+      510,
+      575,
+      795,
+      985,
+      250
+     ],
+     "kmo-an-balcik": [
+      315,
+      475,
+      575,
+      765,
+      945,
+      220
+     ],
+     "kmo-an-mermerciler": [
+      265,
+      415,
+      510,
+      670,
+      840,
+      190
+     ],
+     "kmo-an-sevindikli": [
+      190,
+      315,
+      365,
+      475,
+      615,
+      140
+     ],
+     "kmo-an-ilimtepe": [
+      220,
+      315,
+      365,
+      510,
+      635,
+      165
+     ],
+     "kmo-an-izmit-kuzey": [
+      100,
+      190,
+      220,
+      265,
+      350,
+      90
+     ],
+     "kmo-an-izmit-dogu": [
+      100,
+      140,
+      165,
+      220,
+      265,
+      90
+     ],
+     "kmo-an-adapazari-1": [
+      90,
+      100,
+      140,
+      165,
+      220,
+      55
+     ],
+     "kmo-an-adapazari-2": [
+      90,
+      140,
+      140,
+      190,
+      220,
+      55
+     ],
+     "kmo-an-karasu": [
+      100,
+      165,
+      190,
+      250,
+      315,
+      90
+     ],
+     "kmo-an-kmo-akyazi": [
+      165,
+      250,
+      265,
+      350,
+      450,
+      100
+     ],
+     "kmo-an-tem-akyazi": [
+      190,
+      265,
+      315,
+      415,
+      535,
+      140
+     ]
+    },
+    "kmo-an-adapazari-1": {
+     "kmo-an-kurnakoy-2": [
+      410,
+      615,
+      720,
+      945,
+      1210,
+      265
+     ],
+     "kmo-an-istanbulpark": [
+      365,
+      575,
+      680,
+      890,
+      1150,
+      265
+     ],
+     "kmo-an-balcik": [
+      365,
+      570,
+      670,
+      885,
+      1110,
+      250
+     ],
+     "kmo-an-mermerciler": [
+      315,
+      510,
+      575,
+      795,
+      985,
+      250
+     ],
+     "kmo-an-sevindikli": [
+      250,
+      410,
+      450,
+      575,
+      740,
+      190
+     ],
+     "kmo-an-ilimtepe": [
+      250,
+      410,
+      475,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-izmit-kuzey": [
+      165,
+      250,
+      295,
+      410,
+      475,
+      100
+     ],
+     "kmo-an-izmit-dogu": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-an-akmese": [
+      90,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "kmo-an-adapazari-2": [
+      40,
+      55,
+      55,
+      55,
+      90,
+      40
+     ],
+     "kmo-an-karasu": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ],
+     "kmo-an-kmo-akyazi": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-tem-akyazi": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ]
+    },
+    "kmo-an-adapazari-2": {
+     "kmo-an-kurnakoy-2": [
+      410,
+      615,
+      720,
+      945,
+      1200,
+      265
+     ],
+     "kmo-an-istanbulpark": [
+      365,
+      575,
+      680,
+      890,
+      1110,
+      265
+     ],
+     "kmo-an-balcik": [
+      350,
+      570,
+      670,
+      885,
+      1085,
+      250
+     ],
+     "kmo-an-mermerciler": [
+      315,
+      510,
+      575,
+      765,
+      985,
+      220
+     ],
+     "kmo-an-sevindikli": [
+      250,
+      365,
+      450,
+      575,
+      740,
+      165
+     ],
+     "kmo-an-ilimtepe": [
+      250,
+      410,
+      450,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-izmit-kuzey": [
+      165,
+      250,
+      295,
+      365,
+      475,
+      100
+     ],
+     "kmo-an-izmit-dogu": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-akmese": [
+      55,
+      100,
+      100,
+      140,
+      190,
+      55
+     ],
+     "kmo-an-adapazari-1": [
+      40,
+      55,
+      55,
+      55,
+      90,
+      40
+     ],
+     "kmo-an-karasu": [
+      55,
+      100,
+      100,
+      140,
+      190,
+      55
+     ],
+     "kmo-an-kmo-akyazi": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-tem-akyazi": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ]
+    },
+    "kmo-an-karasu": {
+     "kmo-an-kurnakoy-2": [
+      415,
+      670,
+      795,
+      1055,
+      1320,
+      295
+     ],
+     "kmo-an-istanbulpark": [
+      410,
+      635,
+      740,
+      985,
+      1250,
+      295
+     ],
+     "kmo-an-balcik": [
+      410,
+      615,
+      740,
+      945,
+      1210,
+      265
+     ],
+     "kmo-an-mermerciler": [
+      350,
+      570,
+      670,
+      885,
+      1085,
+      250
+     ],
+     "kmo-an-sevindikli": [
+      265,
+      450,
+      510,
+      680,
+      840,
+      190
+     ],
+     "kmo-an-ilimtepe": [
+      295,
+      450,
+      535,
+      720,
+      885,
+      220
+     ],
+     "kmo-an-izmit-kuzey": [
+      190,
+      295,
+      365,
+      475,
+      575,
+      140
+     ],
+     "kmo-an-izmit-dogu": [
+      190,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-an-akmese": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-adapazari-1": [
+      90,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "kmo-an-adapazari-2": [
+      55,
+      100,
+      100,
+      140,
+      165,
+      55
+     ],
+     "kmo-an-kmo-akyazi": [
+      90,
+      100,
+      140,
+      190,
+      220,
+      55
+     ],
+     "kmo-an-tem-akyazi": [
+      100,
+      165,
+      190,
+      265,
+      315,
+      90
+     ]
+    },
+    "kmo-an-kmo-akyazi": {
+     "kmo-an-kurnakoy-2": [
+      475,
+      740,
+      885,
+      1150,
+      1460,
+      315
+     ],
+     "kmo-an-istanbulpark": [
+      450,
+      680,
+      830,
+      1085,
+      1375,
+      315
+     ],
+     "kmo-an-balcik": [
+      415,
+      680,
+      795,
+      1055,
+      1345,
+      295
+     ],
+     "kmo-an-mermerciler": [
+      410,
+      615,
+      740,
+      985,
+      1210,
+      265
+     ],
+     "kmo-an-sevindikli": [
+      315,
+      510,
+      575,
+      795,
+      985,
+      250
+     ],
+     "kmo-an-ilimtepe": [
+      315,
+      535,
+      615,
+      795,
+      1010,
+      250
+     ],
+     "kmo-an-izmit-kuzey": [
+      250,
+      365,
+      450,
+      575,
+      720,
+      165
+     ],
+     "kmo-an-izmit-dogu": [
+      220,
+      350,
+      410,
+      535,
+      670,
+      165
+     ],
+     "kmo-an-akmese": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-an-adapazari-1": [
+      100,
+      165,
+      220,
+      265,
+      315,
+      90
+     ],
+     "kmo-an-adapazari-2": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-karasu": [
+      90,
+      100,
+      140,
+      165,
+      220,
+      55
+     ],
+     "kmo-an-tem-akyazi": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ]
+    },
+    "kmo-an-tem-akyazi": {
+     "kmo-an-kurnakoy-2": [
+      510,
+      795,
+      930,
+      1210,
+      1525,
+      350
+     ],
+     "kmo-an-istanbulpark": [
+      475,
+      740,
+      885,
+      1155,
+      1475,
+      350
+     ],
+     "kmo-an-balcik": [
+      450,
+      740,
+      885,
+      1150,
+      1425,
+      315
+     ],
+     "kmo-an-mermerciler": [
+      415,
+      670,
+      795,
+      1055,
+      1320,
+      295
+     ],
+     "kmo-an-sevindikli": [
+      350,
+      570,
+      670,
+      840,
+      1085,
+      250
+     ],
+     "kmo-an-ilimtepe": [
+      365,
+      570,
+      670,
+      885,
+      1110,
+      265
+     ],
+     "kmo-an-izmit-kuzey": [
+      265,
+      415,
+      510,
+      635,
+      830,
+      190
+     ],
+     "kmo-an-izmit-dogu": [
+      250,
+      410,
+      450,
+      615,
+      765,
+      190
+     ],
+     "kmo-an-akmese": [
+      190,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-an-adapazari-1": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-an-adapazari-2": [
+      140,
+      220,
+      250,
+      315,
+      410,
+      100
+     ],
+     "kmo-an-karasu": [
+      100,
+      165,
+      190,
+      250,
+      295,
+      90
+     ],
+     "kmo-an-kmo-akyazi": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ]
+    }
+   },
+   "uTurn": {
+    "kmo-an-kurnakoy-2": [
+     510,
+     795,
+     930,
+     1210,
+     1525,
+     350
+    ],
+    "kmo-an-istanbulpark": [
+     475,
+     740,
+     885,
+     1155,
+     1475,
+     350
+    ],
+    "kmo-an-balcik": [
+     450,
+     740,
+     885,
+     1150,
+     1425,
+     315
+    ],
+    "kmo-an-mermerciler": [
+     415,
+     670,
+     795,
+     1055,
+     1320,
+     295
+    ],
+    "kmo-an-sevindikli": [
+     350,
+     570,
+     670,
+     840,
+     1085,
+     250
+    ],
+    "kmo-an-ilimtepe": [
+     365,
+     570,
+     670,
+     885,
+     1110,
+     265
+    ],
+    "kmo-an-izmit-kuzey": [
+     265,
+     415,
+     510,
+     670,
+     840,
+     190
+    ],
+    "kmo-an-izmit-dogu": [
+     265,
+     415,
+     510,
+     670,
+     840,
+     190
+    ],
+    "kmo-an-akmese": [
+     350,
+     535,
+     635,
+     840,
+     1055,
+     250
+    ],
+    "kmo-an-adapazari-1": [
+     410,
+     615,
+     720,
+     945,
+     1200,
+     265
+    ],
+    "kmo-an-adapazari-2": [
+     410,
+     635,
+     740,
+     985,
+     1210,
+     295
+    ],
+    "kmo-an-karasu": [
+     415,
+     670,
+     795,
+     1055,
+     1320,
+     295
+    ],
+    "kmo-an-kmo-akyazi": [
+     475,
+     740,
+     885,
+     1150,
+     1425,
+     315
+    ],
+    "kmo-an-tem-akyazi": [
+     510,
+     795,
+     930,
+     1210,
+     1525,
+     350
+    ]
+   }
+  }
+ ],
+ "freeFlow": [
+  {
+   "name": "Mermerciler",
+   "direction": "A (Kuzey-Güney)",
+   "prices": [
+    22,
+    35,
+    41,
+    53.5,
+    67,
+    14
+   ]
+  },
+  {
+   "name": "Demirciler",
+   "direction": "A (Kuzey-Güney)",
+   "prices": [
+    14,
+    25,
+    26.5,
+    36.5,
+    47.5,
+    10
+   ]
+  },
+  {
+   "name": "D100",
+   "direction": "A (Kuzey-Güney)",
+   "prices": [
+    14,
+    22,
+    25,
+    29.5,
+    36.5,
+    10
+   ]
+  },
+  {
+   "name": "İzmit OSB",
+   "direction": "A (Kuzey-Güney)",
+   "prices": [
+    16.5,
+    26.5,
+    29.5,
+    41,
+    51,
+    10
+   ]
+  },
+  {
+   "name": "Mermerciler",
+   "direction": "B (Güney-Kuzey)",
+   "prices": [
+    22,
+    29.5,
+    36.5,
+    47.5,
+    61.5,
+    14
+   ]
+  },
+  {
+   "name": "Demirciler",
+   "direction": "B (Güney-Kuzey)",
+   "prices": [
+    14,
+    22,
+    25,
+    35,
+    41,
+    10
+   ]
+  },
+  {
+   "name": "D100",
+   "direction": "B (Güney-Kuzey)",
+   "prices": [
+    10,
+    16.5,
+    22,
+    26.5,
+    35,
+    9
+   ]
+  },
+  {
+   "name": "İzmit OSB",
+   "direction": "B (Güney-Kuzey)",
+   "prices": [
+    16.5,
+    25,
+    29.5,
+    41,
+    51,
+    10
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "station": "kmo-an-kurnakoy-2",
+   "to": "KCY Kurnaköy (Kuzey Çevre Yolu / YSS Köprüsü yönü)",
+   "note": "Fiziksel olarak aynı düğüm; iki ayrı kapalı sistem, ücretler toplanır."
+  },
+  {
+   "station": "kmo-an-kurnakoy-2",
+   "to": "O-4 Anadolu Otoyolu (TEM) Kurtköy / Sabiha Gökçen Havalimanı",
+   "note": "Kavşak geometrisi doğrulanmalı."
+  },
+  {
+   "station": "kmo-an-mermerciler",
+   "to": "O-5 Gebze-İzmir Otoyolu / Osmangazi Köprüsü kuzey ucu, Gebze, Dilovası (TEM ve D-100 bağlantı yolu; SGS: Mermerciler, Demirciler, D100)",
+   "note": "Bağlantı yolundaki SGS noktaları freeFlow'da."
+  },
+  {
+   "station": "kmo-an-ilimtepe",
+   "to": "Körfez (Kocaeli) – D-100/O-4 yönü",
+   "note": "Sevindikli↔İlimtepe 0 TL."
+  },
+  {
+   "station": "kmo-an-izmit-kuzey",
+   "to": "İzmit şehir merkezi (kuzey bağlantısı)",
+   "note": ""
+  },
+  {
+   "station": "kmo-an-izmit-dogu",
+   "to": "İzmit doğu / Kartepe bağlantısı",
+   "note": ""
+  },
+  {
+   "station": "kmo-an-tem-akyazi",
+   "to": "O-4 Anadolu Otoyolu (TEM) Akyazı",
+   "note": "KMO'nun doğu ucu; O-4 ile birleşir."
+  }
+ ],
+ "verification": [
+  "PDF pdfjs-dist ile x/y konumlu okundu; her sayı en yakın sütun başlığına (x) ve sınıf satırına (y) atandı; tüm sayılar toleransta, çakışma/boş hücre yok. Satır etiketi PDF'te 'MERMECİLER' (yazım hatası), sütun başlığı 'MERMERCİLER'.",
+  "14x14x6 = 1176 hücre okundu; köşegen uTurn'a ayrıldı; prices içinde 182 yönlü çift x 6 sınıf.",
+  "Sınıf sırası 1<=2<=3<=4<=5 ve 6<=1 tüm hücrelerde sağlanıyor (ihlal 0). Sevindikli↔İlimtepe tüm sınıflarda 0,00 (PDF'te yazılı).",
+  "Mesafe ile artış: Kurnaköy 2 satırı 55→510 (1.sınıf) monoton. Tek sapma İlimtepe/Sevindikli sütun sırası (doğudan gelince İlimtepe bazen daha pahalı) — PDF'te böyle.",
+  "Matris simetrik DEĞİL (1.sınıf 12, 2.sınıf 14, 3.sınıf 21, 4.sınıf 28, 5.sınıf 40, 6.sınıf 9 asimetrik çift); PDF'te yazıldığı gibi yönlü bırakıldı. Örn. 1.sınıf Kurnaköy 2→Sevindikli 190 / Sevindikli→Kurnaköy 2 165; Akmeşe→Adapazarı-2 90 / ters 55.",
+  "İkiz istasyonlar: Sevindikli/İlimtepe, İzmit Kuzey/İzmit Doğu, Adapazarı-1/Adapazarı-2 her iki yöndeki istasyonlara hemen hemen eşit ücretli; aynı kavşağın/bağlantının iki gişesi gibi davranıyorlar. roads'ta PDF sırasıyla zincir olarak modellendi; ikizlerin kendi aralarındaki sırası nominaldir.",
+  "Elle kontrol (ham döküm): Kurnaköy 2→TEM Akyazı 1.sınıf 510 (y=1047 son hücre); TEM Akyazı→Kurnaköy 2 5.sınıf 1525 (y=477 ilk hücre); İstanbulPark→Kurnaköy 2 1.sınıf 55 (y=1006); Adapazarı-1→Adapazarı-2 1.sınıf 40 (y=671).",
+  "Koordinatlar: harita servisleri erişilemedi; tahmini ('low'), ±2-5 km (özellikle Sevindikli, İlimtepe, İzmit Kuzey/Doğu, Adapazarı-1/2, Karasu). Haritada kullanılmadan önce doğrulanmalı.",
+  "SGS tablosu ham döküm satırlarından elle aktarıldı.",
+  "sections/validFrom/freeFlow üretimi: scripts/kgm/parsers/KMO-AN.mjs (x/y konum tabanlı, beklenmeyen her durumda assert). Bağımsız ilk çıkarım (scratch parser + elle aktarılan SGS) ile deep-equal: birebir aynı."
+ ]
+}

@@ -1,0 +1,743 @@
+{
+ "code": "KMO-AV",
+ "name": "Kuzey Marmara Avrupa Otoyolu (Kınalı - Odayeri)",
+ "shortName": "Kuzey Marmara Otoyolu Avrupa",
+ "operator": "YİD işletmeci (Avrupa Otoyolu İşletmesi) – KGM tarifesi",
+ "source": "14-KMOAvrupaKinali-Odayeri.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "KDV dahildir.",
+  "Ücretler 01/01/2026 saat 00:00'dan itibaren geçerlidir.",
+  "Bu tablo yalnızca Kınalı–Fatih arasındaki gişeleri kapsar; Odayeri'den sonra YSS Köprüsü/Kuzey Çevre Yolu (KCY) ayrı bir kapalı sistemdir ve ayrıca ücretlendirilir.",
+  "Aynı istasyondan giriş-çıkış (U-dönüşü): PDF tablosunun köşegeninde yaklaşık en uzak mesafe ücreti yazılıdır (bkz. sections[].uTurn); prices matrisine dahil edilmemiştir.",
+  "Serbest Geçiş Sistemi (SGS) noktaları (İstanbul Havalimanı terminal/kargo bağlantıları, Cebeci, Hasdal, Habipler) yöne bağlı nokta ücretleriyle ayrıca ücretlendirilir (bkz. freeFlow)."
+ ],
+ "stations": [
+  {
+   "id": "kmo-av-kinali",
+   "name": "Kınalı",
+   "pdfName": "KINALI (G11)",
+   "lat": 41.09,
+   "lng": 28.242,
+   "coord": "low",
+   "note": "Silivri Kınalı; O-3 (TEM) ve D-100 kavşağı."
+  },
+  {
+   "id": "kmo-av-silivri",
+   "name": "Silivri",
+   "pdfName": "SİLİVRİ (G12)",
+   "lat": 41.13,
+   "lng": 28.305,
+   "coord": "low"
+  },
+  {
+   "id": "kmo-av-catalca",
+   "name": "Çatalca",
+   "pdfName": "ÇATALCA (G13)",
+   "lat": 41.155,
+   "lng": 28.44,
+   "coord": "low"
+  },
+  {
+   "id": "kmo-av-nakkas",
+   "name": "Nakkaş",
+   "pdfName": "NAKKAŞ (G14)",
+   "lat": 41.19,
+   "lng": 28.55,
+   "coord": "low",
+   "note": "Arnavutköy Nakkaş."
+  },
+  {
+   "id": "kmo-av-yassioren",
+   "name": "Yassıören",
+   "pdfName": "YASSIÖREN (G21)",
+   "lat": 41.225,
+   "lng": 28.605,
+   "coord": "low",
+   "note": "Arnavutköy Yassıören."
+  },
+  {
+   "id": "kmo-av-tayakadin",
+   "name": "Tayakadın",
+   "pdfName": "TAYAKADIN (G22)",
+   "lat": 41.245,
+   "lng": 28.67,
+   "coord": "low",
+   "note": "Arnavutköy Tayakadın; İstanbul Havalimanı yönü."
+  },
+  {
+   "id": "kmo-av-fatih",
+   "name": "Fatih",
+   "pdfName": "FATİH (G23)",
+   "lat": 41.22,
+   "lng": 28.72,
+   "coord": "low",
+   "note": "Arnavutköy Fatih Mah. civarı; sistemin doğu (Odayeri) ucundaki gişe."
+  }
+ ],
+ "roads": [
+  [
+   "kmo-av-kinali",
+   "kmo-av-silivri"
+  ],
+  [
+   "kmo-av-silivri",
+   "kmo-av-catalca"
+  ],
+  [
+   "kmo-av-catalca",
+   "kmo-av-nakkas"
+  ],
+  [
+   "kmo-av-nakkas",
+   "kmo-av-yassioren"
+  ],
+  [
+   "kmo-av-yassioren",
+   "kmo-av-tayakadin"
+  ],
+  [
+   "kmo-av-tayakadin",
+   "kmo-av-fatih"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "kmo-av-main",
+   "name": "Kınalı - Fatih (Odayeri) kapalı sistem",
+   "stations": [
+    "kmo-av-kinali",
+    "kmo-av-silivri",
+    "kmo-av-catalca",
+    "kmo-av-nakkas",
+    "kmo-av-yassioren",
+    "kmo-av-tayakadin",
+    "kmo-av-fatih"
+   ],
+   "prices": {
+    "kmo-av-kinali": {
+     "kmo-av-silivri": [
+      55,
+      100,
+      100,
+      140,
+      190,
+      55
+     ],
+     "kmo-av-catalca": [
+      140,
+      190,
+      220,
+      295,
+      365,
+      90
+     ],
+     "kmo-av-nakkas": [
+      165,
+      250,
+      265,
+      365,
+      450,
+      100
+     ],
+     "kmo-av-yassioren": [
+      190,
+      265,
+      315,
+      415,
+      570,
+      140
+     ],
+     "kmo-av-tayakadin": [
+      220,
+      315,
+      410,
+      510,
+      635,
+      165
+     ],
+     "kmo-av-fatih": [
+      220,
+      350,
+      415,
+      535,
+      680,
+      165
+     ]
+    },
+    "kmo-av-silivri": {
+     "kmo-av-kinali": [
+      90,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "kmo-av-catalca": [
+      90,
+      140,
+      165,
+      190,
+      250,
+      55
+     ],
+     "kmo-av-nakkas": [
+      100,
+      190,
+      220,
+      265,
+      350,
+      90
+     ],
+     "kmo-av-yassioren": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-av-tayakadin": [
+      165,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-av-fatih": [
+      190,
+      295,
+      350,
+      450,
+      570,
+      140
+     ]
+    },
+    "kmo-av-catalca": {
+     "kmo-av-kinali": [
+      140,
+      190,
+      250,
+      295,
+      365,
+      100
+     ],
+     "kmo-av-silivri": [
+      100,
+      140,
+      165,
+      220,
+      265,
+      90
+     ],
+     "kmo-av-nakkas": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      55
+     ],
+     "kmo-av-yassioren": [
+      90,
+      100,
+      140,
+      190,
+      220,
+      55
+     ],
+     "kmo-av-tayakadin": [
+      100,
+      165,
+      190,
+      250,
+      315,
+      90
+     ],
+     "kmo-av-fatih": [
+      140,
+      190,
+      220,
+      295,
+      350,
+      90
+     ]
+    },
+    "kmo-av-nakkas": {
+     "kmo-av-kinali": [
+      165,
+      250,
+      265,
+      365,
+      450,
+      100
+     ],
+     "kmo-av-silivri": [
+      100,
+      190,
+      220,
+      265,
+      350,
+      90
+     ],
+     "kmo-av-catalca": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      55
+     ],
+     "kmo-av-yassioren": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ],
+     "kmo-av-tayakadin": [
+      90,
+      140,
+      165,
+      190,
+      250,
+      55
+     ],
+     "kmo-av-fatih": [
+      100,
+      165,
+      190,
+      220,
+      295,
+      90
+     ]
+    },
+    "kmo-av-yassioren": {
+     "kmo-av-kinali": [
+      190,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-av-silivri": [
+      140,
+      220,
+      265,
+      350,
+      415,
+      100
+     ],
+     "kmo-av-catalca": [
+      90,
+      100,
+      140,
+      190,
+      220,
+      55
+     ],
+     "kmo-av-nakkas": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      55
+     ],
+     "kmo-av-tayakadin": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ],
+     "kmo-av-fatih": [
+      90,
+      100,
+      140,
+      165,
+      220,
+      55
+     ]
+    },
+    "kmo-av-tayakadin": {
+     "kmo-av-kinali": [
+      220,
+      315,
+      410,
+      510,
+      635,
+      165
+     ],
+     "kmo-av-silivri": [
+      165,
+      265,
+      315,
+      415,
+      535,
+      140
+     ],
+     "kmo-av-catalca": [
+      100,
+      165,
+      190,
+      250,
+      315,
+      90
+     ],
+     "kmo-av-nakkas": [
+      90,
+      140,
+      165,
+      190,
+      250,
+      55
+     ],
+     "kmo-av-yassioren": [
+      55,
+      90,
+      100,
+      140,
+      165,
+      55
+     ],
+     "kmo-av-fatih": [
+      55,
+      55,
+      90,
+      90,
+      100,
+      40
+     ]
+    },
+    "kmo-av-fatih": {
+     "kmo-av-kinali": [
+      220,
+      350,
+      410,
+      535,
+      670,
+      165
+     ],
+     "kmo-av-silivri": [
+      190,
+      295,
+      350,
+      450,
+      570,
+      140
+     ],
+     "kmo-av-catalca": [
+      140,
+      190,
+      220,
+      295,
+      365,
+      90
+     ],
+     "kmo-av-nakkas": [
+      100,
+      165,
+      190,
+      220,
+      295,
+      90
+     ],
+     "kmo-av-yassioren": [
+      90,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "kmo-av-tayakadin": [
+      55,
+      55,
+      55,
+      90,
+      100,
+      40
+     ]
+    }
+   },
+   "uTurn": {
+    "kmo-av-kinali": [
+     220,
+     350,
+     410,
+     535,
+     670,
+     165
+    ],
+    "kmo-av-silivri": [
+     190,
+     295,
+     350,
+     450,
+     570,
+     140
+    ],
+    "kmo-av-catalca": [
+     140,
+     190,
+     220,
+     295,
+     365,
+     90
+    ],
+    "kmo-av-nakkas": [
+     165,
+     250,
+     265,
+     365,
+     450,
+     100
+    ],
+    "kmo-av-yassioren": [
+     190,
+     265,
+     315,
+     415,
+     570,
+     140
+    ],
+    "kmo-av-tayakadin": [
+     220,
+     315,
+     410,
+     510,
+     635,
+     165
+    ],
+    "kmo-av-fatih": [
+     220,
+     350,
+     415,
+     535,
+     680,
+     165
+    ]
+   }
+  }
+ ],
+ "freeFlow": [
+  {
+   "name": "21 (Terminal A)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    16.5,
+    25,
+    29.5,
+    41,
+    51,
+    10
+   ]
+  },
+  {
+   "name": "22 (Terminal 2 Yanyol A)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    10,
+    16.5,
+    22,
+    26.5,
+    35,
+    9
+   ]
+  },
+  {
+   "name": "23 (Terminal 1 Yanyol A)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    10,
+    16.5,
+    22,
+    26.5,
+    35,
+    9
+   ]
+  },
+  {
+   "name": "24 (Kargo A)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    10,
+    16.5,
+    22,
+    26.5,
+    35,
+    9
+   ]
+  },
+  {
+   "name": "72 A (Cebeci)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    9,
+    10,
+    10,
+    16.5,
+    22,
+    4
+   ]
+  },
+  {
+   "name": "73 A (Hasdal A)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    35,
+    51,
+    61.5,
+    83,
+    105.5,
+    25
+   ]
+  },
+  {
+   "name": "21 (Terminal B)",
+   "direction": "Güney-Kuzey",
+   "prices": [
+    16.5,
+    25,
+    29.5,
+    41,
+    51,
+    10
+   ]
+  },
+  {
+   "name": "22 (Terminal 2 Yanyol B)",
+   "direction": "Güney-Kuzey",
+   "prices": [
+    9,
+    14,
+    14,
+    22,
+    25,
+    9
+   ]
+  },
+  {
+   "name": "23 (Terminal 1 Yanyol B)",
+   "direction": "Güney-Kuzey",
+   "prices": [
+    9,
+    10,
+    14,
+    16.5,
+    25,
+    9
+   ]
+  },
+  {
+   "name": "24 (Kargo B)",
+   "direction": "Güney-Kuzey",
+   "prices": [
+    10,
+    16.5,
+    16.5,
+    25,
+    29.5,
+    9
+   ]
+  },
+  {
+   "name": "72 B (Cebeci)",
+   "direction": "Güney-Kuzey",
+   "prices": [
+    9,
+    14,
+    14,
+    22,
+    25,
+    9
+   ]
+  },
+  {
+   "name": "73 B (Hasdal B)",
+   "direction": "Güney-Kuzey",
+   "prices": [
+    35,
+    53.5,
+    63.5,
+    84,
+    105.5,
+    25
+   ]
+  },
+  {
+   "name": "71 A1 (Habipler A)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    9,
+    10,
+    10,
+    14,
+    16.5,
+    4
+   ]
+  },
+  {
+   "name": "71 A2 (Habipler Yanyol A)",
+   "direction": "Kuzey-Güney",
+   "prices": [
+    9,
+    10,
+    10,
+    14,
+    16.5,
+    4
+   ]
+  },
+  {
+   "name": "71 B2 (Habipler Yanyol B)",
+   "direction": "Güney-Kuzey",
+   "prices": [
+    9,
+    10,
+    10,
+    14,
+    22,
+    4
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "station": "kmo-av-kinali",
+   "to": "O-3 Avrupa Otoyolu (Edirne–İstanbul) Kınalı kavşağı ve D-100",
+   "note": "KMO'nun batı başlangıcı."
+  },
+  {
+   "station": "kmo-av-tayakadin",
+   "to": "İstanbul Havalimanı / Arnavutköy",
+   "note": "Havalimanı terminal bağlantıları SGS ile ücretlendirilir (freeFlow)."
+  },
+  {
+   "station": "kmo-av-fatih",
+   "to": "KCY Odayeri (Kuzey Çevre Yolu / YSS Köprüsü yönü)",
+   "note": "Farklı PDF'lerde, farklı kapalı sistemlerin sınır gişeleri; aradaki kesimde İstanbul Havalimanı bağlantısı ve Habipler–Hasdal SGS bağlantısı var. Kınalı→YSS yolculuğu = KMO-AV (…→Fatih) + KCY (Odayeri→…)."
+  },
+  {
+   "station": "kmo-av-fatih",
+   "to": "Habipler–Hasdal bağlantı yolu (SGS: Habipler, Cebeci, Hasdal) – Hasdal/Kemerburgaz, O-2/TEM yönü",
+   "note": "SGS nokta ücretleri freeFlow'da."
+  }
+ ],
+ "verification": [
+  "PDF pdfjs-dist ile x/y konumlu okundu; her sayı en yakın sütun başlığına (x) ve en yakın sınıf satırına (y) atandı; tüm sayılar toleransta, çakışma/boş hücre yok.",
+  "7x7x6 = 294 hücre okundu; köşegen uTurn'a ayrıldı; prices içinde 42 yönlü çift x 6 sınıf.",
+  "Satır/sütun sırası boyunca (Kınalı→Fatih) 6 sınıfta mesafeyle monoton artış (ihlal 0). Sınıf sırası 1<=2<=3<=4<=5, 6<=1 (ihlal 0).",
+  "Matris tam simetrik DEĞİL; PDF'te yazılı olduğu gibi yönlü bırakıldı. Asimetriler (giriş>çıkış / ters yön): 1.sınıf Kınalı→Silivri 55 / Silivri→Kınalı 90, Silivri→Çatalca 90/100; 3.sınıf Kınalı→Silivri 100/140, Kınalı→Çatalca 220/250, Kınalı→Fatih 415/410, Nakkaş→Yassıören 100/90, Tayakadın→Fatih 90/55; 4.sınıf Kınalı→Silivri 140/165, Silivri→Çatalca 190/220, Nakkaş→Yassıören 140/100; 5.sınıf Kınalı→Yassıören 570/535, Kınalı→Fatih 680/670, Silivri→Çatalca 250/265, Çatalca→Fatih 350/365, Nakkaş→Yassıören 165/140, Yassıören→Fatih 220/190; 6.sınıf Kınalı→Çatalca 90/100, Silivri→Çatalca 55/90. Bunlar x-konumu ile tek tek doğrulandı (okuma hatası değil).",
+  "Elle kontrol (ham döküm): Kınalı→Silivri 1.sınıf 55 (y=637 ilk değer; köşegen 220 y=636'da ayrı satıra düşmüş); Silivri→Kınalı 1.sınıf 90 (y=586); Fatih→Kınalı 5.sınıf 670 (y=301), Fatih köşegen 680 (y=300); Kınalı→Fatih 1.sınıf 220.",
+  "Koordinatlar: harita servisleri erişilemedi; tahmini ('low'), ±2-5 km. Fatih gişesinin konumu özellikle belirsiz (Arnavutköy Fatih Mah. civarı, Tayakadın ile Odayeri arası varsayıldı).",
+  "SGS tablosu ham döküm satırlarından elle aktarıldı.",
+  "sections/validFrom/freeFlow üretimi: scripts/kgm/parsers/KMO-AV.mjs (x/y konum tabanlı, beklenmeyen her durumda assert). Bağımsız ilk çıkarım (scratch parser + elle aktarılan SGS) ile deep-equal: birebir aynı."
+ ]
+}

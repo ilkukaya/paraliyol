@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Paralıyol
 
-## Getting Started
+Türkiye'deki otoyol, köprü ve tünel geçiş ücretlerini **KGM'nin resmi tarifeleriyle** hesaplayan site.
+Next.js 16 (App Router) + Tailwind CSS 4, Netlify'da yayınlanır.
 
-First, run the development server:
+## Nasıl çalışır?
+
+| Parça | Yer |
+|---|---|
+| Resmi tarifeler (otoyol matrisleri, köprüler) | `data/tolls/*.json` — KGM PDF'lerinden üretilir |
+| PDF ayrıştırıcıları ve senkronizasyon | `scripts/kgm/` (`npm run sync-tolls`, `npm run check-tolls`) |
+| İl / ilçe listesi | `scripts/data/locations.src.tsv` → `npm run build-locations` → `data/locations.json` |
+| Gerçek yol mesafeleri (OSM/OSRM) | `data/road-edges.json` — `scripts/osrm/build-road-edges.ts` |
+| Rota motoru (Dijkstra, köprü kısıtları, ücret hesabı) | `src/lib/engine/` |
+| Motor testleri | `tests/engine.test.ts` (`npm test`) |
+
+### Otomatik işler (GitHub Actions)
+
+- **KGM ücret senkronizasyonu** (`sync-tolls.yml`) — her gün resmi PDF'leri indirir; tarife değiştiyse
+  verileri günceller, testleri ve derlemeyi çalıştırır, commit eder. Netlify siteyi otomatik yayınlar.
+- **Yol ağı ölçümü** (`road-edges.yml`) — konum veya gişe verisi değişince yol bağlantılarının gerçek
+  mesafe/sürelerini OSRM ile ölçer.
+- **CI** (`ci.yml`) — her push'ta lint, test ve derleme.
+
+## Ortam değişkenleri (Netlify → Site configuration → Environment variables)
+
+| Değişken | Açıklama |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Özel alan adı alındığında, ör. `https://paraliyol.com` |
+| `NEXT_PUBLIC_GA_ID` | Google Analytics 4 ölçüm kimliği (`G-XXXX`) |
+| `NEXT_PUBLIC_ADSENSE_CLIENT` | AdSense yayıncı kimliği (`ca-pub-XXXX`); `ads.txt` otomatik oluşur |
+| `NEXT_PUBLIC_ADSENSE_SLOT_TOP` / `_INLINE` / `_BOTTOM` | AdSense reklam birimi kimlikleri (isteğe bağlı) |
+| `NEXT_PUBLIC_BOOKING_AID` | Booking.com iş ortaklığı kimliği |
+| `NEXT_PUBLIC_CAR_RENTAL_URL` | Araç kiralama ortaklık bağlantısı, `{city}` yer tutuculu |
+| `NEXT_PUBLIC_INSURANCE_URL` | Sigorta karşılaştırma ortaklık bağlantısı, `{city}` yer tutuculu |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Google Search Console doğrulama kodu |
+| `NEXT_PUBLIC_BING_VERIFICATION` / `NEXT_PUBLIC_YANDEX_VERIFICATION` | Bing / Yandex doğrulama kodları |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | İletişim sayfasında gösterilecek e-posta |
+
+Değişken eklendikten sonra Netlify'da yeniden deploy gerekir.
+
+## Geliştirme
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm ci
+npm run dev        # http://localhost:3000
+npm test           # rota motoru testleri
+npm run build
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

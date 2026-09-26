@@ -1,76 +1,44 @@
 import type { Metadata } from "next";
-import { generatePageMetadata } from "@/lib/seo";
+import Link from "next/link";
+import ProsePage from "@/components/ProsePage";
 
-export const metadata: Metadata = generatePageMetadata(
-  "Gizlilik Politikası",
-  "Paralıyol gizlilik politikası. Kişisel verilerin korunması ve KVKK uyumu.",
-  "/gizlilik-politikasi"
-);
+export const metadata: Metadata = {
+  title: "Gizlilik Politikası ve KVKK Aydınlatma Metni",
+  description: "Paralıyol gizlilik politikası ve 6698 sayılı KVKK kapsamında aydınlatma metni.",
+  alternates: { canonical: "/gizlilik-politikasi" },
+};
 
-export default function GizlilikPolitikasiPage() {
+export default function PrivacyPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-6">
-        Gizlilik Politikası
-      </h1>
-      <div className="bg-white rounded-xl border border-gray-200 p-6 md:p-8 space-y-4 text-gray-600 text-sm">
-        <p>Son güncelleme: 15 Ocak 2026</p>
-
-        <h2 className="text-lg font-bold text-gray-900 mt-4">1. Genel Bilgi</h2>
-        <p>
-          Paralıyol (&quot;biz&quot;, &quot;bizim&quot;) olarak, gizliliğinize önem veriyoruz.
-          Bu gizlilik politikası, sitemizi kullanırken toplanan bilgileri ve bu
-          bilgilerin nasıl kullanıldığını açıklamaktadır.
-        </p>
-
-        <h2 className="text-lg font-bold text-gray-900 mt-4">
-          2. Toplanan Bilgiler
-        </h2>
-        <p>Sitemiz üyelik gerektirmez. Aşağıdaki bilgiler otomatik olarak toplanabilir:</p>
-        <ul className="list-disc pl-5 space-y-1">
-          <li>IP adresi</li>
-          <li>Tarayıcı türü ve sürümü</li>
-          <li>Ziyaret edilen sayfalar ve süreleri</li>
-          <li>Cihaz bilgileri</li>
-        </ul>
-
-        <h2 className="text-lg font-bold text-gray-900 mt-4">
-          3. Çerezler
-        </h2>
-        <p>
-          Sitemiz, deneyiminizi iyileştirmek ve reklam hizmetleri sunmak için
-          çerezler kullanmaktadır. Detaylı bilgi için Çerez Politikamızı
-          inceleyebilirsiniz.
-        </p>
-
-        <h2 className="text-lg font-bold text-gray-900 mt-4">
-          4. Üçüncü Taraf Hizmetler
-        </h2>
-        <p>Sitemizde aşağıdaki üçüncü taraf hizmetler kullanılabilir:</p>
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Google AdSense / Ezoic (reklam)</li>
-          <li>Google Analytics (analitik)</li>
-          <li>OpenStreetMap (harita)</li>
-        </ul>
-
-        <h2 className="text-lg font-bold text-gray-900 mt-4">
-          5. KVKK Uyumu
-        </h2>
-        <p>
-          6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında,
-          kişisel verileriniz yasal düzenlemelere uygun olarak işlenmektedir.
-          Verilerinizle ilgili haklarınızı kullanmak için bizimle iletişime
-          geçebilirsiniz.
-        </p>
-
-        <h2 className="text-lg font-bold text-gray-900 mt-4">
-          6. Değişiklikler
-        </h2>
-        <p>
-          Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler bu
-          sayfada yayınlanacaktır.
-        </p>
-      </div>
-    </div>
+    <ProsePage title="Gizlilik politikası ve KVKK aydınlatma metni" path="/gizlilik-politikasi" updated="26 Eylül 2026">
+      <p>
+        Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında Paralıyol (&quot;site&quot;) ziyaretçilerini hangi
+        verilerin, hangi amaçla ve nasıl işlendiği konusunda bilgilendirmek için hazırlanmıştır.
+      </p>
+      <h2>İşlenen veriler</h2>
+      <ul>
+        <li><strong>Hesaplama verileri:</strong> Seçtiğiniz başlangıç, varış ve araç sınıfı yalnızca sonucu göstermek için kullanılır; hesabınız veya kimliğinizle ilişkilendirilmez.</li>
+        <li><strong>Tarayıcıda saklanan tercihler:</strong> Tema, çerez tercihi ve yakıt fiyatı gibi ayarlar yalnızca kendi cihazınızda (localStorage) saklanır.</li>
+        <li><strong>İletişim formu:</strong> Formu doldurursanız adınız, e-posta adresiniz ve mesajınız size yanıt vermek amacıyla işlenir.</li>
+        <li><strong>Teknik kayıtlar:</strong> Barındırma sağlayıcımız (Netlify) güvenlik ve hizmetin sürekliliği için IP adresi ve istek bilgileri gibi sunucu kayıtlarını tutabilir.</li>
+        <li><strong>Analiz ve reklam çerezleri:</strong> Yalnızca açık rızanız varsa Google Analytics ve Google AdSense çerezleri kullanılır. Ayrıntılar <Link href="/cerez-politikasi">Çerez Politikası</Link>&apos;ndadır.</li>
+      </ul>
+      <h2>İşleme amaçları ve hukuki sebepler</h2>
+      <p>
+        Veriler; hizmetin sunulması ve güvenliği (KVKK m.5/2-f meşru menfaat), iletişim taleplerinin yanıtlanması (m.5/2-c) ve
+        rızanıza bağlı analiz ile reklam faaliyetleri (m.5/1 açık rıza) amaçlarıyla işlenir.
+      </p>
+      <h2>Aktarım</h2>
+      <p>
+        Hizmetin sunulması için veriler, sunucuları yurt dışında bulunabilen hizmet sağlayıcılarımıza (Netlify, Google) aktarılabilir.
+        Analiz ve reklam çerezlerine ilişkin aktarım yalnızca açık rızanızla yapılır.
+      </p>
+      <h2>Haklarınız</h2>
+      <p>
+        KVKK&apos;nın 11. maddesi uyarınca verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini veya silinmesini
+        isteme ve itiraz etme haklarına sahipsiniz. Taleplerinizi <Link href="/iletisim">iletişim</Link> sayfası üzerinden
+        iletebilirsiniz.
+      </p>
+    </ProsePage>
   );
 }

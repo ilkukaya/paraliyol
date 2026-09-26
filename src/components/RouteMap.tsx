@@ -1,121 +1,55 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { TollOnRoute } from "@/types";
+import "leaflet/dist/leaflet.css";
+import type { LatLng } from "@/lib/engine/types";
 
-interface RouteMapProps {
-  waypoints: [number, number][];
-  tolls: TollOnRoute[];
+export interface MapMarker {
+  pos: LatLng;
+  label: string;
+  kind: "start" | "end" | "toll";
 }
 
-export default function RouteMap({ waypoints, tolls }: RouteMapProps) {
-  const mapRef = useRef<HTMLDivElement>(null);
-  const mapInstanceRef = useRef<L.Map | null>(null);
+export default function RouteMap({ path, markers }: { path: LatLng[]; markers: MapMarker[] }) {
+  const el = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current) return;
-
+    let map: import("leaflet").Map | null = null;
+    let cancelled = false;
     import("leaflet").then((L) => {
-      // Fix default icon issue
-      delete (L.Icon.Default.prototype as unknown as Record<string, unknown>)._getIconUrl;
-      L.Icon.Default.mergeOptions({
-        iconRetinaUrl:
-          "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
-        iconUrl:
-          "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
-        shadowUrl:
-          "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
-      });
-
-      if (!mapRef.current) return;
-
-      const map = L.map(mapRef.current, {
-        scrollWheelZoom: false,
-      });
-
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: "&copy; OpenStreetMap contributors",
+      if (cancelled || !el.current) return;
+      map = L.map(el.current, { scrollWheelZoom: false, attributionControl: true, zoomControl: true });
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 18,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       }).addTo(map);
-
-      // Draw route line
-      if (waypoints.length > 1) {
-        const polyline = L.polyline(waypoints, {
-          color: "#16a34a",
-          weight: 4,
-          opacity: 0.8,
-        }).addTo(map);
-
-        // Start marker
-        L.marker(waypoints[0], {
+      const line = L.polyline(path, { color: "#0b6e44", weight: 5, opacity: 0.9 }).addTo(map);
+      L.polyline(path, { color: "#f2b705", weight: 1.5, dashArray: "6 8", opacity: 0.9 }).addTo(map);
+      for (const m of markers) {
+        const style =
+          m.kind === "toll"
+            ? "background:#fff;color:#0b6e44;border:2px solid #0b6e44;width:22px;height:22px;font-size:11px"
+            : `background:${m.kind === "start" ? "#0b6e44" : "#13201a"};color:#fff;border:3px solid #fff;width:30px;height:30px;font-size:13px`;
+        const text = m.kind === "start" ? "A" : m.kind === "end" ? "B" : "₺";
+        L.marker(m.pos, {
+          title: m.label,
           icon: L.divIcon({
-            html: '<div style="background:#16a34a;color:white;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:12px;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3)">A</div>',
-            iconSize: [28, 28],
-            iconAnchor: [14, 14],
             className: "",
-          }),
-        }).addTo(map);
-
-        // End marker
-        L.marker(waypoints[waypoints.length - 1], {
-          icon: L.divIcon({
-            html: '<div style="background:#dc2626;color:white;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:12px;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3)">B</div>',
-            iconSize: [28, 28],
-            iconAnchor: [14, 14],
-            className: "",
-          }),
-        }).addTo(map);
-
-        map.fitBounds(polyline.getBounds(), { padding: [30, 30] });
-      }
-
-      // Add toll markers
-      const typeEmoji: Record<string, string> = {
-        gise: "🛣️",
-        bridge: "🌉",
-        tunnel: "🚇",
-        ferry: "⛴️",
-      };
-
-      tolls.forEach((toll) => {
-        // Find approximate position from waypoints for toll markers
-        const midIndex = Math.floor(waypoints.length / 2);
-        const pos = waypoints[midIndex] || waypoints[0];
-        if (!pos) return;
-
-        L.marker(pos, {
-          icon: L.divIcon({
-            html: `<div style="background:white;border-radius:8px;padding:2px 6px;font-size:14px;border:2px solid #16a34a;box-shadow:0 2px 4px rgba(0,0,0,0.2);white-space:nowrap">${typeEmoji[toll.type] || "📍"}</div>`,
-            iconSize: [32, 32],
-            iconAnchor: [16, 16],
-            className: "",
+            html: `<div style="${style};border-radius:999px;display:grid;place-items:center;font-weight:800;box-shadow:0 2px 6px rgba(0,0,0,.3)">${text}</div>`,
+            iconSize: m.kind === "toll" ? [22, 22] : [30, 30],
+            iconAnchor: m.kind === "toll" ? [11, 11] : [15, 15],
           }),
         })
-          .bindPopup(`<b>${toll.name}</b>`)
+          .bindTooltip(m.label)
           .addTo(map);
-      });
-
-      mapInstanceRef.current = map;
-    });
-
-    return () => {
-      if (mapInstanceRef.current) {
-        mapInstanceRef.current.remove();
-        mapInstanceRef.current = null;
       }
+      map.fitBounds(line.getBounds(), { padding: [28, 28] });
+    });
+    return () => {
+      cancelled = true;
+      map?.remove();
     };
-  }, [waypoints, tolls]);
+  }, [path, markers]);
 
-  return (
-    <>
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      />
-      <div
-        ref={mapRef}
-        className="w-full h-[300px] md:h-[400px] rounded-xl overflow-hidden border border-gray-200"
-      />
-    </>
-  );
+  return <div ref={el} className="h-[300px] w-full overflow-hidden rounded-[var(--radius-card)] border border-[var(--border)] sm:h-[420px]" role="img" aria-label="Rota haritası" />;
 }

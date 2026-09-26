@@ -1,95 +1,76 @@
 "use client";
 
-import { useState } from "react";
 import { useRouter } from "next/navigation";
-import type { Location, VehicleClass } from "@/types";
-import LocationAutocomplete from "./LocationAutocomplete";
-import VehicleClassSelector from "./VehicleClassSelector";
+import { useState, useTransition } from "react";
+import type { Location, VehicleClass } from "@/lib/engine/types";
+import { routeSlug } from "@/lib/engine/slugs";
+import LocationCombobox from "./LocationCombobox";
+import VehicleClassPicker from "./VehicleClassPicker";
 
-interface RouteSearchFormProps {
-  locations: Location[];
-  initialFrom?: string;
-  initialTo?: string;
-  initialClass?: VehicleClass;
-}
+const Pin = ({ filled }: { filled?: boolean }) => (
+  <svg viewBox="0 0 24 24" className="h-5 w-5" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
+    {filled ? <path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Zm0-9a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" /> : <circle cx="12" cy="12" r="6" />}
+  </svg>
+);
 
 export default function RouteSearchForm({
   locations,
   initialFrom = "",
   initialTo = "",
   initialClass = "1",
-}: RouteSearchFormProps) {
+}: {
+  locations: Location[];
+  initialFrom?: string;
+  initialTo?: string;
+  initialClass?: VehicleClass;
+}) {
   const router = useRouter();
-  const [fromId, setFromId] = useState(initialFrom);
-  const [toId, setToId] = useState(initialTo);
-  const [vehicleClass, setVehicleClass] = useState<VehicleClass>(initialClass);
+  const [from, setFrom] = useState(initialFrom);
+  const [to, setTo] = useState(initialTo);
+  const [vc, setVc] = useState<VehicleClass>(initialClass);
+  const [pending, start] = useTransition();
+  const ready = from && to && from !== to;
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const submit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!fromId || !toId) return;
-    if (fromId === toId) return;
-    router.push(`/sonuc?from=${fromId}&to=${toId}&class=${vehicleClass}`);
-  };
-
-  const handleSwap = () => {
-    setFromId(toId);
-    setToId(fromId);
+    if (!ready) return;
+    const q = vc === "1" ? "" : `?arac=${vc}`;
+    start(() => router.push(`/${routeSlug(from, to)}${q}`));
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-2xl mx-auto">
-      <div className="bg-white rounded-2xl shadow-lg p-6 space-y-4">
-        <div className="space-y-3">
-          <LocationAutocomplete
-            locations={locations}
-            value={fromId}
-            onChange={setFromId}
-            placeholder="Nereden? (ör: İstanbul)"
-            label="Nereden"
-          />
-
-          <div className="flex justify-center">
-            <button
-              type="button"
-              onClick={handleSwap}
-              className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
-              title="Yönleri değiştir"
-            >
-              <svg
-                className="w-5 h-5 text-gray-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"
-                />
-              </svg>
-            </button>
-          </div>
-
-          <LocationAutocomplete
-            locations={locations}
-            value={toId}
-            onChange={setToId}
-            placeholder="Nereye? (ör: Ankara)"
-            label="Nereye"
-          />
-        </div>
-
-        <VehicleClassSelector value={vehicleClass} onChange={setVehicleClass} />
-
+    <form onSubmit={submit} className="card p-4 sm:p-6" aria-label="Geçiş ücreti hesapla">
+      <div className="relative grid gap-3 md:grid-cols-[1fr_auto_1fr] md:items-end">
+        <LocationCombobox label="Nereden" placeholder="Şehir veya ilçe" locations={locations} value={from} onChange={setFrom} exclude={to} icon={<Pin />} />
         <button
-          type="submit"
-          disabled={!fromId || !toId || fromId === toId}
-          className="w-full py-3 px-6 bg-green-600 hover:bg-green-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-semibold rounded-xl transition-colors text-lg"
+          type="button"
+          onClick={() => {
+            setFrom(to);
+            setTo(from);
+          }}
+          aria-label="Yönü değiştir"
+          className="absolute right-3 top-[3.9rem] z-10 grid h-10 w-10 place-items-center rounded-full border border-[var(--border)] bg-[var(--surface)] shadow-sm hover:border-sign-400 md:static md:mb-2 md:rotate-90"
         >
-          Hesapla
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <path d="M7 4v16M7 20l-3-3M7 20l3-3M17 20V4M17 4l-3 3M17 4l3 3" />
+          </svg>
         </button>
+        <LocationCombobox label="Nereye" placeholder="Şehir veya ilçe" locations={locations} value={to} onChange={setTo} exclude={from} icon={<Pin filled />} />
       </div>
+      <div className="mt-5">
+        <p className="mb-1.5 text-xs font-bold uppercase tracking-wider text-[var(--fg-muted)]">Araç sınıfı</p>
+        <VehicleClassPicker value={vc} onChange={setVc} />
+      </div>
+      <button
+        type="submit"
+        disabled={!ready || pending}
+        className="mt-5 flex h-14 w-full items-center justify-center gap-2 rounded-2xl bg-lane-500 text-lg font-bold text-sign-950 shadow-sm transition hover:bg-lane-400 disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        {pending ? "Hesaplanıyor…" : "Ücreti hesapla"}
+        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </button>
     </form>
   );
 }

@@ -1,0 +1,25 @@
+import type { BridgeData, HighwayData, Location } from "./types";
+import locationsJson from "../../../data/locations.json";
+import o3 from "../../../data/tolls/O-3.json";
+import o4 from "../../../data/tolls/O-4.json";
+import o5 from "../../../data/tolls/O-5.json";
+import kcy from "../../../data/tolls/KCY.json";
+import kmoAv from "../../../data/tolls/KMO-AV.json";
+import kmoAn from "../../../data/tolls/KMO-AN.json";
+import mco from "../../../data/tolls/MCO.json";
+import ano from "../../../data/tolls/ANO.json";
+import nma from "../../../data/tolls/NMA.json";
+import tag from "../../../data/tolls/TAG.json";
+import gso from "../../../data/tolls/GSO.json";
+import izc from "../../../data/tolls/IZC.json";
+import iza from "../../../data/tolls/IZA.json";
+import mac from "../../../data/tolls/MAC.json";
+import ado from "../../../data/tolls/ADO.json";
+import bridgesJson from "../../../data/tolls/bridges.json";
+import extraJson from "../../../data/tolls/extra-crossings.json";
+import roadEdgesJson from "../../../data/road-edges.json";
+
+export const HIGHWAYS = [o4, o3, o5, kcy, kmoAv, kmoAn, mco, ano, nma, tag, gso, izc, iza, mac, ado] as unknown as HighwayData[];
+export const BRIDGES = [...(bridgesJson as unknown as BridgeData[]), ...(extraJson as unknown as BridgeData[])];
+export const LOCATIONS = locationsJson as Location[];
+export const ROAD_EDGES = roadEdgesJson as unknown as Record<string, [number, number]>;

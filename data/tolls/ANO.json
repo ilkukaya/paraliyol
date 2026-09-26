@@ -1,0 +1,1725 @@
+{
+ "code": "ANO",
+ "name": "Ankara – Niğde Otoyolu",
+ "shortName": "Ankara–Niğde Otoyolu",
+ "operator": "Ankara Niğde Otoyolu İşletmesi (Kap-Öztaş-Kolin) / KGM",
+ "source": "17-Ankara-Nigde.pdf",
+ "validFrom": "2026-01-01",
+ "rules": [
+  "Not 1: Ücretlere KDV dahildir.",
+  "Not 2: Giriş bilgisi bulunamaması halinde; en uzak mesafe ücreti uygulanır.",
+  "Not 3: Ücretler 01/01/2026 saat 00:00 'dan itibaren geçerlidir.",
+  "Tablo tam kare matristir (satır = giriş, sütun = çıkış); köşegen (aynı istasyon) değerleri bu dosyada yer almaz."
+ ],
+ "stations": [
+  {
+   "id": "ano-ankara",
+   "name": "Ankara (Gölbaşı)",
+   "pdfName": "Ankara Alın",
+   "lat": 39.815,
+   "lng": 32.845,
+   "coord": "medium"
+  },
+  {
+   "id": "ano-karagedik",
+   "name": "Karagedik",
+   "pdfName": "Karagedik",
+   "lat": 39.69,
+   "lng": 32.9,
+   "coord": "low"
+  },
+  {
+   "id": "ano-ahiboz",
+   "name": "Ahiboz",
+   "pdfName": "Ahiboz",
+   "lat": 39.62,
+   "lng": 32.93,
+   "coord": "low"
+  },
+  {
+   "id": "ano-emirler",
+   "name": "Emirler",
+   "pdfName": "Emirler",
+   "lat": 39.43,
+   "lng": 33.05,
+   "coord": "low"
+  },
+  {
+   "id": "ano-kulu-kirikkale",
+   "name": "Kulu-Kırıkkale",
+   "pdfName": "Kulu-Kırıkkale",
+   "lat": 39.23,
+   "lng": 33.23,
+   "coord": "low"
+  },
+  {
+   "id": "ano-acikuyu",
+   "name": "Acıkuyu",
+   "pdfName": "Acıkuyu",
+   "lat": 39.13,
+   "lng": 33.5,
+   "coord": "low"
+  },
+  {
+   "id": "ano-evren-sariyahsi",
+   "name": "Evren-Sarıyahşi",
+   "pdfName": "Evren-Sarıyahşi",
+   "lat": 39.0104,
+   "lng": 33.7915,
+   "coord": "medium"
+  },
+  {
+   "id": "ano-agacoren",
+   "name": "Ağaçören",
+   "pdfName": "Ağaçören",
+   "lat": 38.88,
+   "lng": 33.95,
+   "coord": "low"
+  },
+  {
+   "id": "ano-kirsehir",
+   "name": "Kırşehir",
+   "pdfName": "Kırşehir",
+   "lat": 39.06,
+   "lng": 34.08,
+   "coord": "low"
+  },
+  {
+   "id": "ano-ortakoy",
+   "name": "Ortaköy",
+   "pdfName": "Ortaköy",
+   "lat": 38.73,
+   "lng": 34.05,
+   "coord": "low"
+  },
+  {
+   "id": "ano-alayhan",
+   "name": "Alayhan",
+   "pdfName": "Alayhan",
+   "lat": 38.46,
+   "lng": 34.26,
+   "coord": "low"
+  },
+  {
+   "id": "ano-derinkuyu",
+   "name": "Derinkuyu",
+   "pdfName": "Derinkuyu",
+   "lat": 38.35,
+   "lng": 34.62,
+   "coord": "low"
+  },
+  {
+   "id": "ano-ciftlik",
+   "name": "Çiftlik",
+   "pdfName": "Çiftlik",
+   "lat": 38.2,
+   "lng": 34.57,
+   "coord": "low"
+  },
+  {
+   "id": "ano-nigde",
+   "name": "Niğde (Gölcük)",
+   "pdfName": "Niğde Alın",
+   "lat": 38.09,
+   "lng": 34.67,
+   "coord": "low"
+  }
+ ],
+ "roads": [
+  [
+   "ano-ankara",
+   "ano-karagedik"
+  ],
+  [
+   "ano-karagedik",
+   "ano-ahiboz"
+  ],
+  [
+   "ano-ahiboz",
+   "ano-emirler"
+  ],
+  [
+   "ano-emirler",
+   "ano-kulu-kirikkale"
+  ],
+  [
+   "ano-kulu-kirikkale",
+   "ano-acikuyu"
+  ],
+  [
+   "ano-acikuyu",
+   "ano-evren-sariyahsi"
+  ],
+  [
+   "ano-evren-sariyahsi",
+   "ano-agacoren"
+  ],
+  [
+   "ano-agacoren",
+   "ano-ortakoy"
+  ],
+  [
+   "ano-agacoren",
+   "ano-kirsehir"
+  ],
+  [
+   "ano-kirsehir",
+   "ano-ortakoy"
+  ],
+  [
+   "ano-ortakoy",
+   "ano-alayhan"
+  ],
+  [
+   "ano-alayhan",
+   "ano-derinkuyu"
+  ],
+  [
+   "ano-derinkuyu",
+   "ano-ciftlik"
+  ],
+  [
+   "ano-ciftlik",
+   "ano-nigde"
+  ]
+ ],
+ "sections": [
+  {
+   "id": "ano-ankara-nigde",
+   "name": "Ankara – Niğde",
+   "stations": [
+    "ano-ankara",
+    "ano-karagedik",
+    "ano-ahiboz",
+    "ano-emirler",
+    "ano-kulu-kirikkale",
+    "ano-acikuyu",
+    "ano-evren-sariyahsi",
+    "ano-agacoren",
+    "ano-kirsehir",
+    "ano-ortakoy",
+    "ano-alayhan",
+    "ano-derinkuyu",
+    "ano-ciftlik",
+    "ano-nigde"
+   ],
+   "prices": {
+    "ano-ankara": {
+     "ano-karagedik": [
+      90,
+      90,
+      100,
+      140,
+      140,
+      40
+     ],
+     "ano-ahiboz": [
+      100,
+      140,
+      140,
+      190,
+      220,
+      55
+     ],
+     "ano-emirler": [
+      190,
+      220,
+      250,
+      295,
+      365,
+      55
+     ],
+     "ano-kulu-kirikkale": [
+      220,
+      250,
+      295,
+      365,
+      450,
+      90
+     ],
+     "ano-acikuyu": [
+      315,
+      350,
+      415,
+      535,
+      670,
+      100
+     ],
+     "ano-evren-sariyahsi": [
+      410,
+      450,
+      535,
+      680,
+      840,
+      140
+     ],
+     "ano-agacoren": [
+      450,
+      510,
+      615,
+      765,
+      930,
+      165
+     ],
+     "ano-kirsehir": [
+      535,
+      595,
+      705,
+      890,
+      1085,
+      165
+     ],
+     "ano-ortakoy": [
+      510,
+      575,
+      680,
+      885,
+      1055,
+      165
+     ],
+     "ano-alayhan": [
+      615,
+      680,
+      830,
+      1030,
+      1250,
+      190
+     ],
+     "ano-derinkuyu": [
+      670,
+      765,
+      890,
+      1155,
+      1410,
+      220
+     ],
+     "ano-ciftlik": [
+      680,
+      795,
+      945,
+      1210,
+      1475,
+      250
+     ],
+     "ano-nigde": [
+      740,
+      840,
+      1010,
+      1300,
+      1560,
+      250
+     ]
+    },
+    "ano-karagedik": {
+     "ano-ankara": [
+      90,
+      90,
+      100,
+      140,
+      140,
+      40
+     ],
+     "ano-ahiboz": [
+      55,
+      55,
+      55,
+      90,
+      100,
+      40
+     ],
+     "ano-emirler": [
+      140,
+      140,
+      165,
+      220,
+      250,
+      55
+     ],
+     "ano-kulu-kirikkale": [
+      165,
+      190,
+      220,
+      265,
+      315,
+      55
+     ],
+     "ano-acikuyu": [
+      265,
+      295,
+      350,
+      450,
+      535,
+      90
+     ],
+     "ano-evren-sariyahsi": [
+      350,
+      410,
+      475,
+      575,
+      720,
+      100
+     ],
+     "ano-agacoren": [
+      410,
+      415,
+      535,
+      670,
+      795,
+      140
+     ],
+     "ano-kirsehir": [
+      475,
+      535,
+      635,
+      795,
+      965,
+      165
+     ],
+     "ano-ortakoy": [
+      450,
+      510,
+      615,
+      765,
+      930,
+      165
+     ],
+     "ano-alayhan": [
+      535,
+      615,
+      740,
+      930,
+      1150,
+      190
+     ],
+     "ano-derinkuyu": [
+      615,
+      680,
+      830,
+      1055,
+      1300,
+      220
+     ],
+     "ano-ciftlik": [
+      635,
+      720,
+      885,
+      1110,
+      1345,
+      220
+     ],
+     "ano-nigde": [
+      680,
+      765,
+      930,
+      1200,
+      1460,
+      220
+     ]
+    },
+    "ano-ahiboz": {
+     "ano-ankara": [
+      100,
+      140,
+      140,
+      190,
+      220,
+      55
+     ],
+     "ano-karagedik": [
+      55,
+      55,
+      55,
+      90,
+      100,
+      40
+     ],
+     "ano-emirler": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "ano-kulu-kirikkale": [
+      140,
+      165,
+      190,
+      250,
+      295,
+      55
+     ],
+     "ano-acikuyu": [
+      250,
+      265,
+      315,
+      410,
+      475,
+      90
+     ],
+     "ano-evren-sariyahsi": [
+      315,
+      365,
+      415,
+      570,
+      670,
+      100
+     ],
+     "ano-agacoren": [
+      365,
+      410,
+      475,
+      615,
+      740,
+      140
+     ],
+     "ano-kirsehir": [
+      445,
+      490,
+      595,
+      760,
+      930,
+      140
+     ],
+     "ano-ortakoy": [
+      415,
+      475,
+      575,
+      720,
+      885,
+      140
+     ],
+     "ano-alayhan": [
+      535,
+      575,
+      680,
+      890,
+      1085,
+      165
+     ],
+     "ano-derinkuyu": [
+      575,
+      670,
+      795,
+      1010,
+      1250,
+      190
+     ],
+     "ano-ciftlik": [
+      615,
+      680,
+      840,
+      1055,
+      1300,
+      220
+     ],
+     "ano-nigde": [
+      670,
+      740,
+      890,
+      1150,
+      1410,
+      220
+     ]
+    },
+    "ano-emirler": {
+     "ano-ankara": [
+      190,
+      220,
+      250,
+      295,
+      365,
+      55
+     ],
+     "ano-karagedik": [
+      140,
+      140,
+      165,
+      220,
+      250,
+      55
+     ],
+     "ano-ahiboz": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "ano-kulu-kirikkale": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "ano-acikuyu": [
+      190,
+      220,
+      265,
+      315,
+      410,
+      90
+     ],
+     "ano-evren-sariyahsi": [
+      295,
+      315,
+      365,
+      475,
+      575,
+      100
+     ],
+     "ano-agacoren": [
+      315,
+      365,
+      415,
+      535,
+      670,
+      100
+     ],
+     "ano-kirsehir": [
+      415,
+      445,
+      540,
+      680,
+      830,
+      140
+     ],
+     "ano-ortakoy": [
+      365,
+      415,
+      510,
+      670,
+      795,
+      140
+     ],
+     "ano-alayhan": [
+      475,
+      535,
+      635,
+      830,
+      985,
+      165
+     ],
+     "ano-derinkuyu": [
+      570,
+      615,
+      740,
+      930,
+      1150,
+      190
+     ],
+     "ano-ciftlik": [
+      575,
+      635,
+      765,
+      985,
+      1210,
+      190
+     ],
+     "ano-nigde": [
+      615,
+      680,
+      840,
+      1055,
+      1300,
+      220
+     ]
+    },
+    "ano-kulu-kirikkale": {
+     "ano-ankara": [
+      220,
+      250,
+      295,
+      365,
+      450,
+      90
+     ],
+     "ano-karagedik": [
+      165,
+      190,
+      220,
+      265,
+      315,
+      55
+     ],
+     "ano-ahiboz": [
+      140,
+      165,
+      190,
+      250,
+      295,
+      55
+     ],
+     "ano-emirler": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "ano-acikuyu": [
+      140,
+      140,
+      165,
+      220,
+      250,
+      55
+     ],
+     "ano-evren-sariyahsi": [
+      220,
+      250,
+      295,
+      350,
+      415,
+      90
+     ],
+     "ano-agacoren": [
+      250,
+      295,
+      350,
+      415,
+      510,
+      90
+     ],
+     "ano-kirsehir": [
+      345,
+      365,
+      445,
+      540,
+      670,
+      100
+     ],
+     "ano-ortakoy": [
+      315,
+      350,
+      415,
+      535,
+      635,
+      100
+     ],
+     "ano-alayhan": [
+      410,
+      450,
+      535,
+      680,
+      840,
+      140
+     ],
+     "ano-derinkuyu": [
+      475,
+      535,
+      635,
+      830,
+      985,
+      165
+     ],
+     "ano-ciftlik": [
+      510,
+      570,
+      680,
+      885,
+      1055,
+      165
+     ],
+     "ano-nigde": [
+      570,
+      615,
+      740,
+      945,
+      1150,
+      190
+     ]
+    },
+    "ano-acikuyu": {
+     "ano-ankara": [
+      315,
+      350,
+      415,
+      535,
+      670,
+      100
+     ],
+     "ano-karagedik": [
+      265,
+      295,
+      350,
+      450,
+      535,
+      90
+     ],
+     "ano-ahiboz": [
+      250,
+      265,
+      315,
+      410,
+      475,
+      90
+     ],
+     "ano-emirler": [
+      190,
+      220,
+      265,
+      315,
+      410,
+      90
+     ],
+     "ano-kulu-kirikkale": [
+      140,
+      140,
+      165,
+      220,
+      250,
+      55
+     ],
+     "ano-evren-sariyahsi": [
+      140,
+      165,
+      190,
+      250,
+      295,
+      55
+     ],
+     "ano-agacoren": [
+      190,
+      220,
+      250,
+      295,
+      365,
+      55
+     ],
+     "ano-kirsehir": [
+      265,
+      280,
+      345,
+      445,
+      540,
+      90
+     ],
+     "ano-ortakoy": [
+      250,
+      265,
+      315,
+      415,
+      510,
+      90
+     ],
+     "ano-alayhan": [
+      350,
+      365,
+      450,
+      575,
+      680,
+      100
+     ],
+     "ano-derinkuyu": [
+      410,
+      450,
+      570,
+      680,
+      840,
+      140
+     ],
+     "ano-ciftlik": [
+      450,
+      475,
+      575,
+      740,
+      890,
+      140
+     ],
+     "ano-nigde": [
+      475,
+      535,
+      635,
+      830,
+      1010,
+      165
+     ]
+    },
+    "ano-evren-sariyahsi": {
+     "ano-ankara": [
+      410,
+      450,
+      535,
+      680,
+      840,
+      140
+     ],
+     "ano-karagedik": [
+      350,
+      410,
+      475,
+      575,
+      720,
+      100
+     ],
+     "ano-ahiboz": [
+      315,
+      365,
+      415,
+      570,
+      670,
+      100
+     ],
+     "ano-emirler": [
+      295,
+      315,
+      365,
+      475,
+      575,
+      100
+     ],
+     "ano-kulu-kirikkale": [
+      220,
+      250,
+      295,
+      350,
+      415,
+      90
+     ],
+     "ano-acikuyu": [
+      140,
+      165,
+      190,
+      250,
+      295,
+      55
+     ],
+     "ano-agacoren": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      40
+     ],
+     "ano-kirsehir": [
+      165,
+      180,
+      220,
+      225,
+      295,
+      55
+     ],
+     "ano-ortakoy": [
+      140,
+      140,
+      165,
+      220,
+      265,
+      55
+     ],
+     "ano-alayhan": [
+      220,
+      250,
+      295,
+      365,
+      450,
+      90
+     ],
+     "ano-derinkuyu": [
+      295,
+      315,
+      410,
+      510,
+      615,
+      100
+     ],
+     "ano-ciftlik": [
+      315,
+      365,
+      415,
+      570,
+      670,
+      100
+     ],
+     "ano-nigde": [
+      365,
+      415,
+      510,
+      635,
+      765,
+      140
+     ]
+    },
+    "ano-agacoren": {
+     "ano-ankara": [
+      450,
+      510,
+      615,
+      765,
+      930,
+      165
+     ],
+     "ano-karagedik": [
+      410,
+      415,
+      535,
+      670,
+      795,
+      140
+     ],
+     "ano-ahiboz": [
+      365,
+      410,
+      475,
+      615,
+      740,
+      140
+     ],
+     "ano-emirler": [
+      315,
+      365,
+      415,
+      535,
+      670,
+      100
+     ],
+     "ano-kulu-kirikkale": [
+      250,
+      295,
+      350,
+      415,
+      510,
+      90
+     ],
+     "ano-acikuyu": [
+      190,
+      220,
+      250,
+      295,
+      365,
+      55
+     ],
+     "ano-evren-sariyahsi": [
+      55,
+      90,
+      90,
+      100,
+      140,
+      40
+     ],
+     "ano-kirsehir": [
+      125,
+      125,
+      165,
+      180,
+      225,
+      40
+     ],
+     "ano-ortakoy": [
+      90,
+      100,
+      100,
+      140,
+      190,
+      40
+     ],
+     "ano-alayhan": [
+      190,
+      220,
+      250,
+      315,
+      365,
+      55
+     ],
+     "ano-derinkuyu": [
+      265,
+      295,
+      350,
+      415,
+      535,
+      90
+     ],
+     "ano-ciftlik": [
+      295,
+      315,
+      365,
+      475,
+      575,
+      100
+     ],
+     "ano-nigde": [
+      315,
+      365,
+      450,
+      570,
+      680,
+      100
+     ]
+    },
+    "ano-kirsehir": {
+     "ano-ankara": [
+      535,
+      595,
+      705,
+      890,
+      1085,
+      165
+     ],
+     "ano-karagedik": [
+      475,
+      535,
+      635,
+      795,
+      965,
+      165
+     ],
+     "ano-ahiboz": [
+      445,
+      490,
+      595,
+      760,
+      930,
+      140
+     ],
+     "ano-emirler": [
+      415,
+      445,
+      540,
+      680,
+      830,
+      140
+     ],
+     "ano-kulu-kirikkale": [
+      345,
+      365,
+      445,
+      540,
+      670,
+      100
+     ],
+     "ano-acikuyu": [
+      265,
+      280,
+      345,
+      445,
+      540,
+      90
+     ],
+     "ano-evren-sariyahsi": [
+      165,
+      180,
+      220,
+      225,
+      295,
+      55
+     ],
+     "ano-agacoren": [
+      125,
+      125,
+      165,
+      180,
+      225,
+      40
+     ],
+     "ano-ortakoy": [
+      180,
+      220,
+      225,
+      280,
+      350,
+      55
+     ],
+     "ano-alayhan": [
+      265,
+      315,
+      365,
+      445,
+      540,
+      90
+     ],
+     "ano-derinkuyu": [
+      345,
+      390,
+      445,
+      540,
+      705,
+      100
+     ],
+     "ano-ciftlik": [
+      365,
+      415,
+      490,
+      595,
+      760,
+      100
+     ],
+     "ano-nigde": [
+      415,
+      475,
+      540,
+      680,
+      860,
+      140
+     ]
+    },
+    "ano-ortakoy": {
+     "ano-ankara": [
+      510,
+      575,
+      680,
+      885,
+      1055,
+      165
+     ],
+     "ano-karagedik": [
+      450,
+      510,
+      615,
+      765,
+      930,
+      165
+     ],
+     "ano-ahiboz": [
+      415,
+      475,
+      575,
+      720,
+      885,
+      140
+     ],
+     "ano-emirler": [
+      365,
+      415,
+      510,
+      670,
+      795,
+      140
+     ],
+     "ano-kulu-kirikkale": [
+      315,
+      350,
+      415,
+      535,
+      635,
+      100
+     ],
+     "ano-acikuyu": [
+      250,
+      265,
+      315,
+      415,
+      510,
+      90
+     ],
+     "ano-evren-sariyahsi": [
+      140,
+      140,
+      165,
+      220,
+      265,
+      55
+     ],
+     "ano-agacoren": [
+      90,
+      100,
+      100,
+      140,
+      190,
+      40
+     ],
+     "ano-kirsehir": [
+      180,
+      220,
+      225,
+      280,
+      350,
+      55
+     ],
+     "ano-alayhan": [
+      140,
+      140,
+      165,
+      220,
+      250,
+      55
+     ],
+     "ano-derinkuyu": [
+      190,
+      220,
+      265,
+      315,
+      410,
+      90
+     ],
+     "ano-ciftlik": [
+      220,
+      250,
+      295,
+      365,
+      450,
+      90
+     ],
+     "ano-nigde": [
+      265,
+      295,
+      350,
+      450,
+      570,
+      90
+     ]
+    },
+    "ano-alayhan": {
+     "ano-ankara": [
+      615,
+      680,
+      830,
+      1030,
+      1250,
+      190
+     ],
+     "ano-karagedik": [
+      535,
+      615,
+      740,
+      930,
+      1150,
+      190
+     ],
+     "ano-ahiboz": [
+      535,
+      575,
+      680,
+      890,
+      1085,
+      165
+     ],
+     "ano-emirler": [
+      475,
+      535,
+      635,
+      830,
+      985,
+      165
+     ],
+     "ano-kulu-kirikkale": [
+      410,
+      450,
+      535,
+      680,
+      840,
+      140
+     ],
+     "ano-acikuyu": [
+      350,
+      365,
+      450,
+      575,
+      680,
+      100
+     ],
+     "ano-evren-sariyahsi": [
+      220,
+      250,
+      295,
+      365,
+      450,
+      90
+     ],
+     "ano-agacoren": [
+      190,
+      220,
+      250,
+      315,
+      365,
+      55
+     ],
+     "ano-kirsehir": [
+      265,
+      315,
+      365,
+      445,
+      540,
+      90
+     ],
+     "ano-ortakoy": [
+      140,
+      140,
+      165,
+      220,
+      250,
+      55
+     ],
+     "ano-derinkuyu": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "ano-ciftlik": [
+      140,
+      140,
+      165,
+      220,
+      265,
+      55
+     ],
+     "ano-nigde": [
+      190,
+      190,
+      250,
+      295,
+      350,
+      55
+     ]
+    },
+    "ano-derinkuyu": {
+     "ano-ankara": [
+      670,
+      765,
+      890,
+      1155,
+      1410,
+      220
+     ],
+     "ano-karagedik": [
+      615,
+      680,
+      830,
+      1055,
+      1300,
+      220
+     ],
+     "ano-ahiboz": [
+      575,
+      670,
+      795,
+      1010,
+      1250,
+      190
+     ],
+     "ano-emirler": [
+      570,
+      615,
+      740,
+      930,
+      1150,
+      190
+     ],
+     "ano-kulu-kirikkale": [
+      475,
+      535,
+      635,
+      830,
+      985,
+      165
+     ],
+     "ano-acikuyu": [
+      410,
+      450,
+      570,
+      680,
+      840,
+      140
+     ],
+     "ano-evren-sariyahsi": [
+      295,
+      315,
+      410,
+      510,
+      615,
+      100
+     ],
+     "ano-agacoren": [
+      265,
+      295,
+      350,
+      415,
+      535,
+      90
+     ],
+     "ano-kirsehir": [
+      345,
+      390,
+      445,
+      540,
+      705,
+      100
+     ],
+     "ano-ortakoy": [
+      190,
+      220,
+      265,
+      315,
+      410,
+      90
+     ],
+     "ano-alayhan": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "ano-ciftlik": [
+      55,
+      55,
+      55,
+      90,
+      100,
+      40
+     ],
+     "ano-nigde": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ]
+    },
+    "ano-ciftlik": {
+     "ano-ankara": [
+      680,
+      795,
+      945,
+      1210,
+      1475,
+      250
+     ],
+     "ano-karagedik": [
+      635,
+      720,
+      885,
+      1110,
+      1345,
+      220
+     ],
+     "ano-ahiboz": [
+      615,
+      680,
+      840,
+      1055,
+      1300,
+      220
+     ],
+     "ano-emirler": [
+      575,
+      635,
+      765,
+      985,
+      1210,
+      190
+     ],
+     "ano-kulu-kirikkale": [
+      510,
+      570,
+      680,
+      885,
+      1055,
+      165
+     ],
+     "ano-acikuyu": [
+      450,
+      475,
+      575,
+      740,
+      890,
+      140
+     ],
+     "ano-evren-sariyahsi": [
+      315,
+      365,
+      415,
+      570,
+      670,
+      100
+     ],
+     "ano-agacoren": [
+      295,
+      315,
+      365,
+      475,
+      575,
+      100
+     ],
+     "ano-kirsehir": [
+      365,
+      415,
+      490,
+      595,
+      760,
+      100
+     ],
+     "ano-ortakoy": [
+      220,
+      250,
+      295,
+      365,
+      450,
+      90
+     ],
+     "ano-alayhan": [
+      140,
+      140,
+      165,
+      220,
+      265,
+      55
+     ],
+     "ano-derinkuyu": [
+      55,
+      55,
+      55,
+      90,
+      100,
+      40
+     ],
+     "ano-nigde": [
+      90,
+      90,
+      90,
+      100,
+      140,
+      40
+     ]
+    },
+    "ano-nigde": {
+     "ano-ankara": [
+      740,
+      840,
+      1010,
+      1300,
+      1560,
+      250
+     ],
+     "ano-karagedik": [
+      680,
+      765,
+      930,
+      1200,
+      1460,
+      220
+     ],
+     "ano-ahiboz": [
+      670,
+      740,
+      890,
+      1150,
+      1410,
+      220
+     ],
+     "ano-emirler": [
+      615,
+      680,
+      840,
+      1055,
+      1300,
+      220
+     ],
+     "ano-kulu-kirikkale": [
+      570,
+      615,
+      740,
+      945,
+      1150,
+      190
+     ],
+     "ano-acikuyu": [
+      475,
+      535,
+      635,
+      830,
+      1010,
+      165
+     ],
+     "ano-evren-sariyahsi": [
+      365,
+      415,
+      510,
+      635,
+      765,
+      140
+     ],
+     "ano-agacoren": [
+      315,
+      365,
+      450,
+      570,
+      680,
+      100
+     ],
+     "ano-kirsehir": [
+      415,
+      475,
+      540,
+      680,
+      860,
+      140
+     ],
+     "ano-ortakoy": [
+      265,
+      295,
+      350,
+      450,
+      570,
+      90
+     ],
+     "ano-alayhan": [
+      190,
+      190,
+      250,
+      295,
+      350,
+      55
+     ],
+     "ano-derinkuyu": [
+      100,
+      100,
+      140,
+      165,
+      190,
+      55
+     ],
+     "ano-ciftlik": [
+      90,
+      90,
+      90,
+      100,
+      140,
+      40
+     ]
+    }
+   }
+  }
+ ],
+ "connections": [
+  {
+   "station": "ano-ankara",
+   "to": "O-20 Ankara Çevre Yolu (Gölbaşı / Hacılar kavşağı) → O-4 Anadolu Otoyolu (Akıncı ucu, çevre yolu üzerinden)",
+   "note": "Otoyol, Ankara çevre yolunun ~2 km güneyinde Gölbaşı-Hacılar'dan başlar; İstanbul yönü (O-4 Çamlıca–Akıncı) Ankara çevre yolu üzerinden Akıncı'ya bağlanır."
+  },
+  {
+   "station": "ano-nigde",
+   "to": "NMA Gölcük Alın (nma-golcuk) — Niğde–Pozantı–Tarsus (O-21) devamı",
+   "note": "Adana/Mersin yönüne devam eden araç Gölcük Alın'da Çukurova Otoyolları (NMA) tarifesine girer."
+  },
+  {
+   "station": "ano-kirsehir",
+   "to": "Kırşehir bağlantı yolu → Kırşehir / Kayseri",
+   "note": "Ana hattan Ağaçören ile Ortaköy arasında ayrılan bağlantı yolu üzerindeki gişe."
+  }
+ ],
+ "verification": [
+  "Kaynak PDF 17-Ankara-Nigde.pdf scripts/kgm/parsers/ANO.mjs ile x/y konumlarına göre ayrıştırıldı (her sayı başlık sütununa x-merkeziyle, satıra y ile eşlendi; bilinmeyen etiket/hücre olursa hata). 14 istasyon, 182 yönlü hücre × 6 sınıf (= 14×13, köşegen hariç).",
+  "Tam matris (satır=giriş, sütun=çıkış) simetri kontrolü: 0 asimetrik hücre (tablo iki yönde aynı).",
+  "Ham döküm kontrolü ano-ankara → ano-nigde = [740, 840, 1010, 1300, 1560, 250] (Ankara Alın satırı, Niğde Alın sütunu (y=730..693)) ✓",
+  "Ham döküm kontrolü ano-nigde → ano-ankara = [740, 840, 1010, 1300, 1560, 250] (Niğde Alın satırı, Ankara Alın sütunu (y=147..109)) ✓",
+  "Ham döküm kontrolü ano-kirsehir → ano-ortakoy = [180, 220, 225, 280, 350, 55] (Kırşehir satırı, Ortaköy sütunu (y=371..334)) ✓",
+  "Ham döküm kontrolü ano-agacoren → ano-kirsehir = [125, 125, 165, 180, 225, 40] (Ağaçören satırı, Kırşehir sütunu (y=416..379)) ✓",
+  "Ham döküm kontrolü ano-karagedik → ano-ahiboz = [55, 55, 55, 90, 100, 40] (Karagedik satırı, Ahiboz sütunu) ✓",
+  "Sınıf sırası kontrolü (1≤2≤3≤4≤5, motosiklet≤1): 0 ihlal.",
+  "Mesafeyle artış kontrolü (güzergah zincirleri boyunca 390 üçlü A–B–C, fiyat(A→C) ≥ fiyat(A→B) ve ≥ fiyat(B→C)): 0 ihlal.",
+  "Tam matris 14×14; her satır 14 hücre (köşegen dahil), 84 sınıf satırı; istasyon etiketi her bloğun 3. ve 4. sınıf satırı arasında (parser assert). Köşegen = o istasyondan en uzak mesafe ücreti (ör. Ankara→Ankara 740 = Ankara→Niğde 740).",
+  "Kırşehir: Ağaçören→Kırşehir 125, Kırşehir→Ortaköy 180, Ağaçören→Ortaköy 90, Kırşehir→Evren 165 > Ağaçören→Evren 55 → Kırşehir bağlantı yolu ana hattan Ağaçören'in güneyinde (Ağaçören–Ortaköy arası) ayrılan bir kol; roads'ta Ağaçören–Kırşehir–Ortaköy üçgeni ile modellendi.",
+  "Koordinatlar: yalnızca Evren-Sarıyahşi (39.0104, 33.7915) bir harita kaynağından (orta güven). Diğer tüm ANO istasyonları kavşak adlarına ve fiyat oranlarına göre tahmini (low) — Karagedik/Ahiboz/Emirler/Kulu-Kırıkkale/Acıkuyu konumları özellikle belirsiz."
+ ]
+}

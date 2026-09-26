@@ -1,0 +1,2204 @@
+{
+  "code": "O-5",
+  "name": "Gebze-Orhangazi-İzmir (İzmit Körfez Geçişi ve Bağlantı Yolları Dahil) Otoyolu",
+  "shortName": "Gebze-İzmir Otoyolu",
+  "operator": "Otoyol Yatırım ve İşletme A.Ş.",
+  "source": "12-Gebze-Orhangazi-Izmir.pdf",
+  "validFrom": "2026-01-01",
+  "rules": [
+    "Ücretler 01/01/2026 saat 00:00 'dan itibaren geçerlidir.",
+    "Ücretlere KDV dahildir.",
+    "İstanbul - İzmir yönündeki seyahatlerde Osmangazi köprü gişesinde sadece köprü ücreti, sonrasında çıkılan otoyol çıkış gişesinde ise kat edilen otoyol kısmına ait otoyol ücreti tahsil edilir.",
+    "İzmir - İstanbul yönündeki seyahatlerde ise Osmangazi köprü gişesinde hem köprü ücreti, hem de giriş noktasına göre hesaplanan otoyol kısmına ait ücret birlikte tahsil edilir.",
+    "Aynı istasyondan giriş-çıkış yapılması durumu U dönüşü olarak değerlendirilir ve çıkış istasyonuna göre en uzak mesafe ücreti uygulanır.",
+    "Giriş bilgisi bulunamaması halinde; çıkış istasyonuna göre en uzak mesafe ücreti uygulanır.",
+    "PDF iki ayrı kapalı sistem tablosu içerir: GEBZE - BURSA ARASI (1. ve 2. KESİM) ve BURSA - İZMİR ARASI (3. ve 4. KESİM). Bursa Kuzey (Ovaakça) ile Bursa Batı arası ücretsiz Bursa Çevre Yolu'dur; tam İstanbul-İzmir yolculuğu = köprü + 1. tablo (… → Bursa Kuzey) + 2. tablo (Bursa Batı → …).",
+    "Bu dosyada Osmangazi Köprüsü ücreti (bridges.json 'osmangazi-koprusu') bölüm fiyatlarından ÇIKARILMIŞTIR. PDF'deki 'Osmangazi Köprüsü (İzmir Yönü)' (giriş satırı) ve 'Osmangazi Köprüsü (İstanbul Yönü)' (çıkış sütunu) sahte istasyonları tek bir 'o5-osmangazi' istasyonunda birleştirildi: o5-osmangazi→X = İzmir Yönü satırı (köprü sütunu hariç); X→o5-osmangazi = İstanbul Yönü sütunu − köprü ücreti.",
+    "Karacabey - Mustafakemalpaşa iki ayrı gişe olarak tarifelenmiştir. KMP-1 yalnız Bursa yönü hareketlerinde normal ücretlidir (Bursa Batı/Teknosab'dan çıkış ve bunlara giriş); KMP-1'den İzmir yönüne giriş veya İzmir yönünden KMP-1'de çıkış 'en uzak mesafe' ücretiyle tarifelenmiştir. KMP-2 yalnız İzmir yönüne giriş için normal ücretlidir; KMP-2'de yapılan tüm çıkışlar (her girişten) ve KMP-2'den Bursa yönüne girişler en uzak mesafe ücretidir (1. sınıf 945 / 1155 / 1055 TL). Bu hücreler PDF'deki gibi korunmuştur; rota hesabında bu hareketler olağan dışı kabul edilmelidir.",
+    "U-dönüşü (köşegen) ücretleri 1. sınıf, köprü hariç: Osmangazi Köprüsü (güney gişe) 315, Altınova 295, Kılıç 265, Orhangazi 220, Gemlik 190, Bursa Serbest Bölge 220, Bursa Kuzey (Ovaakça) 315, Bursa Batı 1155, Teknosab 1055, Karacabey - Mustafakemalpaşa 1 945, Karacabey - Mustafakemalpaşa 2 945, Susurluk 840, Balıkesir Kuzey 740, Balıkesir Batı 635, Savaştepe 635, Soma 680, Kırkağaç 765, Akhisar 840, Saruhanlı 890, Turgutlu 1030, İzmir (Kemalpaşa) 1155 TL (Osmangazi için PDF değeri köprü dahil 1.310 TL)."
+  ],
+  "stations": [
+    {
+      "id": "o5-osmangazi",
+      "name": "Osmangazi Köprüsü (güney gişe)",
+      "pdfName": "Osmangazi Köprüsü (İzmir Yönü) / (İstanbul Yönü)",
+      "lat": 40.7215,
+      "lng": 29.5125,
+      "coord": "low"
+    },
+    {
+      "id": "o5-altinova",
+      "name": "Altınova",
+      "pdfName": "Altınova",
+      "lat": 40.6885,
+      "lng": 29.496,
+      "coord": "low"
+    },
+    {
+      "id": "o5-kilic",
+      "name": "Kılıç",
+      "pdfName": "Kılıç",
+      "lat": 40.59,
+      "lng": 29.4,
+      "coord": "low"
+    },
+    {
+      "id": "o5-orhangazi",
+      "name": "Orhangazi",
+      "pdfName": "Orhangazi",
+      "lat": 40.492,
+      "lng": 29.288,
+      "coord": "low"
+    },
+    {
+      "id": "o5-gemlik",
+      "name": "Gemlik",
+      "pdfName": "Gemlik",
+      "lat": 40.412,
+      "lng": 29.175,
+      "coord": "low"
+    },
+    {
+      "id": "o5-bursa-serbest-bolge",
+      "name": "Bursa Serbest Bölge",
+      "pdfName": "Bursa Serbest Bölge",
+      "lat": 40.372,
+      "lng": 29.135,
+      "coord": "low"
+    },
+    {
+      "id": "o5-bursa-kuzey",
+      "name": "Bursa Kuzey (Ovaakça)",
+      "pdfName": "Bursa Kuzey",
+      "lat": 40.287,
+      "lng": 29.045,
+      "coord": "low"
+    },
+    {
+      "id": "o5-bursa-bati",
+      "name": "Bursa Batı",
+      "pdfName": "Bursa Batı",
+      "lat": 40.225,
+      "lng": 28.835,
+      "coord": "low"
+    },
+    {
+      "id": "o5-teknosab",
+      "name": "Teknosab",
+      "pdfName": "Teknosab",
+      "lat": 40.208,
+      "lng": 28.73,
+      "coord": "low"
+    },
+    {
+      "id": "o5-karacabey-mkp-1",
+      "name": "Karacabey - Mustafakemalpaşa 1",
+      "pdfName": "Karacabey - Mustafakemalpaşa - 1",
+      "lat": 40.165,
+      "lng": 28.405,
+      "coord": "low"
+    },
+    {
+      "id": "o5-karacabey-mkp-2",
+      "name": "Karacabey - Mustafakemalpaşa 2",
+      "pdfName": "Karacabey - Mustafakemalpaşa - 2",
+      "lat": 40.16,
+      "lng": 28.395,
+      "coord": "low"
+    },
+    {
+      "id": "o5-susurluk",
+      "name": "Susurluk",
+      "pdfName": "Susurluk",
+      "lat": 39.933,
+      "lng": 28.18,
+      "coord": "low"
+    },
+    {
+      "id": "o5-balikesir-kuzey",
+      "name": "Balıkesir Kuzey",
+      "pdfName": "Balıkesir Kuzey",
+      "lat": 39.705,
+      "lng": 27.925,
+      "coord": "low"
+    },
+    {
+      "id": "o5-balikesir-bati",
+      "name": "Balıkesir Batı",
+      "pdfName": "Balıkesir Batı",
+      "lat": 39.625,
+      "lng": 27.8,
+      "coord": "low"
+    },
+    {
+      "id": "o5-savastepe",
+      "name": "Savaştepe",
+      "pdfName": "Savaştepe",
+      "lat": 39.385,
+      "lng": 27.65,
+      "coord": "low"
+    },
+    {
+      "id": "o5-soma",
+      "name": "Soma",
+      "pdfName": "Soma",
+      "lat": 39.2,
+      "lng": 27.575,
+      "coord": "low"
+    },
+    {
+      "id": "o5-kirkagac",
+      "name": "Kırkağaç",
+      "pdfName": "Kırkağaç",
+      "lat": 39.1,
+      "lng": 27.655,
+      "coord": "low"
+    },
+    {
+      "id": "o5-akhisar",
+      "name": "Akhisar",
+      "pdfName": "Akhisar",
+      "lat": 38.94,
+      "lng": 27.79,
+      "coord": "low"
+    },
+    {
+      "id": "o5-saruhanli",
+      "name": "Saruhanlı",
+      "pdfName": "Saruhanlı",
+      "lat": 38.74,
+      "lng": 27.57,
+      "coord": "low"
+    },
+    {
+      "id": "o5-turgutlu",
+      "name": "Turgutlu",
+      "pdfName": "Turgutlu",
+      "lat": 38.52,
+      "lng": 27.68,
+      "coord": "low"
+    },
+    {
+      "id": "o5-izmir",
+      "name": "İzmir (Kemalpaşa)",
+      "pdfName": "İzmir",
+      "lat": 38.435,
+      "lng": 27.265,
+      "coord": "low"
+    }
+  ],
+  "roads": [
+    [
+      "o5-osmangazi",
+      "o5-altinova"
+    ],
+    [
+      "o5-altinova",
+      "o5-kilic"
+    ],
+    [
+      "o5-kilic",
+      "o5-orhangazi"
+    ],
+    [
+      "o5-orhangazi",
+      "o5-gemlik"
+    ],
+    [
+      "o5-gemlik",
+      "o5-bursa-serbest-bolge"
+    ],
+    [
+      "o5-bursa-serbest-bolge",
+      "o5-bursa-kuzey"
+    ],
+    [
+      "o5-bursa-kuzey",
+      "o5-bursa-bati"
+    ],
+    [
+      "o5-bursa-bati",
+      "o5-teknosab"
+    ],
+    [
+      "o5-teknosab",
+      "o5-karacabey-mkp-1"
+    ],
+    [
+      "o5-karacabey-mkp-1",
+      "o5-karacabey-mkp-2"
+    ],
+    [
+      "o5-karacabey-mkp-2",
+      "o5-susurluk"
+    ],
+    [
+      "o5-susurluk",
+      "o5-balikesir-kuzey"
+    ],
+    [
+      "o5-balikesir-kuzey",
+      "o5-balikesir-bati"
+    ],
+    [
+      "o5-balikesir-bati",
+      "o5-savastepe"
+    ],
+    [
+      "o5-savastepe",
+      "o5-soma"
+    ],
+    [
+      "o5-soma",
+      "o5-kirkagac"
+    ],
+    [
+      "o5-kirkagac",
+      "o5-akhisar"
+    ],
+    [
+      "o5-akhisar",
+      "o5-saruhanli"
+    ],
+    [
+      "o5-saruhanli",
+      "o5-turgutlu"
+    ],
+    [
+      "o5-turgutlu",
+      "o5-izmir"
+    ]
+  ],
+  "sections": [
+    {
+      "id": "o5-gebze-bursa",
+      "name": "Gebze - Bursa (1. ve 2. kesim)",
+      "stations": [
+        "o5-osmangazi",
+        "o5-altinova",
+        "o5-kilic",
+        "o5-orhangazi",
+        "o5-gemlik",
+        "o5-bursa-serbest-bolge",
+        "o5-bursa-kuzey"
+      ],
+      "prices": {
+        "o5-osmangazi": {
+          "o5-altinova": [
+            55,
+            90,
+            90,
+            100,
+            140,
+            55
+          ],
+          "o5-kilic": [
+            90,
+            140,
+            165,
+            220,
+            265,
+            90
+          ],
+          "o5-orhangazi": [
+            140,
+            250,
+            265,
+            350,
+            415,
+            100
+          ],
+          "o5-gemlik": [
+            190,
+            295,
+            350,
+            450,
+            575,
+            140
+          ],
+          "o5-bursa-serbest-bolge": [
+            220,
+            350,
+            410,
+            535,
+            670,
+            165
+          ],
+          "o5-bursa-kuzey": [
+            315,
+            535,
+            615,
+            830,
+            1030,
+            250
+          ]
+        },
+        "o5-altinova": {
+          "o5-osmangazi": [
+            55,
+            90,
+            90,
+            100,
+            140,
+            55
+          ],
+          "o5-kilic": [
+            55,
+            100,
+            100,
+            165,
+            190,
+            55
+          ],
+          "o5-orhangazi": [
+            140,
+            190,
+            220,
+            295,
+            350,
+            90
+          ],
+          "o5-gemlik": [
+            165,
+            265,
+            295,
+            410,
+            510,
+            100
+          ],
+          "o5-bursa-serbest-bolge": [
+            190,
+            295,
+            350,
+            475,
+            575,
+            140
+          ],
+          "o5-bursa-kuzey": [
+            295,
+            475,
+            570,
+            740,
+            945,
+            220
+          ]
+        },
+        "o5-kilic": {
+          "o5-osmangazi": [
+            90,
+            140,
+            165,
+            220,
+            265,
+            90
+          ],
+          "o5-altinova": [
+            55,
+            100,
+            100,
+            165,
+            190,
+            55
+          ],
+          "o5-orhangazi": [
+            90,
+            100,
+            140,
+            165,
+            220,
+            55
+          ],
+          "o5-gemlik": [
+            140,
+            190,
+            220,
+            295,
+            350,
+            90
+          ],
+          "o5-bursa-serbest-bolge": [
+            165,
+            250,
+            265,
+            350,
+            450,
+            100
+          ],
+          "o5-bursa-kuzey": [
+            265,
+            410,
+            475,
+            635,
+            795,
+            190
+          ]
+        },
+        "o5-orhangazi": {
+          "o5-osmangazi": [
+            140,
+            250,
+            265,
+            350,
+            415,
+            100
+          ],
+          "o5-altinova": [
+            140,
+            190,
+            220,
+            295,
+            350,
+            90
+          ],
+          "o5-kilic": [
+            90,
+            100,
+            140,
+            165,
+            220,
+            55
+          ],
+          "o5-gemlik": [
+            55,
+            100,
+            100,
+            140,
+            190,
+            55
+          ],
+          "o5-bursa-serbest-bolge": [
+            100,
+            140,
+            165,
+            220,
+            265,
+            90
+          ],
+          "o5-bursa-kuzey": [
+            220,
+            315,
+            365,
+            510,
+            615,
+            165
+          ]
+        },
+        "o5-gemlik": {
+          "o5-osmangazi": [
+            190,
+            295,
+            350,
+            450,
+            575,
+            140
+          ],
+          "o5-altinova": [
+            165,
+            265,
+            295,
+            410,
+            510,
+            100
+          ],
+          "o5-kilic": [
+            140,
+            190,
+            220,
+            295,
+            350,
+            90
+          ],
+          "o5-orhangazi": [
+            55,
+            100,
+            100,
+            140,
+            190,
+            55
+          ],
+          "o5-bursa-serbest-bolge": [
+            55,
+            90,
+            90,
+            100,
+            140,
+            40
+          ],
+          "o5-bursa-kuzey": [
+            165,
+            250,
+            295,
+            410,
+            475,
+            100
+          ]
+        },
+        "o5-bursa-serbest-bolge": {
+          "o5-osmangazi": [
+            220,
+            350,
+            410,
+            535,
+            670,
+            165
+          ],
+          "o5-altinova": [
+            190,
+            295,
+            350,
+            475,
+            575,
+            140
+          ],
+          "o5-kilic": [
+            165,
+            250,
+            265,
+            350,
+            450,
+            100
+          ],
+          "o5-orhangazi": [
+            100,
+            140,
+            165,
+            220,
+            265,
+            90
+          ],
+          "o5-gemlik": [
+            55,
+            90,
+            90,
+            100,
+            140,
+            40
+          ],
+          "o5-bursa-kuzey": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ]
+        },
+        "o5-bursa-kuzey": {
+          "o5-osmangazi": [
+            315,
+            535,
+            615,
+            830,
+            1030,
+            250
+          ],
+          "o5-altinova": [
+            295,
+            475,
+            570,
+            740,
+            945,
+            220
+          ],
+          "o5-kilic": [
+            265,
+            410,
+            475,
+            635,
+            795,
+            190
+          ],
+          "o5-orhangazi": [
+            220,
+            315,
+            365,
+            510,
+            615,
+            165
+          ],
+          "o5-gemlik": [
+            165,
+            250,
+            295,
+            410,
+            475,
+            100
+          ],
+          "o5-bursa-serbest-bolge": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "id": "o5-bursa-izmir",
+      "name": "Bursa - İzmir (3. ve 4. kesim)",
+      "stations": [
+        "o5-bursa-bati",
+        "o5-teknosab",
+        "o5-karacabey-mkp-1",
+        "o5-karacabey-mkp-2",
+        "o5-susurluk",
+        "o5-balikesir-kuzey",
+        "o5-balikesir-bati",
+        "o5-savastepe",
+        "o5-soma",
+        "o5-kirkagac",
+        "o5-akhisar",
+        "o5-saruhanli",
+        "o5-turgutlu",
+        "o5-izmir"
+      ],
+      "prices": {
+        "o5-bursa-bati": {
+          "o5-teknosab": [
+            100,
+            165,
+            190,
+            265,
+            315,
+            90
+          ],
+          "o5-karacabey-mkp-1": [
+            220,
+            315,
+            365,
+            510,
+            635,
+            165
+          ],
+          "o5-karacabey-mkp-2": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-susurluk": [
+            315,
+            510,
+            615,
+            795,
+            1010,
+            250
+          ],
+          "o5-balikesir-kuzey": [
+            415,
+            670,
+            795,
+            1055,
+            1320,
+            295
+          ],
+          "o5-balikesir-bati": [
+            535,
+            840,
+            985,
+            1320,
+            1680,
+            365
+          ],
+          "o5-savastepe": [
+            635,
+            1010,
+            1210,
+            1620,
+            2010,
+            450
+          ],
+          "o5-soma": [
+            680,
+            1110,
+            1300,
+            1745,
+            2195,
+            475
+          ],
+          "o5-kirkagac": [
+            765,
+            1250,
+            1460,
+            1925,
+            2430,
+            535
+          ],
+          "o5-akhisar": [
+            840,
+            1345,
+            1620,
+            2140,
+            2680,
+            615
+          ],
+          "o5-saruhanli": [
+            890,
+            1460,
+            1745,
+            2305,
+            2900,
+            635
+          ],
+          "o5-turgutlu": [
+            1030,
+            1640,
+            1950,
+            2585,
+            3265,
+            720
+          ],
+          "o5-izmir": [
+            1155,
+            1845,
+            2195,
+            2900,
+            3640,
+            830
+          ]
+        },
+        "o5-teknosab": {
+          "o5-bursa-bati": [
+            100,
+            165,
+            190,
+            265,
+            315,
+            90
+          ],
+          "o5-karacabey-mkp-1": [
+            140,
+            190,
+            220,
+            295,
+            365,
+            90
+          ],
+          "o5-karacabey-mkp-2": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-susurluk": [
+            250,
+            365,
+            450,
+            575,
+            740,
+            165
+          ],
+          "o5-balikesir-kuzey": [
+            350,
+            535,
+            635,
+            840,
+            1055,
+            250
+          ],
+          "o5-balikesir-bati": [
+            450,
+            680,
+            830,
+            1085,
+            1375,
+            315
+          ],
+          "o5-savastepe": [
+            570,
+            885,
+            1055,
+            1375,
+            1745,
+            410
+          ],
+          "o5-soma": [
+            615,
+            985,
+            1150,
+            1505,
+            1925,
+            415
+          ],
+          "o5-kirkagac": [
+            680,
+            1085,
+            1300,
+            1725,
+            2165,
+            475
+          ],
+          "o5-akhisar": [
+            765,
+            1210,
+            1460,
+            1925,
+            2430,
+            535
+          ],
+          "o5-saruhanli": [
+            830,
+            1320,
+            1560,
+            2095,
+            2615,
+            575
+          ],
+          "o5-turgutlu": [
+            945,
+            1505,
+            1790,
+            2365,
+            3005,
+            670
+          ],
+          "o5-izmir": [
+            1055,
+            1690,
+            2040,
+            2680,
+            3375,
+            740
+          ]
+        },
+        "o5-karacabey-mkp-1": {
+          "o5-bursa-bati": [
+            220,
+            315,
+            365,
+            510,
+            635,
+            165
+          ],
+          "o5-teknosab": [
+            140,
+            190,
+            220,
+            295,
+            365,
+            90
+          ],
+          "o5-karacabey-mkp-2": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-susurluk": [
+            840,
+            1345,
+            1620,
+            2140,
+            2680,
+            615
+          ],
+          "o5-balikesir-kuzey": [
+            740,
+            1200,
+            1425,
+            1875,
+            2365,
+            535
+          ],
+          "o5-balikesir-bati": [
+            635,
+            1030,
+            1210,
+            1620,
+            2040,
+            450
+          ],
+          "o5-savastepe": [
+            635,
+            1010,
+            1210,
+            1620,
+            2010,
+            450
+          ],
+          "o5-soma": [
+            680,
+            1110,
+            1300,
+            1745,
+            2195,
+            475
+          ],
+          "o5-kirkagac": [
+            765,
+            1250,
+            1460,
+            1925,
+            2430,
+            535
+          ],
+          "o5-akhisar": [
+            840,
+            1345,
+            1620,
+            2140,
+            2680,
+            615
+          ],
+          "o5-saruhanli": [
+            890,
+            1460,
+            1745,
+            2305,
+            2900,
+            635
+          ],
+          "o5-turgutlu": [
+            1030,
+            1640,
+            1950,
+            2585,
+            3265,
+            720
+          ],
+          "o5-izmir": [
+            1155,
+            1845,
+            2195,
+            2900,
+            3640,
+            830
+          ]
+        },
+        "o5-karacabey-mkp-2": {
+          "o5-bursa-bati": [
+            1155,
+            1845,
+            2195,
+            2900,
+            3640,
+            830
+          ],
+          "o5-teknosab": [
+            1055,
+            1690,
+            2040,
+            2680,
+            3375,
+            740
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-susurluk": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ],
+          "o5-balikesir-kuzey": [
+            250,
+            365,
+            415,
+            570,
+            680,
+            165
+          ],
+          "o5-balikesir-bati": [
+            350,
+            535,
+            615,
+            830,
+            1030,
+            250
+          ],
+          "o5-savastepe": [
+            450,
+            720,
+            840,
+            1110,
+            1410,
+            315
+          ],
+          "o5-soma": [
+            510,
+            795,
+            930,
+            1250,
+            1560,
+            350
+          ],
+          "o5-kirkagac": [
+            575,
+            930,
+            1085,
+            1460,
+            1825,
+            410
+          ],
+          "o5-akhisar": [
+            670,
+            1030,
+            1250,
+            1640,
+            2050,
+            450
+          ],
+          "o5-saruhanli": [
+            720,
+            1150,
+            1345,
+            1790,
+            2265,
+            510
+          ],
+          "o5-turgutlu": [
+            840,
+            1320,
+            1585,
+            2100,
+            2635,
+            575
+          ],
+          "o5-izmir": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ]
+        },
+        "o5-susurluk": {
+          "o5-bursa-bati": [
+            315,
+            510,
+            615,
+            795,
+            1010,
+            250
+          ],
+          "o5-teknosab": [
+            250,
+            365,
+            450,
+            575,
+            740,
+            165
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ],
+          "o5-balikesir-kuzey": [
+            140,
+            190,
+            250,
+            295,
+            365,
+            90
+          ],
+          "o5-balikesir-bati": [
+            250,
+            365,
+            415,
+            570,
+            680,
+            165
+          ],
+          "o5-savastepe": [
+            350,
+            535,
+            635,
+            840,
+            1055,
+            250
+          ],
+          "o5-soma": [
+            410,
+            635,
+            740,
+            985,
+            1250,
+            295
+          ],
+          "o5-kirkagac": [
+            475,
+            740,
+            890,
+            1200,
+            1475,
+            350
+          ],
+          "o5-akhisar": [
+            570,
+            885,
+            1030,
+            1375,
+            1745,
+            410
+          ],
+          "o5-saruhanli": [
+            615,
+            985,
+            1155,
+            1525,
+            1950,
+            415
+          ],
+          "o5-turgutlu": [
+            740,
+            1155,
+            1375,
+            1845,
+            2320,
+            510
+          ],
+          "o5-izmir": [
+            840,
+            1345,
+            1620,
+            2140,
+            2680,
+            615
+          ]
+        },
+        "o5-balikesir-kuzey": {
+          "o5-bursa-bati": [
+            415,
+            670,
+            795,
+            1055,
+            1320,
+            295
+          ],
+          "o5-teknosab": [
+            350,
+            535,
+            635,
+            840,
+            1055,
+            250
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            250,
+            365,
+            415,
+            570,
+            680,
+            165
+          ],
+          "o5-susurluk": [
+            140,
+            190,
+            250,
+            295,
+            365,
+            90
+          ],
+          "o5-balikesir-bati": [
+            140,
+            190,
+            250,
+            295,
+            365,
+            90
+          ],
+          "o5-savastepe": [
+            250,
+            365,
+            450,
+            575,
+            740,
+            165
+          ],
+          "o5-soma": [
+            295,
+            450,
+            570,
+            720,
+            890,
+            220
+          ],
+          "o5-kirkagac": [
+            365,
+            575,
+            680,
+            930,
+            1155,
+            265
+          ],
+          "o5-akhisar": [
+            450,
+            720,
+            840,
+            1110,
+            1410,
+            315
+          ],
+          "o5-saruhanli": [
+            510,
+            830,
+            985,
+            1300,
+            1620,
+            365
+          ],
+          "o5-turgutlu": [
+            635,
+            1010,
+            1200,
+            1585,
+            2010,
+            450
+          ],
+          "o5-izmir": [
+            740,
+            1200,
+            1425,
+            1875,
+            2365,
+            535
+          ]
+        },
+        "o5-balikesir-bati": {
+          "o5-bursa-bati": [
+            535,
+            840,
+            985,
+            1320,
+            1680,
+            365
+          ],
+          "o5-teknosab": [
+            450,
+            680,
+            830,
+            1085,
+            1375,
+            315
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            350,
+            535,
+            615,
+            830,
+            1030,
+            250
+          ],
+          "o5-susurluk": [
+            250,
+            365,
+            415,
+            570,
+            680,
+            165
+          ],
+          "o5-balikesir-kuzey": [
+            140,
+            190,
+            250,
+            295,
+            365,
+            90
+          ],
+          "o5-savastepe": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ],
+          "o5-soma": [
+            190,
+            295,
+            350,
+            450,
+            575,
+            140
+          ],
+          "o5-kirkagac": [
+            265,
+            415,
+            510,
+            670,
+            830,
+            190
+          ],
+          "o5-akhisar": [
+            350,
+            570,
+            635,
+            840,
+            1085,
+            250
+          ],
+          "o5-saruhanli": [
+            410,
+            635,
+            765,
+            1010,
+            1265,
+            295
+          ],
+          "o5-turgutlu": [
+            535,
+            840,
+            1010,
+            1320,
+            1680,
+            365
+          ],
+          "o5-izmir": [
+            635,
+            1030,
+            1210,
+            1620,
+            2040,
+            450
+          ]
+        },
+        "o5-savastepe": {
+          "o5-bursa-bati": [
+            635,
+            1010,
+            1210,
+            1620,
+            2010,
+            450
+          ],
+          "o5-teknosab": [
+            570,
+            885,
+            1055,
+            1375,
+            1745,
+            410
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            450,
+            720,
+            840,
+            1110,
+            1410,
+            315
+          ],
+          "o5-susurluk": [
+            350,
+            535,
+            635,
+            840,
+            1055,
+            250
+          ],
+          "o5-balikesir-kuzey": [
+            250,
+            365,
+            450,
+            575,
+            740,
+            165
+          ],
+          "o5-balikesir-bati": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ],
+          "o5-soma": [
+            90,
+            100,
+            140,
+            190,
+            220,
+            55
+          ],
+          "o5-kirkagac": [
+            165,
+            250,
+            295,
+            365,
+            475,
+            100
+          ],
+          "o5-akhisar": [
+            250,
+            365,
+            415,
+            575,
+            720,
+            165
+          ],
+          "o5-saruhanli": [
+            295,
+            475,
+            570,
+            740,
+            930,
+            220
+          ],
+          "o5-turgutlu": [
+            415,
+            670,
+            765,
+            1030,
+            1300,
+            295
+          ],
+          "o5-izmir": [
+            535,
+            840,
+            1010,
+            1320,
+            1690,
+            365
+          ]
+        },
+        "o5-soma": {
+          "o5-bursa-bati": [
+            680,
+            1110,
+            1300,
+            1745,
+            2195,
+            475
+          ],
+          "o5-teknosab": [
+            615,
+            985,
+            1150,
+            1505,
+            1925,
+            415
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            510,
+            795,
+            930,
+            1250,
+            1560,
+            350
+          ],
+          "o5-susurluk": [
+            410,
+            635,
+            740,
+            985,
+            1250,
+            295
+          ],
+          "o5-balikesir-kuzey": [
+            295,
+            450,
+            570,
+            720,
+            890,
+            220
+          ],
+          "o5-balikesir-bati": [
+            190,
+            295,
+            350,
+            450,
+            575,
+            140
+          ],
+          "o5-savastepe": [
+            90,
+            100,
+            140,
+            190,
+            220,
+            55
+          ],
+          "o5-kirkagac": [
+            100,
+            165,
+            190,
+            250,
+            315,
+            90
+          ],
+          "o5-akhisar": [
+            190,
+            295,
+            350,
+            450,
+            570,
+            140
+          ],
+          "o5-saruhanli": [
+            250,
+            410,
+            450,
+            615,
+            765,
+            190
+          ],
+          "o5-turgutlu": [
+            365,
+            575,
+            680,
+            890,
+            1150,
+            265
+          ],
+          "o5-izmir": [
+            475,
+            765,
+            890,
+            1200,
+            1505,
+            350
+          ]
+        },
+        "o5-kirkagac": {
+          "o5-bursa-bati": [
+            765,
+            1250,
+            1460,
+            1925,
+            2430,
+            535
+          ],
+          "o5-teknosab": [
+            680,
+            1085,
+            1300,
+            1725,
+            2165,
+            475
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            575,
+            930,
+            1085,
+            1460,
+            1825,
+            410
+          ],
+          "o5-susurluk": [
+            475,
+            740,
+            890,
+            1200,
+            1475,
+            350
+          ],
+          "o5-balikesir-kuzey": [
+            365,
+            575,
+            680,
+            930,
+            1155,
+            265
+          ],
+          "o5-balikesir-bati": [
+            265,
+            415,
+            510,
+            670,
+            830,
+            190
+          ],
+          "o5-savastepe": [
+            165,
+            250,
+            295,
+            365,
+            475,
+            100
+          ],
+          "o5-soma": [
+            100,
+            165,
+            190,
+            250,
+            315,
+            90
+          ],
+          "o5-akhisar": [
+            100,
+            165,
+            190,
+            250,
+            295,
+            90
+          ],
+          "o5-saruhanli": [
+            165,
+            265,
+            295,
+            410,
+            510,
+            100
+          ],
+          "o5-turgutlu": [
+            295,
+            450,
+            535,
+            680,
+            885,
+            220
+          ],
+          "o5-izmir": [
+            410,
+            635,
+            740,
+            1010,
+            1250,
+            295
+          ]
+        },
+        "o5-akhisar": {
+          "o5-bursa-bati": [
+            840,
+            1345,
+            1620,
+            2140,
+            2680,
+            615
+          ],
+          "o5-teknosab": [
+            765,
+            1210,
+            1460,
+            1925,
+            2430,
+            535
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            670,
+            1030,
+            1250,
+            1640,
+            2050,
+            450
+          ],
+          "o5-susurluk": [
+            570,
+            885,
+            1030,
+            1375,
+            1745,
+            410
+          ],
+          "o5-balikesir-kuzey": [
+            450,
+            720,
+            840,
+            1110,
+            1410,
+            315
+          ],
+          "o5-balikesir-bati": [
+            350,
+            570,
+            635,
+            840,
+            1085,
+            250
+          ],
+          "o5-savastepe": [
+            250,
+            365,
+            415,
+            575,
+            720,
+            165
+          ],
+          "o5-soma": [
+            190,
+            295,
+            350,
+            450,
+            570,
+            140
+          ],
+          "o5-kirkagac": [
+            100,
+            165,
+            190,
+            250,
+            295,
+            90
+          ],
+          "o5-saruhanli": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ],
+          "o5-turgutlu": [
+            250,
+            410,
+            450,
+            615,
+            765,
+            190
+          ],
+          "o5-izmir": [
+            365,
+            575,
+            680,
+            890,
+            1150,
+            265
+          ]
+        },
+        "o5-saruhanli": {
+          "o5-bursa-bati": [
+            890,
+            1460,
+            1745,
+            2305,
+            2900,
+            635
+          ],
+          "o5-teknosab": [
+            830,
+            1320,
+            1560,
+            2095,
+            2615,
+            575
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            720,
+            1150,
+            1345,
+            1790,
+            2265,
+            510
+          ],
+          "o5-susurluk": [
+            615,
+            985,
+            1155,
+            1525,
+            1950,
+            415
+          ],
+          "o5-balikesir-kuzey": [
+            510,
+            830,
+            985,
+            1300,
+            1620,
+            365
+          ],
+          "o5-balikesir-bati": [
+            410,
+            635,
+            765,
+            1010,
+            1265,
+            295
+          ],
+          "o5-savastepe": [
+            295,
+            475,
+            570,
+            740,
+            930,
+            220
+          ],
+          "o5-soma": [
+            250,
+            410,
+            450,
+            615,
+            765,
+            190
+          ],
+          "o5-kirkagac": [
+            165,
+            265,
+            295,
+            410,
+            510,
+            100
+          ],
+          "o5-akhisar": [
+            140,
+            220,
+            250,
+            315,
+            410,
+            100
+          ],
+          "o5-turgutlu": [
+            140,
+            220,
+            265,
+            350,
+            415,
+            100
+          ],
+          "o5-izmir": [
+            265,
+            410,
+            475,
+            635,
+            795,
+            190
+          ]
+        },
+        "o5-turgutlu": {
+          "o5-bursa-bati": [
+            1030,
+            1640,
+            1950,
+            2585,
+            3265,
+            720
+          ],
+          "o5-teknosab": [
+            945,
+            1505,
+            1790,
+            2365,
+            3005,
+            670
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            840,
+            1320,
+            1585,
+            2100,
+            2635,
+            575
+          ],
+          "o5-susurluk": [
+            740,
+            1155,
+            1375,
+            1845,
+            2320,
+            510
+          ],
+          "o5-balikesir-kuzey": [
+            635,
+            1010,
+            1200,
+            1585,
+            2010,
+            450
+          ],
+          "o5-balikesir-bati": [
+            535,
+            840,
+            1010,
+            1320,
+            1680,
+            365
+          ],
+          "o5-savastepe": [
+            415,
+            670,
+            765,
+            1030,
+            1300,
+            295
+          ],
+          "o5-soma": [
+            365,
+            575,
+            680,
+            890,
+            1150,
+            265
+          ],
+          "o5-kirkagac": [
+            295,
+            450,
+            535,
+            680,
+            885,
+            220
+          ],
+          "o5-akhisar": [
+            250,
+            410,
+            450,
+            615,
+            765,
+            190
+          ],
+          "o5-saruhanli": [
+            140,
+            220,
+            265,
+            350,
+            415,
+            100
+          ],
+          "o5-izmir": [
+            140,
+            250,
+            265,
+            350,
+            450,
+            100
+          ]
+        },
+        "o5-izmir": {
+          "o5-bursa-bati": [
+            1155,
+            1845,
+            2195,
+            2900,
+            3640,
+            830
+          ],
+          "o5-teknosab": [
+            1055,
+            1690,
+            2040,
+            2680,
+            3375,
+            740
+          ],
+          "o5-karacabey-mkp-1": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-karacabey-mkp-2": [
+            945,
+            1525,
+            1825,
+            2405,
+            3035,
+            670
+          ],
+          "o5-susurluk": [
+            840,
+            1345,
+            1620,
+            2140,
+            2680,
+            615
+          ],
+          "o5-balikesir-kuzey": [
+            740,
+            1200,
+            1425,
+            1875,
+            2365,
+            535
+          ],
+          "o5-balikesir-bati": [
+            635,
+            1030,
+            1210,
+            1620,
+            2040,
+            450
+          ],
+          "o5-savastepe": [
+            535,
+            840,
+            1010,
+            1320,
+            1690,
+            365
+          ],
+          "o5-soma": [
+            475,
+            765,
+            890,
+            1200,
+            1505,
+            350
+          ],
+          "o5-kirkagac": [
+            410,
+            635,
+            740,
+            1010,
+            1250,
+            295
+          ],
+          "o5-akhisar": [
+            365,
+            575,
+            680,
+            890,
+            1150,
+            265
+          ],
+          "o5-saruhanli": [
+            265,
+            410,
+            475,
+            635,
+            795,
+            190
+          ],
+          "o5-turgutlu": [
+            140,
+            250,
+            265,
+            350,
+            450,
+            100
+          ]
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "station": "o5-osmangazi",
+      "to": "Osmangazi Köprüsü (bridges.json 'osmangazi-koprusu') → kuzey ucu Dilovası → O-4 Anadolu Otoyolu (TEM) Gebze/Dilovası kavşağı ve D-100",
+      "note": "Köprü ücreti her iki yönde köprü gişesinde alınır. Köprünün kuzeyindeki Gebze bağlantı kesimi bu PDF'de ayrı ücretlendirilmez."
+    },
+    {
+      "station": "o5-bursa-kuzey",
+      "to": "Bursa Çevre Yolu (ücretsiz) → o5-bursa-bati",
+      "note": "1. tablo Bursa Kuzey'de (Ovaakça) biter, 2. tablo Bursa Batı'da (Nilüfer) başlar; aradaki çevre yolu kesimi ücretsizdir ve iki kapalı sistem ayrı ayrı ücretlendirilir. roads içindeki bursa-kuzey↔bursa-bati kenarı bu ücretsiz bağlantıyı temsil eder (hiçbir section matrisine ait değildir)."
+    },
+    {
+      "station": "o5-bursa-kuzey",
+      "to": "Bursa şehir merkezi / D-200 / E-90 (Bursa-Ankara, Bursa-Yalova D-575)",
+      "note": ""
+    },
+    {
+      "station": "o5-izmir",
+      "to": "İzmir Çevre Yolu (O-30) → İzmir-Aydın Otoyolu (O-31, 7-Izmir-Aydin.pdf) ve İzmir-Çeşme Otoyolu (O-32, 6-Izmir-Cesme.pdf)",
+      "note": "O-5'in İzmir ucu çevre yoluna bağlanır; çevre yolu ücretsizdir."
+    },
+    {
+      "station": "o5-izmir",
+      "to": "Menemen-Aliağa-Çandarlı Otoyolu (16-Menemen-Aliaga-Candarli.pdf) — İzmir Çevre Yolu kuzey kesimi (Çiğli) üzerinden",
+      "note": "Doğrudan kavşak değil; ücretsiz çevre yolu üzerinden bağlantı."
+    },
+    {
+      "station": "o5-balikesir-kuzey",
+      "to": "Balıkesir şehir / D-230, D-565",
+      "note": ""
+    },
+    {
+      "station": "o5-akhisar",
+      "to": "Akhisar / D-565",
+      "note": ""
+    },
+    {
+      "station": "o5-turgutlu",
+      "to": "Turgutlu / Manisa - D-250 (İzmir-Ankara yolu)",
+      "note": ""
+    }
+  ],
+  "verification": [
+    "prices, depoya eklenen scripts/kgm/parsers/O-5.mjs çıktısından üretildi (iki tablo x konumuyla ayrılır, sağa yaslı hücreler sütun sağ sınırına göre eşlenir, köprü ayrıştırması parser içinde assert edilir); bağımsız Python ayrıştırıcısı (o5parse.py, sağ kenar kümeleme) ile birebir aynı.",
+    "Tablolar x-koordinatına göre ayrıldı (o5parse.py: sayılar sağa yaslı; sağ kenar x+genişlik değerleri sütun başlıklarıyla eşlendi). 1. tablo 8 sütun kümesi, 2. tablo 14 sütun kümesi bulundu; eşleme toleransı <3 pt, hiçbir hücre çift atanmadı.",
+    "Hücre sayıları: 1. tablo 300 değer (Osmangazi İzmir Yönü satırı 8 sütun + 6 satır x 7 sütun, 6 sınıf; Osmangazi İzmir Yönü sütunundaki çapraz çizgili boş hücreler hariç) — PDF'de sol yarıdaki toplam sayı hücresi 300 ile eşleşti. 2. tablo 14x14x6 = 1176 değer — sağ yarıdaki toplam 1176 ile eşleşti.",
+    "prices: 1. bölüm 7x6 = 42 yönlü çift, 2. bölüm 14x13 = 182 yönlü çift (köşegen hariç), 6 sınıf.",
+    "Köprü normalizasyonu doğrulandı: her istasyon X için (X → Osmangazi İstanbul Yönü) − köprü ücreti = (Osmangazi İzmir Yönü → X), 6 sınıfın tamamında birebir eşit. Örn. Altınova→Osmangazi(İstanbul yönü) 1.050 = 995 + 55; Bursa Kuzey→Osmangazi 1.310 = 995 + 315; 6. sınıf Altınova 750 = 695 + 55.",
+    "Osmangazi (İzmir Yönü) satırının 'Osmangazi Köprüsü (İzmir Yönü)' sütunu = 995/1.590/1.890/2.505/3.165/695 = yalnız köprü ücreti (2-Osmangazi.pdf ile birebir aynı); 'İstanbul Yönü' sütunu 1.310 (kalın) = U-dönüşü = 995 + en uzak (Bursa Kuzey 315). Köprü hariç Osmangazi U-dönüşü = 315 (Bursa Kuzey en uzak).",
+    "Normalizasyon sonrası 1. bölüm tamamen simetrik (A→B = B→A, 42/42 çift).",
+    "2. bölüm asimetrik yönlü hücre sayısı: 24 (= 12 istasyon çifti; hepsi Karacabey-Mustafakemalpaşa 1/2 içeren çiftler; 'rules' içindeki açıklamaya bakınız). Diğer tüm çiftler simetrik.",
+    "Tüm köşegen (kalın/gri) değerlerin, ilgili çıkış sütunundaki en yüksek değere (en uzak mesafe ücreti) eşit olduğu 21/21 istasyonda doğrulandı.",
+    "Önceki hatalı ayrıştırma (Osmangazi İzmir Yönü ile Bursa Batı satırlarının birleşmesi) giderildi: aynı y satırındaki iki tablo x ≈ 320 pt sınırında ayrıldı. Örn. y=494.4 satırında sol: 995,1.310,55,90,140,190,220,315 (Osmangazi İzmir Yönü, 1. sınıf); sağ: 1.155,100,220,945,315,415,535,635,680,765,840,890,1.030,1.155 (Bursa Batı, 1. sınıf).",
+    "Ham dump nokta kontrolleri: o5-osmangazi→o5-bursa-kuzey = [315, 535, 615, 830, 1030, 250]; o5-bursa-bati→o5-izmir = [1155, 1845, 2195, 2900, 3640, 830]; o5-izmir→o5-bursa-bati = [1155, 1845, 2195, 2900, 3640, 830]; o5-gemlik→o5-bursa-serbest-bolge = [55, 90, 90, 100, 140, 40]; o5-soma→o5-kirkagac = [100, 165, 190, 250, 315, 90]; o5-karacabey-mkp-2→o5-susurluk = [140, 220, 250, 315, 410, 100]; o5-susurluk→o5-karacabey-mkp-1 = [945, 1525, 1825, 2405, 3035, 670]",
+    "Tam güzergâh (Osmangazi güney → Bursa Kuzey + Bursa Batı → İzmir) köprü hariç: [1470, 2380, 2810, 3730, 4670, 1080]; köprü dahil 1. sınıf 2465 TL.",
+    "Render kontrolü: PDF sayfası PNG'ye çizilip her iki tablonun başlık/satır düzeni gözle doğrulandı.",
+    "Koordinatlar PDF'de yok ve çevrimiçi harita servislerine erişilemedi; tümü bilgiye dayalı yaklaşık değerlerdir ('low'). Özellikle Kılıç, Bursa Serbest Bölge, Teknosab, Karacabey-MKP 1/2 ve İzmir ucu harita üzerinde doğrulanmalı. Osmangazi köprü gişesi köprünün güney (Altınova/Hersek) tarafında kabul edildi (web aramasında 'Altınova Osman Gazi köprü çıkışı gişeler' kaydı) — doğrulanmalı.",
+    "UYARI: 01.07.2026 itibarıyla yeni tarife yürürlükte (basın: Osmangazi otomobil 995 → 1.170 TL). Bu dosya 01.01.2026 PDF'ini yansıtır; güncel PDF ile yenilenmeli."
+  ]
+}

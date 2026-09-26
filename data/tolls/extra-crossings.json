@@ -1,0 +1,86 @@
+[
+ {
+  "id": "avrasya-tuneli",
+  "slug": "avrasya-tuneli",
+  "name": "Avrasya Tüneli",
+  "type": "tunnel",
+  "operator": "ATAŞ (Avrasya Tüneli İşletme İnşaat ve Yatırım A.Ş.)",
+  "source": "https://www.avrasyatuneli.com/haberler-ve-duyurular/detay/1-temmuz-2026-itibariyla-gecerli-avrasya-tuneli-gecis-ucretleri-tarifesi",
+  "validFrom": "2026-07-01",
+  "prices": [330, 495, 0, 0, 0, 257.4],
+  "allowedClasses": ["1", "2", "6"],
+  "bothDirections": true,
+  "verified": true,
+  "routable": true,
+  "description": "Kazlıçeşme (Avrupa) ile Göztepe (Anadolu) arasında, Boğaz'ın altından geçen karayolu tüneli. Yalnızca otomobil, minibüs ve motosikletler kullanabilir.",
+  "ends": [
+   { "lat": 40.9935, "lng": 28.9176, "label": "Kazlıçeşme" },
+   { "lat": 40.9862, "lng": 29.0561, "label": "Göztepe" }
+  ],
+  "rules": [
+   "Gündüz tarifesi 05:00–23:59 arasında geçerlidir.",
+   "00:00–04:59 arasında %50 indirimli gece tarifesi uygulanır (otomobil 165 TL, minibüs 247,50 TL, motosiklet 128,70 TL).",
+   "Ödeme HGS ile yapılır; gişede nakit veya kredi kartı kabul edilmez.",
+   "Kamyon, otobüs ve ağır vasıtalar tünele giremez."
+  ]
+ },
+ {
+  "id": "eskihisar-topcular-feribotu",
+  "slug": "eskihisar-topcular-feribotu",
+  "name": "Eskihisar – Topçular Feribotu",
+  "type": "ferry",
+  "operator": "İDO / özel işletmeci",
+  "source": "https://www.birgun.net/haber/2026-eskihisar-topcular-feribot-vapur-ucretleri-araba-minibus-kamyon-motosiklet-ve-yaya-gecis-fiyatlari-guncel-613726",
+  "validFrom": "2026-01-01",
+  "prices": [730, 0, 0, 0, 1920, 400],
+  "verified": false,
+  "routable": false,
+  "description": "İzmit Körfezi'ni Gebze (Eskihisar) ile Yalova (Topçular) arasında geçen arabalı vapur hattı. Osmangazi Köprüsü'ne alternatif olarak kullanılır.",
+  "ends": [
+   { "lat": 40.7694, "lng": 29.4297, "label": "Eskihisar" },
+   { "lat": 40.6766, "lng": 29.3925, "label": "Topçular" }
+  ],
+  "rules": [
+   "Ücretler basında yer alan 2026 tarifesinden alınmıştır; sefer öncesi işletmecinin güncel tarifesini kontrol edin.",
+   "Minibüs, kamyonet ve otobüs ücretleri araç boyuna göre değişir."
+  ]
+ },
+ {
+  "id": "canakkale-eceabat-feribotu",
+  "slug": "canakkale-eceabat-feribotu",
+  "name": "Çanakkale – Eceabat Feribotu",
+  "type": "ferry",
+  "operator": "GESTAŞ (Gestaş Deniz Ulaşım)",
+  "source": "https://gdu.com.tr/ucret-tarifeleri",
+  "validFrom": "2026-01-12",
+  "prices": [0, 0, 0, 0, 0, 0],
+  "verified": false,
+  "routable": false,
+  "description": "Çanakkale Boğazı'nı Çanakkale merkez ile Eceabat arasında geçen arabalı feribot hattı. 1915 Çanakkale Köprüsü'ne alternatiftir.",
+  "ends": [
+   { "lat": 40.1512, "lng": 26.4029, "label": "Çanakkale" },
+   { "lat": 40.1847, "lng": 26.3578, "label": "Eceabat" }
+  ],
+  "rules": [
+   "GESTAŞ tarifeleri 12 Ocak 2026'dan itibaren güncellenmiştir; basında otomobil tek yön ücreti için farklı rakamlar yer aldığından güncel ücreti gdu.com.tr üzerinden kontrol edin."
+  ]
+ },
+ {
+  "id": "gelibolu-lapseki-feribotu",
+  "slug": "gelibolu-lapseki-feribotu",
+  "name": "Gelibolu – Lapseki Feribotu",
+  "type": "ferry",
+  "operator": "GESTAŞ (Gestaş Deniz Ulaşım)",
+  "source": "https://gdu.com.tr/ucret-tarifeleri",
+  "validFrom": "2026-01-12",
+  "prices": [0, 0, 0, 0, 0, 0],
+  "verified": false,
+  "routable": false,
+  "description": "Çanakkale Boğazı'nın kuzeyinde Gelibolu ile Lapseki arasında çalışan arabalı feribot hattı.",
+  "ends": [
+   { "lat": 40.4108, "lng": 26.6716, "label": "Gelibolu" },
+   { "lat": 40.345, "lng": 26.683, "label": "Lapseki" }
+  ],
+  "rules": ["Güncel ücret ve sefer saatleri için gdu.com.tr adresini kontrol edin."]
+ }
+]
