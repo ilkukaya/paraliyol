@@ -20,7 +20,7 @@ async function download() {
   // Prefer links found on the official tariff page, fall back to the known folder layout.
   const found = new Map();
   try {
-    const html = await (await fetch(KGM_PAGE, { headers: { "User-Agent": UA } })).text();
+    const html = await (await fetch(KGM_PAGE, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(30000) })).text();
     for (const m of html.matchAll(/href="([^"]+?\.pdf)"/gi)) {
       const href = new URL(m[1].replace(/&amp;/g, "&"), KGM_PAGE).toString();
       const name = decodeURIComponent(href.split("/").pop());
@@ -39,7 +39,7 @@ async function download() {
     let ok = false;
     for (const url of candidates) {
       try {
-        const res = await fetch(url, { headers: { "User-Agent": UA } });
+        const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(45000) });
         const buf = Buffer.from(await res.arrayBuffer());
         if (res.ok && buf.subarray(0, 4).toString() === "%PDF") {
           writeFileSync(join(PDF_DIR, file), buf);
@@ -115,6 +115,7 @@ async function syncBridges() {
   return [`bridges ${changed ? "UPDATED" : "unchanged"}`];
 }
 
-if (process.argv.includes("--download")) await download();
+if (process.argv.includes("--download") || process.argv.includes("--download-only")) await download();
+if (process.argv.includes("--download-only")) process.exit(0);
 const lines = [...(await syncHighways()), ...(await syncBridges())];
 console.log(lines.join("\n"));

@@ -29,9 +29,21 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Resmi PDF'leri indir ve ayrıştır
+      - name: Resmi PDF'leri indir
+        run: node scripts/kgm/sync.mjs --download-only
+      - name: Yeni PDF'leri kaydet
+        # Ayrıştırma başarısız olsa bile güncel PDF'ler repoda kalsın (ayrıştırıcıyı düzeltmek için).
         run: |
-          node scripts/kgm/sync.mjs --download
+          if git diff --quiet -- data/kgm-pdfs/; then exit 0; fi
+          git config user.name "paraliyol-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/kgm-pdfs/
+          git commit -m "data: KGM tarife PDF'leri indirildi ($(date -u +%Y-%m-%d))"
+          git pull --rebase
+          git push
+      - name: Ayrıştır
+        run: |
+          node scripts/kgm/sync.mjs
           git status --short data/
       - name: Değişiklik var mı?
         id: diff
