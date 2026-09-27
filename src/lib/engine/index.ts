@@ -3,9 +3,24 @@ import { RoadNetwork } from "./network";
 import { findRoute } from "./router";
 import { VEHICLE_CLASSES, type Location, type RouteResult, type VehicleClass } from "./types";
 
+/**
+ * Measured road lengths are only used once (almost) every edge is measured:
+ * mixing measured and estimated durations would bias route choice.
+ */
+function measuredEdges() {
+  const probe = new RoadNetwork(HIGHWAYS, BRIDGES, LOCATIONS);
+  const keys = new Set<string>();
+  probe.adj.forEach((edges, a) => {
+    for (const e of edges) if (e.kind !== "bridge") keys.add(RoadNetwork.pairKey(probe.nodes[a].key, probe.nodes[e.to].key));
+  });
+  let hit = 0;
+  for (const k of keys) if (ROAD_EDGES[k]) hit++;
+  return keys.size && hit / keys.size >= 0.95 ? ROAD_EDGES : {};
+}
+
 let network: RoadNetwork | null = null;
 export function getNetwork() {
-  network ??= new RoadNetwork(HIGHWAYS, BRIDGES, LOCATIONS, ROAD_EDGES);
+  network ??= new RoadNetwork(HIGHWAYS, BRIDGES, LOCATIONS, measuredEdges());
   return network;
 }
 
