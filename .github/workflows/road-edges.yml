@@ -5,6 +5,9 @@ name: Yol ağı ölçümü (OSRM)
 # Konum listesi değiştiğinde çalışır; gişe koordinatları değişirse elle tetikleyin.
 on:
   workflow_dispatch:
+  schedule:
+    # the public OSRM server is slow; each run measures what it can and resumes next week
+    - cron: "23 3 * * 1"
   push:
     paths:
       - "scripts/osrm/**"
@@ -20,7 +23,7 @@ concurrency:
 jobs:
   measure:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
